@@ -253,7 +253,7 @@ export default function Hero() {
     const scrollRef = useRef<HTMLDivElement>(null);
     const industriesItems = [
         {
-            title: "01. Manufacturing",
+            title: "01. Manufacture",
             description: "Technology is only as strong as the values behind it. Sanjivani Edge operates on the same foundation that shaped its legacy, integrity, collaboration, and purposeful growth.",
             content: <IndustryGraphic index={0} />,
         },
@@ -415,7 +415,7 @@ export default function Hero() {
             </section>
 
             {/* The Legacy Ahead Section  */}
-            <section className="max-w-6xl px-4 py-12 md:py-16">
+            <section className="max-w-6xl px-4  ">
                 <div className="relative rounded-[5px] border border-[color:var(--tile-stroke)] overflow-hidden">
                     <div className="absolute inset-0">
                         <Image src="/figma/legacy-bg-229f51.png" alt="Legacy background" fill className="object-cover md:object-fill rotate-180" priority />
