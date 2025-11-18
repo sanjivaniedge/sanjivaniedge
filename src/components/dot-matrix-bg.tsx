@@ -161,9 +161,9 @@ function Shader({ source, uniforms, maxFps = 60 }: ShaderProps) {
 }
 
 export default function DotMatrixBackground({
-  animationSpeed = 3,
-  colors = [[180, 190, 210], [22, 117, 244]],
-  opacities = [0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.9, 1],
+  animationSpeed = 10,
+  colors = [[180, 190, 210], [180, 190, 210]],
+  opacities = [0.5, 0.5, 0.5, 0.6, 0.5, 0.7, 0.7, 0.8, 0.9, 1],
   dotSize = 8,
   reverse = false,
   className,
@@ -176,7 +176,7 @@ export default function DotMatrixBackground({
   className?: string;
 }) {
   return (
-    <div className={className}>
+    <div className={["h-[620px] md:h-[800px]", className].filter(Boolean).join(" ")}>
       <DotMatrix
         colors={colors}
         dotSize={dotSize}
