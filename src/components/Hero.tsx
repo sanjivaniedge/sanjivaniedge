@@ -342,16 +342,16 @@ export default function Hero() {
                     <div className="space-y-[54px] max-w-[540px]">
                         <div className="space-y-6">
                             <p className="text-foreground/80">
-                                Sanjivani Edge is the technology and workforce solutions enterprise of the Sanjivani Group, where engineering precision, digital intelligence, and human expertise converge.
+                               Sanjivani Edge represents the Group’s transition into the technology era — 
                             </p>
                             <p className="text-foreground/80">
-                                The company enables businesses to modernize responsibly through solutions spanning ERP, digital engineering, cybersecurity, and workforce transformation.
+                                where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
                             </p>
                             <ul className="space-y-4">
                                 {[
-                                    "Where factories once stood, now stand data centers.",
-                                    "Where crops once grew, now grow code and capability.",
-                                    "The essence remains the same, progress, built on purpose.",
+                                    "Delivering responsible modernization across ERP, digital engineering, cybersecurity, and workforce transformation",
+                                    "Extending Sanjivani’s legacy of governance and reliability into the digital age.",
+                                    "Building technology ecosystems that enable organizations to scale with clarity, confidence, and continuity.",
                                 ].map((t) => (
                                     <li key={t} className="flex items-start gap-3">
                                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full border border-blue-200 bg-blue-50">
