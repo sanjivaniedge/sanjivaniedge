@@ -362,7 +362,7 @@ export default function Hero() {
                                 ))}
                             </ul>
                         </div>
-                        <EdgeLinkButton className="bg-[#FF6B5A] text-white" href="/contact">BUTTON</EdgeLinkButton>
+                        <EdgeLinkButton className="bg-[#FF6B5A] text-white" href="/contact">Know More</EdgeLinkButton>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-6 md:gap-[31px]">
                         <SpeedoCounter value={60} suffix="+" className="text-[120px] md:text-[257px] font-extrabold tracking-[-0.04em] leading-none text-brand" />
