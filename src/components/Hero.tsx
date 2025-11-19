@@ -9,6 +9,7 @@ import DotMatrixBackground from "@/components/dot-matrix-bg";
 import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 // import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { Timeline } from "@/components/ui/timeline";
+import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 
 
 function Stat({ label, value, desc }: { label: string; value: string; desc: string }) {
@@ -390,9 +391,13 @@ export default function Hero() {
                     <h2 className="text-4xl md:text-[64px] font-medium text-[#1A1F3D]">The Philosophy<span className="text-accent">.</span></h2>
                 </div>
                 <div className="mt-6 grid md:grid-cols-2 items-center gap-8 md:gap-[99px] py-4">
-                    <div className="rounded-2xl overflow-hidden border border-[color:var(--tile-stroke)] bg-white">
-                        <Image src="/figma/philosophy-image-281190.png" alt="philosophy" width={604} height={469} className="w-full h-auto" />
-                    </div>
+                    <CardContainer containerClassName="py-0" className="w-full rounded-2xl overflow-hidden border border-[color:var(--tile-stroke)] bg-white">
+                        <CardBody className="w-full">
+                            <CardItem translateZ={20} className="w-full">
+                                <Image src="/figma/philosophy-image-281190.png" alt="philosophy" width={604} height={469} className="w-full h-auto" />
+                            </CardItem>
+                        </CardBody>
+                    </CardContainer>
                     <div className="space-y-6 md:space-y-[54px]">
                         <div className="space-y-4 md:space-y-6">
                             <p className="text-sm md:text-base text-foreground/80">Technology is only as strong as the values behind it.</p>
