@@ -321,7 +321,7 @@ export default function Hero() {
             </section>
 
             {/* Stats Section  */}
-            <section className="max-w-6xl grid grid-cols-1 md:grid-cols-3 justify-between gap-6 md:gap-10 divide-y md:divide-y-0 md:divide-x-10 divide-white rounded-xl overflow-hidden px-4 md:px-0 md:py-24">
+            <section className="max-w-6xl grid grid-cols-1 md:grid-cols-3 justify-between gap-6 md:gap-10 divide-y md:divide-y-0 md:divide-x-10 divide-white rounded-xl overflow-hidden px-4 md:px-0 md:pt-24">
 
                 <Stat label="Integrated Domains" value="8" desc="Full-Stack Technology & Workforce Solutions" />
                 <Stat label="Delivery Governance" value="100%" desc="Structured, Reliable & Outcome-Driven Execution" />
@@ -330,7 +330,7 @@ export default function Hero() {
             </section>
 
             {/* Evolution Section  */}
-            <section className="relative max-w-6xl py-14 md:py-20 px-4">
+            <section className="relative max-w-6xl py-14 md:pt-20 px-4">
                 <div className="absolute -z-10 right-0 -top-12">
                     <Image src="/deco/bg-waves.webp" alt="bg-waves" width={545} height={522} className="" />
                 </div>
@@ -372,7 +372,7 @@ export default function Hero() {
             </section>
 
             {/* Capabilities Section  */}
-            <section id="capabilities" className="max-w-6xl py-14 md:py-20 px-4">
+            <section id="capabilities" className="max-w-6xl py-14 md:pt-10 px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-[206px]">
                     <h2 className=" text-4xl md:text-[48px]  xl:text-[64px] leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-accent">.</span></h2>
                     <p className="md:text-right text-[#606060] max-w-[526px]">Eight domains. One integrated vision, to build digital systems that are stable today and ready for tomorrow.</p>
@@ -381,7 +381,7 @@ export default function Hero() {
             </section>
 
             {/* Philosophy Section  */}
-            <section id="philosophy" className="relative max-w-6xl py-4 md:py-20 px-4">
+            <section id="philosophy" className="relative max-w-6xl py-4 md:pt-20 px-4">
                 <div className="absolute -z-10 left-[-268px] -top-9 hidden md:block">
                     <Image src="/figma/philosophy-waves.png" alt="bg-waves" width={745} height={722} />
                 </div>
@@ -406,7 +406,7 @@ export default function Hero() {
             </section>
 
             {/* Industries Served Section  */}
-            <section id="industries" className="w-full py-0 md:py-20 max-w-6xl mx-auto relative ">
+            <section id="industries" className="w-full py-0 md:pt-10 max-w-6xl mx-auto relative ">
                 <Timeline
                     data={industriesTimeline}
                     title="Industries Served."
@@ -415,7 +415,7 @@ export default function Hero() {
             </section>
 
             {/* The Legacy Ahead Section  */}
-            <section className="max-w-6xl px-4  ">
+            <section className="max-w-6xl px-4  pt-12">
                 <div className="relative rounded-[5px] border border-[color:var(--tile-stroke)] overflow-hidden">
                     <div className="absolute inset-0">
                         <Image src="/figma/legacy-bg-229f51.png" alt="Legacy background" fill className="object-cover md:object-fill rotate-180" priority />

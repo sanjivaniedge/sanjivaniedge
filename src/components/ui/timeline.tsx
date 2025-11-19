@@ -32,7 +32,7 @@ export const Timeline = ({ data, title = "Changelog from my journey", descriptio
       className="w-full bg-white dark:bg-neutral-950 font-sans "
       ref={containerRef}
     >
-      <div className="max-w-6xl mx-auto py-20 flex flex-col md:flex-row justify-between">
+      <div className="max-w-6xl mx-auto py-10 flex flex-col md:flex-row justify-between">
         <h2 className="text-4xl md:text-6xl mb-4 text-black dark:text-white max-w-4xl">
           {title}
         </h2>
@@ -45,7 +45,7 @@ export const Timeline = ({ data, title = "Changelog from my journey", descriptio
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-10 md:pt-20 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
