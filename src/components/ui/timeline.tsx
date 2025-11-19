@@ -57,7 +57,7 @@ export const Timeline = ({ data, title = "Changelog from my journey", descriptio
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-black dark:text-neutral-500">
                 {item.title}
               </h3>
               {item.content}{" "}

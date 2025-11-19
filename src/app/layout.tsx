@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
@@ -17,6 +17,10 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "Sanjivani Edge",
   description: "Rooted in Values. Engineered for the Future.",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
