@@ -10,6 +10,7 @@ import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 // import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { Timeline } from "@/components/ui/timeline";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
+import { PixelImage } from "@/components/ui/pixel-image";
 
 
 function Stat({ label, value, desc }: { label: string; value: string; desc: string }) {
@@ -225,27 +226,27 @@ function CapabilitiesCarousel() {
 function IndustryGraphic({ index }: { index: number }) {
     if (index === 0) {
         return (
-            <Image src="/Images/Manufacturing.webp" alt="Industry 1" width={300} height={220} className="w-[70%]" />
+            <PixelImage src="/Images/Manufacturing.webp" className="w-[70%] h-[220px]" grid="6x4" />
         );
     }
     if (index === 1) {
         return (
-            <Image src="/Images/BFSI.webp" alt="Industry 2" width={300} height={220} className="w-[70%]" />
+            <PixelImage src="/Images/BFSI.webp" className="w-[70%] h-[220px]" grid="6x4" />
         );
     }
     if (index === 2) {
         return (
-            <Image src="/Images/Healthcare.webp" alt="Industry 3" width={300} height={220} className="w-[70%]" />
+            <PixelImage src="/Images/Healthcare.webp" className="w-[70%] h-[220px]" grid="6x4" />
         );
     }
     if (index === 3) {
         return (
-            <Image src="/Images/Education.webp" alt="Industry 4" width={300} height={220} className="w-[70%]" />
+            <PixelImage src="/Images/Education.webp" className="w-[70%] h-[220px]" grid="6x4" />
         );
     }
     if (index === 4) {
         return (
-            <Image src="/Images/PublicSector.webp" alt="Industry 5" width={300} height={220} className="w-[70%]" />
+            <PixelImage src="/Images/PublicSector.webp" className="w-[70%] h-[220px]" grid="6x4" />
         );
     }
    
@@ -300,8 +301,8 @@ export default function Hero() {
                 dotSize={5}
             />
             {/* Hero Section  */}
-            <section className="relative h-[80vh] md:h-screen max-w-6xl grid gap-6 py-16 md:py-28 px-4 text-center ">
-                <div className="bg-white/50 max-w-3xl mx-auto p-4 rounded-full space-y-4">
+            <section className="relative h-screen max-w-6xl grid gap-6 py-16  px-4 text-center ">
+                <div className="bg-white/50 max-w-3xl mx-auto p-4 rounded-full space-y-4 flex justify-center items-center flex-col md:mt-[-10vw] mt-[-10vh]">
                     <motion.h1
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -312,7 +313,7 @@ export default function Hero() {
                         <br />
                         <span className="font-bold">Engineered for the <span className="text-brand">Future</span>.</span>
                     </motion.h1>
-                    <p className="mx-auto max-w-2xl pb-10">
+                    <p className="mx-auto max-w-3xl pb-10 font-bold">
                         Delivering IT, ERP, and Digital Transformation Solutions that power enterprise evolution.
                     </p>
                     <div className="mx-auto">
@@ -343,10 +344,10 @@ export default function Hero() {
                     <div className="space-y-[54px] max-w-[540px]">
                         <div className="space-y-6">
                             <p className="text-foreground/80">
-                               Sanjivani Edge represents the Group’s transition into the technology era — 
+                               Sanjivani Edge represents the Group’s transition into the technology era, where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
                             </p>
                             <p className="text-foreground/80">
-                                where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
+                                
                             </p>
                             <ul className="space-y-4">
                                 {[
@@ -354,9 +355,9 @@ export default function Hero() {
                                     "Extending Sanjivani’s legacy of governance and reliability into the digital age.",
                                     "Building technology ecosystems that enable organizations to scale with clarity, confidence, and continuity.",
                                 ].map((t) => (
-                                    <li key={t} className="flex items-start gap-3">
-                                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full border border-blue-200 bg-blue-50">
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#1d4ed8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                                    <li key={t} className="flex   gap-3">
+                                        <span className="inline-flex h-6 w-10   ">
+                                            <Image src="/figma/evolution-checkbox.svg" alt="check" width={14} height={14} className=""/>
                                         </span>
                                         <span className="text-muted">{t}</span>
                                     </li>
@@ -366,14 +367,14 @@ export default function Hero() {
                         <EdgeLinkButton className="bg-[#FF6B5A] text-white" href="/contact">Know More</EdgeLinkButton>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-6 md:gap-[31px]">
-                        <SpeedoCounter value={60} suffix="+" className="text-[120px] md:text-[257px] font-extrabold tracking-[-0.04em] leading-none text-brand" />
+                        <SpeedoCounter value={60} suffix="+" className="text-[160px] md:text-[257px] font-extrabold tracking-[-0.04em] leading-none text-brand" />
                         <div className="text-[18px] md:text-[26px] text-black">Years in Business</div>
                     </div>
                 </div>
             </section>
 
             {/* Capabilities Section  */}
-            <section id="capabilities" className="max-w-6xl py-14 md:pt-10 px-4">
+            <section id="capabilities" className="max-w-6xl py-6 md:pt-10 px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-[206px]">
                     <h2 className=" text-4xl md:text-[48px]  xl:text-[64px] leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-accent">.</span></h2>
                     <p className="md:text-right text-[#606060] max-w-[526px]">Eight domains. One integrated vision, to build digital systems that are stable today and ready for tomorrow.</p>
@@ -394,7 +395,7 @@ export default function Hero() {
                     <CardContainer containerClassName="py-0" className="w-full rounded-2xl overflow-hidden border border-[color:var(--tile-stroke)] bg-white">
                         <CardBody className="w-full">
                             <CardItem translateZ={20} className="w-full">
-                                <Image src="/figma/philosophy-image-281190.png" alt="philosophy" width={604} height={469} className="w-full h-auto" />
+                                <Image src="/figma/philosophy-image-281190.png" alt="philosophy" width={604} height={469} className="w-full h-[469px] object-cover" />
                             </CardItem>
                         </CardBody>
                     </CardContainer>

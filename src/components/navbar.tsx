@@ -9,7 +9,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   return (
-    <header className="w-full bg-white border-b border-[color:var(--tile-stroke)]">
+    <header className="w-full bg-white border-b border-[color:var(--tile-stroke)] py-4">
       <div className="max-w-6xl flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo/logo.webp" alt="Sanjivani Edge" width={150} height={150} />
@@ -42,7 +42,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <Link
             href="/contact"
-            className="lg:inline-flex hidden text-white items-center gap-2 rounded-md border-2 px-6 py-2 bg-brand"
+            className="lg:inline-flex hidden text-white items-center gap-2 rounded-md  px-6 py-2 bg-brand"
           >
             GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
           </Link>

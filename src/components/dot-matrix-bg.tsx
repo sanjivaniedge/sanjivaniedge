@@ -176,7 +176,7 @@ export default function DotMatrixBackground({
   className?: string;
 }) {
   return (
-    <div className={["h-[620px] md:h-[800px]", className].filter(Boolean).join(" ")}>
+    <div className={["h-screen", className].filter(Boolean).join(" ")}>
       <DotMatrix
         colors={colors}
         dotSize={dotSize}
