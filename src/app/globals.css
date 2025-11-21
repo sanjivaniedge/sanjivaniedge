@@ -158,3 +158,12 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Utility: hide scrollbars (used for mobile tab carousel) */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;            /* Chrome, Safari, Opera */
+}

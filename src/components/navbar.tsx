@@ -24,11 +24,12 @@ export default function Navbar() {
               aria-haspopup="menu"
               aria-expanded={servicesOpen}
             >
-              Services <ChevronDown className="h-4 w-4" />
+              <Link href="/services" className="hover:text-brand">Services</Link> <ChevronDown className="h-4 w-4" />
             </button>
             {servicesOpen && (
               <div className="absolute left-0 mt-2 w-52 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)]">
                 <ul className="py-2 text-sm">
+                  <li><Link href="/services" className="block px-3 py-2 hover:text-brand font-medium">All Services</Link></li>
                   <li><Link href="/services/software" className="block px-3 py-2 hover:text-brand">Software Development</Link></li>
                   <li><Link href="/services/cloud" className="block px-3 py-2 hover:text-brand">Cloud Services</Link></li>
                   <li><Link href="/services/infra" className="block px-3 py-2 hover:text-brand">IT Infrastructure</Link></li>
@@ -65,6 +66,7 @@ export default function Navbar() {
             </button>
             {servicesOpen && (
               <div className="pl-4 flex flex-col gap-2">
+                <Link href="/services" className="font-medium">All Services</Link>
                 <Link href="/services/software">Software Development</Link>
                 <Link href="/services/cloud">Cloud Services</Link>
                 <Link href="/services/infra">IT Infrastructure</Link>

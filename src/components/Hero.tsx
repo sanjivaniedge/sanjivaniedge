@@ -11,6 +11,7 @@ import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 import { Timeline } from "@/components/ui/timeline";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import { PixelImage } from "@/components/ui/pixel-image";
+import LegacySection from "@/components/ui/legacy-section";
 
 
 function Stat({ label, value, desc }: { label: string; value: string; desc: string }) {
@@ -99,7 +100,7 @@ function SpeedoCounter({ value, suffix = "", className = "" }: { value: number; 
     }, [value, suffix]);
     return <div ref={ref} className={className}>{`${value}${suffix}`}</div>;
 }
-function CapabilityCard({ title, points, href, illus }: { title: string; points: string[]; href: string; illus: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp" }) {
+function CapabilityCard({ title, points, href, illus, imageSrc, imageAlt }: { title: string; points: string[]; href: string; illus?: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp"; imageSrc?: string; imageAlt?: string }) {
     return (
         <div className="cap-card relative h-[420px] md:h-[336px] rounded-[10px] bg-[color:var(--tile-fill)] px-6 py-6 sm:px-8 sm:py-8 md:px-11 md:py-9 flex flex-col md:flex-row items-start md:items-center justify-between">
             <div className="max-w-xl">
@@ -114,30 +115,35 @@ function CapabilityCard({ title, points, href, illus }: { title: string; points:
                 </Link>
             </div>
             <div className="mt-6 md:mt-0 md:ml-6 opacity-80 w-full md:w-[200px] h-[140px] md:h-full flex items-end justify-end">
-                {illus === "screen" && (
-                    <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-                {illus === "cloud" && (
-                    <Image src="/figma/capabilities-cloud.png" alt="Cloud illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-                {illus === "shield" && (
-                    <Image src="/figma/capabilities-shield.png" alt="Cybersecurity illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-                {illus === "infra" && (
-                    <Image src="/figma/capabilities-infra.png" alt="Infrastructure illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-                 {illus === "emerge" && (
-                    <Image src="/figma/Emerge.png" alt="Emerging Technologies" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-
-                {illus === "consulting" && (
-                    <Image src="/figma/capabilities-consulting-725558.png" alt="Consulting & Support illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-                {illus === "bpo" && (
-                    <Image src="/figma/capabilities-bpo-c73d5a.png" alt="BPO Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                )}
-                {illus === "erp" && (
-                    <Image src="/figma/capabilities-erp-2f97a5.png" alt="ERP Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                {imageSrc ? (
+                    <Image src={imageSrc} alt={imageAlt ?? `${title} illustration`} width={200} height={200} className="object-contain w-auto h-full" />
+                ) : (
+                    <>
+                        {illus === "screen" && (
+                            <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "cloud" && (
+                            <Image src="/figma/capabilities-cloud.png" alt="Cloud illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "shield" && (
+                            <Image src="/figma/capabilities-shield.png" alt="Cybersecurity illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "infra" && (
+                            <Image src="/figma/capabilities-infra.png" alt="Infrastructure illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "emerge" && (
+                            <Image src="/figma/Emerge.png" alt="Emerging Technologies" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "consulting" && (
+                            <Image src="/figma/capabilities-consulting-725558.png" alt="Consulting & Support illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "bpo" && (
+                            <Image src="/figma/capabilities-bpo-c73d5a.png" alt="BPO Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                        {illus === "erp" && (
+                            <Image src="/figma/capabilities-erp-2f97a5.png" alt="ERP Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                        )}
+                    </>
                 )}
             </div>
         </div>
@@ -149,21 +155,23 @@ function CapabilitiesCarousel() {
             title: string;
             points: string[];
             href: string;
-            illus: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp";
+            illus?: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp";
+            imageSrc?: string;
+            imageAlt?: string;
             width: number;
         }>
     > = [
             [
-                { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", illus: "screen", width: 538 },
-                { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", illus: "cloud", width: 676 },
-                { title: "Cybersecurity", points: ["Network security", "Data protection", "Vulnerability assessment"], href: "/services/cybersecurity", illus: "shield", width: 606 },
-                { title: "IT Infrastructure", points: ["Servers & networks", "Data centers", "Hardware & software support"], href: "/services/infra", illus: "infra", width: 606 },
+                { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", illus: "screen", width: 538, imageSrc: "/images/capabilities/software.webp" },
+                { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", illus: "cloud", width: 676, imageSrc: "/images/capabilities/cloud.webp" },
+                { title: "Cybersecurity", points: ["Network security", "Data protection", "Vulnerability assessment"], href: "/services/cybersecurity", illus: "shield", width: 606, imageSrc: "/images/capabilities/shield.webp" },
+                { title: "IT Infrastructure", points: ["Servers & networks", "Data centers", "Hardware & software support"], href: "/services/infra", illus: "infra", width: 606, imageSrc: "/images/capabilities/infra.webp" },
             ],
             [
-                { title: "Emerging Technologies", points: ["AI & Machine Learning", "Blockchain", "Internet of Things"], href: "/services/emerge", illus: "emerge", width: 538 },
-                { title: "Consulting & Support", points: ["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"], href: "/services/consulting", illus: "consulting", width: 676 },
-                { title: "BPO Services", points: ["Customer support", "Finance & HR operations", "Back-office support"], href: "/services/bpo", illus: "bpo", width: 606 },
-                { title: "ERP Services (SAP & Oracle)", points: ["ERP planning", "Implementation", "Support & maintenance"], href: "/services/erp", illus: "erp", width: 606 },
+                { title: "Emerging Technologies", points: ["AI & Machine Learning", "Blockchain", "Internet of Things"], href: "/services/emerge", illus: "emerge", width: 538, imageSrc: "/images/capabilities/emerge.webp" },
+                { title: "Consulting & Support", points: ["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"], href: "/services/consulting", illus: "consulting", width: 676, imageSrc: "/images/capabilities/consulting.webp" },
+                { title: "BPO Services", points: ["Customer support", "Finance & HR operations", "Back-office support"], href: "/services/bpo", illus: "bpo", width: 606, imageSrc: "/images/capabilities/bpo.webp" },
+                { title: "ERP Services (SAP & Oracle)", points: ["ERP planning", "Implementation", "Support & maintenance"], href: "/services/erp", illus: "erp", width: 606, imageSrc: "/images/capabilities/erp.webp" },
             ],
         ];
     const [page, setPage] = useState(0);
@@ -177,7 +185,7 @@ function CapabilitiesCarousel() {
                     <div className="flex flex-wrap justify-center gap-4">
                         {pages[page].map((c, i) => (
                             <div key={`${c.title}-${c.width}-${i}`} className="w-full md:flex-none" style={{ width: c.width }}>
-                                <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} />
+                                <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} imageSrc={c.imageSrc} imageAlt={c.imageAlt} />
                             </div>
                         ))}
                     </div>
@@ -202,7 +210,7 @@ function CapabilitiesCarousel() {
                         return (
                             <div className="flex justify-center">
                                 <div className="w-full max-w-[360px] ">
-                                    <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} />
+                                    <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} imageSrc={c.imageSrc} imageAlt={c.imageAlt} />
                                 </div>
                             </div>
                         );
@@ -423,25 +431,18 @@ export default function Hero() {
             </section>
 
             {/* The Legacy Ahead Section  */}
-            <section className="max-w-6xl px-4  pt-12">
-                <div className="relative rounded-[5px] border border-[color:var(--tile-stroke)] overflow-hidden">
-                    <div className="absolute inset-0">
-                        <Image src="/figma/legacy-bg-229f51.png" alt="Legacy background" fill className="object-cover md:object-fill rotate-180" priority />
-                    </div>
-                    <div className="relative flex justify-center md:justify-end items-center md:items-end px-6 py-8 md:px-[64px] md:py-[67px]">
-                        <div className="w-full md:w-[543px] flex flex-col items-end gap-6 md:gap-[46px]">
-                            <h3 className="text-2xl md:text-[48px] font-medium text-[#1A1F3D] text-right">The Legacy Ahead<span className="text-accent">.</span></h3>
-                            <div className="space-y-4 md:space-y-6 text-right">
-                                <p className="text-[#606060] text-[16px] md:text-[18px]">From cooperative fields to global networks, the journey continues. What began as an enterprise of farmers and visionaries now empowers enterprises of coders and creators.</p>
-                                <p className="text-[#606060] text-[16px] md:text-[18px]"><span className="font-semibold text-[#1A1F3D]">Sanjivani Edge</span> carries forward that same promise, to build systems that sustain growth and ideas that outlast change.</p>
-                            </div>
-                            <Link href="/legacy" >
-                                <EdgeLinkButton href="/solutions">Discover</EdgeLinkButton>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <LegacySection
+                title="The Legacy Ahead"
+                paragraphs={[
+                    "From cooperative fields to global networks, the journey continues. What began as an enterprise of farmers and visionaries now empowers enterprises of coders and creators.",
+                    (<>
+                        <span className="font-semibold text-[#1A1F3D]">Sanjivani Edge</span>{" "}
+                        carries forward that same promise, to build systems that sustain growth and ideas that outlast change.
+                    </>),
+                ]}
+                ctaHref="/legacy"
+                ctaLabel="Discover"
+            />
         </div>
     )
 }
