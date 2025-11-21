@@ -101,7 +101,7 @@ export default function ServicesPage() {
           id="cybersecurity"
           title="Cybersecurity"
           description="Protecting systems, data, and identities through intelligent, integrated security frameworks. Our cybersecurity capabilities safeguard digital trust and ensure regulatory readiness."
-          imageSrc="/images/cyber.webp"
+          imageSrc="/Images/cyber.webp"
           imageAlt="Cybersecurity"
           reverse={false}
           gapClass="md:gap-[80px]"
@@ -129,7 +129,7 @@ export default function ServicesPage() {
           id="emerging-technologies"
           title="Emerging Technologies"
           description="Advancing enterprise capabilities with AI, machine learning, IoT, and automation. These solutions enable intelligent decision-making, predictive insight, and process transformation."
-          imageSrc="/images/emerge.webp"
+          imageSrc="/Images/emerge.webp"
           imageAlt="Emerging Technologies"
           reverse={false}
           gapClass="md:gap-[80px]"
@@ -145,7 +145,7 @@ export default function ServicesPage() {
           description="Strategic advisory and operational support that align technology with organizational goals.
 
 Our consulting and AMC services strengthen governance, maturity, and long-term performance."
-          imageSrc="/images/consulting.webp"
+          imageSrc="/Images/consulting.webp"
           imageAlt="Consulting & Support"
           reverse={true}
           gapClass="md:gap-[88px]"
@@ -161,7 +161,7 @@ Our consulting and AMC services strengthen governance, maturity, and long-term p
           description="High-performance process outsourcing across customer service, finance, HR, and back-office operations.
 
 Our BPO frameworks are built for consistency, accuracy, and scale."
-          imageSrc="/images/bpo.webp"
+          imageSrc="/Images/bpo.webp"
           imageAlt="BPO Services"
           reverse={false}
           gapClass="md:gap-[80px]"
@@ -177,7 +177,7 @@ Our BPO frameworks are built for consistency, accuracy, and scale."
           description="End-to-end ERP modernization that enhances visibility, consistency, and operational efficiency.
 
 Our SAP and Oracle services help enterprises streamline processes and drive strategic alignment."
-          imageSrc="/images/erp.webp"
+          imageSrc="/Images/erp.webp"
           imageAlt="ERP Services"
           reverse={true}
           gapClass="md:gap-[88px]"

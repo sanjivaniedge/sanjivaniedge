@@ -162,16 +162,16 @@ function CapabilitiesCarousel() {
         }>
     > = [
             [
-                { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", illus: "screen", width: 538, imageSrc: "/images/capabilities/software.webp" },
-                { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", illus: "cloud", width: 676, imageSrc: "/images/capabilities/cloud.webp" },
-                { title: "Cybersecurity", points: ["Network security", "Data protection", "Vulnerability assessment"], href: "/services/cybersecurity", illus: "shield", width: 606, imageSrc: "/images/capabilities/shield.webp" },
-                { title: "IT Infrastructure", points: ["Servers & networks", "Data centers", "Hardware & software support"], href: "/services/infra", illus: "infra", width: 606, imageSrc: "/images/capabilities/infra.webp" },
+                { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", illus: "screen", width: 538, imageSrc: "/Images/capabilities/software.webp" },
+                { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", illus: "cloud", width: 676, imageSrc: "/Images/capabilities/cloud.webp" },
+                { title: "Cybersecurity", points: ["Network security", "Data protection", "Vulnerability assessment"], href: "/services/cybersecurity", illus: "shield", width: 606, imageSrc: "/Images/capabilities/shield.webp" },
+                { title: "IT Infrastructure", points: ["Servers & networks", "Data centers", "Hardware & software support"], href: "/services/infra", illus: "infra", width: 606, imageSrc: "/Images/capabilities/infra.webp" },
             ],
             [
-                { title: "Emerging Technologies", points: ["AI & Machine Learning", "Blockchain", "Internet of Things"], href: "/services/emerge", illus: "emerge", width: 538, imageSrc: "/images/capabilities/emerge.webp" },
-                { title: "Consulting & Support", points: ["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"], href: "/services/consulting", illus: "consulting", width: 676, imageSrc: "/images/capabilities/consulting.webp" },
-                { title: "BPO Services", points: ["Customer support", "Finance & HR operations", "Back-office support"], href: "/services/bpo", illus: "bpo", width: 606, imageSrc: "/images/capabilities/bpo.webp" },
-                { title: "ERP Services (SAP & Oracle)", points: ["ERP planning", "Implementation", "Support & maintenance"], href: "/services/erp", illus: "erp", width: 606, imageSrc: "/images/capabilities/erp.webp" },
+                { title: "Emerging Technologies", points: ["AI & Machine Learning", "Blockchain", "Internet of Things"], href: "/services/emerge", illus: "emerge", width: 538, imageSrc: "/Images/capabilities/emerge.webp" },
+                { title: "Consulting & Support", points: ["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"], href: "/services/consulting", illus: "consulting", width: 676, imageSrc: "/Images/capabilities/consulting.webp" },
+                { title: "BPO Services", points: ["Customer support", "Finance & HR operations", "Back-office support"], href: "/services/bpo", illus: "bpo", width: 606, imageSrc: "/Images/capabilities/bpo.webp" },
+                { title: "ERP Services (SAP & Oracle)", points: ["ERP planning", "Implementation", "Support & maintenance"], href: "/services/erp", illus: "erp", width: 606, imageSrc: "/Images/capabilities/erp.webp" },
             ],
         ];
     const [page, setPage] = useState(0);
