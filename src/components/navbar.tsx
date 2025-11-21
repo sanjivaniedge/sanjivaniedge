@@ -9,7 +9,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   return (
-    <header className="w-full bg-white border-b border-[color:var(--tile-stroke)] py-4">
+    <header className="relative z-50 w-full bg-white border-b border-[color:var(--tile-stroke)] py-4">
       <div className="max-w-6xl flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo/logo.webp" alt="Sanjivani Edge" width={150} height={150} />
@@ -17,7 +17,11 @@ export default function Navbar() {
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <Link href="/" className="text-[#FD6858] font-medium">Home</Link>
           <Link href="/about" className="text-foreground hover:text-brand">About Us</Link>
-          <div className="relative">
+          <div
+            className="relative"
+            onMouseEnter={() => setServicesOpen(true)}
+            onMouseLeave={() => setServicesOpen(false)}
+          >
             <button
               className="inline-flex items-center gap-1 text-foreground hover:text-brand"
               onClick={() => setServicesOpen((v) => !v)}
@@ -27,12 +31,17 @@ export default function Navbar() {
               <Link href="/services" className="hover:text-brand">Services</Link> <ChevronDown className="h-4 w-4" />
             </button>
             {servicesOpen && (
-              <div className="absolute left-0 mt-2 w-52 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)]">
+              <div className="absolute left-0 -mt-1 w-52 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)] z-50">
                 <ul className="py-2 text-sm">
-                  <li><Link href="/services" className="block px-3 py-2 hover:text-brand font-medium">All Services</Link></li>
                   <li><Link href="/services/software" className="block px-3 py-2 hover:text-brand">Software Development</Link></li>
                   <li><Link href="/services/cloud" className="block px-3 py-2 hover:text-brand">Cloud Services</Link></li>
                   <li><Link href="/services/infra" className="block px-3 py-2 hover:text-brand">IT Infrastructure</Link></li>
+                  <li><Link href="/services/consulting" className="block px-3 py-2 hover:text-brand">Consulting & Support</Link></li>
+                  <li><Link href="/services/erp" className="block px-3 py-2 hover:text-brand">ERP Services</Link></li>
+                  <li><Link href="/services/cyber" className="block px-3 py-2 hover:text-brand">Cyber Security</Link></li>
+                  <li><Link href="/services/it" className="block px-3 py-2 hover:text-brand">IT Services</Link></li>
+              
+                  
                 </ul>
               </div>
             )}
@@ -65,7 +74,7 @@ export default function Navbar() {
               Services <ChevronDown className="h-4 w-4" />
             </button>
             {servicesOpen && (
-              <div className="pl-4 flex flex-col gap-2">
+              <div className="pl-4 flex flex-col gap-2 z-10">
                 <Link href="/services" className="font-medium">All Services</Link>
                 <Link href="/services/software">Software Development</Link>
                 <Link href="/services/cloud">Cloud Services</Link>
