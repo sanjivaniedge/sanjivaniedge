@@ -209,7 +209,7 @@ function CapabilitiesCarousel() {
                         const c = flatItems[mIndex];
                         return (
                             <div className="flex justify-center">
-                                <div className="w-full max-w-[360px] ">
+                                <div className="w-full ">
                                     <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} imageSrc={c.imageSrc} imageAlt={c.imageAlt} />
                                 </div>
                             </div>
@@ -384,9 +384,9 @@ export default function Hero() {
             </section>
 
             {/* Capabilities Section  */}
-            <section id="capabilities" className="max-w-6xl py-6 md:pt-10 px-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-[206px]">
-                    <h2 className=" text-4xl md:text-[48px]  xl:text-[64px] leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-accent">.</span></h2>
+            <section id="capabilities" className="max-w-7xl mx-auto py-6 md:pt-10 px-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16 xl:gap-[140px] 2xl:gap-[206px]">
+                    <h2 className=" text-4xl md:text-[48px] xl:text-[56px] 2xl:text-[64px] leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-accent">.</span></h2>
                     <p className="md:text-right text-[#606060] max-w-[526px]">Eight domains. One integrated vision, to build digital systems that are stable today and ready for tomorrow.</p>
                 </div>
                 <CapabilitiesCarousel />
