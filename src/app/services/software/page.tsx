@@ -109,37 +109,37 @@ const softwarePageData = {
             {
                 title: "Requirement Structuring",
                 content: "We work closely with you to understand your requirements, goals, and constraints to define a clear project roadmap.",
-                image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Requirement-Structuring.webp"
             },
             {
                 title: "Architecture Blueprint",
                 content: "Our team designs a robust and scalable architecture that meets your current needs and future growth.",
-                image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Architecture-Blueprint.webp"
             },
             {
                 title: "Agile Sprints",
                 content: "We follow agile development practices with continuous testing to ensure high-quality code and rapid delivery.",
-                image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Agile-Sprints.webp"
             },
             {
                 title: "Code Reviews",
                 content: "We manage the deployment process to ensure a smooth launch with minimal downtime.",
-                image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Code-Reviews.webp"
             },
             {
                 title: "Testing → Integration",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Testing-Integration.webp"
             },
             {
                 title: "Deployment",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Deployment.webp"
             },
             {
                 title: "Ongoing Enhancements",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                image: "/images/software-timeline/Ongoing-Enhancements.webp"
             }
         ]
     },

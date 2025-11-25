@@ -215,7 +215,7 @@ export default function ServicePageTemplate({
       {
         showDeliveryFramework && data.deliveryFramework && (
           <section className="max-w-7xl mx-auto ">
-            <Timeline 
+            <Timeline className=""
               title={data.deliveryFramework.title}
               description={data.deliveryFramework.description}
               data={data.deliveryFramework.timeline.map(item => ({
@@ -229,7 +229,7 @@ export default function ServicePageTemplate({
                           src={item.image}
                           alt={item.title}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                         />
                       </div>
                     )}

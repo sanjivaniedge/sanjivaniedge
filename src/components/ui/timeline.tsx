@@ -11,10 +11,14 @@ export const Timeline = ({
   data,
   title = "Changelog from my journey",
   description = "I've been working on Aceternity for the past 2 years. Here's a timeline of my journey.",
+  titleClassName,
+  className,
 }: {
   data: TimelineEntry[];
   title?: string;
   description?: string;
+  titleClassName?: string;
+  className?: string;
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -37,12 +41,12 @@ export const Timeline = ({
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans "
+      className={className || "w-full bg-white dark:bg-neutral-950 font-sans "}
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-10 flex flex-col md:flex-row justify-between">
+      <div className="max-w-7xl mx-auto py-0 md:py-10 flex flex-col md:flex-row justify-between">
         <h2
-          className="text-4xl md:text-6xl font-medium text-center"
+          className={titleClassName || "text-4xl md:text-6xl font-medium text-center"}
           style={{
             fontFamily: "Manrope",
             fontWeight: 500,
