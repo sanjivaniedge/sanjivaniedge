@@ -63,7 +63,7 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
                 <AccordionItem
                   key={index}
                   value={`item-${index}`}
-                  className="border-none cursor-pointer rounded-lg px-6 py-2 data-[state=open]:bg-[#F4F6F8] transition-colors duration-200"
+                  className="border cursor-pointer rounded-lg px-6 py-2 data-[state=open]:bg-[#F4F6F8] transition-colors duration-200"
                 >
                   <AccordionTrigger
                     className="hover:no-underline py-4 cursor-pointer"

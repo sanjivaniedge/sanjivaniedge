@@ -127,9 +127,14 @@ const softwarePageData = {
                 image: "/images/software-timeline/Code-Reviews.webp"
             },
             {
-                title: "Testing → Integration",
+                title: "Testing ",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "/images/software-timeline/Testing-Integration.webp"
+                image: "/images/software-timeline/Testing.webp"
+            },
+            {
+                title: "Integration",
+                content: "We provide ongoing support and optimization to keep your software running at peak performance.",
+                image: "/images/software-timeline/Integration.webp"
             },
             {
                 title: "Deployment",
@@ -146,7 +151,7 @@ const softwarePageData = {
     philosophy: {
         title: "How We Define Success",
         description: "Our success is measured by the tangible impact we create for your business through technology.",
-        image: "/Images/philosophy-image-281190.png",
+        image: "/Images/How-we-define-success.webp",
         imageAlt: "How We Define Success",
         successMetrics: [
             "Delivery aligned with structured milestones",

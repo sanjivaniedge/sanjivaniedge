@@ -214,17 +214,20 @@ export default function ServicePageTemplate({
       {/* Delivery Framework Section */}
       {
         showDeliveryFramework && data.deliveryFramework && (
-          <section className="max-w-7xl mx-auto ">
-            <Timeline className=""
+          <section className="max-w-7xl mx-auto text-center">
+            <Timeline
+              className=""
               title={data.deliveryFramework.title}
+              titleClassName="text-4xl md:text-6xl font-medium text-center"
               description={data.deliveryFramework.description}
+              descriptionClassName="text-neutral-700 mt-5 text-sm md:text-base max-w-sm"
               data={data.deliveryFramework.timeline.map(item => ({
                 title: item.title,
                 content: (
                   <div className="max-w-xl mx-auto ">
-                 
+
                     {item.image && (
-                      <div className="relative h-48 w-full overflow-hidden rounded-lg shadow-md">
+                      <div className="relative h-72  overflow-hidden ">
                         <Image
                           src={item.image}
                           alt={item.title}
@@ -246,6 +249,7 @@ export default function ServicePageTemplate({
       <section className="mt-12 md:mt-16 px-4">
         <LegacySection
           title={data.cta.title}
+
           description={data.cta.description}
           ctaHref={data.cta.buttonHref}
           ctaText={data.cta.buttonText}
