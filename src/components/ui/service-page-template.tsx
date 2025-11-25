@@ -90,7 +90,7 @@ export default function ServicePageTemplate({
     <main className="bg-white">
       {/* Hero Section */}
       <section className="px-4">
-        <div className="mx-auto ">
+        <div className="mx-auto max-w-7xl">
           <div className="relative overflow-hidden rounded-[20px] h-auto">
             {/* BG Waves */}
             <div className="pointer-events-none absolute top-[-50px] right-[-15vw] w-[827px] h-[802px]">

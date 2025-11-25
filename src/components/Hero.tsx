@@ -257,7 +257,7 @@ function IndustryGraphic({ index }: { index: number }) {
             <PixelImage src="/Images/PublicSector.webp" className="w-[70%] h-[220px]" grid="6x4" />
         );
     }
-   
+
 }
 export default function Hero() {
     const scrollRef = useRef<HTMLDivElement>(null);
@@ -278,9 +278,9 @@ export default function Hero() {
             content: <IndustryGraphic index={2} />,
         },
         {
-          title:"04. Education",
-          description: "Empowering learners with secure, reliable data pipelines. Sanjivani Edge builds interoperable systems for outcomes that matter.",
-          content: <IndustryGraphic index={3} />,
+            title: "04. Education",
+            description: "Empowering learners with secure, reliable data pipelines. Sanjivani Edge builds interoperable systems for outcomes that matter.",
+            content: <IndustryGraphic index={3} />,
         },
         {
             title: "05. Retail",
@@ -354,10 +354,10 @@ export default function Hero() {
                     <div className="space-y-[54px] max-w-[540px]">
                         <div className="space-y-6">
                             <p className="text-foreground/80">
-                               Sanjivani Edge represents the Group’s transition into the technology era, where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
+                                Sanjivani Edge represents the Group’s transition into the technology era, where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
                             </p>
                             <p className="text-foreground/80">
-                                
+
                             </p>
                             <ul className="space-y-4">
                                 {[
@@ -367,7 +367,7 @@ export default function Hero() {
                                 ].map((t) => (
                                     <li key={t} className="flex   gap-3">
                                         <span className="inline-flex h-6 w-10   ">
-                                            <Image src="/figma/evolution-checkbox.svg" alt="check" width={14} height={14} className=""/>
+                                            <Image src="/figma/evolution-checkbox.svg" alt="check" width={14} height={14} className="" />
                                         </span>
                                         <span className="text-muted">{t}</span>
                                     </li>

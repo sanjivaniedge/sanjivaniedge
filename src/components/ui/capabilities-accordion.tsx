@@ -42,7 +42,7 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
              <span className="text-[#FF6B5A]">.</span>
           </h2>
           
-          <div className="flex-1 h-1 bg-gray-200"></div>
+          <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start cursor-pointer">

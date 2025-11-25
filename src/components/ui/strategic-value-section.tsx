@@ -19,7 +19,7 @@ export function StrategicValueSection({ data }: StrategicValueSectionProps) {
         <section className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex items-center gap-14 mb-16">
-                    <div className="flex-1 h-px bg-gray-200"></div>
+                  <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
                     <h2
                         className="text-4xl md:text-6xl font-medium text-center ml-[-15vw] md:ml-0v"
                         style={{

@@ -60,7 +60,7 @@ export function FeatureSteps({
                         Why Sanjivani Edge
                         <span className="text-[#FF6B5A]">.</span>
                     </h2>
-                    <div className="flex-1 h-px bg-gray-200"></div>
+                      <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
                 </div>
 
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-10">

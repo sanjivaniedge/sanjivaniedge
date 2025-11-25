@@ -19,7 +19,7 @@ export function SuccessSection({ data }: SuccessSectionProps) {
     <section className="py-10 bg-white relative overflow-hidden max-w-7xl mx-auto">
       {/* Background Decoration - Waves */}
       <div className="flex items-center justify-end gap-6 pb-10 px-10">
-       <div className="flex-1 h-1 bg-gray-200"></div>
+    <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
         <h2 className="text-4xl md:text-6xl font-medium md:text-right text-center"
           style={{
             fontFamily: "Manrope",
