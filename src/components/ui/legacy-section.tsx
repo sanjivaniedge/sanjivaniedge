@@ -122,9 +122,7 @@ export function LegacySection({
                 ))}
               </div>
             )}
-            <Link href={ctaHref}>
-              <EdgeLinkButton className={ctaClassName} href={ctaHref}>{ctaText ?? ctaLabel}</EdgeLinkButton>
-            </Link>
+            <EdgeLinkButton className={ctaClassName} href={ctaHref}>{ctaText ?? ctaLabel}</EdgeLinkButton>
           </div>
         </div>
       </div>
