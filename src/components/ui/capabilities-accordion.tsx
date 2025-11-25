@@ -29,17 +29,19 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-wrap items-center gap-14 mb-16">
           <h2
-            className="text-6xl font-medium text-right"
+            className="text-4xl md:text-6xl font-medium text-right"
             style={{
               fontFamily: "Manrope",
               fontWeight: 500,
-              fontSize: "64px",
+              // fontSize: "40px",
               lineHeight: "1.366em",
               color: "#1A1F3D",
             }}
           >
-            Capabilities.
+            Capabilities
+             <span className="text-[#FF6B5A]">.</span>
           </h2>
+          
           <div className="flex-1 h-1 bg-gray-200"></div>
         </div>
 

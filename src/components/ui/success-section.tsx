@@ -18,13 +18,13 @@ export function SuccessSection({ data }: SuccessSectionProps) {
   return (
     <section className="py-10 bg-white relative overflow-hidden max-w-7xl mx-auto">
       {/* Background Decoration - Waves */}
-      <div className="flex items-center justify-end gap-6 pb-10">
-        <div className="h-px bg-gray-300 w-[490px]"></div>
-        <h2 className="text-6xl font-medium text-right"
+      <div className="flex items-center justify-end gap-6 pb-10 px-10">
+       <div className="flex-1 h-1 bg-gray-200"></div>
+        <h2 className="text-4xl md:text-6xl font-medium md:text-right text-center"
           style={{
             fontFamily: "Manrope",
             fontWeight: 500,
-            fontSize: "64px",
+            // fontSize: "64px",
             lineHeight: "1.366em",
             color: "#1A1F3D",
           }}>

@@ -46,8 +46,8 @@ export function FeatureSteps({
     return (
         <div className={cn("p-8 md:p-12", className)}>
             <div className="max-w-7xl mx-auto w-full">
-               <div className="flex items-center gap-14 mb-16">
-                    
+                <div className="flex items-center md:gap-14 mb-16">
+
                     <h2
                         className="text-4xl md:text-6xl font-medium text-center"
                         style={{
@@ -57,7 +57,7 @@ export function FeatureSteps({
                             color: "#1A1F3D",
                         }}
                     >
-                       Why Sanjivani Edge
+                        Why Sanjivani Edge
                         <span className="text-[#FF6B5A]">.</span>
                     </h2>
                     <div className="flex-1 h-px bg-gray-200"></div>

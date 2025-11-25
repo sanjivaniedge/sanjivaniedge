@@ -21,7 +21,7 @@ export function StrategicValueSection({ data }: StrategicValueSectionProps) {
                 <div className="flex items-center gap-14 mb-16">
                     <div className="flex-1 h-px bg-gray-200"></div>
                     <h2
-                        className="text-4xl md:text-6xl font-medium text-center"
+                        className="text-4xl md:text-6xl font-medium text-center ml-[-15vw] md:ml-0v"
                         style={{
                             fontFamily: "Manrope",
                             fontWeight: 500,

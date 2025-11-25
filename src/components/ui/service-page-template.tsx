@@ -100,7 +100,7 @@ export default function ServicePageTemplate({
             <div className="relative z-10 px-[24px] md:px-0 py-12 md:py-0 ">
               <div className="mx-auto md:ml-[142px] md:my-[100px]  max-w-7xl">
                 <div className="text-center">
-                  <h1 className="text-[28px] md:text-[64px] font-bold leading-[1.366] text-[#1A1F3D]">
+                  <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.366] text-[#1A1F3D]">
                     {data.title}
                   </h1>
                   {data.subtitle && (
@@ -188,6 +188,8 @@ export default function ServicePageTemplate({
 
         <SuccessSection data={data.philosophy} />
       )}
+
+      {/* Strategic Value Section */}
 
       {
         showStrategicValue && data.strategicValue && (
