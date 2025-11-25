@@ -104,7 +104,7 @@ const softwarePageData = {
     },
     deliveryFramework: {
         title: "Our Delivery Framework.",
-        description: "A proven process that ensures successful project delivery every time.",
+        description: "",
         timeline: [
             {
                 title: "Requirement Structuring",
