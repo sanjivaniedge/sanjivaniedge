@@ -221,7 +221,7 @@ export default function ServicePageTemplate({
               data={data.deliveryFramework.timeline.map(item => ({
                 title: item.title,
                 content: (
-                  <div className="max-w-xl mx-auto">
+                  <div className="max-w-xl mx-auto ">
                  
                     {item.image && (
                       <div className="relative h-48 w-full overflow-hidden rounded-lg shadow-md">

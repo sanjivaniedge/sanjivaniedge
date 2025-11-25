@@ -159,8 +159,8 @@ const softwarePageData = {
         ctaLink: "/about"
     },
     cta: {
-        title: "Ready to Build Your Next Software Solution?",
-        description: "Let's discuss your project requirements and create a custom solution that drives your business forward.",
+        title: "Software built with purpose endures.",
+        description: "At Sanjivani Edge, we engineer systems that remain stable today and capable tomorrow.",
         buttonText: "Start Your Project",
         buttonHref: "/contact"
     }
