@@ -121,11 +121,11 @@ function CapabilityCard({ title, points, href, illus, imageSrc, imageAlt }: { ti
                     <CardBody className="w-full h-full">
                         <CardItem translateZ={50} className="w-full h-full cursor-pointer">
                             {imageSrc ? (
-                                <Image src={imageSrc} alt={imageAlt ?? `${title} illustration`} width={200} height={200} className="object-contain w-auto h-full" />
+                                <Image src={imageSrc} alt={imageAlt ?? `${title} illustration`} width={200} height={200} className="object-contain w-auto lg:h-full h-[150px]" />
                             ) : (
                                 <>
                                     {illus === "screen" && (
-                                        <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                        <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto  h-full " />
                                     )}
                                     {illus === "cloud" && (
                                         <Image src="/figma/capabilities-cloud.png" alt="Cloud illustration" width={200} height={200} className="object-contain w-auto h-full" />
