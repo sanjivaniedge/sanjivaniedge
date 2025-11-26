@@ -115,36 +115,42 @@ function CapabilityCard({ title, points, href, illus, imageSrc, imageAlt }: { ti
                 </Link>
             </div>
             <div className="mt-6 md:mt-0 md:ml-6 opacity-80 w-full md:w-[200px] h-[140px] md:h-full flex items-end justify-end">
-                {imageSrc ? (
-                    <Image src={imageSrc} alt={imageAlt ?? `${title} illustration`} width={200} height={200} className="object-contain w-auto h-full" />
-                ) : (
-                    <>
-                        {illus === "screen" && (
-                            <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "cloud" && (
-                            <Image src="/figma/capabilities-cloud.png" alt="Cloud illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "shield" && (
-                            <Image src="/figma/capabilities-shield.png" alt="Cybersecurity illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "infra" && (
-                            <Image src="/figma/capabilities-infra.png" alt="Infrastructure illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "emerge" && (
-                            <Image src="/figma/Emerge.png" alt="Emerging Technologies" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "consulting" && (
-                            <Image src="/figma/capabilities-consulting-725558.png" alt="Consulting & Support illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "bpo" && (
-                            <Image src="/figma/capabilities-bpo-c73d5a.png" alt="BPO Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                        {illus === "erp" && (
-                            <Image src="/figma/capabilities-erp-2f97a5.png" alt="ERP Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                        )}
-                    </>
-                )}
+                <CardContainer containerClassName="py-0" className="w-full h-full">
+                    <CardBody className="w-full h-full">
+                        <CardItem translateZ={50} className="w-full h-full cursor-pointer">
+                            {imageSrc ? (
+                                <Image src={imageSrc} alt={imageAlt ?? `${title} illustration`} width={200} height={200} className="object-contain w-auto h-full" />
+                            ) : (
+                                <>
+                                    {illus === "screen" && (
+                                        <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "cloud" && (
+                                        <Image src="/figma/capabilities-cloud.png" alt="Cloud illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "shield" && (
+                                        <Image src="/figma/capabilities-shield.png" alt="Cybersecurity illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "infra" && (
+                                        <Image src="/figma/capabilities-infra.png" alt="Infrastructure illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "emerge" && (
+                                        <Image src="/figma/Emerge.png" alt="Emerging Technologies" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "consulting" && (
+                                        <Image src="/figma/capabilities-consulting-725558.png" alt="Consulting & Support illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "bpo" && (
+                                        <Image src="/figma/capabilities-bpo-c73d5a.png" alt="BPO Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                    {illus === "erp" && (
+                                        <Image src="/figma/capabilities-erp-2f97a5.png" alt="ERP Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
+                                    )}
+                                </>
+                            )}
+                        </CardItem>
+                    </CardBody>
+                </CardContainer>
             </div>
         </div>
     );
