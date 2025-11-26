@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { FlickeringGrid } from "@/components/ui/flickering-grid";
+import CanvasFractalGrid from "@/components/ui/canvas-fractal-grid";
 import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 // import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { Timeline } from "@/components/ui/timeline";
@@ -261,6 +261,11 @@ function IndustryGraphic({ index }: { index: number }) {
 }
 export default function Hero() {
     const scrollRef = useRef<HTMLDivElement>(null);
+    const [useUpdatedBg, setUseUpdatedBg] = useState(false);
+    useEffect(() => {
+        const t = setTimeout(() => setUseUpdatedBg(true), 1000);
+        return () => clearTimeout(t);
+    }, []);
     const industriesItems = [
         {
             title: "01. Manufacture",
@@ -302,14 +307,25 @@ export default function Hero() {
 
     return (
         <div ref={scrollRef} className="overflow-hidden ">
-            <FlickeringGrid
-                className="absolute inset-0 -z-10"
-                squareSize={2}
-                gridGap={6}
-                flickerChance={0.12}
-                color="rgb(1, 117, 178)"
-                maxOpacity={0.8}
-            />
+            <div className="absolute inset-0 -z-10">
+                <CanvasFractalGrid
+                    dotSize={useUpdatedBg ? 2 : 2}
+                    dotSpacing={useUpdatedBg ? 10 : 10}
+                    dotOpacity={useUpdatedBg ? 0.8 : 0.8}
+                    waveIntensity={useUpdatedBg ? 24 : 30}
+                    waveRadius={useUpdatedBg ? 220 : 200}
+                    dotColors={["#0075B1", "#18ACD9"]}
+                    glowColor=""
+                    enableNoise={true}
+                    noiseOpacity={0.03}
+                    enableMouseGlow={false}
+                    enableGradient={false}
+                    enableSpacingPulse={false}
+                    pulseIntervalMs={1000}
+                    pulseDurationMs={250}
+                    pulseAmount={0.35}
+                />
+            </div>
             {/* Hero Section  */}
             <section className="relative h-screen max-w-6xl grid gap-6 py-16  px-4 text-center ">
                 <div className="bg-white/50 max-w-3xl mx-auto p-4 rounded-full space-y-4 flex justify-center items-center flex-col md:mt-[-10vw] mt-[-20vh]">
