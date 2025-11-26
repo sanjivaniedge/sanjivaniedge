@@ -16,7 +16,7 @@ interface SuccessSectionProps {
 
 export function SuccessSection({ data }: SuccessSectionProps) {
   return (
-    <section className="py-10 bg-white relative overflow-hidden max-w-7xl mx-auto">
+    <section className="py-10 px-4 bg-white relative overflow-hidden max-w-7xl mx-auto">
       {/* Background Decoration - Waves */}
       <div className="flex items-center justify-end gap-6 pb-10 px-10">
     <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />

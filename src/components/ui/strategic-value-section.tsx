@@ -16,7 +16,7 @@ interface StrategicValueSectionProps {
 
 export function StrategicValueSection({ data }: StrategicValueSectionProps) {
     return (
-        <section className="py-20 bg-white">
+        <section className="py-20 px-4 bg-white">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex items-center gap-14 mb-16">
                   <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />

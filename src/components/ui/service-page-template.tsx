@@ -98,7 +98,7 @@ export default function ServicePageTemplate({
             </div>
             {/* Content */}
             <div className="relative z-10 px-[24px] md:px-0 py-12 md:py-0 ">
-              <div className="mx-auto md:ml-[142px] md:my-[100px]  max-w-7xl">
+              <div className="mx-auto md:ml-[142px] md:my-[80px]  max-w-7xl">
                 <div className="text-center">
                   <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.366] text-[#1A1F3D]">
                     {data.title}
@@ -121,7 +121,7 @@ export default function ServicePageTemplate({
             </div>
             {/* Hero Image */}
             <div className="relative z-20 mx-auto max-w-7xl px-4 pb-12">
-              <div className="relative h-[320px] md:h-[512px] w-full overflow-hidden rounded-[10px] shadow-[0px_10px_0px_0px_rgba(1,117,178,1)]">
+              <div className="relative h-[320px] md:h-[412px] w-full overflow-hidden rounded-[10px] shadow-[0px_10px_0px_0px_rgba(1,117,178,1)]">
                 <Image
                   src={data.heroImage}
                   alt={data.heroImageAlt}
@@ -183,23 +183,17 @@ export default function ServicePageTemplate({
       </section>
 
       {/* How We Define Success. */}
-
       {showPhilosophy && data.philosophy && (
-
         <SuccessSection data={data.philosophy} />
       )}
 
       {/* Strategic Value Section */}
-
-      {
-        showStrategicValue && data.strategicValue && (
+      {showStrategicValue && data.strategicValue && (
           <StrategicValueSection data={data.strategicValue} />
-        )
-      }
+        )}
 
       {/* Why Choose Us Section */}
-      {
-        showWhyChooseUs && data.whyChooseUs && (
+      {showWhyChooseUs && data.whyChooseUs && (
           <section className="pb-20 px-4">
             <FeatureSteps
               features={data.whyChooseUs.features}
@@ -208,17 +202,15 @@ export default function ServicePageTemplate({
               imageHeight="h-[400px] md:h-[500px]"
             />
           </section>
-        )
-      }
+        )}
 
       {/* Delivery Framework Section */}
-      {
-        showDeliveryFramework && data.deliveryFramework && (
-          <section className="max-w-7xl mx-auto text-center">
+      {showDeliveryFramework && data.deliveryFramework && (
+          <section className="max-w-7xl mx-auto text-center px-4">
             <Timeline
               className=""
               title={data.deliveryFramework.title}
-              titleClassName="text-4xl md:text-6xl font-medium text-center"
+              titleClassName="text-4xl md:text-6xl font-medium text-center pl-8"
               description={data.deliveryFramework.description}
               descriptionClassName="text-neutral-700 mt-5 text-sm md:text-base max-w-sm"
               data={data.deliveryFramework.timeline.map(item => ({
@@ -227,7 +219,7 @@ export default function ServicePageTemplate({
                   <div className="max-w-xl mx-auto ">
 
                     {item.image && (
-                      <div className="relative h-72  overflow-hidden ">
+                      <div className="relative h-72 overflow-hidden ">
                         <Image
                           src={item.image}
                           alt={item.title}

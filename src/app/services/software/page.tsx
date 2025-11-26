@@ -109,42 +109,42 @@ const softwarePageData = {
             {
                 title: "Requirement Structuring",
                 content: "We work closely with you to understand your requirements, goals, and constraints to define a clear project roadmap.",
-                image: "/images/software-timeline/Requirement-Structuring.webp"
+                image: "/Images/software-timeline/Requirement-Structuring.webp"
             },
             {
                 title: "Architecture Blueprint",
                 content: "Our team designs a robust and scalable architecture that meets your current needs and future growth.",
-                image: "/images/software-timeline/Architecture-Blueprint.webp"
+                image: "/Images/software-timeline/Architecture-Blueprint.webp"
             },
             {
                 title: "Agile Sprints",
                 content: "We follow agile development practices with continuous testing to ensure high-quality code and rapid delivery.",
-                image: "/images/software-timeline/Agile-Sprints.webp"
+                image: "/Images/software-timeline/Agile-Sprints.webp"
             },
             {
                 title: "Code Reviews",
                 content: "We manage the deployment process to ensure a smooth launch with minimal downtime.",
-                image: "/images/software-timeline/Code-Reviews.webp"
+                image: "/Images/software-timeline/Code-Reviews.webp"
             },
             {
                 title: "Testing ",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "/images/software-timeline/Testing.webp"
+                image: "/Images/software-timeline/Testing.webp"
             },
             {
                 title: "Integration",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "/images/software-timeline/Integration.webp"
+                image: "/Images/software-timeline/Integration.webp"
             },
             {
                 title: "Deployment",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "/images/software-timeline/Deployment.webp"
+                image: "/Images/software-timeline/Deployment.webp"
             },
             {
                 title: "Ongoing Enhancements",
                 content: "We provide ongoing support and optimization to keep your software running at peak performance.",
-                image: "/images/software-timeline/Ongoing-Enhancements.webp"
+                image: "/Images/software-timeline/Ongoing-Enhancements.webp"
             }
         ]
     },

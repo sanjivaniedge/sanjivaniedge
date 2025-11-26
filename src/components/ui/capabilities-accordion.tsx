@@ -25,7 +25,7 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
   const [activeImage, setActiveImage] = useState(features[0]?.image || "");
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white px-4">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-wrap items-center gap-14 mb-16">
           <h2

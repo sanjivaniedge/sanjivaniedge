@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mt-20 mb-6  px-4">
+    <footer className="mt-12 mb-6  px-4">
       <div className="rounded-[20px] text-white bg-no-repeat bg-cover md:bg-[length:100%_100%] bg-[url('/figma/footer-bg-4e3b73.png')] px-6 py-8 sm:px-8 sm:py-10 md:px-[78px] md:py-[44px]">
         <div className="flex md:flex-row flex-col gap-8 sm:gap-[60px] md:gap-[78px] justify-start">
           <div className="w-full   ">
