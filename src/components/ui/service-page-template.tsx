@@ -7,6 +7,7 @@ import { StrategicValueSection } from "@/components/ui/strategic-value-section";
 import { FeatureSteps } from "@/components/ui/feature-section";
 import { Timeline } from "@/components/ui/timeline";
 import Image from "next/image";
+import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 
 export interface ServicePageData {
   title: string;
@@ -97,8 +98,8 @@ export default function ServicePageTemplate({
               <Image src="/deco/bgservice.webp" alt="Decor Waves" fill className="object-contain" />
             </div>
             {/* Content */}
-            <div className="relative z-10 px-[24px] md:px-0 py-12 md:py-0 ">
-              <div className="mx-auto md:ml-[142px] md:my-[80px]  max-w-7xl">
+            <div className="relative z-10 px-[24px] md:px-0 py-12 md:py-0 justify-center items-center flex flex-col">
+              <div className="mx-auto md:my-[80px]  max-w-7xl">
                 <div className="text-center">
                   <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.366] text-[#1A1F3D]">
                     {data.title}

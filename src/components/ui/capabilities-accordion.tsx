@@ -8,6 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Image from "next/image";
+import { CardBody, CardContainer, CardItem } from "./3d-card";
 
 interface CapabilityItem {
   title: string;
@@ -39,9 +40,9 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
             }}
           >
             Capabilities
-             <span className="text-[#FF6B5A]">.</span>
+            <span className="text-[#FF6B5A]">.</span>
           </h2>
-          
+
           <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
         </div>
 
@@ -101,7 +102,7 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
                         {item.description}
                       </p>
 
-                   
+
                       {item.tools && (
                         <div className=" text-gray-700 text-lg">
                           <span className="font-semibold text-black text-lg">Tools: </span>
@@ -133,15 +134,23 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
             </button>
           </div>
 
-          <div className="relative h-[600px] w-full hidden lg:block rounded-lg overflow-hidden shadow-lg">
-            {activeImage && (
-              <Image
-                src={activeImage}
-                alt="Capability Preview"
-                fill
-                className="object-cover transition-opacity duration-500"
-              />
-            )}
+          <div className="relative h-[600px] w-full hidden lg:block rounded-lg overflow-hidden ">
+            <CardContainer containerClassName="py-0 h-full" className="w-full h-full rounded-lg overflow-hidden ">
+              <CardBody className="w-full h-full border border-[color:var(--tile-stroke)] bg-white">
+                <CardItem translateZ={20} className="w-full h-full">
+                  {activeImage && (
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={activeImage}
+                        alt="Capability Preview"
+                        fill
+                        className="object-cover transition-opacity duration-500 pointer-events-none"
+                      />
+                    </div>
+                  )}
+                </CardItem>
+              </CardBody>
+            </CardContainer>
           </div>
         </div>
       </div>

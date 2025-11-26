@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useRef } from "react";
 import Image from "next/image";
 
 interface SuccessSectionProps {
@@ -15,6 +16,34 @@ interface SuccessSectionProps {
 }
 
 export function SuccessSection({ data }: SuccessSectionProps) {
+  const tiltRef = useRef<HTMLDivElement>(null);
+  const glowRef = useRef<HTMLDivElement>(null);
+
+  const handleMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const nx = (e.clientX - rect.left) / rect.width;
+    const ny = (e.clientY - rect.top) / rect.height;
+    const rx = (0.5 - ny) * 8;
+    const ry = (nx - 0.5) * 10;
+    if (tiltRef.current) {
+      tiltRef.current.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg) scale(1.03)`;
+    }
+    if (glowRef.current) {
+      glowRef.current.style.left = `${nx * 100}%`;
+      glowRef.current.style.top = `${ny * 100}%`;
+      glowRef.current.style.opacity = "0.35";
+    }
+  };
+
+  const handleLeave = () => {
+    if (tiltRef.current) {
+      tiltRef.current.style.transform = `rotateX(0deg) rotateY(0deg) scale(1)`;
+    }
+    if (glowRef.current) {
+      glowRef.current.style.opacity = "0";
+    }
+  };
+
   return (
     <section className="py-10 px-4 bg-white relative overflow-hidden max-w-7xl mx-auto">
       {/* Background Decoration - Waves */}
@@ -37,13 +66,28 @@ export function SuccessSection({ data }: SuccessSectionProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: Image */}
           <div className="relative">
-            <div className="rounded-lg overflow-hidden shadow-xl relative z-10">
-              <Image
-                src={data.image}
-                alt={data.imageAlt}
-                width={600}
-                height={400}
-                className="w-full h-auto object-cover"
+            <div
+              className="group rounded-lg overflow-hidden relative z-10 [perspective:1000px]"
+              onMouseMove={handleMove}
+              onMouseLeave={handleLeave}
+            >
+              <div
+                ref={tiltRef}
+                className="relative will-change-transform transition-transform duration-300 [transform-style:preserve-3d]"
+              >
+                <Image
+                  src={data.image}
+                  alt={data.imageAlt}
+                  width={600}
+                  height={400}
+                  className="w-full h-auto object-cover"
+                  style={{ transform: "translateZ(18px)" }}
+                />
+              </div>
+              <div
+                ref={glowRef}
+                className="pointer-events-none absolute w-56 h-56 rounded-full bg-white/15 blur-2xl mix-blend-soft-light"
+                style={{ left: "50%", top: "50%", transform: "translate(-50%, -50%)", opacity: 0 }}
               />
             </div>
           </div>
