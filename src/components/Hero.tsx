@@ -333,7 +333,7 @@ export default function Hero() {
             </section>
 
             {/* Stats Section  */}
-            <section className="max-w-6xl grid grid-cols-1 md:grid-cols-3 justify-between gap-6 md:gap-10 divide-y md:divide-y-0 md:divide-x-10 divide-white rounded-xl overflow-hidden px-4 md:px-0 md:pt-24">
+            <section className="max-w-6xl grid grid-cols-1 md:grid-cols-3 justify-between gap-6 md:gap-10 divide-y md:divide-y-0 md:divide-x-10 divide-white rounded-xl overflow-hidden px-4 md:px-4">
 
                 <Stat label="Integrated Domains" value="8" desc="Full-Stack Technology & Workforce Solutions" />
                 <Stat label="Delivery Governance" value="100%" desc="Structured, Reliable & Outcome-Driven Execution" />
