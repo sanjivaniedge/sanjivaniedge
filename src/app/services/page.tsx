@@ -1,6 +1,8 @@
 import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 import { LegacySection } from "@/components/ui/legacy-section";
 import Image from "next/image";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { ChevronDown } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -187,8 +189,42 @@ Our SAP and Oracle services help enterprises streamline processes and drive stra
         />
       </div>
 
+            {/* Frequently Asked Questions(FAQ's) */}
+      <section className="px-4 pt-16">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex items-center gap-6">
+            <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
+            <h2 className="text-3xl md:text-5xl font-medium">Frequently Asked Questions(FAQ's)<span className="text-[#FF6B5A]">.</span></h2>
+          </div>
+          <div className="mt-8 grid  gap-8">
+            <Accordion type="single" collapsible className="space-y-4">
+              {[
+                { q: "What services does Sanjivani Edge offer?", a: "We deliver eight integrated domains: Software Development, Cloud Services, Cybersecurity, IT Infrastructure, Emerging Technologies, Consulting & Support, BPO Services, and ERP (SAP & Oracle)." },
+                { q: "How do I choose the right service?", a: "Start with a discovery workshop. We assess your current state, define outcomes, and map the right service combinations with scope, risks, and timelines." },
+                { q: "Do you provide implementation and ongoing support?", a: "Yes. We implement, operationalize, and maintain with SLAs, governance, and observability so outcomes remain predictable." },
+                { q: "How is security handled across services?", a: "Security is embedded across domains: encryption, IAM, network controls, audits, and compliance-aligned practices shape delivery." },
+                { q: "Can you work with our existing stack?", a: "We integrate with existing applications, infra, and data pipelines, and plan phased modernization to avoid disruptive changes." },
+              ].map((faq, i) => (
+                <AccordionItem key={i} value={`faq-${i}`} className="rounded-2xl border data-[state=open]:bg-[#F4F6F8] transition-all duration-300">
+                  <AccordionTrigger className="px-4 py-4 text-left hover:no-underline cursor-pointer">
+                    <div className="flex items-center justify-between w-full">
+                      <span className="font-medium text-[#1A1F3D]">{faq.q}</span>
+                 
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="px-4 pb-4 text-neutral-700">{faq.a}</div>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+           
+          </div>
+        </div>
+      </section>
+
       {/* CTA End Card */}
-      <section className="mt-12 md:mt-16 px-4">
+      <section className="mt-12 md:mt-8 px-4">
         <LegacySection
           title="Transformation is not defined by tools alone — it is defined by clarity, governance, and intent."
           description="Sanjivani Edge brings all three together to build digital ecosystems that are resilient today and ready for tomorrow."
@@ -197,6 +233,8 @@ Our SAP and Oracle services help enterprises streamline processes and drive stra
           titleClassName="text-xl md:text-[30px] font-medium text-[#1A1F3D]"
         />
       </section>
+
+
     </main>
   );
 }
