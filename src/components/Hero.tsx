@@ -378,7 +378,7 @@ export default function Hero() {
                     <div className="space-y-[54px] max-w-[540px]">
                         <div className="space-y-6">
                             <p className="text-foreground/80">
-                                Sanjivani Edge represents the Group’s transition into the technology era, where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
+                                Sanjivani Edge represents the Group&apos;s transition into the technology era, where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
                             </p>
                             <p className="text-foreground/80">
 
@@ -386,7 +386,7 @@ export default function Hero() {
                             <ul className="space-y-4">
                                 {[
                                     "Delivering responsible modernization across ERP, digital engineering, cybersecurity, and workforce transformation",
-                                    "Extending Sanjivani’s legacy of governance and reliability into the digital age.",
+                                    "Extending Sanjivani&apos;s legacy of governance and reliability into the digital age.",
                                     "Building technology ecosystems that enable organizations to scale with clarity, confidence, and continuity.",
                                 ].map((t) => (
                                     <li key={t} className="flex   gap-3">

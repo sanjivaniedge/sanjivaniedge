@@ -99,7 +99,7 @@ const cloudPageData = {
         ]
     },
     deliveryFramework: {
-        title: "Our Cloud Migration Process",
+        title: "Our Delivery Framework",
         description: "A systematic approach to cloud adoption that minimizes risk and maximizes benefits.",
         timeline: [
             {

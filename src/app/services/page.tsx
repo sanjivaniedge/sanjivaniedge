@@ -94,7 +94,7 @@ export default function ServicesPage() {
           reverse={true}
           gapClass="md:gap-[88px]"
           objectFit="fill"
-          ctaHref="/services/cloud-services"
+          ctaHref="/services/cloud"
           bullets={["Cloud consulting", "Migration", "Infrastructure management"]}
         />
 
