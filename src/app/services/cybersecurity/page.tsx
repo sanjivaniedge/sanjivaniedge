@@ -68,7 +68,7 @@ const cloudPageData = {
         ]
     },
     strategicValue: {
-        title: "Strategic Value Delivered.",
+        title: "Strategic Value Delivered",
         description: "Our cloud solutions deliver significant improvements in performance, cost, and operational efficiency.",
         metrics: [
             {
@@ -100,7 +100,7 @@ const cloudPageData = {
     },
     deliveryFramework: {
         title: "Our Delivery Framework",
-        description: "A systematic approach to cloud adoption that minimizes risk and maximizes benefits.",
+        description: "",
         timeline: [
             {
                 title: "Discovery",

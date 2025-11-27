@@ -154,7 +154,7 @@ const cloudPageData = {
   },
   philosophy: {
     title: "How We Define Success",
-    description: "Our success is measured by the tangible impact we create for your business through technology.",
+    description: "",
     image: "/Images/How-We-Define-Success-Cloud.webp",
     imageAlt: "How We Define Success",
     successMetrics: [

@@ -35,13 +35,16 @@ export default function Navbar() {
                 <ul className="py-2 text-sm">
                   <li><Link href="/services/software" className="block px-3 py-2 hover:text-brand">Software Development</Link></li>
                   <li><Link href="/services/cloud" className="block px-3 py-2 hover:text-brand">Cloud Services</Link></li>
-                  <li><Link href="/services/infra" className="block px-3 py-2 hover:text-brand">IT Infrastructure</Link></li>
-                  <li><Link href="/services/consulting" className="block px-3 py-2 hover:text-brand">Consulting & Support</Link></li>
-                  <li><Link href="/services/erp" className="block px-3 py-2 hover:text-brand">ERP Services</Link></li>
                   <li><Link href="/services/cybersecurity" className="block px-3 py-2 hover:text-brand">Cyber Security</Link></li>
-                  <li><Link href="/services/it" className="block px-3 py-2 hover:text-brand">IT Services</Link></li>
-              
-                  
+                  <li><Link href="/services/infra" className="block px-3 py-2 hover:text-brand">IT Infrastructure</Link></li>
+                  <li><Link href="/services/it" className="block px-3 py-2 hover:text-brand">Emerging Technologies</Link></li>
+                  <li><Link href="/services/consulting" className="block px-3 py-2 hover:text-brand">Consulting & Support</Link></li>
+                  <li><Link href="/services/bpo" className="block px-3 py-2 hover:text-brand">BPO</Link></li>
+                  <li><Link href="/services/erp" className="block px-3 py-2 hover:text-brand">ERP Services</Link></li>
+
+
+
+
                 </ul>
               </div>
             )}
@@ -61,7 +64,7 @@ export default function Navbar() {
             className="lg:hidden inline-flex h-9 w-9 items-center justify-center rounded-md border border-[color:var(--tile-stroke)]"
             onClick={() => setOpen(!open)}
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
           </button>
         </div>
       </div>
