@@ -3,14 +3,24 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 4);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
   return (
-    <header className="relative z-50 w-full bg-white border-b border-[color:var(--tile-stroke)] py-4">
-      <div className="max-w-6xl flex h-16 items-center justify-between">
+    <header className={`sticky top-0 z-50 w-full border-b border-[color:var(--tile-stroke)] py-4 ${scrolled ? "bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 shadow-sm" : "bg-white"}`}>
+      <div className="max-w-6xl mx-auto px-4 flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo/logo.webp" alt="Sanjivani Edge" width={150} height={150} />
         </Link>
