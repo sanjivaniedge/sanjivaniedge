@@ -21,8 +21,8 @@ const bpoPageData = {
     title: "Why Choose Our BPO",
     description: "Predictable operations with measurable outcomes and continuous improvements.",
     features: [
-      { step: "Step 1", title: "Skilled process teams", content: "Define SOPs, SLAs, and handoffs with clarity.", image: "/Images/why-bpo/Skilled-process-teams.webp" },
-      { step: "Step 2", title: "Transparent reporting", content: "Run operations with monitoring and coaching.", image: "/Images/why-bpo/Transparent-reporting.webp" },
+      { step: "Step 1", title: "Skilled process teams", content: "Define SOPs, SLAs, and handoffs with clarity.", image: "/Images/why-bpo/Skilled-Process-Teams.webp" },
+      { step: "Step 2", title: "Transparent reporting", content: "Run operations with monitoring and coaching.", image: "/Images/why-bpo/Transparent-Reporting.webp" },
       { step: "Step 3", title: "Standard operating procedures", content: "Use analytics and automation to drive efficiency.", image: "/Images/why-bpo/Standard-operating-procedures.webp" },
       { step: "Step 4", title: "Quality assurance frameworks", content: "Regular reviews, feedback loops, and process refinements.", image: "/Images/why-bpo/Quality-assurance-frameworks.webp" },
     ],
