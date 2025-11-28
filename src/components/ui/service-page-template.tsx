@@ -91,6 +91,7 @@ export default function ServicePageTemplate({
   showPhilosophy = true,
 }: ServicePageTemplateProps) {
   const faqs = data.faqs ?? [];
+  const showLogoCloud = !!(data.capabilities?.items?.some((it) => typeof it.tools !== "undefined" && it.tools !== null));
   return (
     <main className="bg-white">
       {/* Hero Section */}
@@ -144,52 +145,27 @@ export default function ServicePageTemplate({
         <CapabilitiesAccordion features={data.capabilities.items} />
       )}
 
-      {/* Logo Cloud Section */}
-      <section className="py-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-
-          <LogoCloud logos={[
-            {
-              src: "/Images/logos/Angular.webp",
-              alt: "Angular Logo",
-            },
-            {
-              src: "/Images/logos/Boomi.webp",
-              alt: "Boomi Logo",
-            },
-            {
-              src: "/Images/logos/Java.webp",
-              alt: "Java Logo",
-            },
-            {
-              src: "/Images/logos/Mulesoft.webp",
-              alt: "Mulesoft Logo",
-            },
-            {
-              src: "/Images/logos/Node-JS.webp",
-              alt: "Node JS Logo",
-            },
-            {
-              src: "/Images/logos/Postman.webp",
-              alt: "Postman Logo",
-            },
-            {
-              src: "/Images/logos/Python.webp",
-              alt: "Python Logo",
-            },
-            {
-              src: "/Images/logos/React.webp",
-              alt: "React Logo",
-            },
-            {
-              src: "/Images/logos/Selenium.webp",
-              alt: "Selenium Logo",
-            },
-          ]} />
-
-          <div className="mt-8 h-px bg-border [mask-image:linear-gradient(to_right,transparent,black,transparent)]" />
-        </div>
-      </section>
+      {/* Logo Section (conditional based on capabilities.tools) */}
+      {showLogoCloud && (
+        <section className="py-6 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4">
+            <LogoCloud
+              logos={[
+                { src: "/Images/logos/Angular.webp", alt: "Angular Logo" },
+                { src: "/Images/logos/Boomi.webp", alt: "Boomi Logo" },
+                { src: "/Images/logos/Java.webp", alt: "Java Logo" },
+                { src: "/Images/logos/Mulesoft.webp", alt: "Mulesoft Logo" },
+                { src: "/Images/logos/Node-JS.webp", alt: "Node JS Logo" },
+                { src: "/Images/logos/Postman.webp", alt: "Postman Logo" },
+                { src: "/Images/logos/Python.webp", alt: "Python Logo" },
+                { src: "/Images/logos/React.webp", alt: "React Logo" },
+                { src: "/Images/logos/Selenium.webp", alt: "Selenium Logo" },
+              ]}
+            />
+            <div className="mt-8 h-px bg-border [mask-image:linear-gradient(to_right,transparent,black,transparent)]" />
+          </div>
+        </section>
+      )}
 
       {/* How We Define Success. */}
       {showPhilosophy && data.philosophy && (

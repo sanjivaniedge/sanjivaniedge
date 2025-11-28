@@ -44,8 +44,8 @@ const consultingPageData = {
     ],
   },
   deliveryFramework: {
-    title: "Advisory & AMC Framework",
-    description: "A structured approach from baseline to operational excellence.",
+    title: "Our Delivery Framework.",
+    description: "",
     timeline: [
       { title: "Assessment", content: "Architecture, processes, and controls review.", image: "/Images/time-support/Assessment.webp" },
       { title: "Advisory", content: "Roadmap, governance, and SLAs.", image: "/Images/time-support/Advisory.webp" },

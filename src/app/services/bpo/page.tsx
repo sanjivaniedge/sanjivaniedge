@@ -38,8 +38,8 @@ const bpoPageData = {
     ],
   },
   deliveryFramework: {
-    title: "Operations Framework",
-    description: "From onboarding to optimization.",
+    title: "Our Delivery Framework.",
+    description: "",
     timeline: [
       { title: "Process Mapping", content: "SOPs, SLAs, and training.", image: "/Images/time-bpo/Process-mapping.webp" },
       { title: "SOP Design", content: "Runbooks, QA, and reporting.", image: "/Images/time-bpo/SOP-design.webp" },
