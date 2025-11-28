@@ -47,7 +47,7 @@ export default function Navbar() {
                   <li><Link href="/services/cloud" className="block px-3 py-2 hover:text-brand">Cloud Services</Link></li>
                   <li><Link href="/services/cybersecurity" className="block px-3 py-2 hover:text-brand">Cyber Security</Link></li>
                   <li><Link href="/services/it-infrastructure" className="block px-3 py-2 hover:text-brand">IT Infrastructure</Link></li>
-                  <li><Link href="/services/it" className="block px-3 py-2 hover:text-brand">Emerging Technologies</Link></li>
+                  <li><Link href="/services/emerging" className="block px-3 py-2 hover:text-brand">Emerging Technologies</Link></li>
                   <li><Link href="/services/consulting" className="block px-3 py-2 hover:text-brand">Consulting & Support</Link></li>
                   <li><Link href="/services/bpo" className="block px-3 py-2 hover:text-brand">BPO</Link></li>
                   <li><Link href="/services/erp" className="block px-3 py-2 hover:text-brand">ERP Services</Link></li>
