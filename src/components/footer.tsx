@@ -22,7 +22,7 @@ export default function Footer() {
                 <li><Link href="/services/it-infrastructure">IT Infrastructure</Link></li>
               </ul>
               <ul className="space-y-4 md:space-y-[28px] text-[16px] md:text-[18px] text-white/70">
-                <li><Link href="/services/emerging-technologies">Emerging Technologies</Link></li>
+                <li><Link href="/services/emerging">Emerging Technologies</Link></li>
                 <li><Link href="/services/consulting-support">Consulting & Support</Link></li>
                 <li><Link href="/services/bpo-services">BPO Services</Link></li>
                 <li><Link href="/services/erp-services">ERP Services</Link></li>
