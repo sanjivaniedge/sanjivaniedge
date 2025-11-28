@@ -185,6 +185,12 @@ function CapabilitiesCarousel() {
     const [page, setPage] = useState(0);
     const flatItems = pages.flat();
     const [mIndex, setMIndex] = useState(0);
+    const [winW, setWinW] = useState<number>(typeof window !== "undefined" ? window.innerWidth : 0);
+    useEffect(() => {
+        const onResize = () => setWinW(window.innerWidth);
+        window.addEventListener("resize", onResize);
+        return () => window.removeEventListener("resize", onResize);
+    }, []);
     return (
         <div>
             {/* Desktop (lg+) — keep 4-card pages without animation */}
@@ -192,7 +198,11 @@ function CapabilitiesCarousel() {
                 <div className="mt-[56px]">
                     <div className="flex flex-wrap justify-center gap-4">
                         {pages[page].map((c, i) => (
-                            <div key={`${c.title}-${c.width}-${i}`} className="w-full md:flex-none" style={{ width: c.width }}>
+                            <div
+                                key={`${c.title}-${c.width}-${i}`}
+                                className="w-full md:flex-none"
+                                style={{ width: winW >= 1020 && winW < 1540 ? 606 : c.width }}
+                            >
                                 <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} imageSrc={c.imageSrc} imageAlt={c.imageAlt} />
                             </div>
                         ))}
@@ -211,7 +221,7 @@ function CapabilitiesCarousel() {
             </div>
 
             {/* Mobile/Tablet (<lg) — single card with arrows, no animation */}
-            <div className="lg:hidden">
+            <div className="md:hidden">
                 <div className="mt-6 px-4 overflow-hidden">
                     {(() => {
                         const c = flatItems[mIndex];
@@ -408,7 +418,7 @@ export default function Hero() {
             </section>
 
             {/* Capabilities Section  */}
-            <section id="capabilities" className="max-w-7xl mx-auto py-6 md:pt-10 px-4">
+            <section id="capabilities" className="max-w-6xl mx-auto py-6 md:pt-10 px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16 xl:gap-[140px] 2xl:gap-[206px]">
                     <h2 className=" text-4xl md:text-[48px] xl:text-[56px] 2xl:text-[64px] leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-accent">.</span></h2>
                     <p className="md:text-right text-[#606060] max-w-[526px]">Eight domains. One integrated vision, to build digital systems that are stable today and ready for tomorrow.</p>
@@ -483,7 +493,7 @@ export default function Hero() {
                             </AccordionItem>
                         ))}
                     </Accordion>
-                  
+
                 </div>
             </section>
 
