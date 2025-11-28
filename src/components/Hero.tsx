@@ -335,7 +335,7 @@ export default function Hero() {
                 />
             </div>
             {/* Hero Section  */}
-            <section className="relative h-screen max-w-6xl grid gap-6 py-16  px-4 text-center ">
+            <section className="relative h-[95vh] max-w-6xl grid gap-6 pt-20  px-4 text-center ">
                 <div className="bg-white/50 max-w-3xl mx-auto p-4 rounded-full space-y-4 flex justify-center items-center flex-col md:mt-[-10vw] mt-[-20vh]">
                     <motion.h1
                         initial={{ opacity: 0, y: 10 }}
@@ -459,7 +459,7 @@ export default function Hero() {
             <section className="max-w-6xl px-4 py-12">
                 <div className="flex items-center gap-6 md:gap-14">
                     <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-                    <h2 className="text-4xl md:text-[52px] font-medium text-[#1A1F3D]">Frequently Asked Questions(FAQ's)<span className="text-accent">.</span></h2>
+                    <h2 className="text-4xl md:text-[52px] font-medium text-[#1A1F3D]">FAQs<span className="text-accent">.</span></h2>
                 </div>
                 <div className="mt-8 grid gap-8">
                     <Accordion type="single" collapsible className="space-y-4">

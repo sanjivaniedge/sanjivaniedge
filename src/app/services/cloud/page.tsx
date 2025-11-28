@@ -162,11 +162,33 @@ const cloudPageData = {
       "Optimized cloud spend.",
       "High availability and uptime.",
       "Strengthened backup reliability.",
-      "Stable multi-cloud environments"
+      "Stable multi-cloud environments."
     ],
     ctaText: "know more",
     ctaLink: "/about"
   },
+  faqs: [
+    {
+      q: "Which cloud providers do you support?",
+      a: "AWS, Azure, Google Cloud, and Oracle Cloud — selected per workload, compliance, and cost objectives.",
+    },
+    {
+      q: "How do you ensure secure migrations with minimal downtime?",
+      a: "Phased migration, blue/green deploys, replication, cutover windows, rollbacks, IAM hardening, and encryption at-rest/in-transit.",
+    },
+    {
+      q: "Do you help with cost optimization?",
+      a: "Rightsizing, autoscaling, reserved capacity, storage tiering, and observability-driven optimization tied to SLAs.",
+    },
+    {
+      q: "What compliance standards can you work with?",
+      a: "ISO 27001, SOC 2, HIPAA-like safeguards, and data residency with audit trails and policy enforcement.",
+    },
+    {
+      q: "Do you provide ongoing management and support?",
+      a: "24/7 monitoring, patching, backup/restore, incident response, and continuous improvements via SRE/DevOps.",
+    },
+  ],
   cta: {
     title: "Cloud, when architected responsibly, becomes a multiplier of enterprise performance.",
     description:

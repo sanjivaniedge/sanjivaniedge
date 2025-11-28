@@ -189,12 +189,12 @@ Our SAP and Oracle services help enterprises streamline processes and drive stra
         />
       </div>
 
-            {/* Frequently Asked Questions(FAQ's) */}
+      {/* FAQs */}
       <section className="px-4 pt-16">
         <div className="mx-auto max-w-6xl">
           <div className="flex items-center gap-6">
             <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-            <h2 className="text-3xl md:text-5xl font-medium">Frequently Asked Questions(FAQ's)<span className="text-[#FF6B5A]">.</span></h2>
+            <h2 className="text-3xl md:text-5xl font-medium">FAQs<span className="text-[#FF6B5A]">.</span></h2>
           </div>
           <div className="mt-8 grid  gap-8">
             <Accordion type="single" collapsible className="space-y-4">
@@ -209,7 +209,7 @@ Our SAP and Oracle services help enterprises streamline processes and drive stra
                   <AccordionTrigger className="px-4 py-4 text-left hover:no-underline cursor-pointer">
                     <div className="flex items-center justify-between w-full">
                       <span className="font-medium text-[#1A1F3D]">{faq.q}</span>
-                 
+
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
@@ -218,7 +218,7 @@ Our SAP and Oracle services help enterprises streamline processes and drive stra
                 </AccordionItem>
               ))}
             </Accordion>
-           
+
           </div>
         </div>
       </section>

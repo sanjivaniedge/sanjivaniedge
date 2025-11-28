@@ -17,6 +17,7 @@ export interface ServicePageData {
   description: string;
   heroImage: string;
   heroImageAlt: string;
+  faqs?: Array<{ q: string; a: string }>;
   capabilities?: {
     title: string;
     description: string;
@@ -89,28 +90,7 @@ export default function ServicePageTemplate({
   showDeliveryFramework = true,
   showPhilosophy = true,
 }: ServicePageTemplateProps) {
-  const cloudFaqs = [
-    {
-      q: "Which cloud providers do you support?",
-      a: "We design and operate on AWS, Azure, Google Cloud, and Oracle Cloud, selecting the platform that best aligns with your workload, compliance, and cost objectives.",
-    },
-    {
-      q: "How do you ensure secure migrations with minimal downtime?",
-      a: "We use phased migration, blue/green deploys, database replication, and cutover windows with rollbacks. Identity hardening and encryption at-rest/in-transit are enforced throughout.",
-    },
-    {
-      q: "Do you help with cost optimization?",
-      a: "Yes. We implement rightsizing, autoscaling, reserved capacity, storage tiering, and observability-driven optimization to reduce waste while maintaining SLAs.",
-    },
-    {
-      q: "What compliance standards can you work with?",
-      a: "ISO 27001, SOC 2, HIPAA-like safeguards, and industry mandates. We integrate IAM controls, audit trails, encryption policies, and data residency requirements.",
-    },
-    {
-      q: "Do you provide ongoing management and support?",
-      a: "We offer 24/7 monitoring, patching, backup/restore, incident response, and continuous improvements via SRE/DevOps practices.",
-    },
-  ]
+  const faqs = data.faqs ?? [];
   return (
     <main className="bg-white">
       {/* Hero Section */}
@@ -261,33 +241,32 @@ export default function ServicePageTemplate({
           </section>
         )
       }
-      {/* FAQs Section */}
-      <section className="px-4 py-12">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-6">
-            <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-            <h2 className="text-3xl md:text-5xl font-medium">Frequently Asked Questions(FAQ's)<span className="text-[#FF6B5A]">.</span></h2>
+      {!!faqs.length && (
+        <section className="px-4 py-12">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center gap-6">
+              <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
+              <h2 className="text-3xl md:text-5xl font-medium">FAQs<span className="text-[#FF6B5A]">.</span></h2>
+            </div>
+            <div className="mt-6 md:mt-10 grid  gap-8">
+              <Accordion type="single" collapsible className="space-y-4">
+                {faqs.map((faq, i) => (
+                  <AccordionItem key={i} value={`faq-${i}`} className="rounded-2xl border data-[state=open]:bg-[#F4F6F8] transition-all duration-300 ">
+                    <AccordionTrigger className="px-4 py-4 text-left hover:no-underline cursor-pointer ">
+                      <div className="flex items-center justify-between w-full">
+                        <span className="font-medium text-[#1A1F3D]">{faq.q}</span>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent>
+                      <div className="px-4 pb-4 text-neutral-700">{faq.a}</div>
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </div>
           </div>
-          <div className="mt-6 md:mt-10 grid  gap-8">
-            <Accordion type="single" collapsible className="space-y-4">
-              {cloudFaqs.map((faq, i) => (
-                <AccordionItem key={i} value={`faq-${i}`} className="rounded-2xl border data-[state=open]:bg-[#F4F6F8] transition-all duration-300 ">
-                  <AccordionTrigger className="px-4 py-4 text-left hover:no-underline cursor-pointer ">
-                    <div className="flex items-center justify-between w-full">
-                      <span className="font-medium text-[#1A1F3D]">{faq.q}</span>
-                      {/* <ChevronDown className="h-5 w-5 shrink-0 transition-transform duration-300 data-[state=open]:rotate-180" aria-hidden /> */}
-                    </div>
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <div className="px-4 pb-4 text-neutral-700">{faq.a}</div>
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-            
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Final CTA */}
       <section className="mt-12 md:mt-16 px-4">

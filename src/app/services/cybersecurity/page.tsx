@@ -154,6 +154,13 @@ const cloudPageData = {
         ctaText: "know more",
         ctaLink: "/about"
     },
+    faqs: [
+        { q: "Do you provide end-to-end security coverage?", a: "Yes — network, endpoint, identity, data protection, vulnerability management, SIEM, incident response, and compliance." },
+        { q: "How do you handle compliance?", a: "We align controls and evidence to ISO 27001 and SOC 2, and implement audit trails, encryption, IAM and policy enforcement." },
+        { q: "What is your approach to vulnerability management?", a: "Continuous scanning, prioritization, remediation planning, and verification — tracked against SLAs with reporting." },
+        { q: "Can you integrate with our existing tools?", a: "Yes. We work with existing firewalls, EDR, IAM, SIEM, ticketing, and data platforms to avoid disruption." },
+        { q: "Do you offer 24/7 monitoring and response?", a: "We provide ongoing monitoring and incident response with defined playbooks, runbooks, and escalation processes." },
+    ],
     cta: {
         title: "Security is more than defense, it is trust.",
         description: "Sanjivani Edge strengthens that trust with intelligence, rigor, and continuity.",

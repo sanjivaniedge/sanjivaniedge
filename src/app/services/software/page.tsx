@@ -163,6 +163,13 @@ const softwarePageData = {
         ctaText: "know more",
         ctaLink: "/about"
     },
+    faqs: [
+        { q: "What delivery methodology do you use?", a: "Discovery and architecture first, then agile sprints with test automation, code reviews, and CI/CD." },
+        { q: "Can you integrate with our existing systems?", a: "Yes. We design stable APIs, data pipelines, and integrations for ERPs, CRMs, and legacy apps." },
+        { q: "How do you ensure code quality?", a: "Static analysis, unit and integration tests, peer reviews, and branch protection with CI gates." },
+        { q: "What about security?", a: "Secure coding practices, dependency audits, IAM, encryption in transit/at rest, and compliance-aligned controls." },
+        { q: "Do you provide maintenance and support?", a: "We offer SLAs for bug fixes, enhancements, monitoring, and performance optimization." },
+    ],
     cta: {
         title: "Software built with purpose endures.",
         description: "At Sanjivani Edge, we engineer systems that remain stable today and capable tomorrow.",
