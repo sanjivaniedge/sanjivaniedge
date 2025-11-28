@@ -16,16 +16,16 @@ export default function Footer() {
             <div className="text-[22px] md:text-[32px] font-bold text-center">Services</div>
             <div className="mt-6 md:mt-[56px] grid grid-cols-1 md:grid-cols-2 gap-x-8">
               <ul className="space-y-4 mb-4 md:mb-0 md:space-y-[28px] text-[16px] md:text-[18px] text-white/70">
-                <li><Link href="/services/software-development">Software Development</Link></li>
+                <li><Link href="/services/software">Software Development</Link></li>
                 <li><Link href="/services/cloud">Cloud Services</Link></li>
                 <li><Link href="/services/cybersecurity">Cybersecurity</Link></li>
                 <li><Link className="" href="/services/it-infrastructure">IT Infrastructure</Link></li>
               </ul>
               <ul className="space-y-4 md:space-y-[28px] text-[16px] md:text-[18px] text-white/70">
                 <li><Link href="/services/emerging">Emerging Technologies</Link></li>
-                <li><Link href="/services/consulting-support">Consulting & Support</Link></li>
-                <li><Link href="/services/bpo-services">BPO Services</Link></li>
-                <li><Link href="/services/erp-services">ERP Services</Link></li>
+                <li><Link href="/services/consulting">Consulting & Support</Link></li>
+                <li><Link href="/services/bpo">BPO Services</Link></li>
+                <li><Link href="/services/erp">ERP Services</Link></li>
               </ul>
             </div>
           </div>

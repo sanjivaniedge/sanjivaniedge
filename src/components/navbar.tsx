@@ -91,7 +91,12 @@ export default function Navbar() {
                 <Link href="/services" className="font-medium">All Services</Link>
                 <Link href="/services/software">Software Development</Link>
                 <Link href="/services/cloud">Cloud Services</Link>
-                <Link href="/services/infra">IT Infrastructure</Link>
+                <Link href="/services/cybersecurity">Cybersecurity</Link>
+                <Link href="/services/it-infrastructure">IT Infrastructure</Link>
+                <Link href="/services/emerging">Emerging Technologies</Link>
+                <Link href="/services/consulting">Consulting & Support</Link>
+                <Link href="/services/bpo">BPO</Link>
+                <Link href="/services/erp">ERP Services</Link>
               </div>
             )}
             <Link href="/industries" className="text-foreground">Industries</Link>
