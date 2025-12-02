@@ -1,9 +1,46 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, MapPin, Heart } from "lucide-react";
 import LegacySection from "@/components/ui/legacy-section";
+import { useState } from "react";
 
 export default function ContactPage() {
+  const [name, setName] = useState("");
+  const [organization, setOrganization] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [consent, setConsent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [status, setStatus] = useState<{ ok: boolean; error?: string } | null>(null);
+
+  const onSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setStatus(null);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, organization, email, phone, message, consent }),
+      });
+      const json = await res.json();
+      setStatus(json);
+      if (json?.ok) {
+        setName("");
+        setOrganization("");
+        setEmail("");
+        setPhone("");
+        setMessage("");
+        setConsent(false);
+      }
+    } catch (err) {
+      setStatus({ ok: false, error: "Network error" });
+    } finally {
+      setSubmitting(false);
+    }
+  };
   return (
     <main className="bg-white">
       <section className="px-4">
@@ -111,45 +148,54 @@ export default function ContactPage() {
           <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-white p-6">
             <h3 className="text-4xl font-medium mb-4 text-[#1A1F3D]">Reach Out to Sanjivani Edge.</h3>
             <p className="mt-2 text-[#606060]">Please share a few details about your requirement or area of interest, and a representative will connect with you.</p>
-            <form className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form onSubmit={onSubmit} className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="col-span-1">
                 <label className="block text-sm font-medium text-[#1A1F3D]">Name</label>
-                <input className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="John Doe" />
+                <input value={name} onChange={(e) => setName(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="John Doe" />
               </div>
               <div className="col-span-1">
                 <label className="block text-sm font-medium text-[#1A1F3D]">Organization</label>
-                <input className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Sanjivani Edge" />
+                <input value={organization} onChange={(e) => setOrganization(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Sanjivani Edge" />
               </div>
               <div className="col-span-1">
                 <label className="block text-sm font-medium text-[#1A1F3D]">Email ID</label>
-                <input type="email" className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="name@company.com" />
+                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="name@company.com" />
               </div>
               <div className="col-span-1">
                 <label className="block text-sm font-medium text-[#1A1F3D]">Phone No.</label>
-                <input className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="+91 98765 43210" />
+                <input value={phone} onChange={(e) => setPhone(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="+91 98765 43210" />
               </div>
               <div className="md:col-span-2">
                 <label className="block text-sm font-medium text-[#1A1F3D]">Requirement / Message</label>
-                <textarea rows={5} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Briefly describe your requirement" />
+                <textarea rows={5} value={message} onChange={(e) => setMessage(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Briefly describe your requirement" />
               </div>
               <div className="md:col-span-2 flex items-center gap-3">
-                <input id="consent-2" type="checkbox" className="h-4 w-4" />
+                <input id="consent-2" type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="h-4 w-4" />
                 <label htmlFor="consent-2" className="text-sm text-[#606060]">I consent to being contacted for this inquiry.</label>
               </div>
               <div className="md:col-span-2">
-                <button type="button" className="inline-flex items-center gap-2 rounded-[6px] px-6 py-3 text-white"
+                <button type="submit" disabled={submitting} className="inline-flex items-center gap-2 rounded-[6px] px-6 py-3 text-white disabled:opacity-70"
                   style={{
                     background: "linear-gradient(180deg, rgba(255, 107, 90, 1) 0%, rgba(229, 83, 67, 1) 100%)",
                     border: "1px solid",
                     borderImage: "",
                   }}
                 >
-                  Send Message
+                  {submitting ? "Sending..." : "Send Message"}
                   <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none">
                     <path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                   </svg>
                 </button>
               </div>
+              {!!status && (
+                <div className="md:col-span-2 text-sm">
+                  {status.ok ? (
+                    <span className="text-green-600">Your message has been sent.</span>
+                  ) : (
+                    <span className="text-red-600">{status.error || "Something went wrong."}</span>
+                  )}
+                </div>
+              )}
             </form>
           </div>
           <div className="relative w-full h-full rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden shadow-[0px_10px_0px_0px_rgba(1,117,178,1)]">
