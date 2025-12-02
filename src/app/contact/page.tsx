@@ -129,7 +129,7 @@ export default function ContactPage() {
 
 
               <p className="">
-                At Khirdi Ganesh, S. No. 88/2,
+                Khirdi Ganesh, S. No. 88/2,
                 Kopergaon, Kopergaon,
                 Ahmed Nagar – 423601,
                 Maharashtra</p>
@@ -283,8 +283,7 @@ export default function ContactPage() {
               At Sanjivani Edge, every engagement — however small — begins with intent and integrity. Because progress, when rooted in purpose, creates outcomes that last.
             </>),
           ]}
-          ctaHref="/legacy"
-          ctaLabel="Discover"
+          ctaHref={null}
         />
       </section>
     </main>

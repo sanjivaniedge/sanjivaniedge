@@ -45,7 +45,7 @@ const bpoPageData = {
       { title: "SOP Design", content: "Runbooks, QA, and reporting.", image: "/Images/time-bpo/SOP-design.webp" },
       { title: "Training", content: "Analytics, automation, and refinements.", image: "/Images/time-bpo/Training.webp" },
       { title: "Execution", content: "Continuous process improvement.", image: "/Images/time-bpo/Execution.webp" },
-      { title: "Quality Check", content: "Regular reviews, feedback loops, and process refinements.", image: "/Images/time-bpo/Quality-check.webp" },  
+      { title: "Quality Check", content: "Regular reviews, feedback loops, and process refinements.", image: "/Images/time-bpo/Quality-check.webp" },
       { title: "Reporting", content: "Data-driven decisions, process optimization, and customer feedback.", image: "/Images/time-bpo/Reporting.webp" },
     ],
   },
@@ -72,8 +72,8 @@ const bpoPageData = {
   cta: {
     title: "Processes shape performance",
     description: "Sanjivani Edge ensures those processes remain precise, scalable, and dependable.",
-    buttonText: "Explore BPO",
-    buttonHref: "/contact",
+    buttonText: "Start Your Project",
+    buttonHref: "/contact"
   },
 };
 

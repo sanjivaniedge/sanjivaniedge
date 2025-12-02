@@ -214,8 +214,8 @@ export default function AboutPage() {
               it is a commitment to responsible transformation
             </>),
           ]}
-          ctaHref="/legacy"
-          ctaLabel="Contact With Us"
+          ctaHref="/contact"
+          ctaLabel="Start Your Project"
         />
 
       </section>

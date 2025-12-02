@@ -39,7 +39,7 @@ export function LegacySection({
   /** One or more paragraphs displayed under the heading. */
   paragraphs?: ReactNode[];
   /** Link destination for the CTA button. */
-  ctaHref?: string;
+  ctaHref?: string | null;
   /** Label text for the CTA button. */
   ctaLabel?: string;
   /** Background image used for the tile. */
@@ -87,8 +87,8 @@ export function LegacySection({
   const finalParagraphs: ReactNode[] = (paragraphs && paragraphs.length)
     ? paragraphs
     : description
-    ? [description]
-    : [];
+      ? [description]
+      : [];
 
   const TitleTag = titleAs;
   const defaultTitleClasses = "text-2xl md:text-[48px] font-medium text-[#1A1F3D]";
@@ -122,7 +122,7 @@ export function LegacySection({
                 ))}
               </div>
             )}
-            <EdgeLinkButton className={ctaClassName} href={ctaHref}>{ctaText ?? ctaLabel}</EdgeLinkButton>
+            {ctaHref && <EdgeLinkButton className={ctaClassName} href={ctaHref}>{ctaText ?? ctaLabel}</EdgeLinkButton>}
           </div>
         </div>
       </div>

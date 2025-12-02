@@ -80,8 +80,8 @@ const consultingPageData = {
   cta: {
     title: "Guidance strengthens execution.",
     description: "Sanjivani Edge ensures enterprises move forward with clarity and confidence.",
-    buttonText: "Talk to Consulting",
-    buttonHref: "/contact",
+        buttonText: "Start Your Project",
+        buttonHref: "/contact"
   },
 };
 

@@ -13,7 +13,7 @@ const cloudPageData = {
             {
                 title: "Network Security",
                 description: "Firewalls, intrusion prevention, and threat detection.",
-                tools: "Tools: Cisco, Fortinet, Palo Alto",
+                tools: "Cisco, Fortinet, Palo Alto",
                 image: "/Images/cap-cyber/Network-Security.webp"
             },
             {
@@ -164,7 +164,7 @@ const cloudPageData = {
     cta: {
         title: "Security is more than defense, it is trust.",
         description: "Sanjivani Edge strengthens that trust with intelligence, rigor, and continuity.",
-        buttonText: "Explore Cloud Solutions",
+        buttonText: "Start Your Project",
         buttonHref: "/contact"
     }
 };

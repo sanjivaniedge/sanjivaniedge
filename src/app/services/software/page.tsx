@@ -13,13 +13,13 @@ const softwarePageData = {
             {
                 title: "Custom Software Solutions",
                 description: "Tailored applications built for domain-specific needs and operational transformation.",
-                tools: "Tools: .NET, Java, Python, Jira",
+                tools: ".NET, Java, Python, Jira",
                 image: "/Images/Custom-Software-Solutions.webp"
             },
             {
                 title: "Web Application Development",
                 description: "High-performance web platforms optimized for speed, usability, and global interaction. ",
-                tools: "Tools: React, Angular, Node.js, Selenium",
+                tools: "React, Angular, Node.js, Selenium",
                 image: "/Images/Web-Application-Development.webp"
             },
             {

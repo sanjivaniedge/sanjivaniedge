@@ -47,26 +47,26 @@ const erpPageData = {
       { title: "Configuration", content: "APIs, pipelines, and testing.", image: "/Images/time-erp/Configuration.webp" },
       { title: "Testing", content: "Enable teams and transition.", image: "/Images/time-erp/Testing.webp" },
       { title: "Deployment", content: "Support, metrics, and improvements.", image: "/Images/time-erp/Deployment.webp" },
-      { title: "Hypercare", content: "Regular reviews, feedback loops, and process enhancements.", image: "/Images/time-erp/Hypercare.webp" },  
+      { title: "Hypercare", content: "Regular reviews, feedback loops, and process enhancements.", image: "/Images/time-erp/Hypercare.webp" },
       { title: "AMS", content: "Support, metrics, and improvements.", image: "/Images/time-erp/AMS.webp" },
-    
+
     ],
   },
-    philosophy: {
-        title: "How We Define Success",
-        description: "Our success is measured by the tangible impact we create for your business through technology.",
-        image: "/Images/erp.webp",
-        imageAlt: "How We Define Success",
-        successMetrics: [
-            "Smooth go-live with minimal disruption",
-            "Improved business process efficiency",
-            "Accurate data and reporting",
-            "Lower operational errors",
-            "Strong user enablement"
-        ],
-        ctaText: "know more",
-        ctaLink: "/about"
-    },
+  philosophy: {
+    title: "How We Define Success",
+    description: "Our success is measured by the tangible impact we create for your business through technology.",
+    image: "/Images/erp.webp",
+    imageAlt: "How We Define Success",
+    successMetrics: [
+      "Smooth go-live with minimal disruption",
+      "Improved business process efficiency",
+      "Accurate data and reporting",
+      "Lower operational errors",
+      "Strong user enablement"
+    ],
+    ctaText: "know more",
+    ctaLink: "/about"
+  },
   faqs: [
     { q: "Which ERPs do you work with?", a: "SAP and Oracle, alongside integrations with CRMs, data platforms, and custom applications." },
     { q: "Can you migrate data?", a: "Yes — data extraction, cleansing, mapping, and validation with reconciliation reports." },
@@ -77,8 +77,8 @@ const erpPageData = {
   cta: {
     title: "ERP modernization is more than system change — it is organizational evolution.",
     description: "Sanjivani Edge ensures that evolution is smooth, strategic, and sustainable.",
-    buttonText: "Explore ERP",
-    buttonHref: "/contact",
+    buttonText: "Start Your Project",
+    buttonHref: "/contact"
   },
 };
 

@@ -15,7 +15,7 @@ const cloudPageData = {
       {
         title: "Cloud Consulting",
         description: "FCloud readiness assessments and architecture strategies aligned to enterprise goals.",
-        tools: " AWS, Azure, Google Cloud",
+        tools: "AWS, Azure, Google Cloud",
         image:
           "/Images/cap-cloud/Cloud-Consulting.webp",
       },
@@ -193,8 +193,8 @@ const cloudPageData = {
     title: "Cloud, when architected responsibly, becomes a multiplier of enterprise performance.",
     description:
       "Sanjivani Edge ensures that multiplier is reliable and enduring.",
-    buttonText: "Explore Cloud Solutions",
-    buttonHref: "/contact",
+        buttonText: "Start Your Project",
+        buttonHref: "/contact"
   },
 };
 

@@ -144,8 +144,8 @@ const infraPageData = {
     title: "Infrastructure must be invisible — seen only when it fails.",
     description:
       "Sanjivani Edge ensures it never does.",
-    buttonText: "Explore Infrastructure",
-    buttonHref: "/contact",
+        buttonText: "Start Your Project",
+        buttonHref: "/contact"
   },
 };
 

@@ -351,7 +351,7 @@ export default function Hero() {
                         Delivering IT, ERP, and Digital Transformation Solutions that power enterprise evolution
                     </p>
                     <div className="mx-auto">
-                        <EdgeLinkButton href="/solutions">EXPLORE THE EDGE</EdgeLinkButton>
+                        <EdgeLinkButton href="/services">EXPLORE THE EDGE</EdgeLinkButton>
                     </div>
                 </div>
             </section>
@@ -398,7 +398,7 @@ export default function Hero() {
                                 ))}
                             </ul>
                         </div>
-                        <EdgeLinkButton className="bg-[#FF6B5A] text-white" href="/contact">Know More</EdgeLinkButton>
+                        <EdgeLinkButton className="bg-[#FF6B5A] text-white" href="/about">Know More</EdgeLinkButton>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-6 md:gap-[31px]">
                         <SpeedoCounter value={60} suffix="+" className="text-[160px] md:text-[257px] font-extrabold tracking-[-0.04em] leading-none text-brand" />
@@ -440,7 +440,7 @@ export default function Hero() {
                             <p className="text-sm md:text-base text-foreground/80">In a world driven by speed, <span className="font-semibold">Sanjivani Edge</span> emphasizes direction.</p>
                             <p className="text-sm md:text-base text-foreground/80">Innovation here is not about disruption, it’s about designing systems that last.</p>
                         </div>
-                        <EdgeLinkButton className="bg-[#FF6B5A] text-white max-w-[225px]" href="/philosophy">KNOW MORE</EdgeLinkButton>
+                        <EdgeLinkButton className="bg-[#FF6B5A] text-white max-w-[225px]" href="/about">KNOW MORE</EdgeLinkButton>
                     </div>
                 </div>
             </section>
@@ -496,8 +496,8 @@ export default function Hero() {
                         carries forward that same promise, to build systems that sustain growth and ideas that outlast change.
                     </>),
                 ]}
-                ctaHref="/legacy"
-                ctaLabel="Discover"
+                ctaHref="/contact"
+                ctaLabel="Start Your Project"
             />
         </div>
     )

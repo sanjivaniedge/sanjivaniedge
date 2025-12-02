@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
+import Link from "next/link";
 
 interface CapabilityItem {
   title: string;
@@ -116,23 +117,24 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
                 </AccordionItem>
               ))}
             </Accordion>
-
-            <button className="bg-[#FF6B5A] text-white px-8 py-3 rounded-md flex items-center gap-3 hover:bg-[#e55a4a] transition-colors mt-8">
-              CONNECT WITH US
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="-rotate-45"
-              >
-                <path
-                  d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
+            <Link href="/contact">
+              <button className="bg-[#FF6B5A] text-white px-8 py-3 rounded-md cursor-pointer flex items-center gap-3 hover:bg-[#e55a4a] transition-colors mt-8">
+                CONNECT WITH US
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="-rotate-45"
+                >
+                  <path
+                    d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </Link>
           </div>
 
           <div className="relative h-[600px] w-full hidden lg:block rounded-lg overflow-hidden ">
