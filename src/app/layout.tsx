@@ -15,8 +15,12 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.sanjivaniedge.com"),
   title: "Sanjivani Edge",
   description: "Rooted in Values. Engineered for the Future.",
+  alternates: {
+    canonical: "./",
+  },
 };
 
 export const viewport: Viewport = {

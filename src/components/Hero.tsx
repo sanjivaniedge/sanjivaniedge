@@ -105,6 +105,23 @@ function SpeedoCounter({ value, suffix = "", className = "" }: { value: number; 
     return <div ref={ref} className={className}>{`${value}${suffix}`}</div>;
 }
 function CapabilityCard({ title, points, href, illus, imageSrc, imageAlt }: { title: string; points: string[]; href: string; illus?: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp"; imageSrc?: string; imageAlt?: string }) {
+
+    const getSrc = () => {
+        if (imageSrc) return imageSrc;
+        switch (illus) {
+            case "screen": return "/figma/capabilities-software.png";
+            case "cloud": return "/figma/capabilities-cloud.png";
+            case "shield": return "/figma/capabilities-shield.png";
+            case "infra": return "/figma/capabilities-infra.png";
+            case "emerge": return "/figma/Emerge.png";
+            case "consulting": return "/figma/capabilities-consulting-725558.png";
+            case "bpo": return "/figma/capabilities-bpo-c73d5a.png";
+            case "erp": return "/figma/capabilities-erp-2f97a5.png";
+            default: return "";
+        }
+    };
+    const finalSrc = getSrc();
+
     return (
         <div className="cap-card relative h-[420px] md:h-[336px] rounded-[10px] bg-[color:var(--tile-fill)] px-6 py-6 sm:px-8 sm:py-8 md:px-11 md:py-9 flex flex-col md:flex-row items-start md:items-center justify-between">
             <div className="max-w-xl">
@@ -119,39 +136,10 @@ function CapabilityCard({ title, points, href, illus, imageSrc, imageAlt }: { ti
                 </Link>
             </div>
             <div className="mt-6 md:mt-0 md:ml-6 opacity-80 w-full md:w-[200px] h-[140px] md:h-full flex items-end justify-end">
-                <CardContainer containerClassName="py-0" className="w-full h-full">
+                <CardContainer containerClassName="py-0 w-full h-full" className="w-full h-full">
                     <CardBody className="w-full h-full">
                         <CardItem translateZ={50} className="w-full h-full cursor-pointer">
-                            {imageSrc ? (
-                                <Image src={imageSrc} alt={imageAlt ?? `${title} illustration`} width={200} height={200} className="object-contain w-auto lg:h-full h-[150px]" />
-                            ) : (
-                                <>
-                                    {illus === "screen" && (
-                                        <Image src="/figma/capabilities-software.png" alt="Software illustration" width={200} height={200} className="object-contain w-auto  h-full " />
-                                    )}
-                                    {illus === "cloud" && (
-                                        <Image src="/figma/capabilities-cloud.png" alt="Cloud illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                    {illus === "shield" && (
-                                        <Image src="/figma/capabilities-shield.png" alt="Cybersecurity illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                    {illus === "infra" && (
-                                        <Image src="/figma/capabilities-infra.png" alt="Infrastructure illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                    {illus === "emerge" && (
-                                        <Image src="/figma/Emerge.png" alt="Emerging Technologies" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                    {illus === "consulting" && (
-                                        <Image src="/figma/capabilities-consulting-725558.png" alt="Consulting & Support illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                    {illus === "bpo" && (
-                                        <Image src="/figma/capabilities-bpo-c73d5a.png" alt="BPO Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                    {illus === "erp" && (
-                                        <Image src="/figma/capabilities-erp-2f97a5.png" alt="ERP Services illustration" width={200} height={200} className="object-contain w-auto h-full" />
-                                    )}
-                                </>
-                            )}
+                            {finalSrc && <PixelImage src={finalSrc} className="w-full h-full" />}
                         </CardItem>
                     </CardBody>
                 </CardContainer>
@@ -467,7 +455,6 @@ export default function Hero() {
             </section>
 
             {/* Frequently Asked Questions(FAQ's) */}
-
             <section className="max-w-6xl px-4 py-12">
                 <div className="flex items-center gap-6 md:gap-14">
                     <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />

@@ -72,9 +72,8 @@ export const PixelImage = ({
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
+          if (entry.isIntersecting) {
             setIsVisible(true)
-            setShowColor(false)
             if (colorTimeoutRef.current) {
               clearTimeout(colorTimeoutRef.current)
             }
@@ -91,7 +90,7 @@ export const PixelImage = ({
           }
         })
       },
-      { threshold: [0.25, 0.5, 0.75] }
+      { threshold: [0.1, 0.25, 0.5], rootMargin: "-20% 0px -20% 0px" }
     )
     io.observe(el)
     return () => {
