@@ -4,11 +4,18 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (path: string) => pathname === path;
+  const isServicesActive = pathname.startsWith("/services");
+  const activeClass = "text-[#FD6858] font-medium";
+  const linkClass = "text-foreground hover:text-brand";
 
   useEffect(() => {
     const onScroll = () => {
@@ -25,20 +32,20 @@ export default function Navbar() {
           <Image src="/logo/logo.webp" alt="Sanjivani Edge" width={150} height={150} />
         </Link>
         <nav className="hidden lg:flex items-center gap-8 text-sm">
-          <Link href="/" className="text-[#FD6858] font-medium">Home</Link>
-          <Link href="/about" className="text-foreground hover:text-brand">About Us</Link>
+          <Link href="/" className={isActive("/") ? activeClass : linkClass}>Home</Link>
+          <Link href="/about" className={isActive("/about") ? activeClass : linkClass}>About Us</Link>
           <div
             className="relative"
             onMouseEnter={() => setServicesOpen(true)}
             onMouseLeave={() => setServicesOpen(false)}
           >
             <button
-              className="inline-flex items-center gap-1 text-foreground hover:text-brand"
+              className={`inline-flex items-center gap-1 ${isServicesActive ? activeClass : linkClass}`}
               onClick={() => setServicesOpen((v) => !v)}
               aria-haspopup="menu"
               aria-expanded={servicesOpen}
             >
-              <Link href="/services" className="hover:text-brand">Services</Link> <ChevronDown className="h-4 w-4" />
+              <Link href="/services" className={isServicesActive ? activeClass : linkClass}>Services</Link> <ChevronDown className="h-4 w-4" />
             </button>
             {servicesOpen && (
               <div className="absolute left-0 -mt-1 w-52 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)] z-50">
@@ -59,8 +66,8 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <Link href="/industries" className="text-foreground hover:text-brand">Industries</Link>
-          <Link href="/resources" className="text-foreground hover:text-brand">Resources</Link>
+          <Link href="/blogs" className={isActive("/blogs") ? activeClass : linkClass}>Blogs</Link>
+          {/* <Link href="/resources" className="text-foreground hover:text-brand">Resources</Link> */}
         </nav>
         <div className="flex items-center gap-3">
           <Link
@@ -78,35 +85,35 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      {open && (
-        <div className="lg:hidden border-t border-[color:var(--tile-stroke)] p-6">
-          <div className="container py-3 flex flex-col gap-3 text-sm">
-            <Link href="/" className="text-[#FD6858] font-medium">Home</Link>
-            <Link href="/about" className="text-foreground">About Us</Link>
-            <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setServicesOpen((v) => !v)}>
-              Services <ChevronDown className="h-4 w-4" />
-            </button>
-            {servicesOpen && (
-              <div className="pl-4 flex flex-col gap-2 z-10">
-                <Link href="/services" className="font-medium">All Services</Link>
-                <Link href="/services/software">Software Development</Link>
-                <Link href="/services/cloud">Cloud Services</Link>
-                <Link href="/services/cybersecurity">Cybersecurity</Link>
-                <Link href="/services/it-infrastructure">IT Infrastructure</Link>
-                <Link href="/services/emerging">Emerging Technologies</Link>
-                <Link href="/services/consulting">Consulting & Support</Link>
-                <Link href="/services/bpo">BPO</Link>
-                <Link href="/services/erp">ERP Services</Link>
-              </div>
-            )}
-            <Link href="/industries" className="text-foreground">Industries</Link>
-            <Link href="/resources" className="text-foreground">Resources</Link>
-            <Button variant="primary" size="sm" className="mt-2 w-full uppercase tracking-wide">
-              GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
-            </Button>
+        {open && (
+          <div className="lg:hidden border-t border-[color:var(--tile-stroke)] p-6">
+            <div className="container py-3 flex flex-col gap-3 text-sm">
+            <Link href="/" className={isActive("/") ? activeClass : "text-foreground"}>Home</Link>
+            <Link href="/about" className={isActive("/about") ? activeClass : "text-foreground"}>About Us</Link>
+              <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setServicesOpen((v) => !v)}>
+                Services <ChevronDown className="h-4 w-4" />
+              </button>
+              {servicesOpen && (
+                <div className="pl-4 flex flex-col gap-2 z-10">
+                <Link href="/services" className={isServicesActive ? activeClass : "font-medium"}>All Services</Link>
+                <Link href="/services/software" className={pathname === "/services/software" ? activeClass : undefined}>Software Development</Link>
+                <Link href="/services/cloud" className={pathname === "/services/cloud" ? activeClass : undefined}>Cloud Services</Link>
+                <Link href="/services/cybersecurity" className={pathname === "/services/cybersecurity" ? activeClass : undefined}>Cybersecurity</Link>
+                <Link href="/services/it-infrastructure" className={pathname === "/services/it-infrastructure" ? activeClass : undefined}>IT Infrastructure</Link>
+                <Link href="/services/emerging" className={pathname === "/services/emerging" ? activeClass : undefined}>Emerging Technologies</Link>
+                <Link href="/services/consulting" className={pathname === "/services/consulting" ? activeClass : undefined}>Consulting & Support</Link>
+                <Link href="/services/bpo" className={pathname === "/services/bpo" ? activeClass : undefined}>BPO</Link>
+                <Link href="/services/erp" className={pathname === "/services/erp" ? activeClass : undefined}>ERP Services</Link>
+                </div>
+              )}
+            <Link href="/industries" className={isActive("/industries") ? activeClass : "text-foreground"}>Industries</Link>
+            <Link href="/resources" className={isActive("/resources") ? activeClass : "text-foreground"}>Resources</Link>
+              <Button variant="primary" size="sm" className="mt-2 w-full uppercase tracking-wide">
+                GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
+              </Button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
     </header>
   );
 }
