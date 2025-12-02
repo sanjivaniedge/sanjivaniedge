@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
+  verification: {
+    google: "bDWjaHgJkN2byd8rmS5eingNDincuJBBBOtTVArI-vQ",
+  },
 };
 
 export const viewport: Viewport = {
@@ -37,12 +40,12 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${manrope.variable} antialiased`}
       >
-              <Navbar />
-   
+        <Navbar />
 
-   
+
+
         {children}
-           <Footer />
+        <Footer />
       </body>
     </html>
   );
