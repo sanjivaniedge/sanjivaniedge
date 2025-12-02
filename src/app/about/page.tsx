@@ -38,9 +38,9 @@ export default function AboutPage() {
             <div className="relative z-10 px-[24px] md:px-0 py-10 md:py-12">
               <div className="mx-auto max-w-7xl">
                 <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.366] text-[#1A1F3D]">
-                  Legacy of Purpose<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
+                  Legacy of Purpose<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
                   <br />
-                  Language of Progress<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
+                  Language of Progress<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
                 </h1>
                 <p className="mt-[24px] text-[16px] md:text-[18px] font-medium leading-[1.6] text-[#606060] max-w-[900px]">
                   Sanjivani Edge is where six decades of trust meet the precision of modern technology — a convergence of experience, ethics, and enterprise transformation.
