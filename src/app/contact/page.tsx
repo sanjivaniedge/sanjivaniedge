@@ -216,7 +216,14 @@ export default function ContactPage() {
             </form>
           </div>
           <div className="relative w-full h-full rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden shadow-[0px_10px_0px_0px_rgba(1,117,178,1)]">
-            <Image src="/Images/contact/form-map-1833f9.png" alt="Map" fill className="object-cover" />
+            <video
+              src="/video/contact.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+            />
             <div className="absolute inset-0 p-4 md:p-6 flex items-center justify-center">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-[90%] max-w-[660px] ">
                 <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4 h-[150px]">
