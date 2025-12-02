@@ -45,13 +45,13 @@ export default function ContactPage() {
   };
   return (
     <main className="bg-white">
-      <section className="px-4">
-        <div className="mx-auto max-w-7xl">
-          <div className="relative overflow-hidden rounded-[20px] h-auto mt-14">
+      <section className="px-4 bg-gradient-to-b from-white to-[#0175B2]/20 rounded-2xl ">
+        <div className="mx-auto max-w-6xl ">
+          <div className="relative overflow-hidden rounded-[20px] h-[50vh] mt-14 ">
             <div className="">
               <Image src="/Images/contact-banner.webp" alt="Decor Waves" fill className="object-cover " />
             </div>
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/60" />
             <div className="relative z-10 px-[24px] md:px-0 py-12 md:py-0 flex flex-col items-center text-center">
               <div className="mx-auto md:my-[80px] max-w-7xl">
                 <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.366] text-white">
