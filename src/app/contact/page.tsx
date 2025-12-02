@@ -111,22 +111,33 @@ export default function ContactPage() {
 
       <section className="py-12 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="rounded-[10px] h-[400px] flex flex-col justify-center items-center  border border-[color:var(--tile-stroke)] bg-[#E8E4F333] p-6">
-            <h3 className="text-4xl font-medium text-[#1A1F3D] text-left">Office Address</h3>
+          <div className="rounded-[10px] h-fullflex flex-col justify-center items-center  border border-[color:var(--tile-stroke)] bg-[#E8E4F333] p-6">
+            <h3 className="text-4xl font-medium text-[#1A1F3D] ">Office Address</h3>
             <div className="mt-4 text-[#606060] whitespace-pre-line">
-              <p className="mb-4">
+              <p className="text-[#0175B2] font-semibold mb-4">
+                SANJIVANI EDGE PRIVATE LIMITED
+              </p>
+              <p className="mb-2 text-2xl font-semibold">
                 Corporate Office
               </p>
-              <p className="text-[#0175B2] font-medium mb-4">
-                Sanjivani Edge Pvt.
-              </p>
-              <p>
+
+              <p className="mb-6">
                 Trapezoid IT Park, C-27,<br />3rd Floor, Sec-62, Noida-201369
               </p>
 
+              <p className="font-semibold mb-2 text-2xl">Registered Office Address</p>
+
+
+              <p className="">
+                At Khirdi Ganesh, S. No. 88/2,
+                Kopergaon, Kopergaon,
+                Ahmed Nagar – 423601,
+                Maharashtra</p>
+
             </div>
+
           </div>
-          <div className="relative h-[400px] rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden">
+          <div className="relative h-full rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden">
             {(() => {
               const officeAddress = "Trapezoid IT Park, C-27, 3rd Floor, Sec-62, Noida-201369";
               const src = `https://www.google.com/maps?q=${encodeURIComponent(officeAddress)}&output=embed`;
