@@ -44,10 +44,10 @@ export default function ContactPage() {
     }
   };
   return (
-    <main className="bg-white">
+    <main className="bg-white  ">
       <section className="px-4 bg-gradient-to-b from-white to-[#0175B2]/20 rounded-2xl ">
-        <div className="mx-auto max-w-6xl ">
-          <div className="relative overflow-hidden rounded-[20px] h-[50vh] mt-14 ">
+        <div className="">
+          <div className="relative overflow-hidden rounded-[20px] h-[50vh] mt-14 mx-auto max-w-6xl">
             <div className="">
               <Image src="/Images/contact-banner.webp" alt="Decor Waves" fill className="object-cover " />
             </div>
@@ -79,7 +79,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Channels */}
-      <section className="py-12 px-4">
+      <section className="py-12 px-4 mx-auto max-w-6xl ">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-6 mb-8">
 
