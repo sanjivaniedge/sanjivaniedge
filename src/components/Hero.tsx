@@ -348,19 +348,19 @@ export default function Hero() {
             </div>
             {/* Hero Section  */}
             <section className="relative h-[95vh] max-w-6xl grid gap-6 pt-20  px-4 text-center ">
-                <div className="bg-white/50 max-w-3xl mx-auto p-4 rounded-full space-y-4 flex justify-center items-center flex-col md:mt-[-10vw] mt-[-20vh]">
+                <div className="bg-white/50 max-w-4xl mx-auto p-4 rounded-full space-y-4 flex justify-center items-center flex-col md:mt-[-10vw] mt-[-20vh]">
                     <motion.h1
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
-                        className="mx-auto max-w-3xl text-4xl font-medium leading-tight tracking-tight md:text-6xl "
+                        className="mx-auto max-w-6xl text-4xl font-medium leading-tight tracking-tight md:text-6xl "
                     >
-                        Rooted in Values.
+                        Rooted in Values<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
                         <br />
-                        <span className="font-bold">Engineered for the <span className="text-brand">Future</span>.</span>
+                        <span className="font-bold">Engineered for the <span className="text-brand">Future</span><span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></span>
                     </motion.h1>
                     <p className="mx-auto max-w-3xl pb-10 font-bold">
-                        Delivering IT, ERP, and Digital Transformation Solutions that power enterprise evolution.
+                        Delivering IT, ERP, and Digital Transformation Solutions that power enterprise evolution
                     </p>
                     <div className="mx-auto">
                         <EdgeLinkButton href="/solutions">EXPLORE THE EDGE</EdgeLinkButton>
@@ -384,7 +384,7 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center gap-6 md:gap-14">
                     <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-                    <h2 className="text-4xl md:text-[64px] font-medium text-[#1A1F3D]">The Evolution<span className="text-accent">.</span></h2>
+                    <h2 className="text-4xl md:text-6xl font-medium text-[#1A1F3D]">The Evolution<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
                 </div>
                 <div className="mt-8 md:mt-10 grid md:grid-cols-2 items-center gap-10 md:gap-[176px] py-4">
                     <div className="space-y-[54px] max-w-[540px]">
@@ -422,7 +422,7 @@ export default function Hero() {
             {/* Capabilities Section  */}
             <section id="capabilities" className="max-w-6xl mx-auto py-6 md:pt-10 px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16 xl:gap-[140px] 2xl:gap-[206px]">
-                    <h2 className=" text-4xl md:text-[48px] xl:text-[56px] 2xl:text-[64px] leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-accent">.</span></h2>
+                    <h2 className=" text-3xl md:text-6xl  leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
                     <p className="md:text-right text-[#606060] max-w-[526px]">Eight domains. One integrated vision, to build digital systems that are stable today and ready for tomorrow.</p>
                 </div>
                 <CapabilitiesCarousel />
@@ -435,7 +435,7 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center gap-6 md:gap-14">
                     <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-                    <h2 className="text-4xl md:text-[64px] font-medium text-[#1A1F3D]">The Philosophy<span className="text-accent">.</span></h2>
+                    <h2 className="text-4xl md:text-[64px] font-medium text-[#1A1F3D]">The Philosophy<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
                 </div>
                 <div className="mt-6 grid md:grid-cols-2 items-center gap-8 md:gap-[99px] py-4">
                     <CardContainer containerClassName="py-0" className="w-full rounded-lg overflow-hidden border border-[color:var(--tile-stroke)] bg-white">
@@ -461,7 +461,7 @@ export default function Hero() {
             <section id="industries" className="w-full py-0 md:pt-10 max-w-6xl mx-auto relative ">
                 <Timeline
                     data={industriesTimeline}
-                    title="Industries Served."
+                    title={<span>Industries Served<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></span>}
                     description="Across sectors, Sanjivani Edge delivers technology that scales intelligently, combining domain depth with operational precision."
                 />
             </section>
@@ -471,7 +471,7 @@ export default function Hero() {
             <section className="max-w-6xl px-4 py-12">
                 <div className="flex items-center gap-6 md:gap-14">
                     <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-                    <h2 className="text-4xl md:text-[52px] font-medium text-[#1A1F3D]">FAQs<span className="text-accent">.</span></h2>
+                    <h2 className="text-4xl md:text-[52px] font-medium text-[#1A1F3D]">FAQs<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
                 </div>
                 <div className="mt-8 grid gap-8">
                     <Accordion type="single" collapsible className="space-y-4">

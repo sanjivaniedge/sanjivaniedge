@@ -47,7 +47,7 @@ export default function ContactPage() {
             <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
             <h2 className="text-3xl md:text-6xl font-medium">
               <span className="">Contact Channels</span>
-              <span className="text-[#FF6B5A]">.</span>
+              <span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

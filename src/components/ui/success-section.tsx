@@ -58,7 +58,7 @@ export function SuccessSection({ data }: SuccessSectionProps) {
             color: "#1A1F3D",
           }}>
           {data.title}
-          <span className="text-[#FF6B5A]">.</span>
+          <span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
         </h2>
       </div>
 

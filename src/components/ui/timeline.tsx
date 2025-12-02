@@ -54,7 +54,7 @@ export const Timeline = ({
   descriptionClassName,
 }: {
   data: TimelineEntry[];
-  title?: string;
+  title?: React.ReactNode;
   description?: string;
   titleClassName?: string;
   className?: string;

@@ -226,7 +226,7 @@ export default function ServicePageTemplate({
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center gap-6">
               <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
-              <h2 className="text-3xl md:text-5xl font-medium">FAQs<span className="text-[#FF6B5A]">.</span></h2>
+              <h2 className="text-3xl md:text-5xl font-medium">FAQs<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
             </div>
             <div className="mt-6 md:mt-10 grid  gap-8">
               <Accordion type="single" collapsible className="space-y-4">

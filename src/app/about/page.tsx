@@ -38,9 +38,9 @@ export default function AboutPage() {
             <div className="relative z-10 px-[24px] md:px-0 py-10 md:py-12">
               <div className="mx-auto max-w-7xl">
                 <h1 className="text-[40px] md:text-[64px] font-bold leading-[1.366] text-[#1A1F3D]">
-                  Legacy of Purpose<span className="text-[#FF6B5A]">....</span>
+                  Legacy of Purpose<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
                   <br />
-                  Language of Progress<span className="text-[#FF6B5A]">....</span>
+                  Language of Progress<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
                 </h1>
                 <p className="mt-[24px] text-[16px] md:text-[18px] font-medium leading-[1.6] text-[#606060] max-w-[900px]">
                   Sanjivani Edge is where six decades of trust meet the precision of modern technology — a convergence of experience, ethics, and enterprise transformation.
@@ -98,7 +98,7 @@ export default function AboutPage() {
     bg-[linear-gradient(rgba(26,31,61,0.8),rgba(26,31,61,0.85)),url('/Images/who-about.webp')]
     bg-cover bg-center bg-no-repeat">
           <h3 className="text-4xl md:text-6xl font-medium text-center">
-            Our Core Principles<span className="text-[#FF6B5A]">.</span>
+            Our Core Principles<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
           </h3>
 
           <div className="mt-10  flex flex-wrap justify-center gap-4 mb-10">
@@ -125,7 +125,7 @@ export default function AboutPage() {
       <section className="px-4 py-12">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <h3 className="text-4xl md:text-6xl font-medium mb-10">
-            The Sanjivani Legacy<span className="text-[#FF6B5A]">.</span>
+            The Sanjivani Legacy<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
           </h3>
           <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
         </div>
@@ -151,7 +151,7 @@ export default function AboutPage() {
       {/* <section className="px-4 py-12">
         <div>
           <h3 className="text-4xl md:text-6xl font-medium  md:text-left text-center  text-[#1A1F3D]">
-            Leadership<span className="text-[#FF6B5A]">.</span>
+            Leadership<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
           </h3>
 
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">

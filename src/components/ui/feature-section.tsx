@@ -58,7 +58,7 @@ export function FeatureSteps({
                         }}
                     >
                         Why Sanjivani Edge
-                        <span className="text-[#FF6B5A]">.</span>
+                        <span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
                     </h2>
                       <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
                 </div>
