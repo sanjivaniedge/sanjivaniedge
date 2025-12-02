@@ -1,5 +1,5 @@
-"use client";
 import Hero from "@/components/Hero";
+import VisionMissionScroll from "@/components/VisionMissionScroll";
 
 export default function Home() {
 
