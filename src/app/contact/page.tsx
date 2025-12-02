@@ -11,6 +11,7 @@ export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [registeredAddress, setRegisteredAddress] = useState("");
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [status, setStatus] = useState<{ ok: boolean; error?: string } | null>(null);
@@ -23,7 +24,7 @@ export default function ContactPage() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, organization, email, phone, message, consent }),
+        body: JSON.stringify({ name, organization, email, phone, message, registeredAddress, consent }),
       });
       const json = await res.json();
       setStatus(json);
@@ -32,6 +33,7 @@ export default function ContactPage() {
         setOrganization("");
         setEmail("");
         setPhone("");
+        setRegisteredAddress("");
         setMessage("");
         setConsent(false);
       }
@@ -150,28 +152,32 @@ export default function ContactPage() {
             <p className="mt-2 text-[#606060]">Please share a few details about your requirement or area of interest, and a representative will connect with you.</p>
             <form onSubmit={onSubmit} className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="col-span-1">
-                <label className="block text-sm font-medium text-[#1A1F3D]">Name</label>
-                <input value={name} onChange={(e) => setName(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="John Doe" />
+                <label className="block text-sm font-medium text-[#1A1F3D]">Name <span className="text-[#FF6B5A]">*</span></label>
+                <input required value={name} onChange={(e) => setName(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="John Doe" />
               </div>
               <div className="col-span-1">
-                <label className="block text-sm font-medium text-[#1A1F3D]">Organization</label>
-                <input value={organization} onChange={(e) => setOrganization(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Sanjivani Edge" />
+                <label className="block text-sm font-medium text-[#1A1F3D]">Organization <span className="text-[#FF6B5A]">*</span></label>
+                <input required value={organization} onChange={(e) => setOrganization(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Sanjivani Edge" />
               </div>
               <div className="col-span-1">
-                <label className="block text-sm font-medium text-[#1A1F3D]">Email ID</label>
-                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="name@company.com" />
+                <label className="block text-sm font-medium text-[#1A1F3D]">Email ID <span className="text-[#FF6B5A]">*</span></label>
+                <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="name@company.com" />
               </div>
               <div className="col-span-1">
-                <label className="block text-sm font-medium text-[#1A1F3D]">Phone No.</label>
-                <input value={phone} onChange={(e) => setPhone(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="+91 98765 43210" />
+                <label className="block text-sm font-medium text-[#1A1F3D]">Phone No. <span className="text-[#FF6B5A]">*</span></label>
+                <input required value={phone} onChange={(e) => setPhone(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="+91 98765 43210" />
               </div>
               <div className="md:col-span-2">
-                <label className="block text-sm font-medium text-[#1A1F3D]">Requirement / Message</label>
-                <textarea rows={5} value={message} onChange={(e) => setMessage(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Briefly describe your requirement" />
+                <label className="block text-sm font-medium text-[#1A1F3D]">Registered Address <span className="text-[#FF6B5A]">*</span></label>
+                <textarea required rows={3} value={registeredAddress} onChange={(e) => setRegisteredAddress(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Your company's registered address" />
+              </div>
+              <div className="md:col-span-2">
+                <label className="block text-sm font-medium text-[#1A1F3D]">Requirement / Message <span className="text-[#FF6B5A]">*</span></label>
+                <textarea required rows={5} value={message} onChange={(e) => setMessage(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Briefly describe your requirement" />
               </div>
               <div className="md:col-span-2 flex items-center gap-3">
-                <input id="consent-2" type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="h-4 w-4" />
-                <label htmlFor="consent-2" className="text-sm text-[#606060]">I consent to being contacted for this inquiry.</label>
+                <input id="consent-2" type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="h-4 w-4" />
+                <label htmlFor="consent-2" className="text-sm text-[#606060]">I consent to being contacted for this inquiry <span className="text-[#FF6B5A]">*</span></label>
               </div>
               <div className="md:col-span-2">
                 <button type="submit" disabled={submitting} className="inline-flex items-center gap-2 rounded-[6px] px-6 py-3 text-white disabled:opacity-70"
