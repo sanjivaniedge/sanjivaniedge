@@ -124,7 +124,7 @@ export default function AboutPage() {
       {/* Legacy section */}
       <section className="px-4 py-12">
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <h3 className="text-4xl md:text-6xl font-mediummb-10">
+          <h3 className="text-4xl md:text-6xl font-medium mb-10">
             The Sanjivani Legacy<span className="text-[#FF6B5A]">.</span>
           </h3>
           <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
