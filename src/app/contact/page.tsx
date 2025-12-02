@@ -11,7 +11,7 @@ export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [registeredAddress, setRegisteredAddress] = useState("");
+
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [status, setStatus] = useState<{ ok: boolean; error?: string } | null>(null);
@@ -24,7 +24,7 @@ export default function ContactPage() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, organization, email, phone, message, registeredAddress, consent }),
+        body: JSON.stringify({ name, organization, email, phone, message, consent }),
       });
       const json = await res.json();
       setStatus(json);
@@ -33,7 +33,7 @@ export default function ContactPage() {
         setOrganization("");
         setEmail("");
         setPhone("");
-        setRegisteredAddress("");
+
         setMessage("");
         setConsent(false);
       }
@@ -178,10 +178,7 @@ export default function ContactPage() {
                 <label className="block text-sm font-medium text-[#1A1F3D]">Phone No. <span className="text-[#FF6B5A]">*</span></label>
                 <input required value={phone} onChange={(e) => setPhone(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="+91 98765 43210" />
               </div>
-              <div className="md:col-span-2">
-                <label className="block text-sm font-medium text-[#1A1F3D]">Registered Address <span className="text-[#FF6B5A]">*</span></label>
-                <textarea required rows={3} value={registeredAddress} onChange={(e) => setRegisteredAddress(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Your company's registered address" />
-              </div>
+
               <div className="md:col-span-2">
                 <label className="block text-sm font-medium text-[#1A1F3D]">Requirement / Message <span className="text-[#FF6B5A]">*</span></label>
                 <textarea required rows={5} value={message} onChange={(e) => setMessage(e.target.value)} className="mt-2 w-full rounded-md border border-[color:var(--tile-stroke)] bg-[#F4F6F8] px-4 py-3" placeholder="Briefly describe your requirement" />

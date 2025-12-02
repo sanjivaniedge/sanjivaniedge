@@ -9,11 +9,11 @@ export async function POST(req: Request) {
     const email = (data?.email || "").toString().trim();
     const phone = (data?.phone || "").toString().trim();
     const message = (data?.message || "").toString().trim();
-    const registeredAddress = (data?.registeredAddress || "").toString().trim();
+
     const consent = Boolean(data?.consent);
 
     // 1. Basic Validation
-    if (!name || !email || !message || !consent || !registeredAddress) {
+    if (!name || !email || !message || !consent) {
       return new Response(JSON.stringify({ ok: false, error: "Missing required fields" }), { status: 400 });
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -72,7 +72,7 @@ export async function POST(req: Request) {
 Name: ${name}
 Organization: ${organization}
 Email: ${email}
-Phone: ${phone}${registeredAddress ? `\nRegistered Address: ${registeredAddress}` : ""}
+Phone: ${phone}
 
 Message:
 ${message}
@@ -86,7 +86,7 @@ ${message}
           <tr><td style="padding:8px;border-bottom:1px solid #eee"><strong>Organization</strong></td><td style="padding:8px;border-bottom:1px solid #eee">${escapeHtml(organization)}</td></tr>
           <tr style="background-color:#f9f9f9"><td style="padding:8px;border-bottom:1px solid #eee"><strong>Email</strong></td><td style="padding:8px;border-bottom:1px solid #eee"><a href="mailto:${escapeHtml(email)}" style="color:#0175B2">${escapeHtml(email)}</a></td></tr>
           <tr><td style="padding:8px;border-bottom:1px solid #eee"><strong>Phone</strong></td><td style="padding:8px;border-bottom:1px solid #eee">${escapeHtml(phone)}</td></tr>
-          ${registeredAddress ? `<tr style="background-color:#f9f9f9"><td style="padding:8px;border-bottom:1px solid #eee"><strong>Registered Address</strong></td><td style="padding:8px;border-bottom:1px solid #eee">${escapeHtml(registeredAddress)}</td></tr>` : ""}
+
         </table>
         <div style="margin-top:20px;padding:16px;border:1px solid #eee;border-radius:8px;background:#fafafa">
           <div style="margin-bottom:8px;color:#606060;font-size:12px;text-transform:uppercase;letter-spacing:0.5px">Message</div>
