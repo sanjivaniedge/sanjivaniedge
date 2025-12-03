@@ -97,7 +97,7 @@ export default function ContactPage() {
             </div>
             <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-white p-6">
               <h3 className="text-2xl font-medium pb-14 text-[#1A1F3D]">Business Enquiries</h3>
-              <Link href="mailto:business@sanjivaniedge.com" className="mt-3  text-[#0175B2] text-lg">business@sanjivaniedge.com</Link>
+              <Link href="mailto:contact@sanjivaniedge.com" className="mt-3  text-[#0175B2] text-lg">contact@sanjivaniedge.com</Link>
               <p className="mt-1 text-[#606060]">For IT, ERP, or digital transformation projects.</p>
             </div>
             <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-white p-6">
