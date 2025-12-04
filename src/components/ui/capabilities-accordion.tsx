@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
 import Link from "next/link";
+import { EncryptedText } from "./encrypted-text";
 
 interface CapabilityItem {
   title: string;
@@ -25,6 +26,10 @@ interface CapabilitiesAccordionProps {
 export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) {
   const [activeTabId, setActiveTabId] = useState<number | null>(0);
   const [activeImage, setActiveImage] = useState(features[0]?.image || "");
+  const [lastClickedId, setLastClickedId] = useState<number>(0);
+  const animationKeyRef = useRef<{ [key: number]: number }>({
+    0: 1, // Initialize first item with key 1
+  });
 
   return (
     <section className="py-20 bg-white px-4">
@@ -65,28 +70,38 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
                 <AccordionItem
                   key={index}
                   value={`item-${index}`}
-                  className="border cursor-pointer rounded-lg px-6 py-2 data-[state=open]:bg-[#F4F6F8] transition-colors duration-200"
+                  className="border cursor-pointer rounded-lg px-6 py-2 data-[state=open]:bg-[#F4F6F8] data-[state=closed]:bg-[#F3F2FA] transition-colors duration-200"
                 >
                   <AccordionTrigger
                     className="hover:no-underline py-4 cursor-pointer"
                     onClick={() => {
                       setActiveImage(item.image);
                       setActiveTabId(index);
+                      setLastClickedId(index);
+                      // Increment the animation key for this item to trigger re-animation
+                      animationKeyRef.current[index] =
+                        (animationKeyRef.current[index] || 0) + 1;
                     }}
                   >
                     <div className="flex justify-between items-center w-full pr-4">
-                      <h3
-                        className="text-2xl font-medium text-left cursor-pointer"
+                      <div
                         style={{
                           fontFamily: "Manrope",
-                          fontWeight: 500,
+                          fontWeight: 700,
                           fontSize: "24px",
                           lineHeight: "1.366em",
-                          color: "#1A1F3D",
                         }}
                       >
-                        {item.title}
-                      </h3>
+                        <EncryptedText
+                          key={`title-${index}-${animationKeyRef.current[index] || 0}`}
+                          text={item.title}
+                          className="text-2xl font-medium text-left cursor-pointer"
+                          revealDelayMs={30}
+                          flipDelayMs={30}
+                          revealedClassName="text-[#0075b0]"
+                          encryptedClassName="text-[#0075b0]/40"
+                        />
+                      </div>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>

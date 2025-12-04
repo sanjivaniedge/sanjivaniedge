@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about',
     '/contact',
     '/services',
+    // Static service pages
     '/services/bpo',
     '/services/cloud',
     '/services/consulting',
@@ -16,6 +17,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/erp',
     '/services/it-infrastructure',
     '/services/software',
+    // Dynamic service detail pages
+    '/services/software-development',
+    '/services/cloud-services',
+    '/services/cybersecurity',
+    '/services/it-infrastructure',
+    '/services/emerging-technologies',
+    '/services/consulting-support',
+    '/services/bpo-services',
+    '/services/erp-services',
   ]
 
   return routes.map((route) => ({
