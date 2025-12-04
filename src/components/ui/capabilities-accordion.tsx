@@ -98,8 +98,8 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
                           className="text-2xl font-medium text-left cursor-pointer"
                           revealDelayMs={30}
                           flipDelayMs={30}
-                          revealedClassName="text-[#0075b0]"
-                          encryptedClassName="text-[#0075b0]/40"
+                          revealedClassName={activeTabId === index ? "text-[#0075b0]" : "text-black"}
+                          encryptedClassName={activeTabId === index ? "text-[#0075b0]/40" : "text-black/40"}
                         />
                       </div>
                     </div>
