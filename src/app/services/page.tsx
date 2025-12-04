@@ -28,9 +28,9 @@ export default function ServicesPage() {
                   <br /><br />
                   Explore the capabilities that define Sanjivani Edge.
                 </p>
-                <div className="mt-[24px]">
+                {/* <div className="mt-[24px]">
                   <EdgeLinkButton href="/solutions">EXPLORE THE EDGE</EdgeLinkButton>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
