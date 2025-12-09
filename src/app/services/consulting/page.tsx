@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IT Consulting India",
+  description: "Strategy, AMC & Training",
+  keywords: "Professional IT consultancy, AMC, helpdesk & support for training in Mumbai, Pune, Delhi, Bangalore & Hyderabad",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services/consulting",
+  },
+};
 
 const consultingPageData = {
   title: "Consulting & Support",
@@ -26,7 +36,7 @@ const consultingPageData = {
       { step: "Step 1", title: "Advisory backed by six decades of enterprise ethics", content: "Context, constraints, KPIs, and maturity assessment.", image: "/Images/why-support/Advisory-backed-by-six-decades.webp" },
       { step: "Step 2", title: "Structured support frameworks", content: "Architecture choices, governance, and risk mitigation.", image: "/Images/why-support/Structured-support-frameworks.webp" },
       { step: "Step 3", title: "Clear escalation pathways", content: "Runbooks, SLAs, monitoring, and continuous improvement.", image: "/Images/why-support/Clear-escalation-pathways.webp" },
-       { step: "Step 3", title: "Transparent performance tracking", content: "Runbooks, SLAs, monitoring, and continuous improvement.", image: "/Images/why-support/Transparent-performance-tracking.webp" },
+      { step: "Step 3", title: "Transparent performance tracking", content: "Runbooks, SLAs, monitoring, and continuous improvement.", image: "/Images/why-support/Transparent-performance-tracking.webp" },
 
 
     ],
@@ -39,7 +49,7 @@ const consultingPageData = {
       { value: "20%", label: "Higher system efficiency" },
       { value: "2x", label: "Improved internal capability" },
       { value: "Smoother IT-business alignment", label: "Long-term technology stability" },
-       { value: "Smoother IT-business alignment", label: "Cost-effective governance" },
+      { value: "Smoother IT-business alignment", label: "Cost-effective governance" },
 
     ],
   },
@@ -80,8 +90,8 @@ const consultingPageData = {
   cta: {
     title: "Guidance strengthens execution.",
     description: "Sanjivani Edge ensures enterprises move forward with clarity and confidence.",
-        buttonText: "Start Your Project",
-        buttonHref: "/contact"
+    buttonText: "Start Your Project",
+    buttonHref: "/contact"
   },
 };
 

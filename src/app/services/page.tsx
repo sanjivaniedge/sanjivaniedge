@@ -3,6 +3,16 @@ import { LegacySection } from "@/components/ui/legacy-section";
 import Image from "next/image";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { ChevronDown } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best IT Services in India",
+  description: "ERP, Cloud, AI & Cyber",
+  keywords: "A top-rated IT services provider in India providing SAP/Oracle ERP, Cloud Migration, Cybersecurity, AI & Software Development",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services",
+  },
+};
 
 export default function ServicesPage() {
   return (

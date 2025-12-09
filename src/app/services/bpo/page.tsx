@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "BPO Services India",
+  description: "Customer Support & Finance Outsourcing",
+  keywords: "A dependable BPO business located in India providing 24x7 support to customers, F&A, HR & process outsourcing for back office processes.",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services/bpo",
+  },
+};
 
 const bpoPageData = {
   title: "BPO Services",

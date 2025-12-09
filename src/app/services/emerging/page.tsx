@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI, ML & IoT Company in India",
+  description: "The top AI & Machine Learning development firm located in India providing Chatbots and predictive Analytics and IoT solutions",
+  keywords: "AI firm India Machine learning Mumbai, IoT development Pune, RPA automation India",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services/emerging",
+  },
+};
 
 const infraPageData = {
   title: "Emerging Technologies",
@@ -15,7 +25,7 @@ const infraPageData = {
       {
         title: "AI & Machine Learning",
         description: "Models that enhance forecasting, decision-making, and automation.",
-         tools: "TensorFlow, AWS AI",
+        tools: "TensorFlow, AWS AI",
         image: "/Images/cap-emerging/AI-Machine-Learning.webp",
       },
       {
@@ -30,8 +40,8 @@ const infraPageData = {
         tools: "UiPath, Automation Anywhere",
         image: "/Images/cap-emerging/Automation-Services.webp",
       },
-     
-      
+
+
     ],
   },
   whyChooseUs: {
@@ -144,8 +154,8 @@ const infraPageData = {
     title: "Infrastructure must be invisible — seen only when it fails.",
     description:
       "Sanjivani Edge ensures it never does.",
-        buttonText: "Start Your Project",
-        buttonHref: "/contact"
+    buttonText: "Start Your Project",
+    buttonHref: "/contact"
   },
 };
 

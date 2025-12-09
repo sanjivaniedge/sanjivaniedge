@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cloud Services India",
+  description: "AWS, Azure & Google Cloud Partner",
+  keywords: "Certified AWS, Azure & Google Cloud Partner in India",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services/cloud",
+  },
+};
 
 const cloudPageData = {
   title: "Cloud Services",
@@ -193,8 +203,8 @@ const cloudPageData = {
     title: "Cloud, when architected responsibly, becomes a multiplier of enterprise performance.",
     description:
       "Sanjivani Edge ensures that multiplier is reliable and enduring.",
-        buttonText: "Start Your Project",
-        buttonHref: "/contact"
+    buttonText: "Start Your Project",
+    buttonHref: "/contact"
   },
 };
 

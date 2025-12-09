@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SAP & Oracle ERP Partner India",
+  description: "Implementation & Support",
+  keywords: "Silver SAP & Oracle partner in India",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services/erp",
+  },
+};
 
 const erpPageData = {
   title: "ERP Services (SAP & Oracle)",

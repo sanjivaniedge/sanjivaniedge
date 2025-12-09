@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Cybersecurity Company India",
+    description: "Audits & ISO 27001",
+    keywords: "The most reputable cybersecurity firm in India",
+    alternates: {
+        canonical: "https://www.sanjivaniedge.com/services/cybersecurity",
+    },
+};
 
 const cloudPageData = {
     title: "Cybersecurity",
@@ -34,7 +44,7 @@ const cloudPageData = {
                 tools: ["Splunk", "SIEM"],
                 image: "/Images/cap-cyber/Security-Audits-Compliance.webp"
             },
-            
+
         ]
     },
     whyChooseUs: {

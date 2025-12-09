@@ -2,6 +2,16 @@ import LegacySection from "@/components/ui/legacy-section";
 import ScrollVelocity from "@/components/ui/scroll-velocity";
 import VisionMissionScroll from "@/components/VisionMissionScroll";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Sanjivani Edge",
+  description: "Trusted Indian IT Company Since 1965",
+  keywords: "60 years old Indian conglomerate's technology arm, which provides reliable ERP and Cybersecurity solutions throughout India",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/about",
+  },
+};
 
 export default function AboutPage() {
   const principles = [

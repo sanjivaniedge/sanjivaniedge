@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IT Infrastructure Company India",
+  description: "Servers & Data Center",
+  keywords: "End-to end IT infrastructure in India",
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/services/it-infrastructure",
+  },
+};
 
 const infraPageData = {
   title: "IT Infrastructure",
@@ -15,7 +25,7 @@ const infraPageData = {
       {
         title: "Server Installation & Maintenance",
         description: "High-availability server environments with lifecycle management.",
-         tools: " Windows Server, Linux",
+        tools: " Windows Server, Linux",
         image: "/Images/cap-it/Server-Installation-Maintenance.webp",
       },
       {
@@ -36,7 +46,7 @@ const infraPageData = {
         tools: " VMware, Hyper-V",
         image: "/Images/cap-it/Data-Center-Management.webp",
       },
-      
+
     ],
   },
   whyChooseUs: {
@@ -160,8 +170,8 @@ const infraPageData = {
     title: "Infrastructure must be invisible — seen only when it fails.",
     description:
       "Sanjivani Edge ensures it never does.",
-        buttonText: "Start Your Project",
-        buttonHref: "/contact"
+    buttonText: "Start Your Project",
+    buttonHref: "/contact"
   },
 };
 

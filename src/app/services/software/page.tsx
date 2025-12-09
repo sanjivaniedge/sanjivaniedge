@@ -1,4 +1,14 @@
 import ServicePageTemplate from "@/components/ui/service-page-template";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Custom Software Development Company India",
+    description: "The most prestigious custom software, web and mobile application development business with offices in Mumbai as well as Pune",
+    keywords: "Software company India and custom software development Mumbai Web application development Pune Mobile app India",
+    alternates: {
+        canonical: "https://www.sanjivaniedge.com/services/software",
+    },
+};
 
 const softwarePageData = {
     title: "Software Development",

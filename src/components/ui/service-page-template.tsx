@@ -127,7 +127,7 @@ export default function ServicePageTemplate({
             </div>
             {/* Hero Image */}
             <div className="relative z-20 mx-auto max-w-7xl px-4 pb-12">
-              <div className="relative h-[320px] md:h-[412px] w-full overflow-hidden rounded-[10px] shadow-[0px_10px_0px_0px_rgba(1,117,178,1)]">
+              <div className="relative h-[320px] md:h-[650px] w-full overflow-hidden rounded-[10px] shadow-[0px_10px_0px_0px_rgba(1,117,178,1)]">
                 <Image
                   src={data.heroImage}
                   alt={data.heroImageAlt}
