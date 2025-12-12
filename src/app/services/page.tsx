@@ -90,7 +90,7 @@ export default function ServicesPage() {
           reverse={false}
           gapClass="md:gap-[80px]"
           objectFit="fill"
-          ctaHref="/services/software-development"
+          ctaHref="/services/software"
           bullets={["Custom applications", "Web platforms", "Enterprise integration"]}
         />
 
@@ -146,7 +146,7 @@ export default function ServicesPage() {
           reverse={false}
           gapClass="md:gap-[80px]"
           objectFit="cover"
-          ctaHref="/services/emerging-technologies"
+          ctaHref="/services/emerging"
           bullets={["AI & ML", "IoT solutions", "Automation services"]}
         />
 
@@ -162,7 +162,7 @@ Our consulting and AMC services strengthen governance, maturity, and long-term p
           reverse={true}
           gapClass="md:gap-[88px]"
           objectFit="cover"
-          ctaHref="/services/consulting-support"
+          ctaHref="/services/consulting"
           bullets={["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"]}
         />
 
@@ -178,7 +178,7 @@ Our BPO frameworks are built for consistency, accuracy, and scale."
           reverse={false}
           gapClass="md:gap-[80px]"
           objectFit="cover"
-          ctaHref="/services/bpo-services"
+          ctaHref="/services/bpo"
           bullets={["Customer support", "Finance & HR operations", "Back-office support"]}
         />
 
@@ -194,7 +194,7 @@ Our SAP and Oracle services help enterprises streamline processes and drive stra
           reverse={true}
           gapClass="md:gap-[88px]"
           objectFit="fill"
-          ctaHref="/services/erp-services"
+          ctaHref="/services/erp"
           bullets={["ERP planning", "Implementation", "Support & maintenance"]}
         />
       </div>
