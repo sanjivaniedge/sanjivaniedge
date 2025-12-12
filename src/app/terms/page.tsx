@@ -81,25 +81,10 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 4. Privacy Policy */}
+
+                            {/* 4. Payment & Billing */}
                             <PolicySection
                                 number="4"
-                                title="Privacy Policy"
-                            >
-                                <p className="mb-3">
-                                    We may collect personal information (name, email, contact details, etc.) for service delivery.
-                                </p>
-                                <p className="mb-2">Your data will:</p>
-                                <ul className="list-disc list-inside space-y-2 text-[#606060]">
-                                    <li>Be kept confidential</li>
-                                    <li>Not be sold or misused</li>
-                                    <li>Be protected using industry-standard security measures</li>
-                                </ul>
-                            </PolicySection>
-
-                            {/* 5. Payment & Billing */}
-                            <PolicySection
-                                number="5"
                                 title="Payment & Billing"
                             >
                                 <ul className="list-disc list-inside space-y-2 text-[#606060]">
@@ -108,9 +93,9 @@ export default function TermsAndPoliciesPage() {
                                 </ul>
                             </PolicySection>
 
-                            {/* 6. Limitation of Liability */}
+                            {/* 5. Limitation of Liability */}
                             <PolicySection
-                                number="6"
+                                number="5"
                                 title="Limitation of Liability"
                             >
                                 <p className="mb-2">We are not liable for:</p>
@@ -121,9 +106,9 @@ export default function TermsAndPoliciesPage() {
                                 </ul>
                             </PolicySection>
 
-                            {/* 7. Termination */}
+                            {/* 6. Termination */}
                             <PolicySection
-                                number="7"
+                                number="6"
                                 title="Termination"
                             >
                                 <p>
@@ -131,9 +116,9 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 8. Disclaimer */}
+                            {/* 7. Disclaimer */}
                             <PolicySection
-                                number="8"
+                                number="7"
                                 title="Disclaimer"
                             >
                                 <p>
@@ -141,9 +126,9 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 9. Anti-Spam Policy */}
+                            {/* 8. Anti-Spam Policy */}
                             <PolicySection
-                                number="9"
+                                number="8"
                                 title="Anti-Spam Policy"
                             >
                                 <p>
@@ -151,9 +136,9 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 10. Strictly Necessary Cookies */}
+                            {/* 9. Strictly Necessary Cookies */}
                             <PolicySection
-                                number="10"
+                                number="9"
                                 title="Strictly Necessary Cookies"
                             >
                                 <p>
@@ -161,9 +146,9 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 11. Changes to Terms */}
+                            {/* 10. Changes to Terms */}
                             <PolicySection
-                                number="11"
+                                number="10"
                                 title="Changes to Terms"
                             >
                                 <p>
@@ -171,9 +156,9 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 12. Grievance Redressal */}
+                            {/* 11. Grievance Redressal */}
                             <PolicySection
-                                number="12"
+                                number="11"
                                 title="Grievance Redressal"
                             >
                                 <p>
@@ -181,9 +166,9 @@ export default function TermsAndPoliciesPage() {
                                 </p>
                             </PolicySection>
 
-                            {/* 13. Contact Information */}
+                            {/* 12. Contact Information */}
                             <PolicySection
-                                number="13"
+                                number="12"
                                 title="Contact Information"
                             >
                                 <p className="mb-4">For any questions or concerns, contact us at:</p>
