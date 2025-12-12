@@ -19,9 +19,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.sanjivaniedge.com"),
   title: "Sanjivani Edge",
   description: "Rooted in Values. Engineered for the Future.",
-  alternates: {
-    canonical: "./",
-  },
   verification: {
     google: "bDWjaHgJkN2byd8rmS5eingNDincuJBBBOtTVArI-vQ",
   },

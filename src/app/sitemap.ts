@@ -17,11 +17,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/erp',
     '/services/it-infrastructure',
     '/services/software',
-    // Dynamic service detail pages
+    // Dynamic service detail pages (slugs that differ from static folders)
     '/services/software-development',
     '/services/cloud-services',
-    '/services/cybersecurity',
-    '/services/it-infrastructure',
     '/services/emerging-technologies',
     '/services/consulting-support',
     '/services/bpo-services',
