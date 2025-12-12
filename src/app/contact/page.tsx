@@ -92,7 +92,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-white p-6">
               <h3 className="text-2xl font-medium pb-14 text-[#1A1F3D]">General Inquiries</h3>
-              <Link href="mailto:connect@sanjivaniedge.com" className="mt-3 text-[#0175B2] text-lg">connect@sanjivaniedge.com</Link>
+              <Link href="mailto:connect@sanjivaniedge.com" className="mt-3 text-[#0175B2] text-lg">contact@sanjivaniedge.com</Link>
               <p className="mt-1 text-[#606060]">For partnerships, collaborations, or enterprise solutions.</p>
             </div>
             <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-white p-6">
