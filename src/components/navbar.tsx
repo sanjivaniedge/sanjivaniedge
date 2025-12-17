@@ -108,9 +108,11 @@ export default function Navbar() {
               )}
             <Link href="/industries" className={isActive("/industries") ? activeClass : "text-foreground"}>Industries</Link>
             <Link href="/resources" className={isActive("/resources") ? activeClass : "text-foreground"}>Resources</Link>
+            <Link href="/contact" className={isActive("/contact") ? activeClass : "text-foreground"}>
               <Button variant="primary" size="sm" className="mt-2 w-full uppercase tracking-wide">
                 GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
               </Button>
+              </Link>
             </div>
           </div>
         )}

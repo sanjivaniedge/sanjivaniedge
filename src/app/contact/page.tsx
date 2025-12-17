@@ -230,7 +230,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Phone</div>
-                      <Link href="tel:+919599120082" className="text-[#606060]">+91 9599120082</Link>
+                      <Link href="tel:+919599120082" className="text-[#606060] text-sm">+91 9599120082</Link>
                     </div>
                   </div>
                 </div>
@@ -241,7 +241,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Email</div>
-                      <Link href="mailto:debayan@sanjivaniedge.com" className="text-[#606060]">debayan@sanjivaniedge.com</Link>
+                      <Link href="mailto:debayan@sanjivaniedge.com" className="text-[#606060] text-[13px]">debayan@sanjivaniedge.com</Link>
                     </div>
                   </div>
                 </div>
@@ -252,7 +252,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Address</div>
-                      <div className="text-[#606060] whitespace-pre-line">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201369`}</div>
+                      <div className="text-[#606060] text-sm whitespace-pre-line">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201369`}</div>
                     </div>
                   </div>
                 </div>
@@ -263,7 +263,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Social Media</div>
-                      <div className="text-[#606060]">@sanjivaniedge</div>
+                      <div className="text-[#606060] text-sm">@sanjivaniedge</div>
                     </div>
                   </div>
                 </div>
