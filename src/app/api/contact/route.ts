@@ -22,26 +22,30 @@ export async function POST(req: Request) {
     }
 
     // 2. Rate Limiting (Upstash)
-    const ipHeader = req.headers.get("x-forwarded-for") || req.headers.get("x-real-ip") || "unknown";
-    const ip = ipHeader.split(",")[0].trim();
-    const rateLimitKey = `contact_limit:${ip}`;
-    const emailLimitKey = `contact_email:${email}`;
+    try {
+      const ipHeader = req.headers.get("x-forwarded-for") || req.headers.get("x-real-ip") || "unknown";
+      const ip = ipHeader.split(",")[0].trim();
+      const rateLimitKey = `contact_limit:${ip}`;
+      const emailLimitKey = `contact_email:${email}`;
 
-    if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
-      const redis = new Redis({
-        url: process.env.UPSTASH_REDIS_REST_URL,
-        token: process.env.UPSTASH_REDIS_REST_TOKEN,
-      });
-      const exists = await redis.get(rateLimitKey);
-      if (exists) {
-        return new Response(JSON.stringify({ ok: false, error: "Too many attempts. Please wait a minute." }), { status: 429 });
+      if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
+        const redis = new Redis({
+          url: process.env.UPSTASH_REDIS_REST_URL,
+          token: process.env.UPSTASH_REDIS_REST_TOKEN,
+        });
+        const exists = await redis.get(rateLimitKey);
+        if (exists) {
+          return new Response(JSON.stringify({ ok: false, error: "Too many attempts. Please wait a minute." }), { status: 429 });
+        }
+        await redis.set(rateLimitKey, "1", { ex: 60 });
+        const emailExists = await redis.get(emailLimitKey);
+        if (emailExists) {
+          return new Response(JSON.stringify({ ok: false, error: "Duplicate submission detected. Try later." }), { status: 429 });
+        }
+        await redis.set(emailLimitKey, "1", { ex: 600 });
       }
-      await redis.set(rateLimitKey, "1", { ex: 60 });
-      const emailExists = await redis.get(emailLimitKey);
-      if (emailExists) {
-        return new Response(JSON.stringify({ ok: false, error: "Duplicate submission detected. Try later." }), { status: 429 });
-      }
-      await redis.set(emailLimitKey, "1", { ex: 600 });
+    } catch (error) {
+      console.warn("Rate limiting skipped due to Redis error:", error);
     }
 
     // 3. SMTP Configuration
