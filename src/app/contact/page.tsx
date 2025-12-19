@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Heart } from "lucide-react";
+import { Phone, Mail, MapPin, Heart, Linkedin } from "lucide-react";
 import LegacySection from "@/components/ui/legacy-section";
 import { useState } from "react";
 
@@ -223,7 +223,7 @@ export default function ContactPage() {
             />
             <div className="absolute inset-0 p-4 md:p-6 flex items-center justify-center">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-[90%] max-w-[660px] ">
-                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4 h-[150px]">
+                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4 h-full">
                   <div className="flex-1 items-start gap-4">
                     <div className="h-10 w-10 rounded-md mb-4bg-[#F4F6F8] flex items-center justify-center">
                       <Phone className="h-5 w-5 text-[#606060]" />
@@ -234,36 +234,38 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
-                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4">
+                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4 h-full">
                   <div className="flex-1 items-start gap-4">
                     <div className="h-10 w-10 rounded-md mb-4 bg-[#F4F6F8] flex items-center justify-center">
                       <Mail className="h-5 w-5 text-[#606060]" />
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Email</div>
-                      <Link href="mailto:debayan@sanjivaniedge.com" className="text-[#606060] text-[13px]">debayan@sanjivaniedge.com</Link>
+                      <Link href="mailto:contact@sanjivaniedge.com" className="text-[#606060] text-[13px] break-all">contact@sanjivaniedge.com</Link>
                     </div>
                   </div>
                 </div>
-                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4">
+                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4 h-full">
                   <div className="flex-1 items-start gap-4">
                     <div className="h-10 w-10 rounded-md mb-4 bg-[#F4F6F8] flex items-center justify-center">
                       <MapPin className="h-5 w-5 text-[#606060]" />
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Address</div>
-                      <div className="text-[#606060] text-sm whitespace-pre-line">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201369`}</div>
+                      <div className="text-[#606060] text-sm whitespace-pre-line break-words">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201369`}</div>
                     </div>
                   </div>
                 </div>
-                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4">
+                <div className="rounded-[10px] bg-white border border-[color:var(--tile-stroke)] p-4 h-full">
                   <div className="flex-1 items-start gap-4 ">
                     <div className="h-10 w-10 rounded-md mb-4 bg-[#F4F6F8] flex items-center justify-center">
-                      <Heart className="h-5 w-5 text-[#606060] " />
+                      <Linkedin className="h-5 w-5 text-[#606060] " />
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Social Media</div>
-                      <div className="text-[#606060] text-sm">@sanjivaniedge</div>
+                      <Link href="https://www.linkedin.com/company/sanjivani-edge/" target="_blank" rel="noopener noreferrer" className="text-[#606060] text-sm hover:text-[#0175B2]">
+                        Sanjivani Edge
+                      </Link>
                     </div>
                   </div>
                 </div>
