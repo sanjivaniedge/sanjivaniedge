@@ -232,7 +232,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                 </section>
 
                 {/* Recognition and Awards */}
-                <section className="py-12">
+                <section className="lg:py-12 py-6">
                     <div className="text-center mb-12 max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] mb-6">Recognition and Awards</h2>
                         <p className="text-lg text-[#606060] leading-relaxed">
@@ -241,7 +241,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                     </div>
                     <div className="relative w-full h-[300px] md:h-[500px] rounded-2xl overflow-hidden">
                         <Image
-                            src="/leadership/awards.png"
+                            src="/leadership/leader.webp"
                             alt="Recognition and Awards"
                             fill
                             className="object-cover"
