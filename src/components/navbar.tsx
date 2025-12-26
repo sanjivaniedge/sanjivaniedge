@@ -35,28 +35,7 @@ export default function Navbar() {
         </Link>
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <Link href="/" className={isActive("/") ? activeClass : linkClass}>Home</Link>
-          <div
-            className="relative"
-            onMouseEnter={() => setAboutOpen(true)}
-            onMouseLeave={() => setAboutOpen(false)}
-          >
-            <button
-              className={`inline-flex items-center gap-1 ${isAboutActive ? activeClass : linkClass}`}
-              onClick={() => setAboutOpen((v) => !v)}
-              aria-haspopup="menu"
-              aria-expanded={aboutOpen}
-            >
-              <Link href="/about" className={isActive("/about") ? activeClass : linkClass}>About Us</Link> <ChevronDown className="h-4 w-4" />
-            </button>
-            {aboutOpen && (
-              <div className="absolute left-0 -mt-1 w-48 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)] z-50">
-                <ul className="py-2 text-sm">
-                  <li><Link href="/about" className="block px-3 py-2 hover:text-brand">About Us</Link></li>
-                  <li><Link href="/about/leadership" className="block px-3 py-2 hover:text-brand">Leadership</Link></li>
-                </ul>
-              </div>
-            )}
-          </div>
+          <Link href="/about" className={isActive("/about") ? activeClass : linkClass}>About Us</Link>
           <div
             className="relative"
             onMouseEnter={() => setServicesOpen(true)}
@@ -112,15 +91,7 @@ export default function Navbar() {
           <div className="lg:hidden border-t border-[color:var(--tile-stroke)] p-6">
             <div className="container py-3 flex flex-col gap-3 text-sm">
             <Link href="/" className={isActive("/") ? activeClass : "text-foreground"}>Home</Link>
-            <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setAboutOpen((v) => !v)}>
-              About Us <ChevronDown className="h-4 w-4" />
-            </button>
-            {aboutOpen && (
-              <div className="pl-4 flex flex-col gap-2 z-10">
-                <Link href="/about" className={isActive("/about") ? activeClass : "font-medium"}>About Us</Link>
-                <Link href="/about/leadership" className={pathname === "/about/leadership" ? activeClass : undefined}>Leadership</Link>
-              </div>
-            )}
+            <Link href="/about" className={isActive("/about") ? activeClass : "text-foreground"}>About Us</Link>
               <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setServicesOpen((v) => !v)}>
                 Services <ChevronDown className="h-4 w-4" />
               </button>

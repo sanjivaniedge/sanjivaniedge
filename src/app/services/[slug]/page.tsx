@@ -189,9 +189,10 @@ function ServiceComingSoon({ slug }: { slug: string }) {
   );
 }
 
-export default function ServiceDetailPage({ params }: { params: { slug: string } }) {
-  const data = SERVICES[params.slug];
-  if (!data) return <ServiceComingSoon slug={params.slug} />;
+export default async function ServiceDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const data = SERVICES[slug];
+  if (!data) return <ServiceComingSoon slug={slug} />;
 
   return (
     <main className="bg-white">
