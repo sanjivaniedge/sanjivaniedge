@@ -48,7 +48,7 @@ export default function LeadershipPage() {
                     <div className="lg:col-span-5 order-2 lg:order-2">
                         <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7]">
                             <Image
-                                src="/leadership/debayan.png"
+                                src="/leadership/debayan.webp"
                                 alt="Debayan Bhattacharya"
                                 fill
                                 className="object-cover object-top"
