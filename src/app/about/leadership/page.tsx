@@ -15,7 +15,7 @@ export default function LeadershipPage() {
         <main className="bg-white">
             {/* Hero Section */}
             <section className="relative px-4 pt-16 pb-12 md:pt-24 md:pb-20 overflow-hidden">
-                <div className="mx-auto max-w-7xl">
+                <div className="mx-auto max-w-6xl">
                     {/* Top Text Section */}
                     <div className="flex flex-col md:flex-row gap-8 md:gap-24 md:items-start justify-between mb-16 md:mb-20">
                         <div className="md:w-1/3">
@@ -43,7 +43,7 @@ export default function LeadershipPage() {
                 </div>
             </section>
 
-            <div className="mx-auto max-w-7xl px-4 space-y-24 pb-24">
+            <div className="mx-auto max-w-6xl px-4 space-y-24 pb-24">
                 {/* Debayan Bhattacharya */}
                 <section className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                     <div className="lg:col-span-5 order-2 lg:order-2">
