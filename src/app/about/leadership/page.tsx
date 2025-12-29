@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowUpRight, Plus } from "lucide-react";
+import LegacySection from "@/components/ui/legacy-section";
 
 export const metadata = {
     title: "Leadership | Sanjivani Edge",
@@ -227,7 +228,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                                 }
                             />
                         </div>
-                        
+
                     </div>
                 </section>
 
@@ -239,7 +240,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                             Vivek’s dedication and leadership have earned him accolades including the “Promising Young Leader” title from Navbharat and Navrashtra media groups, and industry recognition for excellence in entrepreneurship from the National Sugar Institute, Kanpur.
                         </p>
                     </div>
-                    <div className="relative w-full h-[300px] md:h-[500px] rounded-2xl overflow-hidden">
+                    <div className="relative w-full h-[300px] md:h-[500px] rounded-2xl overflow-hidden border-b-10 border-[#0175B2]">
                         <Image
                             src="/leadership/leader.webp"
                             alt="Recognition and Awards"
@@ -251,36 +252,38 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
             </div>
 
             {/* Ethos Section */}
-            <section className="bg-[#F0F4FF] py-20 px-4 relative overflow-hidden">
-                {/* Background decoration could go here */}
-                <div className="max-w-4xl mx-auto text-center relative z-10">
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] mb-6">The Sanjivani Ethos<span className="text-[#FF6B5A]">.</span></h2>
-                    <p className="text-lg md:text-xl text-[#1A1F3D] font-medium italic mb-8">
-                        “Sanjivani Edge believes that progress is not a product — it is a practice.”
-                    </p>
-                    <p className="text-[#606060] leading-relaxed mb-8">
-                        Every partnership, process, and platform reflects this principle. Built on trust, refined through innovation, and measured by precision.
-                    </p>
-                    <p className="text-[#606060] leading-relaxed mb-10">
-                        Sanjivani Edge is not just an IT services company; it is a commitment to responsible transformation.
-                    </p>
-                    <Link href="/contact">
-                        <Button className="bg-[#FFE5E5] text-[#FF6B5A] hover:bg-[#FFD1D1] border border-[#FF6B5A]/20 px-8 py-6 text-lg rounded-xl">
-                            CONNECT WITH US <ArrowUpRight className="ml-2 h-5 w-5" />
-                        </Button>
-                    </Link>
-                </div>
-            </section>
+
+            {/* The Legacy Ahead Section  */}
+            <LegacySection
+                title="The Sanjivani Ethos."
+                paragraphs={[
+                    (<>
+                        <span className="font-semibold text-[#1A1F3D]">Sanjivani Edge believes that progress is not a product<br /> — it is a practice.</span>{" "}
+
+                    </>),
+                    (<>
+                        <span className="text-sm">
+                            Every partnership, process, and platform reflects this principle.<br /><br />Built on trust, refined through innovation, and executed with precision — <br /><br />Sanjivani Edge is not just an IT services company; it is a commitment to responsible transformation.</span>
+                    </>),
+
+                ]}
+                ctaHref="/contact"
+                ctaLabel="Start Your Project"
+            />
+
         </main>
     );
 }
 
 function LeaderAccordionItem({ title, content, isOpen = false }: { title: string; content: React.ReactNode; isOpen?: boolean }) {
     return (
-        <div className="border border-[#E8E4F3] rounded-[10px] bg-[#F8F9FB] overflow-hidden">
+        <div className="rounded-[10px] overflow-hidden border border-[#E8E4F3]">
             <Accordion type="single" collapsible defaultValue={isOpen ? "item-1" : undefined}>
-                <AccordionItem value="item-1" className="border-b-0">
-                    <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-gray-50 [&[data-state=open]]:bg-white">
+                <AccordionItem
+                    value="item-1"
+                    className="border-b-0 data-[state=open]:bg-[#E2E2E280] data-[state=closed]:bg-[#E8E4F380] transition-colors duration-300"
+                >
+                    <AccordionTrigger className="px-6 py-4 hover:no-underline hover:bg-transparent [&[data-state=open]]:bg-transparent">
                         <span className="text-lg font-semibold text-[#1A1F3D] text-left">{title}</span>
                         {/* Icon is handled by AccordionTrigger but we can customize if needed. 
                              The default trigger has a chevron. The design shows a plus/cross or similar. 
@@ -290,7 +293,7 @@ function LeaderAccordionItem({ title, content, isOpen = false }: { title: string
                              The Shadcn accordion puts chevron on the right.
                           */}
                     </AccordionTrigger>
-                    <AccordionContent className="px-6 pb-6 pt-2 bg-white text-[#606060] text-base leading-relaxed">
+                    <AccordionContent className="px-6 pb-6 pt-2 bg-transparent text-[#606060] text-base leading-relaxed">
                         {content}
                     </AccordionContent>
                 </AccordionItem>
