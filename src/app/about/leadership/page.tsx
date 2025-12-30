@@ -66,7 +66,7 @@ export default function LeadershipPage() {
                     
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                         <div className="lg:col-span-5 order-2 lg:order-2">
-                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7]">
+                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
                                 <Image
                                     src="/leadership/debayan.webp"
                                     alt="Debayan Bhattacharya"
@@ -112,7 +112,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                     
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                         <div className="lg:col-span-5 order-2 lg:order-1">
-                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7]">
+                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
                                 <Image
                                     src="/leadership/vivek.png"
                                     alt="Vivek Bipindada Kolhe"
@@ -209,7 +209,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                         <div className="lg:col-span-5 order-2 lg:order-2">
-                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7]">
+                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
                                 <Image
                                     src="/leadership/shantham.png"
                                     alt="Shantham Shukla"
