@@ -56,146 +56,149 @@ export default function LeadershipPage() {
                 </div>
             </section>
 
-            <div className="mx-auto max-w-6xl px-4 pb-24">
-                {/* Debayan Bhattacharya */}
-                <section className="flex flex-col gap-8">
-                    <div className="flex items-center gap-4">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Debayan Bhattacharya<span className="text-[#FF6B5A]">.</span></h2>
-                        <div className="h-px bg-gray-200 flex-grow"></div>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                        <div className="lg:col-span-5 order-2 lg:order-2">
-                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
-                                <Image
-                                    src="/leadership/debayan.webp"
-                                    alt="Debayan Bhattacharya"
-                                    fill
-                                    className="object-cover object-top"
-                                />
-                            </div>
+
+
+            {/* Vivek Bipindada Kolhe */}
+
+            <div className="mx-auto max-w-6xl px-4 flex flex-col gap-8">
+                <div className="flex items-center gap-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Vivek Bipindada Kolhe<span className="text-[#FF6B5A]">.</span></h2>
+                    <div className="h-px bg-gray-200 flex-grow"></div>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                    <div className="lg:col-span-5 order-2 lg:order-1">
+                        <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
+                            <Image
+                                src="/leadership/vivek.png"
+                                alt="Vivek Bipindada Kolhe"
+                                fill
+                                className="object-cover object-top"
+                            />
                         </div>
-                        <div className="lg:col-span-7 order-1 lg:order-1 flex flex-col justify-center">
-                            <div className="space-y-4">
-                                <LeaderAccordionItem
-                                    title="CEO & Managing Director"
-                                    content="Debayan Bhattacharya is a seasoned enterprise leader with over two decades of experience in building, scaling and transforming high-performance organizations across global and Indian markets. As CEO and Managing Director of Sanjivani Edge, he plays a pivotal role in shaping the company’s strategic direction, governance framework and long-term growth roadmap.
+                    </div>
+                    <div className="lg:col-span-7 order-1 lg:order-2 flex flex-col justify-center">
+                        <div className="space-y-4">
+                            <LeaderAccordionItem
+                                title="Chairman & Visionary Leader"
+                                content="Vivek Bipindada Kolhe is a dynamic leader whose commitment to service and community transformation stems from a legacy of social impact and grassroots leadership. With deep roots in cooperative governance, education, and rural development, Vivek brings purpose-led leadership to Sanjivani Edge - one that blends strategic vision with authentic connection to the communities we serve. "
+                                isOpen={true}
+                            />
+                            <LeaderAccordionItem
+                                title="A Leader with Purpose and People-Centric Vision"
+                                content={
+                                    <>
+                                        <p className="mb-4">
+                                            From his early days in student leadership to his current roles across cooperative, education, and financial institutions, Vivek has consistently championed causes that strengthen social infrastructure and human capability. Known for his ability to connect with youth and communities, he has built a reputation for bringing practical, impact-oriented solutions to life.
+                                        </p>
+                                        <p className="mb-2 font-medium text-[#1A1F3D]">He holds significant leadership positions including:</p>
+                                        <ul className="list-none space-y-2">
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span><span className="font-medium text-[#1A1F3D]">Chairman</span> – Sahakar Maharshi Shankarrao Kolhe Cooperative Sugar Factory Ltd.</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span><span className="font-medium text-[#1A1F3D]">Trustee</span> – Sanjivani Rural Education Society (Sanjivani University)</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span><span className="font-medium text-[#1A1F3D]">Director</span> – Indian Farmers Fertilizer Cooperative (IFFCO)</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span><span className="font-medium text-[#1A1F3D]">Director</span> – Maharashtra State Cooperative Sugar Factories Federation</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span><span className="font-medium text-[#1A1F3D]">Director</span> – Ahmednagar District Central Cooperative Bank Ltd.</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span><span className="font-medium text-[#1A1F3D]">Chairman</span> – Kopargaon Industrial Cooperative Society (Estate) Ltd.</span>
+                                            </li>
+                                        </ul>
+                                    </>
+                                }
+                            />
+                            <LeaderAccordionItem
+                                title="Driving Social Impact Across Sectors"
+                                content={
+                                    <>
+                                        <p className="mb-4">
+                                            Vivek’s journey reflects a blend of enterprise building, community service, and institutional leadership:
+                                        </p>
+                                        <ul className="list-none space-y-4">
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span>He launched employment initiatives in Kopargaon, including the city’s first BPO call center.</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span>As a catalyst for youth engagement and empowerment, he founded <span className="font-medium text-[#1A1F3D]">Sanjivani Yuva Pratishthan</span>, inspiring thousands to work toward social unity, health, education, environment, and agricultural development.</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span>During the COVID-19 pandemic, he led the establishment of the <span className="font-medium text-[#1A1F3D]">Sanjivani Dedicated COVID Health Care Center</span>, offering free treatment, medicines, ambulance services, and care to hundreds of patients in need.</span>
+                                            </li>
+                                            <li className="flex items-start gap-2">
+                                                <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
+                                                <span>He has organized and supported initiatives such as blood donation camps, mobile health clinics, tree plantations, community weddings for underprivileged families, flood relief efforts, and more — all reinforcing his belief that service is a duty.</span>
+                                            </li>
+                                        </ul>
+                                    </>
+                                }
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section className="w-full bg-[#F9F7FC] py-24">
+                <div className="mx-auto max-w-6xl px-4 pb-24">
+                    {/* Debayan Bhattacharya */}
+                    <section className="flex flex-col gap-8">
+                        <div className="flex items-center gap-4">
+                            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Debayan Bhattacharya<span className="text-[#FF6B5A]">.</span></h2>
+                            <div className="h-px bg-gray-200 flex-grow"></div>
+                        </div>
+
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                            <div className="lg:col-span-5 order-2 lg:order-2">
+                                <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
+                                    <Image
+                                        src="/leadership/debayan.webp"
+                                        alt="Debayan Bhattacharya"
+                                        fill
+                                        className="object-cover object-top"
+                                    />
+                                </div>
+                            </div>
+                            <div className="lg:col-span-7 order-1 lg:order-1 flex flex-col justify-center">
+                                <div className="space-y-4">
+                                    <LeaderAccordionItem
+                                        title="CEO & Managing Director"
+                                        content="Debayan Bhattacharya is a seasoned enterprise leader with over two decades of experience in building, scaling and transforming high-performance organizations across global and Indian markets. As CEO and Managing Director of Sanjivani Edge, he plays a pivotal role in shaping the company’s strategic direction, governance framework and long-term growth roadmap.
 Known for his ability to align business goals with people strategy, Debayan brings a rare combination of strategic vision and operational depth. His leadership philosophy centres on creating future-ready enterprises by integrating talent intelligence, digital innovation and ethical governance.
 "
-                                    isOpen={true}
-                                />
-                                <LeaderAccordionItem
-                                    title="Strategic Leadership"
-                                    content="Throughout his career, Debayan has led large-scale talent acquisition and workforce transformation initiatives that have enabled organizations to expand rapidly while maintaining quality and cultural integrity. He has successfully guided businesses through complex phases of growth, restructuring, and change - ensuring that people strategies remain closely aligned with business objectives."
-                                />
-                                <LeaderAccordionItem
-                                    title="Driving Digital and Organizational Transformation"
-                                    content="A strong advocate of data-driven decision-making, Debayan has spearheaded enterprise-wide digital transformation programs focused on recruitment technology, predictive analytics, and workforce intelligence. His work has consistently delivered measurable improvements in efficiency, scalability, and long-term organizational agility.
+                                        isOpen={true}
+                                    />
+                                    <LeaderAccordionItem
+                                        title="Strategic Leadership"
+                                        content="Throughout his career, Debayan has led large-scale talent acquisition and workforce transformation initiatives that have enabled organizations to expand rapidly while maintaining quality and cultural integrity. He has successfully guided businesses through complex phases of growth, restructuring, and change - ensuring that people strategies remain closely aligned with business objectives."
+                                    />
+                                    <LeaderAccordionItem
+                                        title="Driving Digital and Organizational Transformation"
+                                        content="A strong advocate of data-driven decision-making, Debayan has spearheaded enterprise-wide digital transformation programs focused on recruitment technology, predictive analytics, and workforce intelligence. His work has consistently delivered measurable improvements in efficiency, scalability, and long-term organizational agility.
 He has also been instrumental in designing scalable talent supply chains and leadership pipelines, helping organizations prepare for future skill demands while strengthening succession planning and leadership continuity.
 Debayan is widely regarded as a trusted advisor to boards and senior leadership teams, offering strategic counsel on human capital, organizational design, and transformation initiatives. His leadership style emphasizes ethical governance, transparency, and accountability - fostering cultures that encourage innovation, collaboration, and sustained performance.
 Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for enterprises seeking responsible, people-centric digital transformation.
 "
-                                />
+                                    />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-            </div>
-
-            {/* Vivek Bipindada Kolhe */}
-            <section className="w-full bg-[#F9F7FC] py-24">
-                <div className="mx-auto max-w-6xl px-4 flex flex-col gap-8">
-                    <div className="flex items-center gap-4">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Vivek Bipindada Kolhe<span className="text-[#FF6B5A]">.</span></h2>
-                        <div className="h-px bg-gray-200 flex-grow"></div>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                        <div className="lg:col-span-5 order-2 lg:order-1">
-                            <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
-                                <Image
-                                    src="/leadership/vivek.png"
-                                    alt="Vivek Bipindada Kolhe"
-                                    fill
-                                    className="object-cover object-top"
-                                />
-                            </div>
-                        </div>
-                        <div className="lg:col-span-7 order-1 lg:order-2 flex flex-col justify-center">
-                            <div className="space-y-4">
-                                <LeaderAccordionItem
-                                    title="Chairman & Visionary Leader"
-                                    content="Vivek Bipindada Kolhe is a dynamic leader whose commitment to service and community transformation stems from a legacy of social impact and grassroots leadership. With deep roots in cooperative governance, education, and rural development, Vivek brings purpose-led leadership to Sanjivani Edge - one that blends strategic vision with authentic connection to the communities we serve. "
-                                    isOpen={true}
-                                />
-                                <LeaderAccordionItem
-                                    title="A Leader with Purpose and People-Centric Vision"
-                                    content={
-                                        <>
-                                            <p className="mb-4">
-                                                From his early days in student leadership to his current roles across cooperative, education, and financial institutions, Vivek has consistently championed causes that strengthen social infrastructure and human capability. Known for his ability to connect with youth and communities, he has built a reputation for bringing practical, impact-oriented solutions to life.
-                                            </p>
-                                            <p className="mb-2 font-medium text-[#1A1F3D]">He holds significant leadership positions including:</p>
-                                            <ul className="list-none space-y-2">
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span><span className="font-medium text-[#1A1F3D]">Chairman</span> – Sahakar Maharshi Shankarrao Kolhe Cooperative Sugar Factory Ltd.</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span><span className="font-medium text-[#1A1F3D]">Trustee</span> – Sanjivani Rural Education Society (Sanjivani University)</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span><span className="font-medium text-[#1A1F3D]">Director</span> – Indian Farmers Fertilizer Cooperative (IFFCO)</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span><span className="font-medium text-[#1A1F3D]">Director</span> – Maharashtra State Cooperative Sugar Factories Federation</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span><span className="font-medium text-[#1A1F3D]">Director</span> – Ahmednagar District Central Cooperative Bank Ltd.</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span><span className="font-medium text-[#1A1F3D]">Chairman</span> – Kopargaon Industrial Cooperative Society (Estate) Ltd.</span>
-                                                </li>
-                                            </ul>
-                                        </>
-                                    }
-                                />
-                                <LeaderAccordionItem
-                                    title="Driving Social Impact Across Sectors"
-                                    content={
-                                        <>
-                                            <p className="mb-4">
-                                                Vivek’s journey reflects a blend of enterprise building, community service, and institutional leadership:
-                                            </p>
-                                            <ul className="list-none space-y-4">
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span>He launched employment initiatives in Kopargaon, including the city’s first BPO call center.</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span>As a catalyst for youth engagement and empowerment, he founded <span className="font-medium text-[#1A1F3D]">Sanjivani Yuva Pratishthan</span>, inspiring thousands to work toward social unity, health, education, environment, and agricultural development.</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span>During the COVID-19 pandemic, he led the establishment of the <span className="font-medium text-[#1A1F3D]">Sanjivani Dedicated COVID Health Care Center</span>, offering free treatment, medicines, ambulance services, and care to hundreds of patients in need.</span>
-                                                </li>
-                                                <li className="flex items-start gap-2">
-                                                    <span className="text-[#FF6B5A] mt-1.5 h-1.5 w-1.5 rounded-full flex-shrink-0 bg-current" />
-                                                    <span>He has organized and supported initiatives such as blood donation camps, mobile health clinics, tree plantations, community weddings for underprivileged families, flood relief efforts, and more — all reinforcing his belief that service is a duty.</span>
-                                                </li>
-                                            </ul>
-                                        </>
-                                    }
-                                />
-                            </div>
-                        </div>
-                    </div>
+                    </section>
                 </div>
             </section>
 
@@ -208,7 +211,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                        <div className="lg:col-span-5 order-2 lg:order-2">
+                         <div className="lg:col-span-5 order-1 lg:order-1">
                             <div className="relative h-[500px] w-full rounded-[20px] overflow-hidden bg-[#F5F5F7] border-b-10 border-[#0175B2]">
                                 <Image
                                     src="/leadership/shantham.png"
@@ -218,7 +221,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                                 />
                             </div>
                         </div>
-                        <div className="lg:col-span-7 order-1 lg:order-1 flex flex-col justify-center">
+                         <div className="lg:col-span-7 order-2 lg:order-2 flex flex-col justify-center">
                             <div className="space-y-4">
                                 <LeaderAccordionItem
                                     title="Chief People Officer (CPO)"
@@ -257,6 +260,10 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                                 />
                             </div>
                         </div>
+                        
+                       
+                       
+
                     </div>
                 </section>
 
