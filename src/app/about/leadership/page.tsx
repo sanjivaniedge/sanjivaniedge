@@ -177,12 +177,12 @@ export default function LeadershipPage() {
                             <div className="lg:col-span-7 order-1 lg:order-1 flex flex-col justify-center">
                                 <div className="space-y-4">
                                     <LeaderAccordionItem
-                                        title="CEO & Managing Director"
-                                        content="Debayan Bhattacharya is a seasoned enterprise leader with over two decades of experience in building, scaling and transforming high-performance organizations across global and Indian markets. As CEO and Managing Director of Sanjivani Edge, he plays a pivotal role in shaping the company’s strategic direction, governance framework and long-term growth roadmap.
+                                    title="CEO & Managing Director"
+                                    content="Debayan Bhattacharya is a seasoned enterprise leader with over two decades of experience in building, scaling and transforming high-performance organizations across global and Indian markets. As CEO and Managing Director of Sanjivani Edge, he plays a pivotal role in shaping the company’s strategic direction, governance framework and long-term growth roadmap.
 Known for his ability to align business goals with people strategy, Debayan brings a rare combination of strategic vision and operational depth. His leadership philosophy centres on creating future-ready enterprises by integrating talent intelligence, digital innovation and ethical governance.
-"
-                                        isOpen={true}
-                                    />
+A Hogan Certified professional, Debayan leverages scientifically backed personality and leadership assessment frameworks to build stronger leadership pipelines, enhance organizational culture and drive sustainable performance across teams."
+                                    isOpen={true}
+                                />
                                     <LeaderAccordionItem
                                         title="Strategic Leadership"
                                         content="Throughout his career, Debayan has led large-scale talent acquisition and workforce transformation initiatives that have enabled organizations to expand rapidly while maintaining quality and cultural integrity. He has successfully guided businesses through complex phases of growth, restructuring, and change - ensuring that people strategies remain closely aligned with business objectives."
