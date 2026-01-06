@@ -232,22 +232,22 @@ export default async function BlogPostPage({ params }: PostProps) {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative pt-8 pb-4 px-4 bg-[#F8FAFC]">
+      <section className="relative pt-32 pb-16 px-4 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto">
-          <div className="flex items-center gap-4 mb-6 text-sm text-[#606060]">
-            <Link href="/blogs" className="hover:text-[#0175B2] transition-colors font-medium">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6 text-sm text-[#606060]">
+            <Link href="/blogs" className="hover:text-[#0175B2] transition-colors font-medium whitespace-nowrap">
               &larr; Back to Blogs
             </Link>
             {post.categories && post.categories.length > 0 && (
               <>
-                <span>•</span>
-                <span className="text-[#0175B2] font-semibold bg-[#E6F4FA] px-3 py-1 rounded-full text-xs uppercase tracking-wide">
+                <span className="hidden sm:inline">•</span>
+                <span className="text-[#0175B2] font-semibold bg-[#E6F4FA] px-3 py-1 rounded-full text-xs uppercase tracking-wide whitespace-nowrap">
                   {post.categories[0].title}
                 </span>
               </>
             )}
-            <span>•</span>
-            <span>
+            <span className="hidden sm:inline">•</span>
+            <span className="whitespace-nowrap">
               {post.publishedAt
                 ? new Date(post.publishedAt).toLocaleDateString("en-US", {
                     month: "long",
@@ -258,13 +258,13 @@ export default async function BlogPostPage({ params }: PostProps) {
             </span>
             {post.estimatedReadTime && (
               <>
-                <span>•</span>
-                <span>{post.estimatedReadTime} min read</span>
+                <span className="hidden sm:inline">•</span>
+                <span className="whitespace-nowrap">{post.estimatedReadTime} min read</span>
               </>
             )}
           </div>
 
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#1A1F3D] mb-8 leading-tight tracking-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-[#1A1F3D] mb-8 leading-tight tracking-tight">
             {post.title}
           </h1>
 
@@ -301,13 +301,13 @@ export default async function BlogPostPage({ params }: PostProps) {
 
       {/* Main Image */}
       {post.mainImage && (
-        <section className="px-4  mb-4 relative z-10">
-          <div className="max-w-6xl mx-auto relative h-[400px] md:h-[600px] rounded-3xl overflow-hidden ">
+        <section className="px-4 mb-4 relative z-10">
+          <div className="max-w-6xl mx-auto relative h-[200px] md:h-[600px] rounded-3xl overflow-hidden ">
             <Image
               src={urlFor(post.mainImage).url()}
               alt={post.title}
               fill
-              className="object-contain  transition-transform duration-700"
+              className="object-contain transition-transform duration-700"
               priority
             />
           </div>

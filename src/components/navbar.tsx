@@ -44,13 +44,13 @@ export default function Navbar() {
               className={`inline-flex items-center gap-1 ${isActive("/about") ? activeClass : linkClass}`}
               onClick={() => setAboutOpen((v) => !v)}
             >
-              <Link href="/about" className={isActive("/about") ? activeClass : linkClass}>About Us</Link> <ChevronDown className="h-4 w-4" />
+              <span className={isActive("/about") ? activeClass : linkClass}>Who We Are</span> <ChevronDown className="h-4 w-4" />
             </button>
             {aboutOpen && (
               <div className="absolute left-0 -mt-1 w-40 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)] z-50">
                 <ul className="py-2 text-sm">
+                  <li><Link href="/about" className="block px-3 py-2 hover:text-brand">About Us</Link></li>
                   <li><Link href="/about/leadership" className="block px-3 py-2 hover:text-brand">Leadership</Link></li>
-             
                 </ul>
               </div>
             )}
@@ -111,7 +111,7 @@ export default function Navbar() {
             <div className="container py-3 flex flex-col gap-3 text-sm">
             <Link href="/" className={isActive("/") ? activeClass : "text-foreground"}>Home</Link>
               <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setAboutOpen((v) => !v)}>
-                About Us <ChevronDown className="h-4 w-4" />
+                Who We Are <ChevronDown className="h-4 w-4" />
               </button>
               {aboutOpen && (
                  <div className="pl-4 flex flex-col gap-2 z-10">
