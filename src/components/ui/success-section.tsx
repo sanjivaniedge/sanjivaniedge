@@ -109,7 +109,7 @@ export function SuccessSection({ data }: SuccessSectionProps) {
               ))}
             </div>
 
-            <div className="pl-4">
+            <div className="pl-4 flex justify-center md:justify-start">
               {data.ctaText && (
                 <a href={data.ctaLink || "#"} className="inline-flex items-center gap-2 bg-[#FF6B5A] text-white px-8 py-3 rounded hover:bg-[#e55a4a] transition-colors font-medium">
                   {data.ctaText}

@@ -132,7 +132,7 @@ export function CapabilitiesAccordion({ features }: CapabilitiesAccordionProps) 
                 </AccordionItem>
               ))}
             </Accordion>
-            <Link href="/contact">
+            <Link href="/contact" className="w-full flex justify-center md:justify-start">
               <button className="bg-[#FF6B5A] text-white px-8 py-3 rounded-md cursor-pointer flex items-center gap-3 hover:bg-[#e55a4a] transition-colors mt-8">
                 CONNECT WITH US
                 <svg

@@ -5,8 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import { TableOfContents } from "@/components/ui/table-of-contents";
 
 export const revalidate = 60;
+
+// Helper to get text from a block
+function getBlockText(block: any) {
+  if (!block || !block.children) return "";
+  return block.children.map((child: any) => child.text).join("");
+}
 
 // Helper to convert blocks to plain text
 function toPlainText(blocks: any = []) {
@@ -17,7 +24,7 @@ function toPlainText(blocks: any = []) {
       if (block._type !== 'block' || !block.children) {
         return '';
       }
-      return block.children.map((child: any) => child.text).join('');
+      return getBlockText(block);
     })
     .join('\n\n');
 }
@@ -152,22 +159,22 @@ const ptComponents: PortableTextComponents = {
   },
   block: {
     h1: ({ children, value }: any) => (
-      <h1 id={generateId(value.children[0].text)} className="scroll-mt-24 text-4xl font-bold text-[#1A1F3D] mt-12 mb-6">
+      <h1 id={generateId(getBlockText(value))} className="scroll-mt-32 text-4xl font-bold text-[#1A1F3D] mt-12 mb-6">
         {children}
       </h1>
     ),
     h2: ({ children, value }: any) => (
-      <h2 id={generateId(value.children[0].text)} className="scroll-mt-24 text-3xl font-bold text-[#1A1F3D] mt-10 mb-5 pb-2 border-b border-gray-200">
+      <h2 id={generateId(getBlockText(value))} className="scroll-mt-32 text-3xl font-bold text-[#1A1F3D] mt-10 mb-5 pb-2 border-b border-gray-200">
         {children}
       </h2>
     ),
     h3: ({ children, value }: any) => (
-      <h3 id={generateId(value.children[0].text)} className="scroll-mt-24 text-2xl font-bold text-[#1A1F3D] mt-8 mb-4">
+      <h3 id={generateId(getBlockText(value))} className="scroll-mt-32 text-2xl font-bold text-[#1A1F3D] mt-8 mb-4">
         {children}
       </h3>
     ),
     h4: ({ children, value }: any) => (
-      <h4 id={generateId(value.children[0].text)} className="scroll-mt-24 text-xl font-bold text-[#1A1F3D] mt-6 mb-3">
+      <h4 id={generateId(getBlockText(value))} className="scroll-mt-32 text-xl font-bold text-[#1A1F3D] mt-6 mb-3">
         {children}
       </h4>
     ),
@@ -223,16 +230,19 @@ export default async function BlogPostPage({ params }: PostProps) {
   // Extract headings for Table of Contents
   const headings = post.body
     ?.filter((block: any) => block._type === "block" && block.style?.startsWith("h"))
-    .map((block: any) => ({
-      text: block.children?.[0]?.text || "",
-      id: generateId(block.children?.[0]?.text || ""),
-      level: parseInt(block.style.replace("h", "")),
-    }));
+    .map((block: any) => {
+      const text = getBlockText(block);
+      return {
+        text,
+        id: generateId(text),
+        level: parseInt(block.style.replace("h", "")),
+      };
+    }) || [];
 
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-16 px-4 bg-[#F8FAFC]">
+      <section className="relative pt-8 pb-4 px-4 bg-[#F8FAFC]">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6 text-sm text-[#606060]">
             <Link href="/blogs" className="hover:text-[#0175B2] transition-colors font-medium whitespace-nowrap">
@@ -267,42 +277,13 @@ export default async function BlogPostPage({ params }: PostProps) {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-[#1A1F3D] mb-8 leading-tight tracking-tight">
             {post.title}
           </h1>
-
-          {/* <div className="flex justify-end items-center gap-4">
-            {post.author?.image && (
-              <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-white shadow-md">
-                <Image
-                  src={urlFor(post.author.image).url()}
-                  alt={post.author.name}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            )}
-            <div>
-              <div className="font-bold text-[#1A1F3D] text-lg">
-                {post.author?.name || "Sanjivani Team"}
-              </div>
-              <div className="text-sm text-[#606060]">
-                {post.author?.bio ? (
-                  Array.isArray(post.author.bio) ? (
-                    <PortableText value={post.author.bio} />
-                  ) : (
-                    post.author.bio
-                  )
-                ) : (
-                  "Author"
-                )}
-              </div>
-            </div>
-          </div> */}
         </div>
       </section>
 
       {/* Main Image */}
       {post.mainImage && (
         <section className="px-4 mb-4 relative z-10">
-          <div className="max-w-6xl mx-auto relative h-[200px] md:h-[600px] rounded-3xl overflow-hidden ">
+          <div className="max-w-6xl mx-auto relative h-[200px] md:h-[600px]  overflow-hidden ">
             <Image
               src={urlFor(post.mainImage).url()}
               alt={post.title}
@@ -320,45 +301,14 @@ export default async function BlogPostPage({ params }: PostProps) {
           
           {/* Table of Contents - Hidden on mobile, sticky on desktop */}
           <aside className="hidden lg:block lg:col-span-3">
-            <div className="sticky top-32 p-6 bg-[#F8FAFC] rounded-2xl border border-gray-100">
-              <h3 className="text-lg font-bold text-[#1A1F3D] mb-4 uppercase tracking-wider text-sm">Table of Contents</h3>
-              <nav className="space-y-1">
-                {headings?.map((heading: any) => (
-                  <Link
-                    key={heading.id}
-                    href={`#${heading.id}`}
-                    className={`block text-sm py-1.5 transition-colors hover:text-[#0175B2] ${
-                      heading.level === 1 ? "font-bold text-[#1A1F3D]" :
-                      heading.level === 2 ? "font-medium text-[#4A5568] ml-0" :
-                      heading.level === 3 ? "text-[#606060] ml-4" :
-                      "text-[#606060] ml-6"
-                    }`}
-                  >
-                    {heading.text}
-                  </Link>
-                ))}
-              </nav>
-            </div>
+             <TableOfContents headings={headings} className="sticky top-32" />
           </aside>
 
           {/* Main Article Content */}
           <article className="lg:col-span-9 max-w-4xl">
             {/* Mobile TOC */}
-            <div className="lg:hidden mb-12 bg-[#F8FAFC] p-6 rounded-2xl">
-              <h3 className="text-lg font-bold text-[#1A1F3D] mb-4">Table of Contents</h3>
-              <nav className="space-y-2">
-                 {headings?.map((heading: any) => (
-                  <Link
-                    key={heading.id}
-                    href={`#${heading.id}`}
-                    className={`block text-sm py-1 hover:text-[#0175B2] ${
-                      heading.level > 2 ? "ml-4" : ""
-                    }`}
-                  >
-                    {heading.text}
-                  </Link>
-                ))}
-              </nav>
+            <div className="lg:hidden mb-12">
+              <TableOfContents headings={headings} />
             </div>
 
             <div className="prose prose-lg prose-headings:text-[#1A1F3D] prose-p:text-[#4A5568] prose-a:text-[#0175B2] prose-a:font-medium prose-img:rounded-xl max-w-none">
