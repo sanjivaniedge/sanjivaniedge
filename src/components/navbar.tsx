@@ -110,7 +110,15 @@ export default function Navbar() {
           <div className="lg:hidden border-t border-[color:var(--tile-stroke)] p-6">
             <div className="container py-3 flex flex-col gap-3 text-sm">
             <Link href="/" className={isActive("/") ? activeClass : "text-foreground"}>Home</Link>
-            <Link href="/about" className={isActive("/about") ? activeClass : "text-foreground"}>About Us</Link>
+              <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setAboutOpen((v) => !v)}>
+                About Us <ChevronDown className="h-4 w-4" />
+              </button>
+              {aboutOpen && (
+                 <div className="pl-4 flex flex-col gap-2 z-10">
+                   <Link href="/about" className={isActive("/about") ? activeClass : "font-medium"}>About Us</Link>
+                   <Link href="/about/leadership" className={pathname === "/about/leadership" ? activeClass : undefined}>Leadership</Link>
+                 </div>
+              )}
               <button className="inline-flex items-center gap-1 text-foreground" onClick={() => setServicesOpen((v) => !v)}>
                 Services <ChevronDown className="h-4 w-4" />
               </button>
@@ -127,8 +135,7 @@ export default function Navbar() {
                 <Link href="/services/erp" className={pathname === "/services/erp" ? activeClass : undefined}>ERP Services</Link>
                 </div>
               )}
-            <Link href="/industries" className={isActive("/industries") ? activeClass : "text-foreground"}>Industries</Link>
-            <Link href="/resources" className={isActive("/resources") ? activeClass : "text-foreground"}>Resources</Link>
+            <Link href="/blogs" className={isActive("/blogs") ? activeClass : "text-foreground"}>Blogs</Link>
             <Link href="/contact" className={isActive("/contact") ? activeClass : "text-foreground"}>
               <Button variant="primary" size="sm" className="mt-2 w-full uppercase tracking-wide">
                 GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
