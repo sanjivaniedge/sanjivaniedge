@@ -35,7 +35,26 @@ export default function Navbar() {
         </Link>
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <Link href="/" className={isActive("/") ? activeClass : linkClass}>Home</Link>
-          <Link href="/about" className={isActive("/about") ? activeClass : linkClass}>About Us</Link>
+          <div
+            className="relative"
+            onMouseEnter={() => setAboutOpen(true)}
+            onMouseLeave={() => setAboutOpen(false)}
+          >
+            <button
+              className={`inline-flex items-center gap-1 ${isActive("/about") ? activeClass : linkClass}`}
+              onClick={() => setAboutOpen((v) => !v)}
+            >
+              <Link href="/about" className={isActive("/about") ? activeClass : linkClass}>About Us</Link> <ChevronDown className="h-4 w-4" />
+            </button>
+            {aboutOpen && (
+              <div className="absolute left-0 -mt-1 w-40 rounded-md border border-[color:var(--tile-stroke)] bg-white shadow-[var(--shadow-soft)] z-50">
+                <ul className="py-2 text-sm">
+                  <li><Link href="/about/leadership" className="block px-3 py-2 hover:text-brand">Leadership</Link></li>
+             
+                </ul>
+              </div>
+            )}
+          </div>
           <div
             className="relative"
             onMouseEnter={() => setServicesOpen(true)}

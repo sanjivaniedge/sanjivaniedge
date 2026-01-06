@@ -34,6 +34,7 @@ export default function Footer() {
             <ul className="mt-6 md:mt-[56px] space-y-4 md:space-y-[29px] text-[16px] md:text-[18px] text-white/70">
               <li><Link href="/careers">Careers</Link></li>
               <li><Link href="/about">About Us</Link></li>
+              <li><Link href="/about/leadership">Leadership</Link></li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>

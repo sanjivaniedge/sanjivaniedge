@@ -224,7 +224,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                          <div className="lg:col-span-7 order-2 lg:order-2 flex flex-col justify-center">
                             <div className="space-y-4">
                                 <LeaderAccordionItem
-                                    title="Chief People Officer (CPO)"
+                                    title="Director"
                                     content={
                                         <div className="space-y-4">
                                             <p>
