@@ -82,8 +82,8 @@ export function LegacySection({
   const dockClasses = align === "right"
     ? "md:justify-end md:items-end"
     : "md:justify-start md:items-start";
-  const itemsClasses = align === "right" ? "items-end" : "items-start";
-  const textAlignClasses = align === "right" ? "text-right" : "text-left";
+  const itemsClasses = align === "right" ? "items-center md:items-end" : "items-center md:items-start";
+  const textAlignClasses = align === "right" ? "text-center md:text-right" : "text-center md:text-left";
   const finalParagraphs: ReactNode[] = (paragraphs && paragraphs.length)
     ? paragraphs
     : description
