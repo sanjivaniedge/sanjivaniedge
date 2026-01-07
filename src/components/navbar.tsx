@@ -30,9 +30,28 @@ export default function Navbar() {
   return (
     <header className={`sticky top-0 z-50 w-full border-b border-[color:var(--tile-stroke)] py-4 ${scrolled ? "bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 shadow-sm" : "bg-white"}`}>
       <div className="max-w-6xl mx-auto px-4 flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo/logo.webp" alt="Sanjivani Edge" width={150} height={150} />
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
+            <Image 
+              src="/logo/logo.webp" 
+              alt="Sanjivani Edge" 
+              width={150} 
+              height={150} 
+              className="w-20 h-auto md:w-auto object-contain"
+            />
+          </Link>
+          <div className="flex items-center gap-3 lg:hidden">
+            <div className="h-6 w-px bg-gray-300"></div>
+            <Image 
+              src="/logo/logo2.webp" 
+              alt="Sanjivani Group" 
+              width={60} 
+              height={24} 
+              className="object-contain opacity-90" 
+            />
+          </div>
+        </div>
+
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <Link href="/" className={isActive("/") ? activeClass : linkClass}>Home</Link>
           <div
@@ -169,9 +188,6 @@ export default function Navbar() {
                 GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
               </Button>
             </Link>
-            <div className="flex justify-center mt-4 border-t border-[color:var(--tile-stroke)] pt-4 pb-2">
-              <Image src="/logo/logo2.webp" alt="Sanjivani Edge Logo 2" width={70} height={28} className="object-contain opacity-90" />
-            </div>
             </div>
           </div>
         )}
