@@ -1,6 +1,9 @@
 import Image from "next/image";
+import ScrollVelocity from "../ui/scroll-velocity";
 
 export function WhoWeAre() {
+  const velocity = 50;
+
   return (
     <section className="w-full">
       {/* Blue Banner */}
@@ -46,19 +49,14 @@ export function WhoWeAre() {
       </div>
 
       {/* Marquee */}
-      <div className="bg-white py-16 overflow-hidden relative border-t border-gray-100">
-        <div className="flex whitespace-nowrap animate-marquee">
-          {[...Array(2)].map((_, groupIndex) => (
-            <div key={groupIndex} className="flex">
-              {[...Array(4)].map((_, i) => (
-                <span key={i} className="text-6xl md:text-8xl font-bold text-[#E8E4F3] mx-8 select-none">
-                  SANJIVANI EDGE -
-                </span>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
+            <section className="px-4 pt-12">
+              <ScrollVelocity
+                texts={[' SANJIVANI-EDGE ', '']}
+                velocity={velocity}
+                className="custom-scroll-text opacity-20"
+              />
+      
+            </section>
     </section>
   );
 }
