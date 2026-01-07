@@ -73,8 +73,8 @@ export default function AboutPage() {
       {/* Who We Are */}
       <section className="px-4 py-24">
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="relative h-full w-full overflow-hidden rounded-[10px]">
-            <Image src="/Images/who-about.webp" alt="Who We Are" fill className="object-cover" />
+          <div className="relative h-[300px] md:h-full min-h-[300px] w-full overflow-hidden rounded-[10px] bg-white border border-[color:var(--tile-stroke)]">
+            <Image src="/logo/logo2.webp" alt="Who We Are" fill className="object-contain p-12" />
           </div>
           <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-[#E8E4F34D] p-10">
             <h2 className="text-4xl md:text-6xl font-semibold text-[#1A1F3D]">Who We Are</h2>
