@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { JOBS } from "@/data/careers";
 import { JobSection } from "@/components/careers/job-section";
+import { WhoWeAre } from "@/components/careers/who-we-are";
 
 export default function CareersPage() {
   const developmentJobs = JOBS.filter(job => job.category === "Development");
@@ -34,6 +35,8 @@ export default function CareersPage() {
         </div>
       </section>
 
+
+
       {/* Current Openings Section */}
       <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#E8E4F34D] relative">
         {/* BG Waves Decoration */}
@@ -60,6 +63,8 @@ export default function CareersPage() {
           <JobSection title="Operations" jobs={operationsJobs} />
         </div>
       </section>
+            {/* Who We Are Section */}
+      <WhoWeAre />
     </main>
   );
 }

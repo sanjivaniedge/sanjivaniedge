@@ -31,17 +31,17 @@ export default async function JobPage({ params }: JobPageProps) {
           <div className="flex flex-col md:flex-row justify-between items-start gap-8">
             <div className="space-y-6 max-w-3xl">
               <div className="flex flex-wrap gap-3 text-sm font-semibold">
-                <span className="bg-[#FF6B5A] px-3 py-1 rounded-full text-white">
+                <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A]">
                   {job.category}
                 </span>
-                <span className="bg-white/10 px-3 py-1 rounded-full text-white/90 flex items-center gap-1">
+                <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                   <MapPin className="w-3 h-3" /> {job.location}
                 </span>
-                <span className="bg-white/10 px-3 py-1 rounded-full text-white/90 flex items-center gap-1">
+                <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                   <Briefcase className="w-3 h-3" /> {job.type}
                 </span>
                 {job.experience && (
-                  <span className="bg-white/10 px-3 py-1 rounded-full text-white/90 flex items-center gap-1">
+                  <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                     <Clock className="w-3 h-3" /> {job.experience}
                   </span>
                 )}
@@ -159,10 +159,10 @@ export default async function JobPage({ params }: JobPageProps) {
                     <span className="font-medium text-[#1A1F3D]">{job.experience}</span>
                   </div>
                 )}
-                <div className="flex flex-col">
+                {/* <div className="flex flex-col">
                   <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Date Posted</span>
                   <span className="font-medium text-[#1A1F3D]">Recently</span>
-                </div>
+                </div> */}
               </div>
 
               <div className="mt-8 pt-6 border-t border-gray-100">
@@ -175,11 +175,11 @@ export default async function JobPage({ params }: JobPageProps) {
               </div>
             </div>
 
-            <div className="bg-[#E8E4F3] p-6 rounded-xl">
+            {/* <div className="bg-[#E8E4F3] p-6 rounded-xl">
               <h4 className="font-bold text-[#1A1F3D] mb-2">Share this job</h4>
               <p className="text-sm text-gray-600 mb-4">Know someone who would be a perfect fit? Share this opportunity!</p>
-              {/* Social share buttons could go here */}
-            </div>
+            
+            </div> */}
           </div>
         </div>
       </div>
