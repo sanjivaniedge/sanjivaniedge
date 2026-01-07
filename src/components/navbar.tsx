@@ -87,9 +87,21 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <Link href="/blogs" className={isActive("/blogs") ? activeClass : linkClass}>Blogs</Link>
-          {/* <Link href="/resources" className="text-foreground hover:text-brand">Resources</Link> */}
+          <Link
+            href="/blogs"
+            className={isActive("/blogs") ? activeClass : linkClass}
+          >
+            Blogs
+          </Link>
+          <Link
+            href="/careers"
+            className={isActive("/careers") ? activeClass : linkClass}
+          >
+            Careers
+          </Link>
         </nav>
+
+        {/* CTA Button */}
         <div className="flex items-center gap-3">
           <Link
             href="/contact"
@@ -135,7 +147,20 @@ export default function Navbar() {
                 <Link href="/services/erp" className={pathname === "/services/erp" ? activeClass : undefined}>ERP Services</Link>
                 </div>
               )}
-            <Link href="/blogs" className={isActive("/blogs") ? activeClass : "text-foreground"}>Blogs</Link>
+            <Link
+              href="/blogs"
+              className={isActive("/blogs") ? activeClass : "text-foreground"}
+              onClick={() => setOpen(false)}
+            >
+              Blogs
+            </Link>
+            <Link
+              href="/careers"
+              className={isActive("/careers") ? activeClass : "text-foreground"}
+              onClick={() => setOpen(false)}
+            >
+              Careers
+            </Link>
             <Link href="/contact" className={isActive("/contact") ? activeClass : "text-foreground"}>
               <Button variant="primary" size="sm" className="mt-2 w-full uppercase tracking-wide">
                 GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
