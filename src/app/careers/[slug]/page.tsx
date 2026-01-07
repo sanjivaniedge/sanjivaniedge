@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowRight, MapPin, Clock, Briefcase, CheckCircle2 } from "lucide-react";
+import { ArrowRight, MapPin, Clock, Briefcase, CheckCircle2, Star } from "lucide-react";
 import { JOBS } from "@/data/careers";
 
 interface JobPageProps {
@@ -122,7 +122,7 @@ export default async function JobPage({ params }: JobPageProps) {
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {job.perks.map((item, index) => (
                   <li key={index} className="flex items-center gap-3">
-                    <span className="text-2xl">✨</span>
+                    <Star className="w-5 h-5 text-brand fill-brand flex-shrink-0" />
                     <span className="font-medium text-[#1A1F3D]">{item}</span>
                   </li>
                 ))}
