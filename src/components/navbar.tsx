@@ -116,9 +116,6 @@ export default function Navbar() {
           >
             GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
           </Link>
-          <div className="hidden lg:block ml-4">
-             <Image src="/logo/logo2.webp" alt="Sanjivani Edge Logo 2" width={100} height={40} className="object-contain" />
-          </div>
           <button
             aria-label="menu"
             className="lg:hidden inline-flex h-9 w-9 items-center justify-center rounded-md border border-[color:var(--tile-stroke)]"
