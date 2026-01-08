@@ -62,7 +62,7 @@ export default function LeadershipPage() {
 
             <div className="mx-auto max-w-6xl px-4 flex flex-col gap-8">
                 <div className="flex items-center gap-4">
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Vivek Bipindada Kolhe<span className="text-[#FF6B5A]">.</span></h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Vivek Bipindada Kolhe</h2>
                     <div className="h-px bg-gray-200 flex-grow"></div>
                 </div>
 
@@ -159,7 +159,7 @@ export default function LeadershipPage() {
                     {/* Debayan Bhattacharya */}
                     <section className="flex flex-col gap-8">
                         <div className="flex items-center gap-4">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Debayan Bhattacharya<span className="text-[#FF6B5A]">.</span></h2>
+                            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Debayan Bhattacharya</h2>
                             <div className="h-px bg-gray-200 flex-grow"></div>
                         </div>
 
@@ -206,7 +206,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                 {/* Shantham Shukla */}
                 <section className="flex flex-col gap-8">
                     <div className="flex items-center gap-4">
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Dr. Shantam Shukla<span className="text-[#FF6B5A]">.</span></h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-[#1A1F3D] whitespace-nowrap">Dr. Shantam Shukla</h2>
                         <div className="h-px bg-gray-200 flex-grow"></div>
                     </div>
 
