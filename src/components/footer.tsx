@@ -6,11 +6,20 @@ export default function Footer() {
     <footer className="mt-12 mb-6  px-4">
       <div className="rounded-[20px] text-white bg-no-repeat bg-cover md:bg-[length:100%_100%] bg-[url('/figma/footer-bg-4e3b73.png')] px-6 py-8 sm:px-8 sm:py-10 md:px-[78px] md:py-[44px]">
         <div className="flex md:flex-row flex-col gap-8 sm:gap-[60px] md:gap-[78px] justify-start">
-          <div className="w-full   ">
-            <div className="md:w-[250px] w-[200px] h-[111px] relative">
-              <Image src="/logo/logo-white.webp" alt="Sanjivani Edge" fill className="object-contain" />
+          <div className="w-full">
+            <div className="flex flex-row items-center gap-6">
+              <div className="relative w-[140px] h-[60px] md:w-[180px] md:h-[80px] -translate-y-2">
+                <Image src="/logo/logo-white.webp" alt="Sanjivani Edge" fill className="object-contain object-left" />
+              </div>
+              <div className="h-12 w-[1px] bg-white/30"></div>
+              <div className="flex flex-col justify-center">
+                <span className="text-[12px] text-white/80 mb-1">Powered by</span>
+                <div className="relative w-[100px] h-[40px] md:w-[120px] md:h-[50px]">
+                  <Image src="/logo/logo2-white.webp" alt="Sanjivani Group" fill className="object-contain object-left" />
+                </div>
+              </div>
             </div>
-            <p className="mt-6 md:mt-[56px] text-[16px] md:text-[18px] text-white/70">From cooperative fields to global networks, the journey continues. What began as an enterprise of farmers and visionaries now empowers enterprises of coders and creators.</p>
+            <p className="mt-6 md:mt-[40px] text-[16px] md:text-[18px] text-white/70">From cooperative fields to global networks, the journey continues. What began as an enterprise of farmers and visionaries now empowers enterprises of coders and creators.</p>
           </div>
           <div className="w-full ">
             <div className="text-[22px] md:text-[32px] font-bold text-center">Services</div>

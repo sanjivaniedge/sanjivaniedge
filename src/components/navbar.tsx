@@ -30,15 +30,28 @@ export default function Navbar() {
   return (
     <header className={`sticky top-0 z-50 w-full border-b border-[color:var(--tile-stroke)] py-4 ${scrolled ? "bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 shadow-sm" : "bg-white"}`}>
       <div className="max-w-6xl mx-auto px-4 flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <Image 
-            src="/logo/logo.webp" 
-            alt="Sanjivani Edge" 
-            width={150} 
-            height={150} 
-            className="w-20 h-auto md:w-auto object-contain"
-          />
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href="/" className="flex items-center">
+            <Image 
+              src="/logo/logo.webp" 
+              alt="Sanjivani Edge" 
+              width={150} 
+              height={150} 
+              className="w-20 h-auto md:w-32 object-contain -translate-y-1"
+            />
+          </Link>
+          <div className="hidden md:block h-10 w-[1px] bg-gray-300"></div>
+          <div className="hidden md:flex flex-col justify-center">
+            <span className="text-[10px] text-gray-500 font-medium mb-0.5">Powered by</span>
+            <Image 
+              src="/logo/logo2.webp" 
+              alt="Sanjivani Group" 
+              width={100} 
+              height={40} 
+              className="w-20 h-auto object-contain"
+            />
+          </div>
+        </div>
 
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <Link href="/" className={isActive("/") ? activeClass : linkClass}>Home</Link>
