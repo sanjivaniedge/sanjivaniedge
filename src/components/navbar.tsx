@@ -139,6 +139,17 @@ export default function Navbar() {
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
           </button>
+          
+          <div className="lg:hidden flex flex-col justify-center">
+             <span className="text-[8px] text-gray-500 font-medium mb-0.5">Powered by</span>
+            <Image 
+              src="/logo/logo2.webp" 
+              alt="Sanjivani Group" 
+              width={80} 
+              height={32} 
+              className="w-16 h-auto object-contain"
+            />
+          </div>
         </div>
       </div>
         {open && (

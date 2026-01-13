@@ -5,34 +5,34 @@ import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 
 export default function ParallaxShowcase() {
   const images = [
-    
-    {
-      src: "/gallery/amit.webp",
-      alt: "Amit Shah",
+       {
+      src: "/gallery/modiji.webp",
+      alt: "PM Modi",
     },
     {
       src: "/gallery/all.webp",
       alt: "All Team",
     },
+ 
+    {
+      src: "/gallery/amit.webp",
+      alt: "Amit Shah",
+    },
     {
       src: "/gallery/fadnavish.webp",
       alt: "Devendra Fadnavis",
     },
+    // {
+    //   src: "/gallery/shivaji.webp",
+    //   alt: "Chhatrapati Shivaji Maharaj",
+    // },
+    // {
+    //   src: "/gallery/shantam.webp",
+    //   alt: "Shantam",
+    // },
     {
-      src: "/gallery/flowers.webp",
-      alt: "Celebration",
-    },
-    {
-      src: "/gallery/modiji.webp",
-      alt: "PM Modi",
-    },
-    {
-      src: "/gallery/shantam.webp",
-      alt: "Shantam",
-    },
-    {
-      src: "/gallery/shivaji.webp",
-      alt: "Chhatrapati Shivaji Maharaj",
+      src: "/gallery/flowersall.webp",
+      alt: "Flowers",
     },
   ];
 
