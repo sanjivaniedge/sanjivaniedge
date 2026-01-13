@@ -11,13 +11,13 @@ export default function Footer() {
               <div className="relative w-[140px] h-[60px] md:w-[180px] md:h-[80px] -translate-y-2">
                 <Image src="/logo/logo-white.webp" alt="Sanjivani Edge" fill className="object-contain object-left" />
               </div>
-              <div className="h-12 w-[1px] bg-white/30"></div>
-              <div className="flex flex-col justify-center">
+              {/* <div className="h-12 w-[1px] bg-white/30"></div> */}
+              {/* <div className="flex flex-col justify-center">
                 <span className="text-[12px] text-white/80 mb-1">Powered by</span>
                 <div className="relative w-[100px] h-[40px] md:w-[120px] md:h-[50px]">
                   <Image src="/logo/logo2-white.webp" alt="Sanjivani Group" fill className="object-contain object-left" />
                 </div>
-              </div>
+              </div> */}
             </div>
             <p className="mt-6 md:mt-[40px] text-[16px] md:text-[18px] text-white/70">From cooperative fields to global networks, the journey continues. What began as an enterprise of farmers and visionaries now empowers enterprises of coders and creators.</p>
           </div>

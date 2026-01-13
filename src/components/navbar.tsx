@@ -40,17 +40,8 @@ export default function Navbar() {
               className="w-20 h-auto md:w-32 object-contain -translate-y-1"
             />
           </Link>
-          <div className="hidden md:block h-10 w-[1px] bg-gray-300"></div>
-          <div className="hidden md:flex flex-col justify-center">
-            <span className="text-[10px] text-gray-500 font-medium mb-0.5">Powered by</span>
-            <Image 
-              src="/logo/logo2.webp" 
-              alt="Sanjivani Group" 
-              width={100} 
-              height={40} 
-              className="w-20 h-auto object-contain"
-            />
-          </div>
+
+
         </div>
 
         <nav className="hidden lg:flex items-center gap-8 text-sm">
@@ -129,6 +120,18 @@ export default function Navbar() {
           >
             GET IN TOUCH <ArrowUpRight className="ml-1 h-4 w-4" />
           </Link>
+
+          <div className="hidden lg:block h-10 w-[1px] bg-gray-300 mx-6"></div>
+          <div className="hidden lg:flex flex-col justify-center">
+            <span className="text-[10px] text-gray-500 font-medium mb-0.5">Powered by</span>
+            <Image 
+              src="/logo/logo2.webp" 
+              alt="Sanjivani Group" 
+              width={100} 
+              height={40} 
+              className="w-20 h-auto object-contain"
+            />
+          </div>
           <button
             aria-label="menu"
             className="lg:hidden inline-flex h-9 w-9 items-center justify-center rounded-md border border-[color:var(--tile-stroke)]"
