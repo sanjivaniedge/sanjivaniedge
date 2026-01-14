@@ -229,13 +229,13 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                                     title={
                                         <span className="flex items-center gap-2 flex-wrap">
                                             <span>Director</span>
-                                            <span className="text-gray-300">|</span>
-                                            <span>Author</span>
+                                            {/* <span className="text-gray-300">|</span> */}
+                                            {/* <span>Author</span>
                                             <span className="text-sm font-normal text-gray-500 flex items-center gap-1">
                                                 (
                                                 <AuthorLink>Book Link</AuthorLink>
                                                 )
-                                            </span>
+                                            </span> */}
                                         </span>
                                     }
                                     content={
