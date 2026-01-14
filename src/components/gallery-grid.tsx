@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 interface GalleryGridProps {
   files: string[];
@@ -37,9 +38,17 @@ export default function GalleryGrid({ files }: GalleryGridProps) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [selectedIndex, showNext, showPrev]);
 
+  // Determine grid columns based on number of images
+  const gridClassName = cn(
+    "gap-6 space-y-6 mx-auto",
+    files.length === 1 && "flex justify-center max-w-2xl",
+    files.length === 2 && "columns-1 md:columns-2 max-w-4xl",
+    files.length >= 3 && "columns-1 md:columns-2 lg:columns-3"
+  );
+
   return (
     <>
-      <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+      <div className={gridClassName}>
         {files.map((file, index) => (
           <motion.div
             key={index}

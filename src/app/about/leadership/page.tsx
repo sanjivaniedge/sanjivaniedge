@@ -244,7 +244,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                                                 Dr. Shantam Shukla is a strategy and innovation professional with deep experience across academia and industry. A Fellow (Ph.D.) in Business Policy from Indian Institute of Management Ahmedabad, he works at the intersection of strategy, innovation, and institutional design.
                                             </p>
                                             <p>
-                                                He is also the author of <span className="italic">Strategic Management</span> published by Vikas Publishing House, available on <AuthorLink>Amazon</AuthorLink>.
+                                             <AuthorLink>Amazon</AuthorLink>.
                                             </p>
                                         </div>
                                     }
