@@ -99,6 +99,12 @@ export default function Navbar() {
             )}
           </div>
           <Link
+            href="/gallery"
+            className={isActive("/gallery") ? activeClass : linkClass}
+          >
+            Gallery
+          </Link>
+          <Link
             href="/blogs"
             className={isActive("/blogs") ? activeClass : linkClass}
           >

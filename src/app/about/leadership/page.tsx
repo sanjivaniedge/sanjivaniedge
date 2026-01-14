@@ -3,7 +3,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowUpRight, Plus } from "lucide-react";
+import { Fragment } from "react";
 import LegacySection from "@/components/ui/legacy-section";
+import AuthorLink from "@/components/author-link";
 
 export const metadata = {
     title: "Leadership | Sanjivani Edge",
@@ -155,7 +157,7 @@ export default function LeadershipPage() {
             </div>
 
             <section className="w-full bg-[#F9F7FC] py-24">
-                <div className="mx-auto max-w-6xl px-4 pb-24">
+                <div className="mx-auto max-w-6xl px-4 pb-4">
                     {/* Debayan Bhattacharya */}
                     <section className="flex flex-col gap-8">
                         <div className="flex items-center gap-4">
@@ -224,14 +226,25 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
                          <div className="lg:col-span-7 order-2 lg:order-2 flex flex-col justify-center">
                             <div className="space-y-4">
                                 <LeaderAccordionItem
-                                    title="Director"
+                                    title={
+                                        <span className="flex items-center gap-2 flex-wrap">
+                                            <span>Director</span>
+                                            <span className="text-gray-300">|</span>
+                                            <span>Author</span>
+                                            <span className="text-sm font-normal text-gray-500 flex items-center gap-1">
+                                                (
+                                                <AuthorLink>Book Link</AuthorLink>
+                                                )
+                                            </span>
+                                        </span>
+                                    }
                                     content={
                                         <div className="space-y-4">
                                             <p>
                                                 Dr. Shantam Shukla is a strategy and innovation professional with deep experience across academia and industry. A Fellow (Ph.D.) in Business Policy from Indian Institute of Management Ahmedabad, he works at the intersection of strategy, innovation, and institutional design.
                                             </p>
                                             <p>
-                                                He is the author of <span className="italic">Strategy: Text and Cases</span> published by McGraw Hill, and a visiting faculty for strategy at leading IIMs. His research and thought leadership have been presented at prestigious global forums, including Harvard Business School conferences.
+                                                He is also the author of <span className="italic">Strategic Management</span> published by Vikas Publishing House, available on <AuthorLink>Amazon</AuthorLink>.
                                             </p>
                                         </div>
                                     }
@@ -292,15 +305,13 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
             <LegacySection
                 title="The Sanjivani Ethos."
                 paragraphs={[
-                    (<>
+                    (<Fragment key="p1">
                         <span className="font-semibold text-[#1A1F3D]">Sanjivani Edge believes that progress is not a product<br /> — it is a practice.</span>{" "}
-
-                    </>),
-                    (<>
+                    </Fragment>),
+                    (<Fragment key="p2">
                         <span className="text-sm">
                             Every partnership, process, and platform reflects this principle.<br /><br />Built on trust, refined through innovation, and executed with precision — <br /><br />Sanjivani Edge is not just an IT services company; it is a commitment to responsible transformation.</span>
-                    </>),
-
+                    </Fragment>),
                 ]}
                 ctaHref="/contact"
                 ctaLabel="Start Your Project"
@@ -310,7 +321,7 @@ Under his guidance, Sanjivani Edge continues to evolve as a trusted partner for 
     );
 }
 
-function LeaderAccordionItem({ title, content, isOpen = false }: { title: string; content: React.ReactNode; isOpen?: boolean }) {
+function LeaderAccordionItem({ title, content, isOpen = false }: { title: React.ReactNode; content: React.ReactNode; isOpen?: boolean }) {
     return (
         <div className="rounded-[10px] overflow-hidden border border-[#E8E4F3]">
             <Accordion type="single" collapsible defaultValue={isOpen ? "item-1" : undefined}>
