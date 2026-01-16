@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ClientSection from "@/components/client-section";
 import HomeBlogs from "@/components/HomeBlogs";
 import ParallaxShowcase from "@/components/ParallaxShowcase";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -20,6 +21,7 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
+      <ClientSection />
       <ParallaxShowcase />
       <HomeBlogs />
                 {/* Frequently Asked Questions(FAQ's) */}
