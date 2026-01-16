@@ -122,7 +122,7 @@ export default function ContactPage() {
               </p>
 
               <p className="mb-6">
-                Trapezoid IT Park, C-27,<br />3rd Floor, Sec-62, Noida-201369
+                Trapezoid IT Park, C-27,<br />3rd Floor, Sec-62, Noida-201309
               </p>
 
               <p className="font-semibold mb-2 text-2xl">Registered Office Address</p>
@@ -139,7 +139,7 @@ export default function ContactPage() {
           </div>
           <div className="relative h-full rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden">
             {(() => {
-              const officeAddress = "Trapezoid IT Park, C-27, 3rd Floor, Sec-62, Noida-201369";
+              const officeAddress = "Trapezoid IT Park, C-27, 3rd Floor, Sec-62, Noida-201309";
               const src = `https://www.google.com/maps?q=${encodeURIComponent(officeAddress)}&output=embed`;
               return (
                 <iframe
@@ -252,7 +252,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Address</div>
-                      <div className="text-[#606060] text-sm whitespace-pre-line break-words">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201369`}</div>
+                      <div className="text-[#606060] text-sm whitespace-pre-line break-words">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201309`}</div>
                     </div>
                   </div>
                 </div>
