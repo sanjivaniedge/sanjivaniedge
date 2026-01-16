@@ -261,6 +261,7 @@ export default function ContactPage() {
                     <div className="h-10 w-10 rounded-md mb-4 bg-[#F4F6F8] flex items-center justify-center">
                       <Linkedin className="h-5 w-5 text-[#606060] " />
                     </div>
+                    
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Social Media</div>
                       <Link href="https://www.linkedin.com/company/sanjivani-edge/" target="_blank" rel="noopener noreferrer" className="text-[#606060] text-sm hover:text-[#0175B2]">
