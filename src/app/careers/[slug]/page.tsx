@@ -149,10 +149,10 @@ export default async function JobPage({ params }: JobPageProps) {
                   <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Location</span>
                   <span className="font-medium text-[#1A1F3D]">{job.location}</span>
                 </div>
-                <div className="flex flex-col">
+                {/* <div className="flex flex-col">
                   <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Job Type</span>
                   <span className="font-medium text-[#1A1F3D]">{job.type}</span>
-                </div>
+                </div> */}
                 {job.experience && (
                   <div className="flex flex-col">
                     <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Experience</span>
