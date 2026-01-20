@@ -26,9 +26,9 @@ export function JobSection({ title, jobs }: JobSectionProps) {
             <div className="flex justify-between items-start mb-4">
               {/* Pills */}
               <div className="flex flex-wrap gap-3">
-                <span className="inline-flex items-center px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A]">
+                {/* <span className="inline-flex items-center px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A]">
                   {job.type}
-                </span>
+                </span> */}
                 <span className="inline-flex items-center px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A]">
                   {job.location}
                 </span>

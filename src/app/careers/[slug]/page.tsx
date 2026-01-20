@@ -37,9 +37,9 @@ export default async function JobPage({ params }: JobPageProps) {
                 <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                   <MapPin className="w-3 h-3" /> {job.location}
                 </span>
-                <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
+                {/* <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                   <Briefcase className="w-3 h-3" /> {job.type}
-                </span>
+                </span> */}
                 {job.experience && (
                   <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                     <Clock className="w-3 h-3" /> {job.experience}
