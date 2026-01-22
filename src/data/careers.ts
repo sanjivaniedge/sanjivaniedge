@@ -700,5 +700,154 @@ export const JOBS: Job[] = [
       "Ownership of test quality across features and releases",
       "A supportive, people-first culture that values learning, clarity and execution"
     ]
+  },
+  {
+    id: 20,
+    slug: "ux-designer",
+    title: "UX Designer",
+    description: "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences.",
+    type: "Full Time",
+    location: "Bangalore",
+    category: "Development",
+    experience: "3 to 6 Years",
+    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    responsibilities: [
+      "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences",
+      "Conduct user research, interviews and usability studies to understand user needs, behaviours and pain points",
+      "Create personas, user flows, wireframes and information architecture based on research insights",
+      "Develop high-fidelity prototypes and interactive designs using Figma",
+      "Collaborate closely with product managers, developers and business stakeholders to translate requirements into effective UX solutions",
+      "Work within Agile / SAFe environments, participating in sprint planning, reviews and continuous improvement discussions"
+    ],
+    requirements: [
+      "3–6 years of hands-on experience as a UX / UI Designer",
+      "Strong expertise in UX design principles, usability and human-centred design",
+      "Proven experience creating user journeys, personas, wireframes and high-fidelity prototypes",
+      "Hands-on proficiency with Figma for design and prototyping",
+      "Experience working in Agile or SAFe frameworks",
+      "Strong communication skills and the ability to present design concepts clearly to stakeholders",
+      "A problem-solving mindset with strong attention to detail",
+      "Bachelor’s degree in Design, HCI, Computer Science, or related field"
+    ],
+    perks: [
+      "Opportunity to work on user-centric products for global clients",
+      "Ownership of UX decisions from concept to delivery",
+      "Collaboration with cross-functional product and engineering teams",
+      "Exposure to modern design practices and enterprise-scale platforms",
+      "A people-first culture that values creativity, clarity and impact"
+    ]
+  },
+  {
+    id: 21,
+    slug: "senior-ux-designer",
+    title: "Senior UX Designer",
+    description: "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences.",
+    type: "Full Time",
+    location: "Bangalore",
+    category: "Development",
+    experience: "6 to 9 Years",
+    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    responsibilities: [
+      "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences",
+      "Conduct user research, interviews and usability studies to understand user needs, behaviours and pain points",
+      "Create personas, user flows, wireframes and information architecture based on research insights",
+      "Develop high-fidelity prototypes and interactive designs using Figma",
+      "Collaborate closely with product managers, developers and business stakeholders to translate requirements into effective UX solutions",
+      "Work within Agile / SAFe environments, participating in sprint planning, reviews and continuous improvement discussions"
+    ],
+    requirements: [
+      "6–9 years of hands-on experience as a UX / UI Designer",
+      "Strong expertise in UX design principles, usability and human-centred design",
+      "Proven experience creating user journeys, personas, wireframes and high-fidelity prototypes",
+      "Hands-on proficiency with Figma for design and prototyping",
+      "Experience working in Agile or SAFe frameworks",
+      "Strong communication skills and the ability to present design concepts clearly to stakeholders",
+      "A problem-solving mindset with strong attention to detail",
+      "Bachelor’s degree in Design, HCI, Computer Science, or related field"
+    ],
+    perks: [
+      "Opportunity to work on user-centric products for global clients",
+      "Ownership of UX decisions from concept to delivery",
+      "Collaboration with cross-functional product and engineering teams",
+      "Exposure to modern design practices and enterprise-scale platforms",
+      "A people-first culture that values creativity, clarity and impact"
+    ]
+  },
+  {
+    id: 22,
+    slug: "lead-developer-architect-backend",
+    title: "Lead Developer / Architect | Back-End Technologies",
+    description: "Lead the design and development of Java EE–based backend applications, ensuring scalability, performance and security.",
+    type: "Full Time",
+    location: "Bangalore",
+    category: "Development",
+    experience: "6 to 9 Years",
+    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    responsibilities: [
+      "Lead the design and development of Java EE–based backend applications, ensuring scalability, performance and security",
+      "Analyze and translate user and business requirements into robust technical solutions and system architectures",
+      "Plan, prioritize, assign and track development tasks across the software development life cycle (SDLC)",
+      "Write well-designed, efficient and maintainable code, while reviewing, testing and debugging team members’ code",
+      "Design and manage database structures, write optimized SQL queries, and ensure data integrity",
+      "Coordinate with internal teams to plan releases, document development phases and ensure applications remain secure and up to date"
+    ],
+    requirements: [
+      "6–9 years of experience working as a Senior Java Developer, Lead Developer or Architect",
+      "Strong foundation in data structures, algorithms and problem-solving",
+      "Hands-on experience designing, building and testing Java EE applications",
+      "In-depth knowledge of Java frameworks and technologies including Spring Boot, Microservices, GitHub Actions and Jenkins",
+      "Strong understanding of Object-Oriented Design (OOD) principles",
+      "Experience with database design and SQL",
+      "Excellent communication skills with the ability to collaborate across teams",
+      "Strong delegation, planning and time management capabilities",
+      "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field"
+    ],
+    perks: [
+      "A leadership role with technical ownership and architectural influence",
+      "Opportunity to mentor developers and shape backend engineering standards",
+      "Exposure to modern backend architectures and DevOps-driven delivery",
+      "Stable, long-term projects with real business impact",
+      "A collaborative, people-first culture that values expertise, clarity and execution"
+    ]
+  },
+  {
+    id: 23,
+    slug: "java-spark-devops-engineer",
+    title: "Java + Spark + DevOps Engineer",
+    description: "Design, develop and manage distributed and streaming applications using Java, Apache Spark and Spark Streaming.",
+    type: "Full Time",
+    location: "Bangalore",
+    category: "Development",
+    experience: "6 to 9 Years",
+    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    responsibilities: [
+      "Design, develop and manage distributed and streaming applications using Java, Apache Spark and Spark Streaming",
+      "Build and maintain event-driven and microservices-based architectures using Spring Boot and Spring Framework",
+      "Design, configure and manage Kafka-based messaging systems, including topics, partitions, consumer groups and redundancy clusters",
+      "Work extensively with the Confluent platform, including Kafka brokers, ZooKeeper, KSQL/KStreams and Kafka Control Centre",
+      "Develop and manage Kafka connectors, converters (Avro / JSON), custom connectors and REST proxy integrations",
+      "Ensure high availability, performance and stability of solutions by implementing monitoring, alerts and best practices"
+    ],
+    requirements: [
+      "6–9 years of hands-on experience developing and managing distributed and streaming applications",
+      "Strong expertise in Apache Spark (RDD API, Spark Streaming) and Kafka ecosystem",
+      "In-depth understanding of Kafka configuration properties such as timeouts, buffering and partitioning",
+      "Experience with Spring Boot, Spring Framework and event-based architecture patterns",
+      "Hands-on experience with Kubernetes and containerized deployments",
+      "Strong exposure to DevOps pipelines, including Azure DevOps and Jenkins",
+      "Ability to design scalable, fault-tolerant systems with strong troubleshooting skills",
+      "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field"
+    ],
+    perks: [
+      "Opportunity to work on high-scale, real-time data streaming platforms",
+      "Exposure to modern big data, event-driven and cloud-native architectures",
+      "High ownership role with impact on system performance and reliability",
+      "Long-term, technically challenging projects for global clients",
+      "A collaborative, people-first culture that values expertise, innovation and execution"
+    ]
   }
 ];
