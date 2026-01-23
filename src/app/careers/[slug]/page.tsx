@@ -37,9 +37,9 @@ export default async function JobPage({ params }: JobPageProps) {
                 <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                   <MapPin className="w-3 h-3" /> {job.location}
                 </span>
-                {/* <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
-                  <Briefcase className="w-3 h-3" /> {job.type}
-                </span> */}
+                <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
+                  <Briefcase className="w-3 h-3" /> Full-time
+                </span>
                 {job.experience && (
                   <span className="px-4 py-1.5 rounded-sm bg-[#F9F7FC] text-xs font-semibold text-[#1A1F3D] border border-[#FF6B5A] flex items-center gap-1">
                     <Clock className="w-3 h-3" /> {job.experience}
@@ -149,10 +149,10 @@ export default async function JobPage({ params }: JobPageProps) {
                   <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Location</span>
                   <span className="font-medium text-[#1A1F3D]">{job.location}</span>
                 </div>
-                {/* <div className="flex flex-col">
+                <div className="flex flex-col">
                   <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Job Type</span>
-                  <span className="font-medium text-[#1A1F3D]">{job.type}</span>
-                </div> */}
+                  <span className="font-medium text-[#1A1F3D]">Full-time</span>
+                </div>
                 {job.experience && (
                   <div className="flex flex-col">
                     <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Experience</span>
