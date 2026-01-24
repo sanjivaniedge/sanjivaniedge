@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import ClientSection from "@/components/client-section";
 import HomeBlogs from "@/components/HomeBlogs";
-import ParallaxShowcase from "@/components/ParallaxShowcase";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import LegacySection from "@/components/ui/legacy-section";
 
@@ -22,7 +21,6 @@ export default function Home() {
     <div className="">
       <Hero />
       <ClientSection />
-      <ParallaxShowcase />
       <HomeBlogs />
                 {/* Frequently Asked Questions(FAQ's) */}
             <section className="max-w-6xl px-4 py-12">
