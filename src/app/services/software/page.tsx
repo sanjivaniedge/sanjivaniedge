@@ -35,7 +35,7 @@ const softwarePageData = {
             {
                 title: "Enterprise Application Integration",
                 description: "Integration frameworks that unify applications and unlock real-time operational visibility.",
-                tools: "MuleSoft, Boomi, Postman",
+                tools: "Boomi, Workato, Postman",
                 image: "/Images/Enterprise-Applications-Integrations.webp"
             }
         ]

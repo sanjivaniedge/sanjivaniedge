@@ -4,8 +4,8 @@ import { JobSection } from "@/components/careers/job-section";
 import { WhoWeAre } from "@/components/careers/who-we-are";
 
 export default function CareersPage() {
-  const developmentJobs = JOBS.filter(job => job.category === "Development");
-  const operationsJobs = JOBS.filter(job => job.category === "Operations");
+  const developmentJobs = JOBS.filter(job => job.category === "Development" && !job.hidden);
+  const operationsJobs = JOBS.filter(job => job.category === "Operations" && !job.hidden);
 
   return (
     <main className="min-h-screen bg-white">
@@ -24,13 +24,13 @@ export default function CareersPage() {
 
           {/* Bottom Row: Full Width Image */}
           <div className="relative w-full aspect-[2/1] md:aspect-[2.5/1] rounded-2xl overflow-hidden shadow-lg">
-             <Image 
-               src="/figma/careers-hero.svg" 
-               alt="Sanjivani Edge Team" 
-               fill
-               className="object-cover"
-               priority
-             />
+            <Image
+              src="/figma/careers-hero.svg"
+              alt="Sanjivani Edge Team"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </section>
@@ -41,12 +41,12 @@ export default function CareersPage() {
       <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#E8E4F34D] relative">
         {/* BG Waves Decoration */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
-           <Image 
-             src="/figma/careers-bg-waves.svg" 
-             alt="Background Pattern" 
-             fill
-             className="object-cover"
-           />
+          <Image
+            src="/figma/careers-bg-waves.svg"
+            alt="Background Pattern"
+            fill
+            className="object-cover"
+          />
         </div>
 
         <div className="max-w-6xl mx-auto relative z-10">
@@ -63,7 +63,7 @@ export default function CareersPage() {
           <JobSection title="Operations" jobs={operationsJobs} />
         </div>
       </section>
-            {/* Who We Are Section */}
+      {/* Who We Are Section */}
       <WhoWeAre />
     </main>
   );

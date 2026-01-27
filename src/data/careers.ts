@@ -12,6 +12,7 @@ export interface Job {
   responsibilities?: string[];
   requirements?: string[];
   perks?: string[];
+  hidden?: boolean;
 }
 
 export const JOBS: Job[] = [
@@ -19,88 +20,97 @@ export const JOBS: Job[] = [
     id: 1,
     slug: "java-angular-developer",
     title: "Java + Angular Developer",
-    description: "Build enterprise applications using Java 17, Angular 17, and modern CI/CD tools in a collaborative, growth-focused environment.",
+    description:
+      "Build enterprise applications using Java 17, Angular 17, and modern CI/CD tools in a collaborative, growth-focused environment.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "5 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Developing and maintaining applications using Java SE (preferably Java 17) and Java MSB",
       "Building intuitive front-end interfaces using Angular (preferably Angular 17), JavaScript/TypeScript, HTML and CSS",
       "Working with CI/CD pipelines using Docker, Bitbucket and Jenkins",
       "Handling and optimizing databases such as Oracle, MySQL and SQL Server",
       "Deploying and managing applications on servers like WebSphere, WebLogic or JBoss",
-      "Collaborating with cross-functional teams to deliver clean, scalable and secure code"
+      "Collaborating with cross-functional teams to deliver clean, scalable and secure code",
     ],
     requirements: [
       "5–10 years of strong hands-on experience in Java and Angular-based development",
       "A solid understanding of enterprise application architecture",
       "Someone who writes clean code, loves solving problems and enjoys working in team-driven environments",
       "Good communication and collaboration skills",
-      "Ability to take ownership, solve problems and work independently when needed"
+      "Ability to take ownership, solve problems and work independently when needed",
     ],
     perks: [
       "Exposure to modern enterprise and cloud technologies",
       "Work with global clients across industries",
       "Real opportunities to grow, learn and move into leadership roles",
       "A collaborative, transparent and people-first culture",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 2,
     slug: "java-microservices-developer",
     title: "Java Microservices & Spring Boot Developer",
-    description: "Design and deploy scalable microservices using Java 17, Spring Boot, and enterprise CI/CD tools with global clients.",
+    description:
+      "Design and deploy scalable microservices using Java 17, Spring Boot, and enterprise CI/CD tools with global clients.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "5 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Designing and developing applications using Java SE (preferably Java 17) and Java MSB",
       "Building and managing Microservices using Spring Boot",
       "Creating robust CI/CD pipelines with Docker, Bitbucket and Jenkins",
       "Working on enterprise-grade databases like Oracle, MySQL and SQL Server",
       "Deploying and maintaining applications on WebSphere, WebLogic or JBoss",
-      "Ensuring performance, security and scalability across all solutions"
+      "Ensuring performance, security and scalability across all solutions",
     ],
     requirements: [
       "5–10 years of experience in Java Microservices & Spring Boot",
       "Strong backend development and architecture understanding",
       "Passion for building scalable, reliable systems that businesses depend on",
       "Good communication and collaboration skills",
-      "Ability to take ownership, solve problems and work independently when needed"
+      "Ability to take ownership, solve problems and work independently when needed",
     ],
     perks: [
       "Exposure to modern enterprise and cloud technologies",
       "Work with global clients across industries",
       "Real opportunities to grow, learn and move into leadership roles",
       "A collaborative, transparent and people-first culture",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 3,
     slug: "angular-developer",
     title: "Angular Developer",
-    description: "Build enterprise-grade web applications using Angular 17+, TypeScript, and modern testing frameworks in a user-first environment.",
+    description:
+      "Build enterprise-grade web applications using Angular 17+, TypeScript, and modern testing frameworks in a user-first environment.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "6 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Developing and maintaining applications using Angular 17+",
       "Writing clean, reusable code using TypeScript, HTML and CSS",
       "Implementing unit and automation testing using Cypress, Jest, Jasmine or Karma",
       "Optimizing UI performance, accessibility and responsiveness",
       "Working closely with backend teams to integrate APIs",
-      "Maintaining scalable component-based frontend architectures"
+      "Maintaining scalable component-based frontend architectures",
     ],
     requirements: [
       "6–10 years of strong hands-on experience in Angular development",
@@ -108,27 +118,30 @@ export const JOBS: Job[] = [
       "Experience with modern testing frameworks",
       "Someone who writes clean code and enjoys building user-first interfaces",
       "Good communication and collaboration skills",
-      "Ability to take ownership and work independently when needed"
+      "Ability to take ownership and work independently when needed",
     ],
     perks: [
       "Exposure to modern enterprise and cloud technologies",
       "Work with global clients across industries",
       "Real opportunities to grow, learn and move into leadership roles",
       "A collaborative, transparent and people-first culture",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 4,
     slug: "cpp-developer",
     title: "C++ Developer",
-    description: "Build high-performance, real-time systems using modern C++ (11/14/17), multithreading, and Linux/Unix environments.",
+    description:
+      "Build high-performance, real-time systems using modern C++ (11/14/17), multithreading, and Linux/Unix environments.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "6 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Developing high-performance applications using C++ (11/14/17)",
       "Writing efficient, scalable and maintainable object-oriented code",
@@ -136,7 +149,7 @@ export const JOBS: Job[] = [
       "Building and enhancing network and socket-based systems",
       "Applying STL, Boost and industry design patterns",
       "Working in Linux/Unix environments and supporting shell scripting needs",
-      "Exposure to network programming, socket programming and real-time systems"
+      "Exposure to network programming, socket programming and real-time systems",
     ],
     requirements: [
       "6–10 years of strong hands-on experience in C++ development",
@@ -144,27 +157,30 @@ export const JOBS: Job[] = [
       "Experience working on performance-critical and real-time systems",
       "Comfortable with Linux/Unix environments",
       "Someone who enjoys writing optimized, scalable and reliable code",
-      "Good communication and problem-solving skills"
+      "Good communication and problem-solving skills",
     ],
     perks: [
       "Work on core engineering and system-level projects",
       "Exposure to advanced architecture and performance optimization",
       "Long-term career growth opportunities",
       "Transparent, collaborative and people-first culture",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 5,
     slug: "csharp-selenium-automation",
     title: "C# Selenium Automation Engineer",
-    description: "Build scalable automation frameworks using C#, Selenium WebDriver, and CI/CD tools for enterprise-grade testing.",
+    description:
+      "Build scalable automation frameworks using C#, Selenium WebDriver, and CI/CD tools for enterprise-grade testing.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "6 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Developing and maintaining automation frameworks using C# and Selenium WebDriver for web application testing",
       "Integrating automation with CI/CD pipelines using Jenkins and Azure DevOps",
@@ -174,7 +190,7 @@ export const JOBS: Job[] = [
       "Designing reusable automation scripts and implementing best practices to optimize test coverage and execution",
       "Collaborating closely with QA, development and DevOps teams to align testing strategies with release cycles",
       "Troubleshooting and resolving automation issues to ensure reliability and scalability of test suites",
-      "Documenting processes and maintaining test reports for transparency and continuous improvement"
+      "Documenting processes and maintaining test reports for transparency and continuous improvement",
     ],
     requirements: [
       "6–10 years of strong hands-on experience in C# Selenium automation",
@@ -182,27 +198,30 @@ export const JOBS: Job[] = [
       "Hands-on CI/CD and API testing exposure",
       "Strong problem-solving mindset and attention to detail",
       "Good communication and collaboration skills",
-      "Ability to take ownership and work independently when needed"
+      "Ability to take ownership and work independently when needed",
     ],
     perks: [
       "Work on enterprise-grade automation and QA platforms",
       "Exposure to modern DevOps and testing practices",
       "Long-term growth and leadership opportunities",
       "Transparent, collaborative and people-first culture",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 6,
     slug: "technical-recruiter",
     title: "Technical (IT) Recruiter",
-    description: "Drive full-cycle recruitment for technical roles using Naukri, LinkedIn, and Boolean search strategies in a fast-paced hiring environment.",
+    description:
+      "Drive full-cycle recruitment for technical roles using Naukri, LinkedIn, and Boolean search strategies in a fast-paced hiring environment.",
     type: "Full Time",
     location: "Noida (Work From Office)",
     category: "Operations",
     experience: "2 to 3 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Handling the full-cycle recruitment process for IT, sales, product, technical and other roles",
       "Sourcing candidates using Naukri (Resdex), LinkedIn and niche portals through advanced Boolean search strategies",
@@ -210,7 +229,7 @@ export const JOBS: Job[] = [
       "Building and maintaining a steady candidate pipeline to reduce Time-to-Hire",
       "Ensuring a seamless and professional interview experience for candidates",
       "Tracking and reporting recruitment metrics such as Lead-to-Hire ratio and Source effectiveness using ATS tools",
-      "Contributing to employer branding and recruitment process improvements"
+      "Contributing to employer branding and recruitment process improvements",
     ],
     requirements: [
       "Graduate/Post-Graduate (MBA in HR is a plus)",
@@ -218,27 +237,30 @@ export const JOBS: Job[] = [
       "Proven track record in high-impact sourcing and closing difficult roles",
       "Excellent verbal and written English communication skills",
       "Strong ownership and relationship-building skills",
-      "Candidates who can join within 30 days or immediately will be preferred"
+      "Candidates who can join within 30 days or immediately will be preferred",
     ],
     perks: [
       "Direct impact on building high-performance technical teams",
       "Transparent hiring culture and leadership exposure",
       "Long-term growth opportunities in HR and Talent Acquisition",
       "Collaborative and people-first work environment",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 7,
     slug: "it-administrator",
     title: "IT Administrator & Web Coordinator",
-    description: "Manage IT infrastructure (networks, devices, security) and maintain websites using WordPress/Shopify with basic HTML/CSS skills.",
+    description:
+      "Manage IT infrastructure (networks, devices, security) and maintain websites using WordPress/Shopify with basic HTML/CSS skills.",
     type: "Full Time",
     location: "Noida",
     category: "Operations",
     experience: "3 to 5 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Setting up, configuring and troubleshooting Windows/Mac laptops, printers, routers and servers",
       "Managing office Wi-Fi, LAN, Firewalls and VPNs to ensure 100% connectivity",
@@ -247,7 +269,7 @@ export const JOBS: Job[] = [
       "Handling regular website updates, backups and security patches",
       "Uploading new blogs, updating banners, product pages and fixing broken links",
       "Monitoring website speed, hosting (AWS/GoDaddy/HostGator) and domain renewals",
-      "Supporting basic SEO meta-tag updates and minor HTML/CSS design changes"
+      "Supporting basic SEO meta-tag updates and minor HTML/CSS design changes",
     ],
     requirements: [
       "Degree in BCA, MCA, B.Tech or equivalent experience",
@@ -255,27 +277,30 @@ export const JOBS: Job[] = [
       "Strong understanding of TCP/IP, DNS and DHCP",
       "Basic working knowledge of HTML, CSS and PHP",
       "A problem-solver with a “get-it-done” mindset",
-      "Someone who enjoys helping colleagues with tech challenges"
+      "Someone who enjoys helping colleagues with tech challenges",
     ],
     perks: [
       "A hands-on role with visible daily impact",
       "Supportive teams and transparent work culture",
       "Real growth opportunities across IT and web operations",
       "Work on both infrastructure and digital platforms",
-      "Teams that value clean work, accountability and innovation"
-    ]
+      "Teams that value clean work, accountability and innovation",
+    ],
   },
   {
     id: 8,
     slug: "csharp-dotnet-sql-developer",
     title: "C# .NET & SQL Developer",
-    description: "Design, develop and maintain robust backend applications using .NET Core and C#, focusing on performance, scalability and long-term maintainability.",
+    description:
+      "Design, develop and maintain robust backend applications using .NET Core and C#, focusing on performance, scalability and long-term maintainability.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "5 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and maintain robust backend applications using .NET Core and C#, focusing on performance, scalability and long-term maintainability",
       "Build, expose and consume RESTful APIs that support enterprise-grade workflows and integrations",
@@ -284,7 +309,7 @@ export const JOBS: Job[] = [
       "Work extensively with SQL / PL-SQL for database design, complex queries, performance tuning and data integrity",
       "Debug and resolve production issues through structured root-cause analysis and preventive fixes",
       "Collaborate closely with architects, QA engineers, DevOps teams and business stakeholders throughout the development lifecycle",
-      "Participate in code reviews, sprint planning and technical discussions to continuously improve solution quality"
+      "Participate in code reviews, sprint planning and technical discussions to continuously improve solution quality",
     ],
     requirements: [
       "5–10 years of hands-on experience in C#, .NET Core and SQL / PL-SQL development",
@@ -293,27 +318,30 @@ export const JOBS: Job[] = [
       "Ability to design efficient database structures and write optimized SQL queries",
       "Strong analytical skills with the ability to break down complex technical problems into workable solutions",
       "Good communication skills and the ability to work effectively in cross-functional teams",
-      "A sense of ownership, accountability and commitment to delivering quality work"
+      "A sense of ownership, accountability and commitment to delivering quality work",
     ],
     perks: [
       "Opportunity to work on enterprise-scale applications used by global clients",
       "Exposure to modern backend technologies and real-world system architectures",
       "Clear role ownership with trust and autonomy in decision-making",
       "Long-term, stable projects that focus on quality rather than quick fixes",
-      "A collaborative and people-first culture that values clean work, responsibility and continuous improvement"
-    ]
+      "A collaborative and people-first culture that values clean work, responsibility and continuous improvement",
+    ],
   },
   {
     id: 9,
     slug: "csharp-angular-developer",
     title: "C# Angular Developer",
-    description: "Work as part of cross-functional development teams to build and enhance enterprise-grade applications.",
+    description:
+      "Work as part of cross-functional development teams to build and enhance enterprise-grade applications.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "5 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Work as part of cross-functional development teams to build and enhance enterprise-grade applications",
       "Develop and maintain backend services using Java SE (preferably Java 17) and Java MSB, ensuring performance, scalability and reliability",
@@ -321,7 +349,7 @@ export const JOBS: Job[] = [
       "Support application development across different layers, including business logic, integration and service orchestration",
       "Collaborate closely with frontend, QA and DevOps teams to ensure smooth end-to-end delivery of features",
       "Participate in design discussions, code reviews and sprint planning activities",
-      "Debug production issues, analyze root causes and implement sustainable fixes"
+      "Debug production issues, analyze root causes and implement sustainable fixes",
     ],
     requirements: [
       "5–10 years of hands-on experience working with Java SE, preferably Java 17, and Java MSB",
@@ -330,34 +358,37 @@ export const JOBS: Job[] = [
       "Ability to write clean, structured and maintainable backend code",
       "Strong analytical skills and attention to detail",
       "Good communication skills and the ability to collaborate with multiple teams",
-      "A strong sense of ownership and accountability for delivered work"
+      "A strong sense of ownership and accountability for delivered work",
     ],
     perks: [
       "Opportunity to work on complex enterprise systems used by global clients",
       "Exposure to modern Java versions and middleware-based architectures",
       "Stable, long-term projects with clear technical ownership",
       "A culture that encourages learning, responsibility and continuous improvement",
-      "Supportive teams that value clarity, execution and problem-solving"
-    ]
+      "Supportive teams that value clarity, execution and problem-solving",
+    ],
   },
   {
     id: 10,
     slug: "sap-datasphere-architect",
     title: "SAP Datasphere Architect",
-    description: "Design and optimize SAP HANA-based data models with a strong focus on performance and scalability.",
+    description:
+      "Design and optimize SAP HANA-based data models with a strong focus on performance and scalability.",
     type: "Full Time",
     location: "Pune / Bangalore",
     category: "Development",
     experience: "Total Experience: 7 Years | Relevant Experience: 5 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design and optimize SAP HANA-based data models with a strong focus on performance and scalability",
       "Develop ABAP CDS Views and AMDPs using the code-to-data paradigm to deliver high-performance solutions",
       "Implement modern applications using the ABAP RAP model, including creation and consumption of OData V4 services",
       "Work confidently across hybrid SAP landscapes, using SE80 for ECC support and ADT (Eclipse) for S/4HANA development",
       "Design, build and support integrations using IDocs, BAPIs, REST and SOAP APIs",
-      "Collaborate with functional teams and architects to translate business requirements into effective technical designs"
+      "Collaborate with functional teams and architects to translate business requirements into effective technical designs",
     ],
     requirements: [
       "Total 7+ years of SAP experience with at least 5 years of relevant experience in SAP Datasphere, HANA or S/4HANA environments",
@@ -366,34 +397,38 @@ export const JOBS: Job[] = [
       "Proven ability to work across both SE80 and ABAP Development Tools (ADT) in Eclipse",
       "Hands-on experience with SAP integrations using IDocs, BAPIs, REST and SOAP APIs",
       "Strong analytical, problem-solving and communication skills",
-      "High sense of ownership and accountability for technical delivery"
+      "High sense of ownership and accountability for technical delivery",
     ],
     perks: [
       "Opportunity to work on advanced SAP Datasphere and HANA projects for global clients",
       "Exposure to modern SAP development frameworks and best practices",
       "Clear technical ownership with meaningful responsibility",
       "Long-term, stable SAP programs with defined roadmaps",
-      "A collaborative, people-first work culture that values expertise and execution"
-    ]
+      "A collaborative, people-first work culture that values expertise and execution",
+    ],
   },
   {
     id: 11,
     slug: "mulesoft-developer",
     title: "MuleSoft Developer",
-    description: "Design, develop and maintain integrations using MuleSoft 3.x and 4.x, with Java as a core development skill.",
+    description:
+      "Design, develop and maintain integrations using MuleSoft 3.x and 4.x, with Java as a core development skill.",
     type: "Full Time",
     location: "Pune / Bangalore / Remote / PAN",
     category: "Development",
     experience: "4 to 7 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    hidden: true,
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and maintain integrations using MuleSoft 3.x and 4.x, with Java as a core development skill",
       "Build API-led and pub-sub integration solutions using Mule to support enterprise data flows",
       "Design scalable, high-performance schemas and data models aligned with functional and technical requirements",
       "Work on complex integrations across domains such as Master Data Management, Supply Chain and CRM",
       "Troubleshoot production issues and resolve development-time challenges through structured problem-solving",
-      "Collaborate closely with functional and technical stakeholders to explain integration designs and ensure alignment across source and target systems"
+      "Collaborate closely with functional and technical stakeholders to explain integration designs and ensure alignment across source and target systems",
     ],
     requirements: [
       "4–7 years of hands-on experience working with MuleSoft (3.x and 4.x) and Java (mandatory)",
@@ -402,34 +437,37 @@ export const JOBS: Job[] = [
       "Domain awareness in Master Data, Supply Chain or CRM environments is a strong advantage",
       "Solid analytical and problem-solving skills with the ability to handle production issues independently",
       "Excellent communication skills to effectively bridge technical designs with business and functional teams",
-      "A strong sense of ownership and accountability for integration delivery"
+      "A strong sense of ownership and accountability for integration delivery",
     ],
     perks: [
       "Opportunity to work on large-scale enterprise integration programs",
       "Exposure to multiple business domains and modern integration architectures",
       "Clear ownership of integrations from design to production support",
       "Long-term, stable projects with real business impact",
-      "A collaborative, people-first culture that values clarity, execution and expertise"
-    ]
+      "A collaborative, people-first culture that values clarity, execution and expertise",
+    ],
   },
   {
     id: 12,
     slug: "java-integration-engineer",
     title: "Java Integration Engineer",
-    description: "Design, develop and support enterprise integration solutions using Core Java as the primary programming language.",
+    description:
+      "Design, develop and support enterprise integration solutions using Core Java as the primary programming language.",
     type: "Full Time",
     location: "Pune / Bangalore / PAN / Remote",
     category: "Development",
     experience: "4 to 7 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and support enterprise integration solutions using Core Java as the primary programming language",
-      "Work with enterprise integration platforms such as MuleSoft, TIBCO, Oracle SOA/OSB, Dell Boomi, Workato or other ESB/iPaaS tools",
+      "Work with enterprise integration platforms such as TIBCO, Oracle SOA/OSB, Dell Boomi, Workato or other ESB/iPaaS tools",
       "Contribute to migration projects, supporting upgrades from legacy integration platforms to modern, scalable architectures",
       "Build, consume and maintain integrations using REST and SOAP APIs, along with XML and JSON data formats",
       "Integrate CI/CD pipelines using GitHub and Jenkins to support automated builds and deployments, with exposure to AWS environments where applicable",
-      "Analyze, debug and resolve complex integration and production issues in collaboration with cross-functional teams"
+      "Analyze, debug and resolve complex integration and production issues in collaboration with cross-functional teams",
     ],
     requirements: [
       "4–7 years of strong hands-on experience in Core Java development (mandatory)",
@@ -440,34 +478,37 @@ export const JOBS: Job[] = [
       "Strong analytical and debugging skills with the ability to resolve complex technical issues",
       "Excellent communication and collaboration skills to work effectively across teams",
       "Added Advantage: Domain knowledge in Master Data, Supply Chain or CRM environments",
-      "Added Advantage: Basic understanding of Mule 4 or a strong willingness to upskill on MuleSoft technologies"
+      "Added Advantage: Basic understanding of integration platforms like Boomi or willingness to upskill on integration technologies",
     ],
     perks: [
       "Opportunity to work on large-scale integration and modernization programs",
       "Exposure to multiple integration platforms and enterprise architectures",
       "Clear ownership of integration solutions from design through production support",
       "Long-term projects with real business impact and technical depth",
-      "A collaborative, people-first culture that values problem-solving and execution"
-    ]
+      "A collaborative, people-first culture that values problem-solving and execution",
+    ],
   },
   {
     id: 13,
     slug: "sap-sd-consultant",
     title: "SAP SD Consultant",
-    description: "Configure, support and enhance SAP SD (Sales and Distribution) modules across enterprise environments.",
+    description:
+      "Configure, support and enhance SAP SD (Sales and Distribution) modules across enterprise environments.",
     type: "Full Time",
     location: "Hyderabad",
     category: "Development",
     experience: "6 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Configure, support and enhance SAP SD (Sales and Distribution) modules across enterprise environments",
       "Work on SD–PS integration, ensuring seamless alignment between sales processes and project systems",
       "Support and implement S/4HANA-based SAP solutions, including system upgrades and enhancements",
       "Manage and maintain billing plans and complex pricing scenarios as part of the order-to-cash process",
       "Collaborate with functional, technical and business teams to gather requirements and deliver effective solutions",
-      "Support issue resolution, system testing and user acceptance activities"
+      "Support issue resolution, system testing and user acceptance activities",
     ],
     requirements: [
       "6 years of hands-on experience working as an SAP SD Consultant",
@@ -476,34 +517,37 @@ export const JOBS: Job[] = [
       "Hands-on exposure to S/4HANA environments",
       "Billing plan experience is mandatory",
       "Experience with SD–PS integration in public cloud is an added advantage",
-      "Strong communication skills and the ability to work with cross-functional teams"
+      "Strong communication skills and the ability to work with cross-functional teams",
     ],
     perks: [
       "Opportunity to work on modern SAP S/4HANA implementations",
       "Long-term functional roles with clear responsibilities",
       "Exposure to complex business processes and integrations",
       "Stable projects with defined delivery structures",
-      "A collaborative, people-first work culture that values clarity and ownership"
-    ]
+      "A collaborative, people-first work culture that values clarity and ownership",
+    ],
   },
   {
     id: 14,
     slug: "oracle-fusion-technical-consultant",
     title: "Oracle Fusion Cloud Technical Consultant (GL & FA)",
-    description: "Work as a technical consultant on Oracle Fusion Cloud implementations and support engagements, with a primary focus on General Ledger (GL) and Fixed Assets (FA).",
+    description:
+      "Work as a technical consultant on Oracle Fusion Cloud implementations and support engagements, with a primary focus on General Ledger (GL) and Fixed Assets (FA).",
     type: "Full Time",
     location: "Pune / Bangalore / Chennai / Hyderabad / Kolkata",
     category: "Development",
     experience: "7+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Work as a technical consultant on Oracle Fusion Cloud implementations and support engagements, with a primary focus on General Ledger (GL) and Fixed Assets (FA)",
       "Configure, customize and support Oracle Fusion modules including GL, Accounts Payables, Accounts Receivables, Cash Management, Fixed Assets, HCM and Procurement (future PO needs)",
       "Develop and maintain integrations using Oracle Integration Cloud (OIC) to support end-to-end business processes",
       "Design and develop reports using BI Publisher (BIP) to meet statutory, operational and management reporting needs",
       "Build and support analytics using OTBI, Business Intelligence Cloud Connector (BICC) and Fusion Analytics Warehouse",
-      "Collaborate with functional teams, finance stakeholders and technical teams to translate business requirements into scalable Oracle Fusion solutions"
+      "Collaborate with functional teams, finance stakeholders and technical teams to translate business requirements into scalable Oracle Fusion solutions",
     ],
     requirements: [
       "7+ years of overall experience with strong hands-on exposure to Oracle Fusion Cloud",
@@ -512,34 +556,37 @@ export const JOBS: Job[] = [
       "Functional and technical understanding of additional modules including AP, AR, CM, HCM and Procurement",
       "Strong experience in BIP report development, OTBI, BICC and Fusion Analytics Warehouse",
       "Ability to handle technical configurations, integrations and reporting requirements independently",
-      "Strong analytical, communication and stakeholder management skills"
+      "Strong analytical, communication and stakeholder management skills",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Oracle Fusion Cloud programs",
       "Exposure to both technical and functional aspects of Oracle Finance ecosystems",
       "Long-term, stable projects with clear ownership and accountability",
       "Collaborative teams that value precision, clarity and execution",
-      "A people-first culture that supports growth and continuous learning"
-    ]
+      "A people-first culture that supports growth and continuous learning",
+    ],
   },
   {
     id: 15,
     slug: "sr-workday-specialist",
     title: "Sr Workday Specialist – HR Technology",
-    description: "Act as Systems Administrator for Workday and HR Technology platforms, supporting Core HCM, Time Tracking, Payroll, Time Off, Absence and related modules.",
+    description:
+      "Act as Systems Administrator for Workday and HR Technology platforms, supporting Core HCM, Time Tracking, Payroll, Time Off, Absence and related modules.",
     type: "Full Time",
     location: "PAN India",
     category: "Development",
     experience: "6+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Act as Systems Administrator for Workday and HR Technology platforms, supporting Core HCM, Time Tracking, Payroll, Time Off, Absence and related modules",
       "Configure, maintain and enhance Workday business processes, data structures and integrations, ensuring data accuracy and system reliability",
       "Partner with stakeholders across HR, Payroll, Finance, Audit, Legal and IT to gather requirements, troubleshoot issues and implement system improvements",
       "Design, build and manage complex Workday reports and integration touchpoints, ensuring alignment across end-to-end business processes",
       "Support data optimization initiatives including legacy data cleansing, conversion planning and validation",
-      "Lead audit and compliance activities related to associate master data, ensuring consistency, integrity and adherence to company policies"
+      "Lead audit and compliance activities related to associate master data, ensuring consistency, integrity and adherence to company policies",
     ],
     requirements: [
       "6+ years of progressively responsible experience in HRIS / Workday ecosystems, with strong hands-on exposure",
@@ -548,34 +595,37 @@ export const JOBS: Job[] = [
       "Strong understanding of end-to-end HR business processes and data governance",
       "Experience working with integrated vendors such as ADP (Payroll) and Fidelity (Benefits)",
       "Strong analytical, problem-solving and stakeholder management skills",
-      "Excellent written and verbal communication skills with the ability to work across technical and non-technical teams"
+      "Excellent written and verbal communication skills with the ability to work across technical and non-technical teams",
     ],
     perks: [
       "Opportunity to own and shape enterprise-wide Workday HR technology platforms",
       "Exposure to complex reporting, integrations and compliance-driven HR environments",
       "High-visibility role with direct interaction with business and leadership stakeholders",
       "Long-term, stable HR technology programs with real organizational impact",
-      "A collaborative, people-first culture that values trust, ownership and continuous improvement"
-    ]
+      "A collaborative, people-first culture that values trust, ownership and continuous improvement",
+    ],
   },
   {
     id: 16,
     slug: "senior-workday-hcm-reporting-consultant",
     title: "Senior Workday HCM & Reporting Consultant (Functional)",
-    description: "Design, configure and support Workday Core HCM modules, including Staffing, Compensation and Benefits, ensuring alignment with business needs.",
+    description:
+      "Design, configure and support Workday Core HCM modules, including Staffing, Compensation and Benefits, ensuring alignment with business needs.",
     type: "Full Time",
     location: "PAN India",
     category: "Development",
     experience: "4+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, configure and support Workday Core HCM modules, including Staffing, Compensation and Benefits, ensuring alignment with business needs",
       "Analyze existing HR workflows to identify gaps and bottlenecks, and configure Business Process (BP) frameworks for improved efficiency",
       "Build and maintain complex Workday reports such as Matrix, Composite and Trending reports using Report Writer and Calculated Fields",
       "Develop dashboards and reporting views to support HR and leadership decision-making",
       "Partner with HR and Finance stakeholders to gather requirements and translate them into functional system solutions",
-      "Support testing, validation and deployment of configuration and reporting changes"
+      "Support testing, validation and deployment of configuration and reporting changes",
     ],
     requirements: [
       "4+ years of functional HRIS experience, with strong hands-on exposure to Workday",
@@ -584,34 +634,37 @@ export const JOBS: Job[] = [
       "Experience working directly with business stakeholders to deliver functional solutions",
       "Strong analytical and documentation skills",
       "Ability to manage multiple priorities in a fast-paced environment",
-      "Clear communication skills and a collaborative working style"
+      "Clear communication skills and a collaborative working style",
     ],
     perks: [
       "Opportunity to work on enterprise Workday HCM implementations",
       "High-visibility functional role with direct stakeholder interaction",
       "Exposure to complex reporting and business process optimization initiatives",
       "Long-term projects with clearly defined responsibilities",
-      "A collaborative, people-first work culture that values ownership and expertise"
-    ]
+      "A collaborative, people-first work culture that values ownership and expertise",
+    ],
   },
   {
     id: 17,
     slug: "senior-workday-integration-developer",
     title: "Senior Workday Integration Developer",
-    description: "Design and develop end-to-end Workday integrations, including inbound and outbound interfaces using EIBs, Core Connectors and Workday Studio.",
+    description:
+      "Design and develop end-to-end Workday integrations, including inbound and outbound interfaces using EIBs, Core Connectors and Workday Studio.",
     type: "Full Time",
     location: "PAN India",
     category: "Development",
     experience: "4+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design and develop end-to-end Workday integrations, including inbound and outbound interfaces using EIBs, Core Connectors and Workday Studio",
       "Implement custom data transformations using XSLT and XML, and manage API interactions through SOAP and REST web services",
       "Evaluate integration requirements and recommend the most effective technical architecture based on business and system needs",
       "Monitor scheduled integrations, troubleshoot failures and perform root-cause analysis to ensure system stability",
       "Manage weekly Workday service updates, including regression testing and post-release validation",
-      "Collaborate with functional Workday teams and business stakeholders to ensure seamless integration delivery"
+      "Collaborate with functional Workday teams and business stakeholders to ensure seamless integration delivery",
     ],
     requirements: [
       "4+ years of hands-on experience in Workday Integration development",
@@ -619,34 +672,37 @@ export const JOBS: Job[] = [
       "Strong understanding of Workday Web Services (WWS) and SOAP/REST APIs",
       "Proven experience designing and maintaining complex Workday integrations",
       "Strong analytical and debugging skills with the ability to resolve integration issues independently",
-      "Good communication skills and the ability to collaborate with cross-functional teams"
+      "Good communication skills and the ability to collaborate with cross-functional teams",
     ],
     perks: [
       "Opportunity to work on complex Workday integration landscapes for enterprise clients",
       "Exposure to advanced integration architectures and real-world HR technology ecosystems",
       "High-ownership role with visibility across functional and technical teams",
       "Long-term, stable programs with continuous enhancement opportunities",
-      "A collaborative, people-first culture that values expertise, ownership and execution"
-    ]
+      "A collaborative, people-first culture that values expertise, ownership and execution",
+    ],
   },
   {
     id: 18,
     slug: "angular-dotnet-senior-developer",
     title: "Angular / .NET Senior Developer",
-    description: "Design, develop and maintain scalable web applications using Angular (latest versions) and .NET Core / .NET Framework.",
+    description:
+      "Design, develop and maintain scalable web applications using Angular (latest versions) and .NET Core / .NET Framework.",
     type: "Full Time",
     location: "Hyderabad / Remote",
     category: "Development",
     experience: "6 to 9 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and maintain scalable web applications using Angular (latest versions) and .NET Core / .NET Framework",
       "Build responsive, high-performance user interfaces while ensuring accessibility and usability best practices",
       "Develop, consume and maintain RESTful APIs and microservices to support enterprise applications",
       "Contribute to system architecture and design decisions, ensuring performance, security and maintainability",
       "Collaborate closely with product managers, QA engineers, UX/UI designers and developers within agile teams",
-      "Conduct code reviews, mentor junior developers and uphold coding standards across the team"
+      "Conduct code reviews, mentor junior developers and uphold coding standards across the team",
     ],
     requirements: [
       "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field",
@@ -655,34 +711,37 @@ export const JOBS: Job[] = [
       "Solid experience working with REST APIs, Web Services and relational databases such as SQL Server",
       "Experience with Git, CI/CD pipelines and cloud platforms (Azure preferred)",
       "Strong understanding of software design patterns, SOLID principles and Agile methodologies",
-      "Experience in gaming, digital entertainment or regulated industries is an added advantage"
+      "Experience in gaming, digital entertainment or regulated industries is an added advantage",
     ],
     perks: [
       "Opportunity to work on modern, customer-facing applications with real business impact",
       "Exposure to the latest Angular and .NET technologies and cloud platforms",
       "A senior role with technical ownership and leadership responsibility",
       "Flexible work options with remote opportunities",
-      "A collaborative, people-first culture that values quality, innovation and accountability"
-    ]
+      "A collaborative, people-first culture that values quality, innovation and accountability",
+    ],
   },
   {
     id: 19,
     slug: "sdet-ii-software-development-engineer-in-test-ii",
     title: "SDET II (Software Development Engineer in Test II)",
-    description: "Design, develop and maintain scalable automation frameworks using Playwright with TypeScript.",
+    description:
+      "Design, develop and maintain scalable automation frameworks using Playwright with TypeScript.",
     type: "Full Time",
     location: "Hyderabad / Remote",
     category: "Development",
     experience: "3+ Years (70% Automation + 30% Manual Testing)",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and maintain scalable automation frameworks using Playwright with TypeScript",
       "Automate UI, API (REST) and backend test scenarios, focusing on reliability, performance and stability",
       "Integrate automated test suites into CI/CD pipelines using tools such as Git and Jenkins",
       "Optimize automation suites for execution speed, maintainability and test coverage",
       "Design and execute manual test cases for complex features where automation is not feasible, including exploratory testing",
-      "Verify bug fixes, perform regression testing, and document defects clearly using tools like JIRA"
+      "Verify bug fixes, perform regression testing, and document defects clearly using tools like JIRA",
     ],
     requirements: [
       "3+ years of experience in SDET or test automation roles, with a strong balance of automation (70%) and manual testing (30%)",
@@ -691,34 +750,37 @@ export const JOBS: Job[] = [
       "Strong manual testing expertise, including test case design, execution, exploratory testing and regression testing",
       "Experience working in Agile environments with tools like JIRA and Confluence",
       "Strong analytical, debugging and problem-solving skills",
-      "Good communication skills and the ability to collaborate effectively with developers and QA teams"
+      "Good communication skills and the ability to collaborate effectively with developers and QA teams",
     ],
     perks: [
       "A balanced role combining automation engineering and hands-on testing",
       "Exposure to modern testing frameworks and CI/CD-driven delivery environments",
       "Opportunity to collaborate closely with developers in a shift-left testing culture",
       "Ownership of test quality across features and releases",
-      "A supportive, people-first culture that values learning, clarity and execution"
-    ]
+      "A supportive, people-first culture that values learning, clarity and execution",
+    ],
   },
   {
     id: 20,
     slug: "ux-designer",
     title: "UX Designer",
-    description: "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences.",
+    description:
+      "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences.",
     type: "Full Time",
     location: "Bangalore",
     category: "Development",
     experience: "3 to 6 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences",
       "Conduct user research, interviews and usability studies to understand user needs, behaviours and pain points",
       "Create personas, user flows, wireframes and information architecture based on research insights",
       "Develop high-fidelity prototypes and interactive designs using Figma",
       "Collaborate closely with product managers, developers and business stakeholders to translate requirements into effective UX solutions",
-      "Work within Agile / SAFe environments, participating in sprint planning, reviews and continuous improvement discussions"
+      "Work within Agile / SAFe environments, participating in sprint planning, reviews and continuous improvement discussions",
     ],
     requirements: [
       "3–6 years of hands-on experience as a UX / UI Designer",
@@ -728,34 +790,37 @@ export const JOBS: Job[] = [
       "Experience working in Agile or SAFe frameworks",
       "Strong communication skills and the ability to present design concepts clearly to stakeholders",
       "A problem-solving mindset with strong attention to detail",
-      "Bachelor’s degree in Design, HCI, Computer Science, or related field"
+      "Bachelor’s degree in Design, HCI, Computer Science, or related field",
     ],
     perks: [
       "Opportunity to work on user-centric products for global clients",
       "Ownership of UX decisions from concept to delivery",
       "Collaboration with cross-functional product and engineering teams",
       "Exposure to modern design practices and enterprise-scale platforms",
-      "A people-first culture that values creativity, clarity and impact"
-    ]
+      "A people-first culture that values creativity, clarity and impact",
+    ],
   },
   {
     id: 21,
     slug: "senior-ux-designer",
     title: "Senior UX Designer",
-    description: "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences.",
+    description:
+      "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences.",
     type: "Full Time",
     location: "Bangalore",
     category: "Development",
     experience: "6 to 9 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design end-to-end user journeys that deliver intuitive, engaging and user-centric digital experiences",
       "Conduct user research, interviews and usability studies to understand user needs, behaviours and pain points",
       "Create personas, user flows, wireframes and information architecture based on research insights",
       "Develop high-fidelity prototypes and interactive designs using Figma",
       "Collaborate closely with product managers, developers and business stakeholders to translate requirements into effective UX solutions",
-      "Work within Agile / SAFe environments, participating in sprint planning, reviews and continuous improvement discussions"
+      "Work within Agile / SAFe environments, participating in sprint planning, reviews and continuous improvement discussions",
     ],
     requirements: [
       "6–9 years of hands-on experience as a UX / UI Designer",
@@ -765,34 +830,37 @@ export const JOBS: Job[] = [
       "Experience working in Agile or SAFe frameworks",
       "Strong communication skills and the ability to present design concepts clearly to stakeholders",
       "A problem-solving mindset with strong attention to detail",
-      "Bachelor’s degree in Design, HCI, Computer Science, or related field"
+      "Bachelor’s degree in Design, HCI, Computer Science, or related field",
     ],
     perks: [
       "Opportunity to work on user-centric products for global clients",
       "Ownership of UX decisions from concept to delivery",
       "Collaboration with cross-functional product and engineering teams",
       "Exposure to modern design practices and enterprise-scale platforms",
-      "A people-first culture that values creativity, clarity and impact"
-    ]
+      "A people-first culture that values creativity, clarity and impact",
+    ],
   },
   {
     id: 22,
     slug: "lead-developer-architect-backend",
     title: "Lead Developer / Architect | Back-End Technologies",
-    description: "Lead the design and development of Java EE–based backend applications, ensuring scalability, performance and security.",
+    description:
+      "Lead the design and development of Java EE–based backend applications, ensuring scalability, performance and security.",
     type: "Full Time",
     location: "Bangalore",
     category: "Development",
     experience: "6 to 9 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Lead the design and development of Java EE–based backend applications, ensuring scalability, performance and security",
       "Analyze and translate user and business requirements into robust technical solutions and system architectures",
       "Plan, prioritize, assign and track development tasks across the software development life cycle (SDLC)",
       "Write well-designed, efficient and maintainable code, while reviewing, testing and debugging team members’ code",
       "Design and manage database structures, write optimized SQL queries, and ensure data integrity",
-      "Coordinate with internal teams to plan releases, document development phases and ensure applications remain secure and up to date"
+      "Coordinate with internal teams to plan releases, document development phases and ensure applications remain secure and up to date",
     ],
     requirements: [
       "6–9 years of experience working as a Senior Java Developer, Lead Developer or Architect",
@@ -803,34 +871,37 @@ export const JOBS: Job[] = [
       "Experience with database design and SQL",
       "Excellent communication skills with the ability to collaborate across teams",
       "Strong delegation, planning and time management capabilities",
-      "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field"
+      "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field",
     ],
     perks: [
       "A leadership role with technical ownership and architectural influence",
       "Opportunity to mentor developers and shape backend engineering standards",
       "Exposure to modern backend architectures and DevOps-driven delivery",
       "Stable, long-term projects with real business impact",
-      "A collaborative, people-first culture that values expertise, clarity and execution"
-    ]
+      "A collaborative, people-first culture that values expertise, clarity and execution",
+    ],
   },
   {
     id: 23,
     slug: "java-spark-devops-engineer",
     title: "Java + Spark + DevOps Engineer",
-    description: "Design, develop and manage distributed and streaming applications using Java, Apache Spark and Spark Streaming.",
+    description:
+      "Design, develop and manage distributed and streaming applications using Java, Apache Spark and Spark Streaming.",
     type: "Full Time",
     location: "Bangalore",
     category: "Development",
     experience: "6 to 9 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and manage distributed and streaming applications using Java, Apache Spark and Spark Streaming",
       "Build and maintain event-driven and microservices-based architectures using Spring Boot and Spring Framework",
       "Design, configure and manage Kafka-based messaging systems, including topics, partitions, consumer groups and redundancy clusters",
       "Work extensively with the Confluent platform, including Kafka brokers, ZooKeeper, KSQL/KStreams and Kafka Control Centre",
       "Develop and manage Kafka connectors, converters (Avro / JSON), custom connectors and REST proxy integrations",
-      "Ensure high availability, performance and stability of solutions by implementing monitoring, alerts and best practices"
+      "Ensure high availability, performance and stability of solutions by implementing monitoring, alerts and best practices",
     ],
     requirements: [
       "6–9 years of hands-on experience developing and managing distributed and streaming applications",
@@ -840,640 +911,700 @@ export const JOBS: Job[] = [
       "Hands-on experience with Kubernetes and containerized deployments",
       "Strong exposure to DevOps pipelines, including Azure DevOps and Jenkins",
       "Ability to design scalable, fault-tolerant systems with strong troubleshooting skills",
-      "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field"
+      "Bachelor’s or Master’s degree in Computer Science, Engineering, or related field",
     ],
     perks: [
       "Opportunity to work on high-scale, real-time data streaming platforms",
       "Exposure to modern big data, event-driven and cloud-native architectures",
       "High ownership role with impact on system performance and reliability",
       "Long-term, technically challenging projects for global clients",
-      "A collaborative, people-first culture that values expertise, innovation and execution"
-    ]
+      "A collaborative, people-first culture that values expertise, innovation and execution",
+    ],
   },
   {
     id: 24,
     slug: "crm-ce-developer",
     title: "CRM CE Developer",
-    description: "Act as a technical owner across CRM projects, including migrations, implementations, enhancements and complex customizations.",
+    description:
+      "Act as a technical owner across CRM projects, including migrations, implementations, enhancements and complex customizations.",
     type: "Full Time (FTE)",
     location: "PAN India (Preferred: Pune)",
     category: "Development",
     experience: "7 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Act as a technical owner across CRM projects, including migrations, implementations, enhancements and complex customizations",
       "Design and develop backend and UI components such as plugins, .NET/C# customizations, Dynamics CRM forms, screens, workflows and views based on business requirements",
       "Manage data standardization, configuration, reporting and system support, ensuring stability and accuracy across CRM environments",
       "Collaborate regularly with enterprise architecture, vendors, BI teams and application development teams, while keeping clients updated on project progress",
-      "Analyze customer requirements in detail, prioritize tasks in a fast-paced environment, and deliver projects within defined timelines and quality standards"
+      "Analyze customer requirements in detail, prioritize tasks in a fast-paced environment, and deliver projects within defined timelines and quality standards",
     ],
     requirements: [
       "7 years of hands-on experience working as a CRM CE Developer in enterprise environments",
       "Strong technical expertise in CRM CE customization, including plugins, workflows, forms, views and security roles",
       "Experience with CRM integrations, APIs and data synchronization across multiple systems",
       "Solid understanding of CRM business processes across sales, service and customer engagement functions",
-      "Strong analytical, communication and stakeholder-handling skills with a sense of ownership"
+      "Strong analytical, communication and stakeholder-handling skills with a sense of ownership",
     ],
     perks: [
       "Opportunity to work on mission-critical CRM platforms for enterprise clients",
       "A role that blends technical ownership and business impact",
       "Exposure to large-scale CRM integrations and transformation programs",
       "Stable, long-term projects with clear delivery expectations",
-      "A collaborative, people-first culture that values accountability, learning and execution"
-    ]
+      "A collaborative, people-first culture that values accountability, learning and execution",
+    ],
   },
   {
     id: 25,
     slug: "oracle-ebs-financial-technical-consultant-ame",
     title: "Oracle EBS Financial Technical Consultant (AME)",
-    description: "Provide technical design, development and customization for Oracle E-Business Suite (EBS) Financial modules.",
+    description:
+      "Provide technical design, development and customization for Oracle E-Business Suite (EBS) Financial modules.",
     type: "Contract-to-Hire (C2H)",
     location: "Remote / Hybrid",
     category: "Development",
     experience: "7 to 10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Provide technical design, development and customization for Oracle E-Business Suite (EBS) Financial modules including GL, AP, AR, Cash Management and Fixed Assets",
       "Implement, enhance and support Oracle EBS Financial applications, ensuring alignment with business requirements and financial processes",
       "Build, configure and maintain technical components such as reports, interfaces, conversions, extensions and custom PL/SQL logic in EBS",
       "Troubleshoot and resolve technical issues, performance problems and integration challenges across financial systems and ensure system stability",
-      "Collaborate with functional, testing and support teams to deliver enhancements, conduct system testing and ensure smooth deployments"
+      "Collaborate with functional, testing and support teams to deliver enhancements, conduct system testing and ensure smooth deployments",
     ],
     requirements: [
       "7–10 years of hands-on experience with Oracle E-Business Suite (EBS) Financial modules, particularly in technical consulting or development roles",
       "Strong knowledge of Oracle EBS architecture, PL/SQL, SQL and Oracle database structures",
       "Experience developing and maintaining custom reports, interfaces and complex extensions in Oracle EBS",
       "Proven ability to troubleshoot production issues, debug financial flows and deliver technical solutions under tight timelines",
-      "Excellent collaboration and communication skills, with experience working closely with functional and support teams"
+      "Excellent collaboration and communication skills, with experience working closely with functional and support teams",
     ],
     perks: [
       "Work on enterprise-scale ERP implementations with real impact on finance operations",
       "Exposure to both technical and business sides of financial systems",
       "Opportunity to work with global teams and varied module integrations",
       "Long-term, evolving projects with continuous learning",
-      "A collaborative, people-first culture that values clarity, execution and accountability"
-    ]
+      "A collaborative, people-first culture that values clarity, execution and accountability",
+    ],
   },
   {
     id: 26,
     slug: "oracle-functional-ebs-crm-consultant-wms",
     title: "Oracle – Functional – EBS CRM Consultant (WMS Implementation)",
-    description: "Act as a functional SME for Oracle EBS Warehouse Management (WMS), owning end-to-end configuration, implementation and support.",
+    description:
+      "Act as a functional SME for Oracle EBS Warehouse Management (WMS), owning end-to-end configuration, implementation and support.",
     type: "Contract-to-Hire (C2H)",
     location: "PAN India",
     category: "Development",
     experience: "8 to 12 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Act as a functional SME for Oracle EBS Warehouse Management (WMS), owning end-to-end configuration, implementation and support",
       "Analyze business and warehouse requirements, perform fit-gap analysis, and translate them into effective Oracle WMS solution designs and configurations",
       "Lead and support end-to-end WMS implementation activities including system setup, configuration, functional testing and user training",
       "Collaborate with internal teams, project managers, technical consultants and business stakeholders to ensure successful delivery and integration",
-      "Resolve functional challenges, facilitate workshops, document functional designs and assist with post-go-live support"
+      "Resolve functional challenges, facilitate workshops, document functional designs and assist with post-go-live support",
     ],
     requirements: [
       "8–12 years of experience as an Oracle EBS Functional Consultant, with strong exposure to Warehouse Management System (WMS) projects",
       "Proven track record of Oracle EBS WMS implementation and configuration, with deep understanding of warehouse business processes",
       "Strong skills in requirement gathering, functional design, business process analysis and documentation",
       "Experience working in full project lifecycles (CRP, UAT, cutover, support) and interacting directly with clients and stakeholders",
-      "Excellent communication, stakeholder management and problem-solving skills with the ability to work across teams and locations"
+      "Excellent communication, stakeholder management and problem-solving skills with the ability to work across teams and locations",
     ],
     perks: [
       "Opportunity to work on enterprise class Oracle EBS WMS implementations impacting supply chain and warehousing operations",
       "Exposure to functional business processes and configuration best practices across EBS modules",
       "High visibility role with direct client interaction and real business impact",
       "Long-term, stable assignments with potential for extended engagements",
-      "A collaborative, people-first culture that values clarity, ownership and smart execution"
-    ]
+      "A collaborative, people-first culture that values clarity, ownership and smart execution",
+    ],
   },
   {
     id: 27,
     slug: "oracle-cloud-technical-developer-oic-vbcs-apex",
     title: "Oracle Cloud Technical Developer (OIC & VBCS – APEX)",
-    description: "Design, develop and implement integrations using Oracle Integration Cloud (OIC), including connections, orchestrations, mappings and REST/SOAP APIs.",
+    description:
+      "Design, develop and implement integrations using Oracle Integration Cloud (OIC), including connections, orchestrations, mappings and REST/SOAP APIs.",
     type: "Full-time / Subcontractor",
     location: "Remote / Hybrid",
     category: "Development",
     experience: "5 to 15 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and implement integrations using Oracle Integration Cloud (OIC), including connections, orchestrations, mappings and REST/SOAP APIs for enterprise applications",
       "Build responsive, scalable web and mobile applications using Oracle Visual Builder Cloud Service (VBCS) to extend Oracle Cloud SaaS functionality",
       "Develop custom applications and extensions using Oracle APEX, integrating with Oracle Fusion/Cloud SaaS and reporting layers",
       "Collaborate with functional teams, architects and stakeholders to gather requirements, define technical designs and deliver solutions",
-      "Troubleshoot issues, optimize solution performance and maintain technical documentation for integrations, custom apps and deployments"
+      "Troubleshoot issues, optimize solution performance and maintain technical documentation for integrations, custom apps and deployments",
     ],
     requirements: [
       "5–15 years of hands-on experience with Oracle Cloud technical development, particularly OIC, VBCS and APEX",
       "Strong expertise in designing and implementing Oracle Integration Cloud (OIC) solutions including adapters, REST/SOAP integrations and event-based flows",
       "Experience building UI/UX applications using Oracle Visual Builder Cloud Service (VBCS) and strong skills in JavaScript/HTML/CSS",
       "Practical experience developing extensions and applications using Oracle APEX, including reporting and integration with backend services",
-      "Strong problem-solving, communication and collaboration skills across technical and business teams"
+      "Strong problem-solving, communication and collaboration skills across technical and business teams",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Oracle PaaS solutions spanning integration, frontend and low-code/modern app development",
       "Exposure to multiple Oracle Cloud technologies such as OIC, VBCS, APEX and Oracle Fusion SaaS",
       "High-ownership role that bridges both technical engineering and client delivery",
       "Long-term, impactful projects with global clients",
-      "A collaborative, people-first culture that values innovation and execution"
-    ]
+      "A collaborative, people-first culture that values innovation and execution",
+    ],
   },
   {
     id: 28,
     slug: "oracle-apex-developer-api-rest-api",
     title: "Oracle APEX Developer – API, REST API",
-    description: "Design, develop and maintain enterprise-grade Oracle APEX applications, including interactive reports, forms, pages and dashboards.",
+    description:
+      "Design, develop and maintain enterprise-grade Oracle APEX applications, including interactive reports, forms, pages and dashboards.",
     type: "Contract-to-Hire (C2H)",
     location: "Remote / Hybrid / PAN India",
     category: "Development",
     experience: "6 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and maintain enterprise-grade Oracle APEX applications, including interactive reports, forms, pages and dashboards",
       "Build and integrate RESTful APIs and web services (REST/ORDS) for data access and integration with external systems",
       "Write optimized PL/SQL and SQL code to support application logic, database operations and performance-tuned features",
       "Collaborate with cross-functional teams, analysts and stakeholders to understand requirements and deliver high-quality solutions",
-      "Troubleshoot, test and debug issues, implement fixes and ensure application reliability, security and performance"
+      "Troubleshoot, test and debug issues, implement fixes and ensure application reliability, security and performance",
     ],
     requirements: [
       "6+ years of hands-on experience in Oracle APEX development building enterprise web applications",
       "Strong experience working with RESTful APIs and integrations in Oracle environments",
       "Proficient in SQL, PL/SQL and database object development for Oracle Database",
       "Experience with APEX component configuration, page design, interactive grids, reports and security",
-      "Good collaboration, analytical and communication skills with the ability to work with remote teams"
+      "Good collaboration, analytical and communication skills with the ability to work with remote teams",
     ],
     perks: [
       "Ownership of oracle low-code applications used by enterprise clients",
       "Exposure to modern cloud, API and enterprise integration landscapes",
       "Opportunity to work on custom, high-impact APEX projects with global teams",
       "A collaborative, people-first culture that values execution, learning and clarity",
-      "Long-term C2H assignments that challenge your skills and grow your expertise"
-    ]
+      "Long-term C2H assignments that challenge your skills and grow your expertise",
+    ],
   },
   {
     id: 29,
     slug: "sfdc-b2b-commerce-cloud-architect",
     title: "SFDC B2B Commerce Cloud Architect",
-    description: "Lead the design, architecture and implementation of Salesforce B2B Commerce Cloud solutions that align with business priorities.",
+    description:
+      "Lead the design, architecture and implementation of Salesforce B2B Commerce Cloud solutions that align with business priorities.",
     type: "Full-time (FTE)",
     location: "Pune / Bangalore / Chennai / Hyderabad / Kolkata",
     category: "Development",
     experience: "10+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Lead the design, architecture and implementation of Salesforce B2B Commerce Cloud solutions that align with business priorities and best practices",
       "Define and build scalable commerce integrations - order management, inventory systems, pricing engines and ERP connectors - to support seamless customer experiences",
       "Collaborate with product, design and engineering teams to translate business requirements into highly performant commerce solutions that support complex B2B processes",
       "Lead technical reviews, code standards, quality checkpoints and performance testing to ensure robustness and maintainability across commerce platforms",
-      "Provide strategic technical guidance to stakeholders, mentoring developers and supporting architectural decisions throughout the delivery lifecycle"
+      "Provide strategic technical guidance to stakeholders, mentoring developers and supporting architectural decisions throughout the delivery lifecycle",
     ],
     requirements: [
       "10+ years of experience working in enterprise software engineering, with proven expertise in Salesforce B2B Commerce Cloud",
       "Strong understanding of Salesforce platform fundamentals and integration patterns, including APIs, middleware and data synchronization",
       "Hands-on experience with commerce customizations, storefront logic, search configurations, promotions and pricing rules",
       "Prior experience architecting complex B2B capabilities such as multi-site storefronts, customer hierarchies, segmentation and contract pricing",
-      "Excellent problem-solving, communication and stakeholder management skills with an ability to lead teams and technical discussions"
+      "Excellent problem-solving, communication and stakeholder management skills with an ability to lead teams and technical discussions",
     ],
     perks: [
       "Opportunity to lead enterprise-scale Salesforce Commerce Cloud programs used by global customers",
       "Exposure to complex B2B business requirements and cutting-edge commerce technologies",
       "High-ownership role with influence on commerce architecture and delivery",
       "Long-term growth opportunities and cross-functional technical learning",
-      "A collaborative, people-first culture that values clarity, innovation and smart execution"
-    ]
+      "A collaborative, people-first culture that values clarity, innovation and smart execution",
+    ],
   },
   {
     id: 30,
     slug: "sfdc-architect",
     title: "SFDC Architect",
-    description: "Define and own the end-to-end Salesforce solution architecture, ensuring scalability, security and alignment with business goals.",
+    description:
+      "Define and own the end-to-end Salesforce solution architecture, ensuring scalability, security and alignment with business goals.",
     type: "Full-time (FTE)",
-    location: "Pune / Bangalore / Chennai / Hyderabad / Kolkata / Remote (travel if required)",
+    location:
+      "Pune / Bangalore / Chennai / Hyderabad / Kolkata / Remote (travel if required)",
     category: "Development",
     experience: "10 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Define and own the end-to-end Salesforce solution architecture, ensuring scalability, security and alignment with business goals",
       "Lead the design and implementation across Salesforce clouds such as Sales Cloud, Service Cloud, Experience Cloud and platform customizations",
       "Design and govern integrations between Salesforce and external systems using REST/SOAP APIs, middleware and enterprise integration patterns",
       "Review technical designs, code quality and deployment strategies, ensuring adherence to Salesforce best practices and architectural standards",
-      "Collaborate with business stakeholders, product owners and delivery teams to translate requirements into robust Salesforce solutions"
+      "Collaborate with business stakeholders, product owners and delivery teams to translate requirements into robust Salesforce solutions",
     ],
     requirements: [
       "10 years of experience in Salesforce implementations, with strong experience in an Architect or Senior Technical Lead role",
       "Deep understanding of Salesforce platform architecture, data model, security model and governor limits",
       "Hands-on experience with Salesforce integrations, APIs, data migrations and complex customizations",
       "Proven ability to design scalable enterprise solutions across multiple Salesforce clouds",
-      "Strong communication, leadership and stakeholder management skills, with willingness to travel when required"
+      "Strong communication, leadership and stakeholder management skills, with willingness to travel when required",
     ],
     perks: [
       "Opportunity to architect large-scale Salesforce transformation programs for enterprise clients",
       "High-ownership role with influence on technology strategy and solution direction",
       "Exposure to complex business use cases across industries and geographies",
       "Long-term, stable projects with scope for continuous learning and growth",
-      "A collaborative, people-first culture that values clarity, accountability and smart execution"
-    ]
+      "A collaborative, people-first culture that values clarity, accountability and smart execution",
+    ],
   },
   {
     id: 31,
     slug: "sfdc-ba-cpq-sales-cloud",
     title: "SFDC BA_CPQ + Sales Cloud",
-    description: "Act as a Business Analyst for Salesforce CPQ and Sales Cloud, owning requirement gathering, analysis and solution design.",
+    description:
+      "Act as a Business Analyst for Salesforce CPQ and Sales Cloud, owning requirement gathering, analysis and solution design.",
     type: "Contract-to-Hire (C2H)",
-    location: "Pune / Bangalore / Chennai / Hyderabad / Kolkata / Remote (travel if required)",
+    location:
+      "Pune / Bangalore / Chennai / Hyderabad / Kolkata / Remote (travel if required)",
     category: "Development",
     experience: "6+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Act as a Business Analyst for Salesforce CPQ and Sales Cloud, owning requirement gathering, analysis and solution design",
       "Work closely with sales, operations and business stakeholders to map quote-to-cash processes, pricing rules, discounting and approval workflows",
       "Translate business requirements into functional specifications, user stories and acceptance criteria for Salesforce delivery teams",
       "Support CPQ configurations including product bundles, pricing logic, contracts, amendments and renewals",
-      "Collaborate with Salesforce architects, developers and QA teams to ensure solutions are delivered as per business expectations and timelines"
+      "Collaborate with Salesforce architects, developers and QA teams to ensure solutions are delivered as per business expectations and timelines",
     ],
     requirements: [
       "6+ years of experience as a Salesforce Business Analyst, with strong exposure to CPQ and Sales Cloud",
       "Solid understanding of sales processes, opportunity management, quoting, pricing and order management",
       "Hands-on experience working with Salesforce CPQ features such as product configuration, pricing, approvals and quote generation",
       "Strong skills in requirement documentation, stakeholder communication and solution validation",
-      "Ability to work in fast-paced environments, manage multiple priorities and support remote delivery models"
+      "Ability to work in fast-paced environments, manage multiple priorities and support remote delivery models",
     ],
     perks: [
       "Opportunity to work on complex Salesforce CPQ and Sales Cloud implementations for enterprise clients",
       "High-impact functional role bridging business needs and technical delivery",
       "Exposure to large-scale sales transformation and automation initiatives",
       "Long-term C2H engagement with potential for extended assignments",
-      "A collaborative, people-first culture that values clarity, ownership and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, ownership and execution",
+    ],
   },
   {
     id: 32,
     slug: "salesforce-cpq-developer-sales-cloud",
     title: "Salesforce CPQ Developer + Sales Cloud",
-    description: "Design, develop and customize Salesforce CPQ solutions, supporting complex quoting, pricing, discounting and approval workflows.",
+    description:
+      "Design, develop and customize Salesforce CPQ solutions, supporting complex quoting, pricing, discounting and approval workflows.",
     type: "Contract-to-Hire (C2H)",
     location: "Not Mentioned",
     category: "Development",
     experience: "6+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and customize Salesforce CPQ solutions, supporting complex quoting, pricing, discounting and approval workflows",
       "Build and enhance Sales Cloud customizations including Apex triggers, flows, validation rules and Lightning components",
       "Configure CPQ features such as product bundles, pricing rules, quote templates, contracts, amendments and renewals",
       "Develop and maintain integrations between Salesforce CPQ, Sales Cloud and downstream systems using APIs and data services",
-      "Collaborate closely with business analysts, architects and stakeholders to deliver scalable, high-quality Salesforce solutions"
+      "Collaborate closely with business analysts, architects and stakeholders to deliver scalable, high-quality Salesforce solutions",
     ],
     requirements: [
       "6+ years of hands-on experience as a Salesforce Developer, with strong focus on CPQ and Sales Cloud",
       "Deep understanding of Salesforce CPQ architecture, data model and quote-to-cash processes",
       "Strong development skills in Apex, Lightning (LWC/Aura), Flows and Salesforce configurations",
       "Experience working on Salesforce integrations, APIs and data migrations",
-      "Strong analytical, troubleshooting and communication skills with the ability to work in fast-paced delivery environments"
+      "Strong analytical, troubleshooting and communication skills with the ability to work in fast-paced delivery environments",
     ],
     perks: [
       "Opportunity to work on enterprise-grade Salesforce CPQ implementations",
       "High-ownership role with real impact on sales automation and revenue processes",
       "Exposure to complex sales operations and global Salesforce ecosystems",
       "Long-term C2H engagements with scope for continued assignments",
-      "A collaborative, people-first culture that values clarity, accountability and smart execution"
-    ]
+      "A collaborative, people-first culture that values clarity, accountability and smart execution",
+    ],
   },
   {
     id: 33,
     slug: "salesforce-cpq-developer-sales-cloud-remote",
     title: "Salesforce CPQ Developer + Sales Cloud",
-    description: "Design, develop and enhance Salesforce CPQ solutions, supporting end-to-end quote-to-cash workflows.",
+    description:
+      "Design, develop and enhance Salesforce CPQ solutions, supporting end-to-end quote-to-cash workflows.",
     type: "Contract-to-Hire (C2H)",
-    location: "Pune / Bangalore / Chennai / Hyderabad / Kolkata / Remote (travel if required)",
+    location:
+      "Pune / Bangalore / Chennai / Hyderabad / Kolkata / Remote (travel if required)",
     category: "Development",
     experience: "5+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design, develop and enhance Salesforce CPQ solutions, supporting end-to-end quote-to-cash workflows",
       "Configure and customize Sales Cloud features including opportunities, products, pricing, approvals and automations",
       "Implement CPQ capabilities such as product bundles, pricing rules, discount schedules, quote templates, amendments and renewals",
       "Develop Apex, Flows and Lightning components to extend Salesforce CPQ and Sales Cloud functionality",
-      "Work closely with business analysts, architects and stakeholders to deliver scalable, high-quality Salesforce solutions"
+      "Work closely with business analysts, architects and stakeholders to deliver scalable, high-quality Salesforce solutions",
     ],
     requirements: [
       "5+ years of hands-on experience as a Salesforce Developer with strong focus on CPQ and Sales Cloud",
       "Solid understanding of Salesforce CPQ data model, pricing logic and sales processes",
       "Strong development experience with Apex, Lightning Web Components (LWC), Flows and configurations",
       "Experience with Salesforce integrations, APIs and data migration activities",
-      "Strong problem-solving, communication and stakeholder coordination skills"
+      "Strong problem-solving, communication and stakeholder coordination skills",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Salesforce CPQ implementations",
       "Exposure to complex sales operations and automation programs",
       "High-ownership role with direct business impact",
       "Flexible location options with travel opportunities when required",
-      "A collaborative, people-first culture that values clarity, execution and accountability"
-    ]
+      "A collaborative, people-first culture that values clarity, execution and accountability",
+    ],
   },
   {
     id: 34,
     slug: "salesforce-technical-solution-architect",
     title: "Salesforce Technical Solution Architect",
-    description: "Own the end-to-end technical architecture for Salesforce implementations, ensuring scalability, security and performance.",
+    description:
+      "Own the end-to-end technical architecture for Salesforce implementations, ensuring scalability, security and performance.",
     type: "Contract-to-Hire (C2H)",
     location: "Hybrid / Remote",
     category: "Development",
     experience: "10+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Own the end-to-end technical architecture for Salesforce implementations, ensuring scalability, security and performance",
       "Design and govern solutions across Salesforce clouds including Sales, Service, Experience, CPQ and platform customizations",
       "Define and implement integration architectures between Salesforce and enterprise systems using APIs, middleware and event-based patterns",
       "Provide technical leadership through design reviews, code governance, deployment strategies and best-practice enforcement",
-      "Collaborate with business stakeholders, architects and delivery teams to translate complex requirements into robust Salesforce solutions"
+      "Collaborate with business stakeholders, architects and delivery teams to translate complex requirements into robust Salesforce solutions",
     ],
     requirements: [
       "10+ years of experience in Salesforce development and architecture, with proven experience as a Technical or Solution Architect",
       "Deep expertise in Salesforce platform architecture, data model, security model, governor limits and release management",
       "Strong hands-on experience with Apex, Lightning (LWC), integrations, APIs and complex customizations",
       "Proven ability to architect scalable, enterprise-grade Salesforce solutions across multiple clouds",
-      "Excellent leadership, communication and stakeholder-management skills in client-facing environments"
+      "Excellent leadership, communication and stakeholder-management skills in client-facing environments",
     ],
     perks: [
       "Opportunity to architect large-scale Salesforce transformation programs",
       "High-ownership role with influence on technical strategy and delivery outcomes",
       "Exposure to complex, enterprise business scenarios across industries",
       "Long-term C2H engagements with potential for extended assignments",
-      "A collaborative, people-first culture that values clarity, expertise and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, expertise and execution",
+    ],
   },
   {
     id: 35,
     slug: "java-solution-architect",
     title: "Java Solution Architect",
-    description: "Define and own the end-to-end solution architecture for Java-based enterprise applications, ensuring scalability, security and performance.",
+    description:
+      "Define and own the end-to-end solution architecture for Java-based enterprise applications, ensuring scalability, security and performance.",
     type: "Contract-to-Hire (C2H)",
     location: "PAN India",
     category: "Development",
     experience: "11+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Define and own the end-to-end solution architecture for Java-based enterprise applications, ensuring scalability, security and performance",
       "Design modern architectures using microservices, REST APIs, event-driven systems and cloud-native patterns",
       "Provide architectural guidance across Java, Spring Boot, integration frameworks and data layers, aligning technology with business goals",
       "Review technical designs, enforce coding standards, and guide development teams through complex implementation challenges",
-      "Collaborate with stakeholders, product owners and engineering teams to translate business requirements into robust technical solutions"
+      "Collaborate with stakeholders, product owners and engineering teams to translate business requirements into robust technical solutions",
     ],
     requirements: [
       "11+ years of experience in Java application development with significant time spent in a Solution Architect or Technical Architect role",
       "Strong expertise in Java, Spring Boot, microservices architecture and distributed systems",
       "Proven experience designing scalable, high-availability enterprise solutions",
       "Solid understanding of integration patterns, APIs, databases and cloud platforms",
-      "Strong leadership, communication and stakeholder-management skills in client-facing environments"
+      "Strong leadership, communication and stakeholder-management skills in client-facing environments",
     ],
     perks: [
       "Opportunity to architect large-scale, mission-critical Java platforms",
       "High-ownership role with influence on technical strategy and system design",
       "Exposure to complex enterprise transformation programs across industries",
       "Long-term C2H engagements with scope for extended collaboration",
-      "A collaborative, people-first culture that values expertise, clarity and execution"
-    ]
+      "A collaborative, people-first culture that values expertise, clarity and execution",
+    ],
   },
   {
     id: 36,
     slug: "coupa-business-analyst-techno-functional-p2p",
     title: "Coupa Business Analyst – Techno Functional (Procure to Pay)",
-    description: "Act as a techno-functional Business Analyst for Coupa, supporting end-to-end Procure-to-Pay (P2P) processes.",
+    description:
+      "Act as a techno-functional Business Analyst for Coupa, supporting end-to-end Procure-to-Pay (P2P) processes.",
     type: "Full-time (FTE)",
     location: "Remote",
     category: "Development",
     experience: "8+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Act as a techno-functional Business Analyst for Coupa, supporting end-to-end Procure-to-Pay (P2P) processes",
       "Gather, analyze and document business requirements across requisitioning, sourcing, contracts, purchasing, invoicing and payments",
       "Configure and support Coupa modules, workflows, approvals, catalogs and supplier onboarding processes",
       "Work closely with technical teams on integrations, data flows and system enhancements between Coupa and ERP/financial systems",
-      "Support testing, UAT, production issues, change requests and continuous process improvements across Coupa implementations"
+      "Support testing, UAT, production issues, change requests and continuous process improvements across Coupa implementations",
     ],
     requirements: [
       "8+ years of experience as a Business Analyst or Techno-Functional Consultant with strong focus on Coupa P2P",
       "Deep understanding of procurement, sourcing, invoicing and accounts payable business processes",
       "Hands-on experience with Coupa configuration, workflows, approvals and supplier management",
       "Experience working on Coupa integrations with ERP systems (Oracle, SAP or similar)",
-      "Strong communication, documentation and stakeholder-management skills in remote delivery environments"
+      "Strong communication, documentation and stakeholder-management skills in remote delivery environments",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Coupa Procure-to-Pay implementations",
       "High-impact role bridging procurement operations and technology solutions",
       "Exposure to global clients and complex procurement transformation programs",
       "Stable, full-time role with long-term growth potential",
-      "A collaborative, people-first culture that values clarity, ownership and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, ownership and execution",
+    ],
   },
   {
     id: 37,
     slug: "hyperion-consultant-subcon",
     title: "Hyperion Consultant (Subcon)",
-    description: "Support and enhance Oracle Hyperion applications such as Planning, Financial Management (HFM), Essbase or related EPM modules.",
+    description:
+      "Support and enhance Oracle Hyperion applications such as Planning, Financial Management (HFM), Essbase or related EPM modules.",
     type: "Full-time (FTE)",
     location: "Pune",
     category: "Development",
     experience: "4 to 6 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Support and enhance Oracle Hyperion applications such as Planning, Financial Management (HFM), Essbase or related EPM modules",
       "Assist in application configuration, data loads, metadata management and report development",
       "Work on financial consolidation, budgeting, forecasting and reporting requirements",
       "Support testing, production issues, system enhancements and ongoing maintenance activities",
-      "Collaborate with finance users, functional consultants and technical teams to ensure accurate and timely delivery"
+      "Collaborate with finance users, functional consultants and technical teams to ensure accurate and timely delivery",
     ],
     requirements: [
       "4–6 years of hands-on experience working with Oracle Hyperion / EPM solutions",
       "Good understanding of financial planning, consolidation and reporting processes",
       "Experience supporting Hyperion Planning, HFM, Essbase or related modules",
-      "Ability to troubleshoot issues, analyze data and support business users effectively"
+      "Ability to troubleshoot issues, analyze data and support business users effectively",
     ],
     perks: [
       "Opportunity to work on enterprise financial planning and reporting systems",
       "Exposure to real-world finance and EPM transformation projects",
       "Stable full-time role with continuous learning opportunities",
       "Supportive team environment with experienced consultants",
-      "A collaborative, people-first culture that values ownership and execution"
-    ]
+      "A collaborative, people-first culture that values ownership and execution",
+    ],
   },
   {
     id: 38,
     slug: "workday-advanced-reporting-consultant",
     title: "Workday Advanced Reporting Consultant",
-    description: "Design and develop advanced Workday reports including Matrix, Composite, Trending and Dashboards.",
+    description:
+      "Design and develop advanced Workday reports including Matrix, Composite, Trending and Dashboards.",
     type: "Contract-to-Hire (C2H)",
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Design and develop advanced Workday reports including Matrix, Composite, Trending and Dashboards",
       "Build and maintain calculated fields, report prompts and complex data logic to meet business reporting needs",
       "Partner with HR, Payroll, Finance and stakeholders to understand reporting requirements and translate them into accurate Workday outputs",
       "Support data validation, audit reporting and compliance requirements across Workday modules",
-      "Troubleshoot reporting issues, optimize performance and support enhancements in ongoing Workday environments"
+      "Troubleshoot reporting issues, optimize performance and support enhancements in ongoing Workday environments",
     ],
     requirements: [
       "5+ years of hands-on experience working with Workday Advanced Reporting",
       "Strong expertise in Workday Report Writer, Calculated Fields and Dashboards",
       "Good understanding of Workday HCM data structures and cross-functional reporting",
       "Experience supporting business users with ad-hoc, operational and management reports",
-      "Strong analytical, documentation and stakeholder communication skills"
+      "Strong analytical, documentation and stakeholder communication skills",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Workday reporting solutions",
       "High-visibility role supporting critical HR and business insights",
       "Exposure to complex reporting use cases across global clients",
       "Flexible PAN India engagement with long-term C2H potential",
-      "A collaborative, people-first culture that values clarity, accuracy and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, accuracy and execution",
+    ],
   },
   {
     id: 39,
     slug: "workday-us-payroll-consultant",
     title: "Workday US Payroll Consultant",
-    description: "Configure, implement and support Workday US Payroll end-to-end, ensuring accurate and compliant payroll processing.",
+    description:
+      "Configure, implement and support Workday US Payroll end-to-end, ensuring accurate and compliant payroll processing.",
     type: "Contract-to-Hire (C2H)",
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Configure, implement and support Workday US Payroll end-to-end, ensuring accurate and compliant payroll processing",
       "Manage payroll setups including earnings, deductions, taxes, garnishments and year-end activities",
       "Partner with HR, Finance and Payroll teams to gather requirements, resolve issues and support payroll cycles",
       "Support payroll integrations with Time Tracking, Benefits and third-party vendors",
-      "Assist with testing, audits, compliance updates and ongoing payroll enhancements"
+      "Assist with testing, audits, compliance updates and ongoing payroll enhancements",
     ],
     requirements: [
       "5+ years of hands-on experience working with Workday US Payroll",
       "Strong understanding of US payroll processes, tax regulations and compliance requirements",
       "Experience with payroll configuration, troubleshooting and production support",
       "Exposure to Workday Time Tracking and Benefits integrations is a plus",
-      "Strong analytical, communication and stakeholder-management skills"
+      "Strong analytical, communication and stakeholder-management skills",
     ],
     perks: [
       "Opportunity to work on critical payroll systems for enterprise clients",
       "High-visibility role with direct impact on payroll accuracy and compliance",
       "Exposure to complex payroll operations and regulatory environments",
       "Flexible PAN India engagement with long-term C2H potential",
-      "A collaborative, people-first culture that values clarity, ownership and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, ownership and execution",
+    ],
   },
   {
     id: 40,
     slug: "workday-hcm-reporting-consultant",
     title: "Workday HCM & Reporting Consultant",
-    description: "Configure and support Workday Core HCM modules and deliver end-to-end reporting solutions for business stakeholders.",
+    description:
+      "Configure and support Workday Core HCM modules and deliver end-to-end reporting solutions for business stakeholders.",
     type: "Contract-to-Hire (C2H)",
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Configure and support Workday Core HCM modules including staffing, organizations, business processes and security",
       "Design and develop Workday reports and dashboards, including advanced, matrix and composite reports using calculated fields",
       "Partner with HR and business stakeholders to gather requirements and deliver end-to-end HCM and reporting solutions",
       "Support data validation, audits and compliance reporting across Workday HCM",
-      "Troubleshoot issues, support enhancements and assist with testing during Workday updates and releases"
+      "Troubleshoot issues, support enhancements and assist with testing during Workday updates and releases",
     ],
     requirements: [
       "5+ years of hands-on experience working as a Workday HCM & Reporting Consultant",
       "Strong knowledge of Workday Core HCM configuration and business process frameworks",
       "Proven experience with Workday reporting, calculated fields and dashboards",
       "Ability to work closely with HR, Payroll and cross-functional teams in a client-facing environment",
-      "Strong analytical, documentation and communication skills"
+      "Strong analytical, documentation and communication skills",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Workday HCM implementations",
       "High-visibility role supporting critical HR operations and insights",
       "Exposure to diverse Workday use cases across global clients",
       "Flexible PAN India engagement with long-term C2H potential",
-      "A collaborative, people-first culture that values clarity, ownership and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, ownership and execution",
+    ],
   },
   {
     id: 41,
     slug: "workday-time-absence-reporting-consultant",
     title: "Workday Time & Absence + Reporting Consultant",
-    description: "Configure, implement and support Workday Time Tracking, Time Off and Absence modules with reporting.",
+    description:
+      "Configure, implement and support Workday Time Tracking, Time Off and Absence modules with reporting.",
     type: "Contract-to-Hire (C2H)",
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Configure, implement and support Workday Time Tracking, Time Off and Absence modules end-to-end",
       "Design and maintain Workday reports and dashboards related to time, absence, accruals and compliance",
       "Partner with HR, Payroll and business stakeholders to gather requirements and deliver accurate time and absence solutions",
       "Support time-related integrations with Payroll and other downstream systems",
-      "Troubleshoot issues, support audits, testing and enhancements during Workday releases and updates"
+      "Troubleshoot issues, support audits, testing and enhancements during Workday releases and updates",
     ],
     requirements: [
       "5+ years of hands-on experience working with Workday Time & Absence and Reporting",
       "Strong understanding of time tracking rules, absence plans, accruals and eligibility configurations",
       "Proven experience building advanced Workday reports, calculated fields and dashboards",
       "Experience supporting Payroll integrations and compliance requirements",
-      "Strong analytical, communication and stakeholder-management skills"
+      "Strong analytical, communication and stakeholder-management skills",
     ],
     perks: [
       "Opportunity to work on enterprise-scale Workday Time & Absence implementations",
       "High-impact role supporting workforce management and payroll accuracy",
       "Exposure to complex time, absence and compliance scenarios across clients",
       "Flexible PAN India engagement with long-term C2H potential",
-      "A collaborative, people-first culture that values clarity, ownership and execution"
-    ]
+      "A collaborative, people-first culture that values clarity, ownership and execution",
+    ],
   },
   {
     id: 42,
     slug: "msd-d365-erp-functional-associate",
     title: "MSD – Functional – D365 ERP Functional Associate",
-    description: "Act as a Functional Associate for Microsoft Dynamics 365 ERP, supporting implementation, configuration and business process alignment.",
+    description:
+      "Act as a Functional Associate for Microsoft Dynamics 365 ERP, supporting implementation, configuration and business process alignment.",
     type: "Contract-to-Hire (C2H)",
     location: "Work From Home (Travel if business requires)",
     category: "Development",
     experience: "5 to 6 Years",
-    aboutRole: "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    lifeAt: "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
+    aboutRole:
+      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    lifeAt:
+      "At Sanjivani Edge, people don’t just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work - JOIN US!",
     responsibilities: [
       "Act as a Functional Associate for Microsoft Dynamics 365 ERP, supporting implementation, configuration and business process alignment",
       "Gather and analyze business requirements, perform fit-gap analysis, and translate needs into functional solution designs",
       "Configure D365 ERP modules, workflows and business rules in line with organizational processes and compliance needs",
       "Support testing activities, including unit testing, UAT coordination and issue resolution during deployments",
-      "Collaborate with technical teams, business users and project stakeholders, including occasional travel for client engagements"
+      "Collaborate with technical teams, business users and project stakeholders, including occasional travel for client engagements",
     ],
     requirements: [
       "5–6 years of experience working as a D365 ERP Functional Consultant or Functional Associate",
       "Strong understanding of ERP business processes such as finance, operations, supply chain or related domains",
       "Hands-on experience with Microsoft Dynamics 365 ERP configuration and functional setup",
       "Experience in requirement documentation, user training and functional support",
-      "Good communication, problem-solving and stakeholder-management skills in remote delivery environments"
+      "Good communication, problem-solving and stakeholder-management skills in remote delivery environments",
     ],
     perks: [
       "Opportunity to work on Microsoft Dynamics 365 ERP implementations across industries",
       "Flexible work-from-home setup with structured client engagement",
       "Exposure to enterprise ERP transformation and process optimization projects",
       "Long-term C2H engagement with scope for continued collaboration",
-      "A collaborative, people-first culture that values clarity, ownership and execution"
-    ]
-  }
+      "A collaborative, people-first culture that values clarity, ownership and execution",
+    ],
+  },
 ];

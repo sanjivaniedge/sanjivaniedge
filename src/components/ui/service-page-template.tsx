@@ -154,7 +154,6 @@ export default function ServicePageTemplate({
                 { src: "/Images/logos/Angular.webp", alt: "Angular Logo" },
                 { src: "/Images/logos/Boomi.webp", alt: "Boomi Logo" },
                 { src: "/Images/logos/Java.webp", alt: "Java Logo" },
-                { src: "/Images/logos/Mulesoft.webp", alt: "Mulesoft Logo" },
                 { src: "/Images/logos/Node-JS.webp", alt: "Node JS Logo" },
                 { src: "/Images/logos/Postman.webp", alt: "Postman Logo" },
                 { src: "/Images/logos/Python.webp", alt: "Python Logo" },
@@ -174,52 +173,52 @@ export default function ServicePageTemplate({
 
       {/* Strategic Value Section */}
       {showStrategicValue && data.strategicValue && (
-          <StrategicValueSection data={data.strategicValue} />
-        )}
+        <StrategicValueSection data={data.strategicValue} />
+      )}
 
       {/* Why Choose Us Section */}
       {showWhyChooseUs && data.whyChooseUs && (
-          <section className="pb-20 px-4">
-            <FeatureSteps
-              features={data.whyChooseUs.features}
-              title={data.whyChooseUs.title}
-              autoPlayInterval={4000}
-              imageHeight="h-[400px] md:h-[500px]"
-            />
-          </section>
-        )}
+        <section className="pb-20 px-4">
+          <FeatureSteps
+            features={data.whyChooseUs.features}
+            title={data.whyChooseUs.title}
+            autoPlayInterval={4000}
+            imageHeight="h-[400px] md:h-[500px]"
+          />
+        </section>
+      )}
 
       {/* Delivery Framework Section */}
       {showDeliveryFramework && data.deliveryFramework && (
-          <section className="max-w-7xl mx-auto text-center px-4">
-            <Timeline
-              className=""
-              title={data.deliveryFramework.title}
-              titleClassName="text-4xl md:text-6xl font-medium text-center pl-8"
-              description={data.deliveryFramework.description}
-              descriptionClassName="text-neutral-700 mt-5 text-sm md:text-base max-w-sm"
-              data={data.deliveryFramework.timeline.map(item => ({
-                title: item.title,
-                content: (
-                  <div className="max-w-xl mx-auto ">
+        <section className="max-w-7xl mx-auto text-center px-4">
+          <Timeline
+            className=""
+            title={data.deliveryFramework.title}
+            titleClassName="text-4xl md:text-6xl font-medium text-center pl-8"
+            description={data.deliveryFramework.description}
+            descriptionClassName="text-neutral-700 mt-5 text-sm md:text-base max-w-sm"
+            data={data.deliveryFramework.timeline.map(item => ({
+              title: item.title,
+              content: (
+                <div className="max-w-xl mx-auto ">
 
-                    {item.image && (
-                      <div className="relative h-72 overflow-hidden ">
-                        <Image
-                          src={item.image}
-                          alt={item.title}
-                          fill
-                          className="object-contain"
-                        />
-                      </div>
-                    )}
-                  </div>
-                )
+                  {item.image && (
+                    <div className="relative h-72 overflow-hidden ">
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                  )}
+                </div>
+              )
 
-              }))}
-            />
-          </section>
-        )
+            }))}
+          />
+        </section>
+      )
       }
       {!!faqs.length && (
         <section className="px-4 py-12">
