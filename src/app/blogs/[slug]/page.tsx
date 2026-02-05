@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: PostProps): Promise<Metadata>
     title: post.seo?.metaTitle || `${post.title} | Sanjivani Edge`,
     description: post.seo?.metaDescription || toPlainText(post.excerpt),
     openGraph: {
-      images: post.mainImage ? [urlFor(post.mainImage).url()] : [],
+      images: post.mainImage?.asset ? [urlFor(post.mainImage).url()] : [],
     },
   };
 }

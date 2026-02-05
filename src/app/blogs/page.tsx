@@ -71,7 +71,7 @@ export default async function BlogsPage() {
                 >
                   {/* Image */}
                   <div className="relative h-48 w-full overflow-hidden">
-                    {post.mainImage ? (
+                    {post.mainImage?.asset ? (
                       <Image
                         src={urlFor(post.mainImage).url()}
                         alt={post.title}
@@ -118,7 +118,7 @@ export default async function BlogsPage() {
 
                     <div className="flex items-center justify-between pt-4 border-t border-[#E2E8F0] mt-auto">
                       <div className="flex items-center gap-2">
-                        {post.author?.image && (
+                        {post.author?.image?.asset && (
                           <div className="relative w-8 h-8 rounded-full overflow-hidden">
                             <Image
                               src={urlFor(post.author.image).url()}

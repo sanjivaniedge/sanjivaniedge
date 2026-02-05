@@ -60,7 +60,7 @@ export default async function HomeBlogs() {
             >
               {/* Image */}
               <div className="relative h-56 w-full overflow-hidden">
-                {post.mainImage ? (
+                {post.mainImage?.asset ? (
                   <Image
                     src={urlFor(post.mainImage).url()}
                     alt={post.title}
