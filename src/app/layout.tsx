@@ -39,7 +39,7 @@ export default function RootLayout({
         className={`${inter.variable} ${manrope.variable} antialiased`}
       >
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-4MSXFF8173"
+          src="https://www.googletagmanager.com/gtag/js?id=G-MVKNRDNMNW"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -48,7 +48,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-4MSXFF8173');
+            gtag('config', 'G-MVKNRDNMNW');
           `}
         </Script>
         <Navbar />

@@ -1,7 +1,26 @@
 import Image from "next/image";
+import { Metadata } from "next";
 import { JOBS } from "@/data/careers";
 import { JobSection } from "@/components/careers/job-section";
 import { WhoWeAre } from "@/components/careers/who-we-are";
+
+export const metadata: Metadata = {
+  title: "Careers | IT Jobs at Sanjivani Edge",
+  description:
+    "Explore exciting IT career opportunities at Sanjivani Edge. Join our team of innovators in software development, cloud services, ERP, cybersecurity and more.",
+  openGraph: {
+    title: "Careers | IT Jobs at Sanjivani Edge",
+    description:
+      "Explore exciting IT career opportunities at Sanjivani Edge. Join our team of innovators in software development, cloud services, ERP, cybersecurity and more.",
+    url: "https://www.sanjivaniedge.com/careers",
+    siteName: "Sanjivani Edge",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://www.sanjivaniedge.com/careers",
+  },
+};
+
 
 export default function CareersPage() {
   const developmentJobs = JOBS.filter(job => job.category === "Development" && !job.hidden);

@@ -1,28 +1,42 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from "next";
+import { JOBS } from "@/data/careers";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.sanjivaniedge.com'
-  
-  const routes = [
-    '',
-    '/about',
-    '/contact',
-    '/services',
-    // Static service pages
-    '/services/bpo',
-    '/services/cloud',
-    '/services/consulting',
-    '/services/cybersecurity',
-    '/services/emerging',
-    '/services/erp',
-    '/services/it-infrastructure',
-    '/services/software',
-  ]
+  const baseUrl = "https://www.sanjivaniedge.com";
 
-  return routes.map((route) => ({
+  const staticRoutes = [
+    "",
+    "/about",
+    "/contact",
+    "/services",
+    "/careers",
+    // Static service pages
+    "/services/bpo",
+    "/services/cloud",
+    "/services/consulting",
+    "/services/cybersecurity",
+    "/services/emerging",
+    "/services/erp",
+    "/services/it-infrastructure",
+    "/services/software",
+  ];
+
+  const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: 'monthly',
-    priority: route === '' ? 1 : 0.8,
-  }))
+    changeFrequency: "monthly",
+    priority: route === "" ? 1 : 0.8,
+  }));
+
+  // Dynamic job pages
+  const jobEntries: MetadataRoute.Sitemap = JOBS.filter(
+    (job) => !job.hidden,
+  ).map((job) => ({
+    url: `${baseUrl}/careers/${job.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...jobEntries];
 }
