@@ -349,7 +349,7 @@ export default function Hero() {
                         <span className="font-bold">Engineered for the <span className="text-brand">Future</span><span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></span>
                     </motion.h1>
                     <p className="mx-auto max-w-3xl pb-10 font-bold text-[#1A1F3D]">
-                        Delivering IT, ERP, and Digital Transformation Solutions that power enterprise evolution
+                        Delivering IT, ERP, and Digital Transformation Solutions  that power enterprise evolution
                     </p>
                     <div className="mx-auto">
                         <EdgeLinkButton href="/services">EXPLORE THE EDGE</EdgeLinkButton>
