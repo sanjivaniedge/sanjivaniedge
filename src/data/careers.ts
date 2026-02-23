@@ -17,7 +17,7 @@ export interface Job {
 
 export const JOBS: Job[] = [
   {
-    id: 5,
+    id: 1,
     slug: "csharp-selenium-automation",
     title: "C# Selenium Automation Engineer",
     description:
@@ -26,6 +26,7 @@ export const JOBS: Job[] = [
     location: "Pune / Bangalore",
     category: "Development",
     experience: "6 to 10 Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -58,7 +59,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 6,
+    id: 2,
     slug: "technical-recruiter",
     title: "Technical (IT) Recruiter",
     description:
@@ -97,7 +98,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 11,
+    id: 3,
     slug: "mulesoft-developer",
     title: "MuleSoft Developer",
     description:
@@ -137,7 +138,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 14,
+    id: 4,
     slug: "oracle-fusion-technical-consultant",
     title: "Oracle Fusion Cloud Technical Consultant (GL & FA)",
     description:
@@ -146,6 +147,7 @@ export const JOBS: Job[] = [
     location: "Pune / Bangalore / Chennai / Hyderabad / Kolkata",
     category: "Development",
     experience: "7+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -176,7 +178,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 15,
+    id: 5,
     slug: "sr-workday-specialist",
     title: "Sr Workday Specialist – HR Technology",
     description:
@@ -185,6 +187,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "6+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -215,7 +218,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 16,
+    id: 6,
     slug: "senior-workday-hcm-reporting-consultant",
     title: "Senior Workday HCM & Reporting Consultant (Functional)",
     description:
@@ -224,6 +227,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "4+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -254,7 +258,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 17,
+    id: 7,
     slug: "senior-workday-integration-developer",
     title: "Senior Workday Integration Developer",
     description:
@@ -263,6 +267,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "4+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -292,7 +297,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 26,
+    id: 8,
     slug: "oracle-functional-ebs-crm-consultant-wms",
     title: "Oracle – Functional – EBS CRM Consultant (WMS Implementation)",
     description:
@@ -301,6 +306,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "8 to 12 Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -328,7 +334,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 27,
+    id: 9,
     slug: "oracle-cloud-technical-developer-oic-vbcs-apex",
     title: "Oracle Cloud Technical Developer (OIC & VBCS – APEX)",
     description:
@@ -337,6 +343,7 @@ export const JOBS: Job[] = [
     location: "Remote / Hybrid",
     category: "Development",
     experience: "5 to 15 Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -364,7 +371,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 28,
+    id: 10,
     slug: "oracle-apex-developer-api-rest-api",
     title: "Oracle APEX Developer – API, REST API",
     description:
@@ -373,6 +380,7 @@ export const JOBS: Job[] = [
     location: "Remote / Hybrid / PAN India",
     category: "Development",
     experience: "6 Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -400,7 +408,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 38,
+    id: 11,
     slug: "workday-advanced-reporting-consultant",
     title: "Workday Advanced Reporting Consultant",
     description:
@@ -409,6 +417,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -436,7 +445,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 39,
+    id: 12,
     slug: "workday-us-payroll-consultant",
     title: "Workday US Payroll Consultant",
     description:
@@ -445,6 +454,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -472,7 +482,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 40,
+    id: 13,
     slug: "workday-hcm-reporting-consultant",
     title: "Workday HCM & Reporting Consultant",
     description:
@@ -481,6 +491,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -508,7 +519,7 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 41,
+    id: 14,
     slug: "workday-time-absence-reporting-consultant",
     title: "Workday Time & Absence + Reporting Consultant",
     description:
@@ -517,6 +528,7 @@ export const JOBS: Job[] = [
     location: "PAN India",
     category: "Development",
     experience: "5+ Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -543,4 +555,175 @@ export const JOBS: Job[] = [
       "A collaborative, people-first culture that values clarity, ownership and execution",
     ],
   },
+  {
+    id: 15,
+    slug: "sap-ppqm-senior-consultant",
+    title: "SAP PPQM Senior Consultant",
+    description:
+      "Lead end-to-end SAP PP & QM implementations on ECC and S/4 HANA for pharma clients, covering design, rollout, integration, and post go-live support.",
+    type: "Full Time",
+    location: "Mumbai – Airoli (Client Location)",
+    category: "Development",
+    experience: "9–16 Years (Immediate Joiners)",
+    aboutRole:
+      "We are seeking an experienced SAP PPQM Senior Consultant with strong expertise in SAP ECC and S/4 HANA (PP & QM). The role demands complete ownership of implementation, rollout, and support projects across Production Planning and Quality Management modules. Pharma domain experience is mandatory.",
+    lifeAt:
+      "You will work closely with business stakeholders, cross-functional SAP teams, and client leadership to deliver high-impact SAP transformation programs. This role offers the opportunity to lead critical manufacturing and quality processes while contributing to large-scale enterprise implementations in a dynamic client environment.",
+    responsibilities: [
+      "Lead end-to-end implementation, rollout, and support projects in SAP PP and QM modules",
+      "Configure and optimize PP processes including BOM, Work Centers, Routings, MRP, Batch Management, Production Execution, Forecasting, S&OP, and PPDS",
+      "Manage master data migration and ensure data accuracy across systems",
+      "Design and configure QM processes including Inspection Plans, MICs, Notifications, Calibration, and Quality integration in Procurement, Production, and Sales",
+      "Ensure seamless PP-QM integration and cross-module integration with MM, SD, and FI/CO",
+      "Handle integrations with MES, LIMS, QMS, and weighing scale systems",
+      "Prepare Functional Specification Documents (FSD) and support development activities",
+      "Drive testing cycles including Unit Testing (UT), SIT, and UAT",
+      "Monitor background jobs and provide post go-live support",
+      "Engage with stakeholders and manage client communications effectively",
+    ],
+    requirements: [
+      "9–16 years of strong hands-on experience in SAP PP and QM",
+      "Proven expertise in SAP ECC and S/4 HANA (PP & QM)",
+      "Mandatory experience in Pharma domain projects",
+      "Deep knowledge of production planning, quality management, and PP-QM integration",
+      "Experience with MES, LIMS, QMS integrations and third-party systems",
+      "Strong cross-module knowledge in MM, SD, and FI/CO",
+      "Hands-on experience in FSD preparation and testing cycles (UT, SIT, UAT)",
+      "Experience handling post go-live support and background job monitoring",
+      "Excellent stakeholder management and client-facing skills",
+    ],
+    perks: [
+      "Opportunity to lead large-scale SAP transformation programs",
+      "Exposure to S/4 HANA implementations in regulated industries",
+      "High-visibility client-facing role",
+      "Collaborative and performance-driven work environment",
+      "Career growth in enterprise SAP consulting engagements",
+    ],
+  },
+  {
+    id: 16,
+    slug: "sap-abap-fiori-full-stack-ui5-core-abap",
+    title: "SAP ABAP + Fiori (Full Stack – UI5 & Core ABAP)",
+    description:
+      "Looking for experienced SAP ABAP + Fiori Full Stack consultants with strong expertise in UI5 and Core ABAP to deliver scalable enterprise SAP solutions.",
+    type: "Full Time",
+    location: "PAN India | Hybrid",
+    category: "Development",
+    experience: "7+ Years (March Joiners Preferred)",
+    aboutRole:
+      "We are hiring experienced SAP ABAP + Fiori (Full Stack – UI5 & Core ABAP) professionals who can design, develop, and deliver enterprise-grade SAP solutions. The role involves working across backend ABAP development and frontend SAP Fiori/UI5 applications to build scalable and high-performance business applications.",
+    lifeAt:
+      "At our organization, you will work on enterprise SAP landscapes with modern UI5 and Fiori applications, collaborating with functional consultants and business stakeholders. You will be part of a high-performing team focused on quality delivery, ownership, and innovation while working in a flexible hybrid model across PAN India.",
+    responsibilities: [
+      "Develop and enhance Core ABAP programs including Reports, Enhancements, Forms, Interfaces, and Conversions",
+      "Design and develop SAP Fiori applications using SAP UI5",
+      "Build and consume OData services for seamless front-end and back-end integration",
+      "Work on performance optimization and code reviews to ensure high-quality deliverables",
+      "Collaborate with functional consultants for technical design and solutioning",
+      "Handle end-to-end development lifecycle including design, build, testing, and deployment",
+      "Troubleshoot and resolve technical issues across ABAP and Fiori components",
+      "Support integration with other SAP modules and third-party systems",
+    ],
+    requirements: [
+      "7+ years of strong hands-on experience in SAP ABAP",
+      "Proven experience in SAP Fiori and SAP UI5 development",
+      "Strong knowledge of OData services and Gateway configuration",
+      "Experience in enhancements, BADI, User Exits, Smart Forms, Adobe Forms",
+      "Good understanding of SAP system architecture and integrations",
+      "Strong debugging, performance tuning, and problem-solving skills",
+      "Ability to work independently and in a hybrid work model",
+      "Immediate or March joiners preferred",
+    ],
+    perks: [
+      "Hybrid work model across PAN India",
+      "Opportunity to work on enterprise SAP Fiori implementations",
+      "Exposure to modern SAP UI/UX technologies",
+      "Collaborative and growth-focused environment",
+      "Long-term career growth in SAP full-stack development",
+    ],
+  },
+  {
+    id: 17,
+    slug: "enterprise-architect-oracle-commerce-salesforce-experience-cloud",
+    title: "Enterprise Architect - Oracle Commerce & Salesforce Experience Cloud",
+    description:
+      "Seeking a seasoned Enterprise Architect with deep expertise in Oracle Commerce and Salesforce Experience Cloud to drive architecture strategy and large-scale digital commerce implementations.",
+    type: "Full Time",
+    location: "Bengaluru (Hybrid – Occasional Client Office Visit Required)",
+    category: "Development",
+    experience: "10–20 Years (Immediate Joiners Preferred)",
+    aboutRole:
+      "We are looking for an experienced Enterprise Architect with strong expertise in Oracle Commerce and Salesforce Experience Cloud. The role involves defining enterprise architecture strategy, leading digital commerce transformations, and ensuring scalable, secure, and high-performance solutions across platforms.",
+    lifeAt:
+      "In this role, you will collaborate with business leaders, technology teams, and client stakeholders to architect and deliver enterprise-grade commerce and experience platforms. You will work in a hybrid environment based in Bengaluru, contributing to high-impact digital transformation initiatives while guiding technical teams and influencing strategic decisions.",
+    responsibilities: [
+      "Define and drive enterprise architecture strategy for Oracle Commerce and Salesforce Experience Cloud implementations",
+      "Design scalable, secure, and high-performance commerce and customer experience solutions",
+      "Lead architecture reviews, solution blueprints, and technical governance processes",
+      "Ensure seamless integration between Oracle Commerce, Salesforce Experience Cloud, and other enterprise systems",
+      "Provide technical leadership to development and integration teams",
+      "Collaborate with business stakeholders to translate requirements into architectural solutions",
+      "Oversee system performance, scalability, security, and compliance standards",
+      "Guide modernization, migration, and digital transformation initiatives",
+      "Support pre-sales, proposal development, and client presentations when required",
+    ],
+    requirements: [
+      "10–20 years of overall IT experience with strong enterprise architecture background",
+      "Hands-on experience with Oracle Commerce and Salesforce Experience Cloud",
+      "Proven track record in architecting large-scale digital commerce platforms",
+      "Strong understanding of system integration, APIs, and middleware architectures",
+      "Experience in cloud platforms and hybrid architecture environments",
+      "Strong stakeholder management and client-facing experience",
+      "Excellent communication, leadership, and strategic thinking skills",
+      "Immediate joiners preferred",
+    ],
+    perks: [
+      "Leadership role in enterprise digital transformation programs",
+      "Hybrid work model with strategic client engagement",
+      "Opportunity to influence enterprise-wide architecture decisions",
+      "Work with cross-functional and global teams",
+      "Long-term growth in enterprise architecture leadership",
+    ],
+  },
+  {
+    id: 18,
+    slug: "oracle-hyperion-planning-consultant",
+    title: "Oracle Hyperion Planning Consultant",
+    description:
+      "Hiring Oracle Hyperion Planning Consultant with strong expertise in planning, budgeting, forecasting, and financial reporting solutions.",
+    type: "Full Time",
+    location: "Pune (Hybrid/Remote)",
+    category: "Development",
+    experience: "4 to 6 Years",
+    aboutRole:
+      "We are looking for an experienced Oracle Hyperion Planning Consultant to design, implement, and support enterprise planning and budgeting solutions. The role involves working closely with finance and business stakeholders to deliver scalable and efficient financial planning systems.",
+    lifeAt:
+      "You will collaborate with cross-functional teams and client stakeholders to build robust planning and forecasting solutions. This role offers flexibility with a hybrid/remote work model in Pune, along with exposure to enterprise-level financial transformation initiatives.",
+    responsibilities: [
+      "Implement and support Oracle Hyperion Planning applications",
+      "Design and configure planning, budgeting, and forecasting solutions",
+      "Develop business rules, calculation scripts, and data forms",
+      "Manage data integration and ensure data accuracy across systems",
+      "Work with finance teams to gather and translate functional requirements",
+      "Perform application testing, validation, and user training",
+      "Support month-end, quarter-end, and year-end planning cycles",
+      "Troubleshoot and resolve system and performance issues",
+    ],
+    requirements: [
+      "4–6 years of hands-on experience in Oracle Hyperion Planning",
+      "Strong understanding of planning, budgeting, and forecasting processes",
+      "Experience in business rule development and calculation scripts",
+      "Knowledge of data integration tools and financial reporting",
+      "Good understanding of financial consolidation and reporting concepts",
+      "Strong analytical and problem-solving skills",
+      "Ability to work independently in hybrid or remote environments",
+    ],
+    perks: [
+      "Hybrid/Remote work flexibility",
+      "Exposure to enterprise financial transformation projects",
+      "Collaborative and growth-oriented work culture",
+      "Opportunity to work closely with finance leadership teams",
+      "Long-term career growth in Oracle EPM solutions",
+    ],
+  }
 ];
