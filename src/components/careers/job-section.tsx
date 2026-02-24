@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import type { Job } from "@/data/careers3";
+import type { Job } from "@/data/careers";
 
 interface JobSectionProps {
   title: string;
