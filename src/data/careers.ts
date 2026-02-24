@@ -645,8 +645,7 @@ export const JOBS: Job[] = [
   {
     id: 17,
     slug: "enterprise-architect-oracle-commerce-salesforce-experience-cloud",
-    title:
-      "Enterprise Architect - Oracle Commerce & Salesforce Experience Cloud",
+    title: "Enterprise Architect - Oracle Commerce & Salesforce Experience Cloud",
     description:
       "Seeking a seasoned Enterprise Architect with deep expertise in Oracle Commerce and Salesforce Experience Cloud to drive architecture strategy and large-scale digital commerce implementations.",
     type: "Full Time",
@@ -728,2919 +727,2676 @@ export const JOBS: Job[] = [
     ],
   },
   {
-    id: 19,
-    slug: "java-developer",
-    title: "Java Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5+ Years",
-    aboutRole:
-      "We are looking for an experienced Java Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 19,
+    "slug": "java-developer",
+    "title": "Java Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5+ Years",
+    "aboutRole": "We are looking for an experienced Java Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop, test and maintain Java-based enterprise applications using modern frameworks.",
       "Build RESTful APIs and microservices following scalable architecture patterns.",
       "Collaborate with cross-functional teams to understand requirements and deliver solutions.",
       "Optimize application performance and troubleshoot production issues.",
-      "Participate in code reviews, testing cycles and deployment activities.",
+      "Participate in code reviews, testing cycles and deployment activities."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of hands-on Java development experience.",
       "Strong knowledge of Spring Boot and REST APIs.",
       "Experience with relational databases and integration patterns.",
       "Familiarity with CI/CD pipelines and version control tools.",
-      "Strong analytical and communication skills.",
+      "Strong analytical and communication skills."
     ],
-    perks: [
+    "perks": [
       "Opportunity to work on enterprise-scale Java platforms.",
       "Exposure to modern architecture and cloud-based solutions.",
       "Long-term projects with growth opportunities.",
       "High-ownership development role.",
-      "Collaborative, people-first culture.",
-    ],
+      "Collaborative, people-first culture."
+    ]
   },
   {
-    id: 20,
-    slug: "salesforce-developer",
-    title: "Salesforce Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5+ Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 20,
+    "slug": "salesforce-developer",
+    "title": "Salesforce Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5+ Years",
+    "aboutRole": "We are looking for an experienced Salesforce Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and develop Salesforce customizations using Apex and Lightning.",
       "Configure Sales and Service Cloud features as per business requirements.",
       "Build integrations using REST/SOAP APIs.",
       "Support data migrations and deployment activities.",
-      "Troubleshoot production issues and optimize performance.",
+      "Troubleshoot production issues and optimize performance."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Salesforce development experience.",
       "Strong hands-on experience in Apex, LWC and Flows.",
       "Understanding of Salesforce security and data model.",
       "Experience with integrations and APIs.",
-      "Strong stakeholder communication skills.",
+      "Strong stakeholder communication skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise Salesforce transformation projects.",
       "Exposure to multi-cloud implementations.",
       "High-impact, client-facing work.",
       "Growth-driven environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 21,
-    slug: "oracle-technical-consultant",
-    title: "Oracle Technical Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "",
-    location: "PAN India",
-    category: "Development",
-    experience: "6+ Years",
-    aboutRole:
-      "We are looking for an experienced Oracle Technical Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 21,
+    "slug": "oracle-technical-consultant",
+    "title": "Oracle Technical Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6+ Years",
+    "aboutRole": "We are looking for an experienced Oracle Technical Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and support Oracle applications and custom components.",
       "Work on PL/SQL, reports and integrations.",
       "Support data migration and system enhancements.",
       "Collaborate with functional teams for requirement gathering.",
-      "Troubleshoot production and performance issues.",
+      "Troubleshoot production and performance issues."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of Oracle technical development experience.",
       "Strong expertise in PL/SQL and Oracle tools.",
       "Experience with integrations and APIs.",
       "Strong analytical skills.",
-      "Ability to work in fast-paced environments.",
+      "Ability to work in fast-paced environments."
     ],
-    perks: [
+    "perks": [
       "Large-scale Oracle projects.",
       "Exposure to ERP transformation programs.",
       "Ownership-driven role.",
       "Stable, long-term assignments.",
-      "Supportive team culture.",
-    ],
+      "Supportive team culture."
+    ]
   },
   {
-    id: 22,
-    slug: "workday-consultant",
-    title: "Workday Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5+ Years",
-    aboutRole:
-      "We are looking for an experienced Workday Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 22,
+    "slug": "workday-consultant",
+    "title": "Workday Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5+ Years",
+    "aboutRole": "We are looking for an experienced Workday Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and support Workday HCM modules.",
       "Develop reports and dashboards.",
       "Support integrations and testing activities.",
       "Gather requirements and deliver functional solutions.",
-      "Support production enhancements.",
+      "Support production enhancements."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Workday functional experience.",
       "Strong knowledge of Core HCM.",
       "Experience with reporting and integrations.",
       "Good documentation and stakeholder skills.",
-      "Strong analytical mindset.",
+      "Strong analytical mindset."
     ],
-    perks: [
+    "perks": [
       "Enterprise Workday implementations.",
       "High-visibility HR transformation projects.",
       "Long-term Contract engagement.",
       "Learning-driven environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 23,
-    slug: "net-developer",
-    title: ".NET Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5+ Years",
-    aboutRole:
-      "We are looking for an experienced .NET Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 23,
+    "slug": "net-developer",
+    "title": ".NET Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5+ Years",
+    "aboutRole": "We are looking for an experienced .NET Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and develop applications using .NET Core and C#.",
       "Build APIs and backend services.",
       "Work with SQL databases and optimize queries.",
       "Collaborate with QA and product teams.",
-      "Participate in code reviews and deployments.",
+      "Participate in code reviews and deployments."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of .NET development experience.",
       "Strong knowledge of C# and .NET Core.",
       "Experience with REST APIs and SQL Server.",
       "Familiarity with cloud deployments.",
-      "Strong problem-solving skills.",
+      "Strong problem-solving skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise-grade .NET development projects.",
       "Exposure to cloud-native architectures.",
       "Ownership-driven work environment.",
       "Stable Full Time engagement.",
-      "People-first culture.",
-    ],
+      "People-first culture."
+    ]
   },
   {
-    id: 24,
-    slug: "java-microservices-developer",
-    title: "Java Microservices Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Java Microservices Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 24,
+    "slug": "java-microservices-developer",
+    "title": "Java Microservices Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Java Microservices Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and develop microservices-based applications using Spring Boot.",
       "Build scalable REST APIs and event-driven services.",
       "Work on containerization and cloud deployments.",
       "Optimize application performance and ensure high availability.",
-      "Collaborate with cross-functional teams for delivery.",
+      "Collaborate with cross-functional teams for delivery."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Java development experience.",
       "Strong expertise in Spring Boot and microservices architecture.",
       "Experience with REST APIs and distributed systems.",
       "Knowledge of CI/CD pipelines and cloud platforms.",
-      "Strong analytical and debugging skills.",
+      "Strong analytical and debugging skills."
     ],
-    perks: [
+    "perks": [
       "Exposure to enterprise microservices architecture.",
       "High-ownership development role.",
       "Long-term Contract engagement.",
       "Modern tech stack environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 25,
-    slug: "sap-functional-consultant",
-    title: "SAP Functional Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6+ Years",
-    aboutRole:
-      "We are looking for an experienced SAP Functional Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 25,
+    "slug": "sap-functional-consultant",
+    "title": "SAP Functional Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6+ Years",
+    "aboutRole": "We are looking for an experienced SAP Functional Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Gather and analyze business requirements for SAP modules.",
       "Configure and implement SAP solutions.",
       "Support testing, UAT and deployment cycles.",
       "Provide functional documentation and training.",
-      "Support post-go-live enhancements.",
+      "Support post-go-live enhancements."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP functional experience.",
       "Strong knowledge of relevant SAP modules.",
       "Experience in implementation and support projects.",
       "Good documentation and stakeholder skills.",
-      "Ability to work in dynamic environments.",
+      "Ability to work in dynamic environments."
     ],
-    perks: [
+    "perks": [
       "Enterprise SAP transformation programs.",
       "Client-facing consulting exposure.",
       "Stable Full Time engagement.",
       "Learning-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 26,
-    slug: "angular-developer",
-    title: "Angular Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Angular Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 26,
+    "slug": "angular-developer",
+    "title": "Angular Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Angular Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop responsive web applications using Angular.",
       "Integrate frontend with REST APIs.",
       "Optimize UI performance and usability.",
       "Collaborate with backend and QA teams.",
-      "Participate in agile ceremonies.",
+      "Participate in agile ceremonies."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of Angular development experience.",
       "Strong knowledge of TypeScript and UI components.",
       "Experience with REST API integrations.",
       "Understanding of responsive design principles.",
-      "Good communication skills.",
+      "Good communication skills."
     ],
-    perks: [
+    "perks": [
       "Modern frontend technology exposure.",
       "High-impact UI projects.",
       "Long-term Contract role.",
       "Growth-oriented environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 27,
-    slug: "devops-engineer",
-    title: "DevOps Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5+ Years",
-    aboutRole:
-      "We are looking for an experienced DevOps Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 27,
+    "slug": "devops-engineer",
+    "title": "DevOps Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5+ Years",
+    "aboutRole": "We are looking for an experienced DevOps Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and manage CI/CD pipelines.",
       "Automate deployment and infrastructure processes.",
       "Monitor system performance and reliability.",
       "Manage cloud environments and containerization.",
-      "Ensure security and compliance standards.",
+      "Ensure security and compliance standards."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of DevOps experience.",
       "Strong knowledge of CI/CD tools and cloud platforms.",
       "Experience with containerization technologies.",
       "Scripting and automation skills.",
-      "Strong troubleshooting abilities.",
+      "Strong troubleshooting abilities."
     ],
-    perks: [
+    "perks": [
       "Cloud-native transformation projects.",
       "High-impact infrastructure role.",
       "Stable full-time engagement.",
       "Exposure to enterprise environments.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 28,
-    slug: "business-analyst",
-    title: "Business Analyst",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5+ Years",
-    aboutRole:
-      "We are looking for an experienced Business Analyst to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 28,
+    "slug": "business-analyst",
+    "title": "Business Analyst",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5+ Years",
+    "aboutRole": "We are looking for an experienced Business Analyst to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Gather and document business requirements.",
       "Perform gap analysis and solution mapping.",
       "Create functional specifications and user stories.",
       "Coordinate between business and technical teams.",
-      "Support testing and UAT activities.",
+      "Support testing and UAT activities."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Business Analyst experience.",
       "Strong requirement documentation skills.",
       "Experience working in agile environments.",
       "Good stakeholder communication skills.",
-      "Analytical and problem-solving mindset.",
+      "Analytical and problem-solving mindset."
     ],
-    perks: [
+    "perks": [
       "Exposure to enterprise transformation projects.",
       "High-visibility client interaction role.",
       "Long-term Contract opportunity.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 29,
-    slug: "qa-automation-engineer",
-    title: "QA Automation Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced QA Automation Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 29,
+    "slug": "qa-automation-engineer",
+    "title": "QA Automation Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced QA Automation Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and develop automated test frameworks for web and API applications.",
       "Execute regression, functional and performance testing.",
       "Integrate automated test suites with CI/CD pipelines.",
       "Identify, document and track defects through resolution.",
-      "Collaborate with developers and business teams to improve quality standards.",
+      "Collaborate with developers and business teams to improve quality standards."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of experience in test automation.",
       "Strong knowledge of automation tools and frameworks.",
       "Experience with API testing and CI/CD integration.",
       "Good understanding of agile testing methodologies.",
-      "Strong analytical and debugging skills.",
+      "Strong analytical and debugging skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise-grade automation projects.",
       "High-ownership QA role.",
       "Long-term Contract opportunity.",
       "Exposure to modern tech environments.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 30,
-    slug: "react-developer",
-    title: "React Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced React Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 30,
+    "slug": "react-developer",
+    "title": "React Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced React Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop responsive and scalable web applications using React.",
       "Integrate frontend components with backend APIs.",
       "Optimize performance and ensure seamless user experience.",
       "Write reusable and maintainable UI components.",
-      "Participate in agile ceremonies and code reviews.",
+      "Participate in agile ceremonies and code reviews."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of React development experience.",
       "Strong knowledge of JavaScript and modern UI frameworks.",
       "Experience with REST API integration.",
       "Understanding of state management libraries.",
-      "Strong communication skills.",
+      "Strong communication skills."
     ],
-    perks: [
+    "perks": [
       "Exposure to modern frontend frameworks.",
       "Enterprise-level UI development projects.",
       "Stable Full Time engagement.",
       "Learning-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 31,
-    slug: "data-engineer",
-    title: "Data Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Data Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 31,
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Data Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and build scalable data pipelines and ETL processes.",
       "Work with structured and unstructured datasets.",
       "Optimize data storage and processing systems.",
       "Collaborate with analytics and BI teams.",
-      "Ensure data quality and governance standards.",
+      "Ensure data quality and governance standards."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of data engineering experience.",
       "Strong knowledge of databases and ETL tools.",
       "Experience with big data technologies.",
       "Familiarity with cloud data platforms.",
-      "Strong analytical skills.",
+      "Strong analytical skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise data transformation projects.",
       "High-impact analytics environments.",
       "Long-term Contract role.",
       "Exposure to modern data stacks.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 32,
-    slug: "project-manager",
-    title: "Project Manager",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "8+ Years",
-    aboutRole:
-      "We are looking for an experienced Project Manager to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 32,
+    "slug": "project-manager",
+    "title": "Project Manager",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "8+ Years",
+    "aboutRole": "We are looking for an experienced Project Manager to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Lead end-to-end project delivery and execution.",
       "Manage timelines, budgets and stakeholder expectations.",
       "Coordinate cross-functional teams and vendors.",
       "Monitor project risks and mitigation strategies.",
-      "Ensure quality and timely delivery of milestones.",
+      "Ensure quality and timely delivery of milestones."
     ],
-    requirements: [
+    "requirements": [
       "8+ years of project management experience.",
       "Strong leadership and communication skills.",
       "Experience managing IT transformation projects.",
       "Familiarity with agile and waterfall methodologies.",
-      "Strong risk management capabilities.",
+      "Strong risk management capabilities."
     ],
-    perks: [
+    "perks": [
       "Leadership role in enterprise programs.",
       "Exposure to global client engagements.",
       "Stable full-time position.",
       "High-impact delivery role.",
-      "Collaborative work culture.",
-    ],
+      "Collaborative work culture."
+    ]
   },
   {
-    id: 33,
-    slug: "ui-ux-designer",
-    title: "UI/UX Designer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced UI/UX Designer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 33,
+    "slug": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced UI/UX Designer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design intuitive user interfaces and experiences.",
       "Create wireframes, prototypes and high-fidelity designs.",
       "Conduct user research and usability testing.",
       "Collaborate with developers and product teams.",
-      "Ensure design consistency and brand alignment.",
+      "Ensure design consistency and brand alignment."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of UI/UX design experience.",
       "Strong proficiency in design tools like Figma.",
       "Understanding of user research methodologies.",
       "Experience working in agile environments.",
-      "Strong creative and analytical skills.",
+      "Strong creative and analytical skills."
     ],
-    perks: [
+    "perks": [
       "Creative ownership on enterprise products.",
       "Exposure to global digital transformation programs.",
       "Long-term Contract opportunity.",
       "Growth-focused environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 34,
-    slug: "python-developer",
-    title: "Python Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Python Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 34,
+    "slug": "python-developer",
+    "title": "Python Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Python Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop scalable backend applications using Python frameworks.",
       "Build APIs and integrate with databases and third-party systems.",
       "Write clean, maintainable and efficient code.",
       "Optimize application performance and troubleshoot issues.",
-      "Collaborate with cross-functional teams in agile environments.",
+      "Collaborate with cross-functional teams in agile environments."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of Python development experience.",
       "Strong knowledge of Django or Flask frameworks.",
       "Experience with REST APIs and database management.",
       "Familiarity with cloud environments and CI/CD tools.",
-      "Strong analytical and debugging skills.",
+      "Strong analytical and debugging skills."
     ],
-    perks: [
+    "perks": [
       "Exposure to enterprise backend systems.",
       "High-impact development role.",
       "Stable full-time engagement.",
       "Learning-driven environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 35,
-    slug: "cloud-engineer",
-    title: "Cloud Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Cloud Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 35,
+    "slug": "cloud-engineer",
+    "title": "Cloud Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Cloud Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and manage cloud infrastructure solutions.",
       "Implement cloud migration and modernization projects.",
       "Monitor performance and optimize cloud resources.",
       "Ensure security, compliance and reliability standards.",
-      "Collaborate with DevOps and application teams.",
+      "Collaborate with DevOps and application teams."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of cloud engineering experience.",
       "Strong knowledge of AWS, Azure or GCP.",
       "Experience with infrastructure-as-code tools.",
       "Familiarity with CI/CD and containerization.",
-      "Strong troubleshooting skills.",
+      "Strong troubleshooting skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise cloud transformation programs.",
       "Exposure to hybrid and multi-cloud environments.",
       "Long-term Contract opportunity.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 36,
-    slug: "sap-abap-developer",
-    title: "SAP ABAP Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced SAP ABAP Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 36,
+    "slug": "sap-abap-developer",
+    "title": "SAP ABAP Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced SAP ABAP Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and enhance SAP ABAP programs and reports.",
       "Work on interfaces, enhancements and forms.",
       "Support SAP module integrations.",
       "Perform debugging and performance optimization.",
-      "Participate in testing and deployment cycles.",
+      "Participate in testing and deployment cycles."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of SAP ABAP development experience.",
       "Strong knowledge of reports, enhancements and forms.",
       "Experience with SAP integrations.",
       "Good debugging and analytical skills.",
-      "Ability to work in dynamic environments.",
+      "Ability to work in dynamic environments."
     ],
-    perks: [
+    "perks": [
       "Enterprise SAP implementation projects.",
       "Stable full-time role.",
       "High-ownership development environment.",
       "Exposure to cross-functional modules.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 37,
-    slug: "full-stack-developer",
-    title: "Full Stack Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Full Stack Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 37,
+    "slug": "full-stack-developer",
+    "title": "Full Stack Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Full Stack Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop frontend and backend components for web applications.",
       "Build APIs and integrate databases.",
       "Ensure performance and scalability of applications.",
       "Participate in code reviews and deployments.",
-      "Collaborate in agile project environments.",
+      "Collaborate in agile project environments."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of full stack development experience.",
       "Strong knowledge of frontend and backend technologies.",
       "Experience with REST APIs and databases.",
       "Familiarity with CI/CD pipelines.",
-      "Strong problem-solving skills.",
+      "Strong problem-solving skills."
     ],
-    perks: [
+    "perks": [
       "Exposure to modern tech stacks.",
       "Long-term Contract engagement.",
       "Enterprise application development projects.",
       "Learning-driven environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 38,
-    slug: "it-support-engineer",
-    title: "IT Support Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Operations",
-    experience: "3 to 6 Years",
-    aboutRole:
-      "We are looking for an experienced IT Support Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 38,
+    "slug": "it-support-engineer",
+    "title": "IT Support Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "3 to 6 Years",
+    "aboutRole": "We are looking for an experienced IT Support Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Provide technical support for hardware and software systems.",
       "Troubleshoot and resolve IT incidents.",
       "Manage user accounts and access controls.",
       "Maintain system documentation and reports.",
-      "Ensure uptime and operational continuity.",
+      "Ensure uptime and operational continuity."
     ],
-    requirements: [
+    "requirements": [
       "3+ years of IT support experience.",
       "Strong troubleshooting and communication skills.",
       "Knowledge of operating systems and networking basics.",
       "Experience with ticketing systems.",
-      "Ability to handle multiple support requests.",
+      "Ability to handle multiple support requests."
     ],
-    perks: [
+    "perks": [
       "Stable full-time support role.",
       "Exposure to enterprise IT environments.",
       "Growth-focused environment.",
       "Collaborative team culture.",
-      "Hands-on operational experience.",
-    ],
+      "Hands-on operational experience."
+    ]
   },
   {
-    id: 39,
-    slug: "power-bi-developer",
-    title: "Power BI Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Power BI Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 39,
+    "slug": "power-bi-developer",
+    "title": "Power BI Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Power BI Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and develop interactive dashboards and reports using Power BI.",
       "Work with business stakeholders to understand reporting needs.",
       "Build data models and optimize DAX queries.",
       "Integrate data from multiple sources.",
-      "Ensure report accuracy, performance and governance standards.",
+      "Ensure report accuracy, performance and governance standards."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of Power BI development experience.",
       "Strong knowledge of DAX and data modeling.",
       "Experience working with large datasets.",
       "Familiarity with SQL and ETL concepts.",
-      "Strong analytical and communication skills.",
+      "Strong analytical and communication skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise data visualization projects.",
       "Exposure to large-scale analytics environments.",
       "Long-term Contract engagement.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 40,
-    slug: "azure-data-engineer",
-    title: "Azure Data Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Azure Data Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 40,
+    "slug": "azure-data-engineer",
+    "title": "Azure Data Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Azure Data Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Build and maintain data pipelines using Azure services.",
       "Design scalable data storage and processing solutions.",
       "Work with Azure Data Factory and Synapse.",
       "Optimize data performance and reliability.",
-      "Collaborate with analytics and BI teams.",
+      "Collaborate with analytics and BI teams."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of data engineering experience.",
       "Strong expertise in Azure data services.",
       "Experience with ETL pipelines and SQL.",
       "Familiarity with big data technologies.",
-      "Strong analytical skills.",
+      "Strong analytical skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise cloud data projects.",
       "Stable full-time engagement.",
       "Exposure to modern Azure environments.",
       "High-impact data role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 41,
-    slug: "network-engineer",
-    title: "Network Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Network Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 41,
+    "slug": "network-engineer",
+    "title": "Network Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Network Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and manage network infrastructure.",
       "Monitor network performance and resolve issues.",
       "Implement security protocols and firewalls.",
       "Support network upgrades and maintenance.",
-      "Maintain documentation and compliance standards.",
+      "Maintain documentation and compliance standards."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of networking experience.",
       "Strong knowledge of routing and switching.",
       "Experience with firewall and security systems.",
       "Good troubleshooting skills.",
-      "Strong communication abilities.",
+      "Strong communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise infrastructure projects.",
       "Stable full-time engagement.",
       "Exposure to large-scale IT environments.",
       "Growth-focused environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 42,
-    slug: "security-analyst",
-    title: "Security Analyst",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Security Analyst to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 42,
+    "slug": "security-analyst",
+    "title": "Security Analyst",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Security Analyst to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Monitor security systems and detect vulnerabilities.",
       "Conduct risk assessments and security audits.",
       "Implement security controls and compliance measures.",
       "Respond to incidents and perform root cause analysis.",
-      "Maintain security documentation and reporting.",
+      "Maintain security documentation and reporting."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of cybersecurity experience.",
       "Knowledge of security frameworks and compliance standards.",
       "Experience with SIEM tools.",
       "Strong analytical and incident response skills.",
-      "Good communication abilities.",
+      "Good communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise cybersecurity projects.",
       "Long-term Contract engagement.",
       "High-impact security role.",
       "Exposure to global compliance standards.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 43,
-    slug: "database-administrator",
-    title: "Database Administrator",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Database Administrator to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 43,
+    "slug": "database-administrator",
+    "title": "Database Administrator",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Database Administrator to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Install, configure and maintain databases.",
       "Monitor performance and optimize queries.",
       "Ensure data security and backup strategies.",
       "Support database migrations and upgrades.",
-      "Troubleshoot and resolve database issues.",
+      "Troubleshoot and resolve database issues."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of database administration experience.",
       "Strong knowledge of SQL and database systems.",
       "Experience with performance tuning and backup strategies.",
       "Familiarity with cloud database services.",
-      "Strong analytical skills.",
+      "Strong analytical skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise data management projects.",
       "Stable full-time engagement.",
       "Exposure to large-scale database environments.",
       "High-ownership technical role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 44,
-    slug: "android-developer",
-    title: "Android Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Android Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 44,
+    "slug": "android-developer",
+    "title": "Android Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Android Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and maintain Android mobile applications.",
       "Integrate mobile apps with backend APIs.",
       "Optimize performance and ensure app stability.",
       "Conduct testing and resolve defects.",
-      "Collaborate with UI/UX and backend teams.",
+      "Collaborate with UI/UX and backend teams."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of Android development experience.",
       "Strong knowledge of Kotlin or Java.",
       "Experience with REST API integrations.",
       "Familiarity with mobile app lifecycle management.",
-      "Strong problem-solving skills.",
+      "Strong problem-solving skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise mobile application projects.",
       "Long-term Contract engagement.",
       "Exposure to modern mobile tech stacks.",
       "Growth-focused environment.",
-      "Collaborative team culture.",
-    ],
+      "Collaborative team culture."
+    ]
   },
   {
-    id: 45,
-    slug: "ios-developer",
-    title: "iOS Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced iOS Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 45,
+    "slug": "ios-developer",
+    "title": "iOS Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced iOS Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and maintain iOS applications.",
       "Integrate applications with backend services.",
       "Optimize app performance and usability.",
       "Conduct testing and debugging activities.",
-      "Collaborate with cross-functional teams.",
+      "Collaborate with cross-functional teams."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of iOS development experience.",
       "Strong knowledge of Swift.",
       "Experience with REST API integration.",
       "Understanding of mobile architecture patterns.",
-      "Strong analytical skills.",
+      "Strong analytical skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise mobile development projects.",
       "Stable full-time engagement.",
       "Exposure to modern iOS frameworks.",
       "High-ownership technical role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 46,
-    slug: "etl-developer",
-    title: "ETL Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced ETL Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 46,
+    "slug": "etl-developer",
+    "title": "ETL Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced ETL Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and develop ETL workflows.",
       "Extract, transform and load data from various sources.",
       "Optimize data processing performance.",
       "Ensure data quality and validation.",
-      "Collaborate with data and analytics teams.",
+      "Collaborate with data and analytics teams."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of ETL development experience.",
       "Strong knowledge of ETL tools and SQL.",
       "Experience with data warehousing concepts.",
       "Familiarity with cloud data platforms.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise data integration projects.",
       "Long-term Contract opportunity.",
       "Exposure to modern data architectures.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 47,
-    slug: "scrum-master",
-    title: "Scrum Master",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced Scrum Master to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 47,
+    "slug": "scrum-master",
+    "title": "Scrum Master",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced Scrum Master to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Facilitate agile ceremonies and sprint planning sessions.",
       "Remove impediments and support development teams.",
       "Track project progress and report metrics.",
       "Promote agile best practices and continuous improvement.",
-      "Coordinate between stakeholders and technical teams.",
+      "Coordinate between stakeholders and technical teams."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of experience in agile project environments.",
       "Strong understanding of Scrum framework.",
       "Experience managing cross-functional teams.",
       "Strong communication and leadership skills.",
-      "Ability to manage risks and timelines.",
+      "Ability to manage risks and timelines."
     ],
-    perks: [
+    "perks": [
       "Leadership role in agile delivery programs.",
       "Stable full-time engagement.",
       "Exposure to enterprise projects.",
       "Growth-oriented environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 48,
-    slug: "technical-architect",
-    title: "Technical Architect",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "10+ Years",
-    aboutRole:
-      "We are looking for an experienced Technical Architect to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 48,
+    "slug": "technical-architect",
+    "title": "Technical Architect",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "10+ Years",
+    "aboutRole": "We are looking for an experienced Technical Architect to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define system architecture and technology roadmap.",
       "Design scalable and secure application solutions.",
       "Review technical designs and enforce standards.",
       "Guide development teams on implementation best practices.",
-      "Collaborate with stakeholders for solution alignment.",
+      "Collaborate with stakeholders for solution alignment."
     ],
-    requirements: [
+    "requirements": [
       "10+ years of technical experience.",
       "Strong knowledge of architecture patterns and frameworks.",
       "Experience in enterprise system design.",
       "Strong leadership and stakeholder management skills.",
-      "Ability to drive technical strategy.",
+      "Ability to drive technical strategy."
     ],
-    perks: [
+    "perks": [
       "High-impact architecture role.",
       "Exposure to enterprise transformation programs.",
       "Long-term Contract engagement.",
       "Leadership-driven environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 49,
-    slug: "sap-fico-consultant",
-    title: "SAP FICO Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP FICO Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 49,
+    "slug": "sap-fico-consultant",
+    "title": "SAP FICO Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP FICO Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP FICO modules.",
       "Configure financial accounting and controlling processes.",
       "Conduct requirement gathering and gap analysis.",
       "Support UAT, testing and production deployments.",
-      "Provide post-go-live enhancements and support.",
+      "Provide post-go-live enhancements and support."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP FICO functional experience.",
       "Strong understanding of finance and accounting processes.",
       "Experience in implementation and support projects.",
       "Good stakeholder communication skills.",
-      "Ability to work in fast-paced environments.",
+      "Ability to work in fast-paced environments."
     ],
-    perks: [
+    "perks": [
       "Enterprise SAP finance transformation projects.",
       "Stable full-time engagement.",
       "Exposure to global clients.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 50,
-    slug: "salesforce-administrator",
-    title: "Salesforce Administrator",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Administrator to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 50,
+    "slug": "salesforce-administrator",
+    "title": "Salesforce Administrator",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Administrator to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Manage Salesforce configurations and user access.",
       "Create reports, dashboards and workflows.",
       "Support data management and system enhancements.",
       "Troubleshoot and resolve user issues.",
-      "Maintain Salesforce documentation and governance.",
+      "Maintain Salesforce documentation and governance."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of Salesforce administration experience.",
       "Strong knowledge of Salesforce data model and security.",
       "Experience with reports and dashboards.",
       "Good stakeholder support skills.",
-      "Strong problem-solving abilities.",
+      "Strong problem-solving abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise Salesforce environments.",
       "Long-term Contract engagement.",
       "Exposure to multi-cloud setups.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 51,
-    slug: "oracle-dba",
-    title: "Oracle DBA",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Oracle DBA to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 51,
+    "slug": "oracle-dba",
+    "title": "Oracle DBA",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Oracle DBA to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Install and maintain Oracle databases.",
       "Monitor database performance and tuning.",
       "Implement backup and recovery strategies.",
       "Support database upgrades and migrations.",
-      "Ensure data security and compliance.",
+      "Ensure data security and compliance."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Oracle DBA experience.",
       "Strong knowledge of database performance tuning.",
       "Experience with backup and recovery processes.",
       "Familiarity with cloud-based databases.",
-      "Strong troubleshooting skills.",
+      "Strong troubleshooting skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise database environments.",
       "Stable full-time engagement.",
       "Exposure to large-scale systems.",
       "High-ownership technical role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 52,
-    slug: "automation-test-engineer",
-    title: "Automation Test Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Automation Test Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 52,
+    "slug": "automation-test-engineer",
+    "title": "Automation Test Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Automation Test Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and execute automated test cases.",
       "Build scalable test automation frameworks.",
       "Integrate tests into CI/CD pipelines.",
       "Identify and document defects.",
-      "Collaborate with development teams to improve quality.",
+      "Collaborate with development teams to improve quality."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of automation testing experience.",
       "Strong knowledge of testing tools and frameworks.",
       "Experience with API and UI automation.",
       "Familiarity with agile practices.",
-      "Strong debugging skills.",
+      "Strong debugging skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise automation initiatives.",
       "Long-term Contract engagement.",
       "Exposure to modern testing tools.",
       "High-impact QA role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 53,
-    slug: "product-owner",
-    title: "Product Owner",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "7 to 10 Years",
-    aboutRole:
-      "We are looking for an experienced Product Owner to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 53,
+    "slug": "product-owner",
+    "title": "Product Owner",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "7 to 10 Years",
+    "aboutRole": "We are looking for an experienced Product Owner to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define product vision and roadmap.",
       "Manage product backlog and prioritize features.",
       "Collaborate with development teams for delivery.",
       "Engage stakeholders and gather feedback.",
-      "Ensure alignment between business goals and product outcomes.",
+      "Ensure alignment between business goals and product outcomes."
     ],
-    requirements: [
+    "requirements": [
       "7+ years of product management experience.",
       "Strong understanding of agile frameworks.",
       "Experience working with cross-functional teams.",
       "Strong analytical and communication skills.",
-      "Ability to drive product strategy.",
+      "Ability to drive product strategy."
     ],
-    perks: [
+    "perks": [
       "Leadership role in digital product initiatives.",
       "Stable full-time engagement.",
       "Exposure to enterprise transformation programs.",
       "High-ownership strategic role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 54,
-    slug: "sap-mm-consultant",
-    title: "SAP MM Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP MM Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 54,
+    "slug": "sap-mm-consultant",
+    "title": "SAP MM Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP MM Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and support SAP MM module.",
       "Gather procurement and inventory requirements.",
       "Perform fit-gap analysis and documentation.",
       "Support testing and deployment activities.",
-      "Provide post-go-live support and enhancements.",
+      "Provide post-go-live support and enhancements."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP MM experience.",
       "Strong understanding of procurement processes.",
       "Experience in implementation and support projects.",
       "Good stakeholder communication skills.",
-      "Ability to manage multiple priorities.",
+      "Ability to manage multiple priorities."
     ],
-    perks: [
+    "perks": [
       "Enterprise SAP supply chain projects.",
       "Stable full-time engagement.",
       "Exposure to global clients.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 55,
-    slug: "sap-sd-consultant",
-    title: "SAP SD Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP SD Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 55,
+    "slug": "sap-sd-consultant",
+    "title": "SAP SD Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP SD Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP SD processes.",
       "Configure order-to-cash workflows.",
       "Conduct requirement analysis and documentation.",
       "Support UAT and go-live activities.",
-      "Provide ongoing support and optimization.",
+      "Provide ongoing support and optimization."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP SD functional experience.",
       "Strong knowledge of order management processes.",
       "Experience in SAP implementations.",
       "Good documentation skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise sales transformation projects.",
       "Long-term Contract engagement.",
       "Exposure to cross-module integrations.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 56,
-    slug: "salesforce-qa-analyst",
-    title: "Salesforce QA Analyst",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce QA Analyst to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 56,
+    "slug": "salesforce-qa-analyst",
+    "title": "Salesforce QA Analyst",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Salesforce QA Analyst to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Execute functional and regression testing for Salesforce applications.",
       "Develop and maintain test cases and documentation.",
       "Coordinate with development teams for defect resolution.",
       "Perform data validation and integration testing.",
-      "Ensure quality standards across Salesforce projects.",
+      "Ensure quality standards across Salesforce projects."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of QA experience in Salesforce projects.",
       "Strong understanding of Salesforce functionality.",
       "Experience with testing tools and methodologies.",
       "Good documentation and communication skills.",
-      "Strong analytical mindset.",
+      "Strong analytical mindset."
     ],
-    perks: [
+    "perks": [
       "Enterprise Salesforce environments.",
       "Stable full-time engagement.",
       "Exposure to multi-cloud projects.",
       "High-impact QA role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 57,
-    slug: "aws-cloud-architect",
-    title: "AWS Cloud Architect",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "10+ Years",
-    aboutRole:
-      "We are looking for an experienced AWS Cloud Architect to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 57,
+    "slug": "aws-cloud-architect",
+    "title": "AWS Cloud Architect",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "10+ Years",
+    "aboutRole": "We are looking for an experienced AWS Cloud Architect to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design scalable and secure AWS cloud architectures.",
       "Lead cloud migration and modernization initiatives.",
       "Define infrastructure best practices and standards.",
       "Review implementations and ensure compliance.",
-      "Guide teams on cloud strategy and optimization.",
+      "Guide teams on cloud strategy and optimization."
     ],
-    requirements: [
+    "requirements": [
       "10+ years of IT experience with strong AWS expertise.",
       "Deep understanding of cloud architecture patterns.",
       "Experience in enterprise cloud transformations.",
       "Strong leadership and stakeholder skills.",
-      "Ability to drive technical strategy.",
+      "Ability to drive technical strategy."
     ],
-    perks: [
+    "perks": [
       "Enterprise cloud transformation programs.",
       "Long-term Contract engagement.",
       "High-ownership architecture role.",
       "Exposure to global clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 58,
-    slug: "hr-business-partner",
-    title: "HR Business Partner",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Operations",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced HR Business Partner to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 58,
+    "slug": "hr-business-partner",
+    "title": "HR Business Partner",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced HR Business Partner to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Partner with business leaders on HR strategy.",
       "Manage employee engagement and performance processes.",
       "Support talent acquisition and workforce planning.",
       "Drive HR policies and compliance initiatives.",
-      "Handle employee relations and conflict resolution.",
+      "Handle employee relations and conflict resolution."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of HR business partnering experience.",
       "Strong knowledge of HR processes and compliance.",
       "Experience supporting IT or enterprise environments.",
       "Strong communication and interpersonal skills.",
-      "Ability to manage sensitive situations effectively.",
+      "Ability to manage sensitive situations effectively."
     ],
-    perks: [
+    "perks": [
       "Strategic HR leadership exposure.",
       "Stable full-time engagement.",
       "High-visibility role with business stakeholders.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 59,
-    slug: "devops-engineer",
-    title: "DevOps Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced DevOps Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 59,
+    "slug": "devops-engineer",
+    "title": "DevOps Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced DevOps Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and maintain CI/CD pipelines.",
       "Automate build and deployment processes.",
       "Manage containerized environments and orchestration.",
       "Monitor system performance and reliability.",
-      "Collaborate with development and infrastructure teams.",
+      "Collaborate with development and infrastructure teams."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of DevOps experience.",
       "Strong knowledge of CI/CD tools like Jenkins or Azure DevOps.",
       "Experience with Docker and Kubernetes.",
       "Familiarity with cloud platforms.",
-      "Strong troubleshooting and automation skills.",
+      "Strong troubleshooting and automation skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise DevOps transformation initiatives.",
       "Stable full-time engagement.",
       "Exposure to cloud-native environments.",
       "High-ownership engineering role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 60,
-    slug: "sap-basis-consultant",
-    title: "SAP Basis Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP Basis Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 60,
+    "slug": "sap-basis-consultant",
+    "title": "SAP Basis Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP Basis Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Install, configure and maintain SAP systems.",
       "Manage system upgrades and patches.",
       "Monitor performance and resolve system issues.",
       "Support SAP transport management.",
-      "Ensure system security and compliance.",
+      "Ensure system security and compliance."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP Basis experience.",
       "Strong knowledge of SAP system architecture.",
       "Experience in SAP upgrades and migrations.",
       "Good troubleshooting and monitoring skills.",
-      "Strong communication abilities.",
+      "Strong communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise SAP infrastructure projects.",
       "Long-term Contract engagement.",
       "Exposure to large-scale SAP landscapes.",
       "High-ownership technical role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 61,
-    slug: "data-analyst",
-    title: "Data Analyst",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Data Analyst to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 61,
+    "slug": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Data Analyst to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Analyze datasets and identify trends.",
       "Prepare reports and dashboards for stakeholders.",
       "Validate and clean data for accuracy.",
       "Collaborate with business teams to understand requirements.",
-      "Support data-driven decision making.",
+      "Support data-driven decision making."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of data analysis experience.",
       "Strong knowledge of SQL and reporting tools.",
       "Experience with data visualization platforms.",
       "Good analytical and communication skills.",
-      "Ability to interpret complex datasets.",
+      "Ability to interpret complex datasets."
     ],
-    perks: [
+    "perks": [
       "Enterprise analytics initiatives.",
       "Stable full-time engagement.",
       "Exposure to modern data tools.",
       "High-impact insights role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 62,
-    slug: "it-security-engineer",
-    title: "IT Security Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced IT Security Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 62,
+    "slug": "it-security-engineer",
+    "title": "IT Security Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced IT Security Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and manage security solutions.",
       "Conduct vulnerability assessments and penetration testing.",
       "Monitor security alerts and respond to incidents.",
       "Ensure compliance with security standards.",
-      "Maintain security documentation and reporting.",
+      "Maintain security documentation and reporting."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of IT security experience.",
       "Knowledge of security tools and frameworks.",
       "Experience with incident response processes.",
       "Strong analytical and troubleshooting skills.",
-      "Good stakeholder communication abilities.",
+      "Good stakeholder communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise cybersecurity initiatives.",
       "Long-term Contract engagement.",
       "Exposure to global compliance environments.",
       "High-ownership security role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 63,
-    slug: "technical-business-analyst",
-    title: "Technical Business Analyst",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced Technical Business Analyst to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 63,
+    "slug": "technical-business-analyst",
+    "title": "Technical Business Analyst",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced Technical Business Analyst to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Gather and document technical and business requirements.",
       "Perform gap analysis and solution mapping.",
       "Work closely with development and QA teams.",
       "Support testing and deployment activities.",
-      "Facilitate stakeholder communication and reporting.",
+      "Facilitate stakeholder communication and reporting."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of business analysis experience.",
       "Strong understanding of IT systems and processes.",
       "Experience working in agile environments.",
       "Good documentation and communication skills.",
-      "Ability to translate business needs into technical solutions.",
+      "Ability to translate business needs into technical solutions."
     ],
-    perks: [
+    "perks": [
       "Strategic role in enterprise transformation programs.",
       "Stable full-time engagement.",
       "Exposure to cross-functional teams.",
       "High-visibility stakeholder interaction.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 64,
-    slug: "sap-hana-consultant",
-    title: "SAP HANA Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP HANA Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 64,
+    "slug": "sap-hana-consultant",
+    "title": "SAP HANA Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP HANA Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and optimize SAP HANA data models.",
       "Develop calculation views and procedures.",
       "Support performance tuning and system enhancements.",
       "Collaborate with functional teams for solution design.",
-      "Assist in HANA migrations and upgrades.",
+      "Assist in HANA migrations and upgrades."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP HANA experience.",
       "Strong knowledge of HANA modeling and optimization.",
       "Experience in SAP implementations.",
       "Good analytical and troubleshooting skills.",
-      "Ability to manage complex technical requirements.",
+      "Ability to manage complex technical requirements."
     ],
-    perks: [
+    "perks": [
       "Enterprise SAP transformation initiatives.",
       "Long-term Contract engagement.",
       "Exposure to S/4HANA landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 65,
-    slug: "salesforce-developer",
-    title: "Salesforce Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 65,
+    "slug": "salesforce-developer",
+    "title": "Salesforce Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop Apex classes, triggers and Lightning components.",
       "Customize Salesforce objects and workflows.",
       "Integrate Salesforce with external systems.",
       "Support deployments and production fixes.",
-      "Collaborate with functional consultants for requirement alignment.",
+      "Collaborate with functional consultants for requirement alignment."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Salesforce development experience.",
       "Strong knowledge of Apex, SOQL and Lightning.",
       "Experience with integrations and APIs.",
       "Good debugging and analytical skills.",
-      "Strong communication abilities.",
+      "Strong communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise Salesforce programs.",
       "Stable full-time engagement.",
       "Exposure to multi-cloud ecosystems.",
       "High-impact development role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 66,
-    slug: "azure-devops-engineer",
-    title: "Azure DevOps Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Azure DevOps Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 66,
+    "slug": "azure-devops-engineer",
+    "title": "Azure DevOps Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Azure DevOps Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and manage Azure DevOps pipelines.",
       "Automate builds and deployments.",
       "Integrate code repositories with CI/CD workflows.",
       "Monitor system health and performance.",
-      "Collaborate with development teams for DevOps best practices.",
+      "Collaborate with development teams for DevOps best practices."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of DevOps experience with Azure.",
       "Strong knowledge of CI/CD tools.",
       "Experience with containerization and cloud deployments.",
       "Good scripting and automation skills.",
-      "Strong troubleshooting abilities.",
+      "Strong troubleshooting abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise DevOps modernization programs.",
       "Long-term Contract engagement.",
       "Exposure to cloud-native technologies.",
       "High-ownership automation role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 67,
-    slug: "servicenow-developer",
-    title: "ServiceNow Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced ServiceNow Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 67,
+    "slug": "servicenow-developer",
+    "title": "ServiceNow Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced ServiceNow Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and customize ServiceNow modules.",
       "Create workflows and automation scripts.",
       "Integrate ServiceNow with external systems.",
       "Support upgrades and enhancements.",
-      "Troubleshoot and resolve production issues.",
+      "Troubleshoot and resolve production issues."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of ServiceNow development experience.",
       "Strong knowledge of ServiceNow platform architecture.",
       "Experience with integrations and scripting.",
       "Good debugging skills.",
-      "Strong stakeholder communication abilities.",
+      "Strong stakeholder communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise ITSM transformation projects.",
       "Stable full-time engagement.",
       "Exposure to large-scale ServiceNow environments.",
       "High-ownership technical role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 68,
-    slug: "qa-lead",
-    title: "QA Lead",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "7 to 10 Years",
-    aboutRole:
-      "We are looking for an experienced QA Lead to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 68,
+    "slug": "qa-lead",
+    "title": "QA Lead",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "7 to 10 Years",
+    "aboutRole": "We are looking for an experienced QA Lead to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Lead QA strategy and testing initiatives.",
       "Manage automation and manual testing teams.",
       "Define quality standards and best practices.",
       "Track defects and ensure resolution timelines.",
-      "Collaborate with stakeholders for release readiness.",
+      "Collaborate with stakeholders for release readiness."
     ],
-    requirements: [
+    "requirements": [
       "7+ years of QA experience with leadership exposure.",
       "Strong knowledge of automation frameworks.",
       "Experience managing enterprise testing programs.",
       "Good communication and coordination skills.",
-      "Ability to drive quality culture across teams.",
+      "Ability to drive quality culture across teams."
     ],
-    perks: [
+    "perks": [
       "Leadership role in enterprise quality programs.",
       "Long-term Contract engagement.",
       "Exposure to global client projects.",
       "High-impact decision-making role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 69,
-    slug: "sap-pp-consultant",
-    title: "SAP PP Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP PP Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 69,
+    "slug": "sap-pp-consultant",
+    "title": "SAP PP Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP PP Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and support SAP PP processes.",
       "Conduct requirement gathering and solution design.",
       "Perform system testing and deployment support.",
       "Integrate PP module with other SAP modules.",
-      "Provide post-go-live optimization and support.",
+      "Provide post-go-live optimization and support."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP PP functional experience.",
       "Strong knowledge of production planning processes.",
       "Experience in SAP implementation projects.",
       "Good documentation and stakeholder skills.",
-      "Ability to manage multiple priorities.",
+      "Ability to manage multiple priorities."
     ],
-    perks: [
+    "perks": [
       "Enterprise manufacturing transformation projects.",
       "Stable full-time engagement.",
       "Exposure to global SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 70,
-    slug: "salesforce-business-analyst",
-    title: "Salesforce Business Analyst",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Business Analyst to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 70,
+    "slug": "salesforce-business-analyst",
+    "title": "Salesforce Business Analyst",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Business Analyst to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Gather and document Salesforce requirements.",
       "Perform business process analysis and gap identification.",
       "Coordinate with developers for solution implementation.",
       "Support testing and user training sessions.",
-      "Ensure alignment between business needs and system capabilities.",
+      "Ensure alignment between business needs and system capabilities."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Salesforce BA experience.",
       "Strong knowledge of Sales and Service Cloud.",
       "Experience in stakeholder management.",
       "Good documentation skills.",
-      "Ability to translate business needs into functional designs.",
+      "Ability to translate business needs into functional designs."
     ],
-    perks: [
+    "perks": [
       "Enterprise CRM transformation programs.",
       "Long-term Contract engagement.",
       "High-visibility stakeholder role.",
       "Exposure to global implementations.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 71,
-    slug: "cloud-support-engineer",
-    title: "Cloud Support Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "4 to 7 Years",
-    aboutRole:
-      "We are looking for an experienced Cloud Support Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 71,
+    "slug": "cloud-support-engineer",
+    "title": "Cloud Support Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "4 to 7 Years",
+    "aboutRole": "We are looking for an experienced Cloud Support Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Provide support for cloud infrastructure and services.",
       "Monitor system performance and availability.",
       "Troubleshoot incidents and resolve issues.",
       "Assist in cloud deployments and updates.",
-      "Maintain documentation and compliance standards.",
+      "Maintain documentation and compliance standards."
     ],
-    requirements: [
+    "requirements": [
       "4+ years of cloud support experience.",
       "Knowledge of AWS, Azure or GCP.",
       "Strong troubleshooting skills.",
       "Experience with ticketing systems.",
-      "Good communication abilities.",
+      "Good communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise cloud operations exposure.",
       "Stable full-time engagement.",
       "High-ownership support role.",
       "Exposure to modern cloud technologies.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 72,
-    slug: "sap-qm-consultant",
-    title: "SAP QM Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP QM Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 72,
+    "slug": "sap-qm-consultant",
+    "title": "SAP QM Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP QM Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and support SAP QM processes.",
       "Conduct requirement gathering and documentation.",
       "Integrate QM module with other SAP modules.",
       "Support testing and go-live activities.",
-      "Provide ongoing support and optimization.",
+      "Provide ongoing support and optimization."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP QM functional experience.",
       "Strong knowledge of quality management processes.",
       "Experience in SAP implementation projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise quality transformation projects.",
       "Long-term Contract engagement.",
       "Exposure to integrated SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 73,
-    slug: "technical-support-engineer",
-    title: "Technical Support Engineer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "3 to 6 Years",
-    aboutRole:
-      "We are looking for an experienced Technical Support Engineer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 73,
+    "slug": "technical-support-engineer",
+    "title": "Technical Support Engineer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "3 to 6 Years",
+    "aboutRole": "We are looking for an experienced Technical Support Engineer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Provide technical support for enterprise systems.",
       "Troubleshoot software and infrastructure issues.",
       "Monitor service requests and ensure resolution.",
       "Maintain support documentation.",
-      "Assist in system upgrades and maintenance.",
+      "Assist in system upgrades and maintenance."
     ],
-    requirements: [
+    "requirements": [
       "3+ years of technical support experience.",
       "Strong troubleshooting skills.",
       "Knowledge of enterprise IT environments.",
       "Good communication and coordination abilities.",
-      "Ability to handle multiple tasks efficiently.",
+      "Ability to handle multiple tasks efficiently."
     ],
-    perks: [
+    "perks": [
       "Stable full-time engagement.",
       "Exposure to enterprise IT ecosystems.",
       "High-ownership support role.",
       "Growth-focused environment.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 74,
-    slug: "sap-ariba-consultant",
-    title: "SAP Ariba Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP Ariba Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 74,
+    "slug": "sap-ariba-consultant",
+    "title": "SAP Ariba Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP Ariba Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP Ariba procurement solutions.",
       "Configure sourcing and contract management processes.",
       "Conduct requirement analysis and fit-gap assessments.",
       "Support integration with SAP ERP systems.",
-      "Provide post-go-live support and optimization.",
+      "Provide post-go-live support and optimization."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP Ariba experience.",
       "Strong knowledge of procurement workflows.",
       "Experience in SAP integration projects.",
       "Good documentation and stakeholder skills.",
-      "Ability to manage multiple priorities.",
+      "Ability to manage multiple priorities."
     ],
-    perks: [
+    "perks": [
       "Enterprise procurement transformation programs.",
       "Long-term Contract engagement.",
       "Exposure to global SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 75,
-    slug: "salesforce-solution-architect",
-    title: "Salesforce Solution Architect",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "10+ Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Solution Architect to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 75,
+    "slug": "salesforce-solution-architect",
+    "title": "Salesforce Solution Architect",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "10+ Years",
+    "aboutRole": "We are looking for an experienced Salesforce Solution Architect to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define end-to-end Salesforce architecture.",
       "Design scalable CRM solutions across clouds.",
       "Lead technical design reviews and governance.",
       "Guide development teams on best practices.",
-      "Collaborate with stakeholders on transformation strategy.",
+      "Collaborate with stakeholders on transformation strategy."
     ],
-    requirements: [
+    "requirements": [
       "10+ years of Salesforce experience.",
       "Strong expertise in Sales, Service or Experience Cloud.",
       "Experience leading enterprise CRM programs.",
       "Excellent stakeholder management skills.",
-      "Ability to define long-term architecture roadmap.",
+      "Ability to define long-term architecture roadmap."
     ],
-    perks: [
+    "perks": [
       "Leadership role in enterprise CRM programs.",
       "Stable full-time engagement.",
       "High-impact strategic responsibility.",
       "Exposure to global clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 76,
-    slug: "sap-successfactors-consultant",
-    title: "SAP SuccessFactors Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced SAP SuccessFactors Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 76,
+    "slug": "sap-successfactors-consultant",
+    "title": "SAP SuccessFactors Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced SAP SuccessFactors Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and configure SAP SuccessFactors modules.",
       "Conduct business requirement workshops.",
       "Perform system testing and deployment support.",
       "Integrate SuccessFactors with SAP ERP systems.",
-      "Provide post-go-live enhancements and support.",
+      "Provide post-go-live enhancements and support."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of SuccessFactors experience.",
       "Strong knowledge of HR processes.",
       "Experience in SAP HCM or cloud HR systems.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise HR digital transformation projects.",
       "Long-term Contract engagement.",
       "Exposure to cloud-based HR platforms.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 77,
-    slug: "site-reliability-engineer-sre",
-    title: "Site Reliability Engineer (SRE)",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced Site Reliability Engineer (SRE) to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 77,
+    "slug": "site-reliability-engineer-sre",
+    "title": "Site Reliability Engineer (SRE)",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced Site Reliability Engineer (SRE) to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Ensure system reliability and uptime.",
       "Automate infrastructure and monitoring processes.",
       "Manage incident response and root cause analysis.",
       "Optimize system performance and scalability.",
-      "Collaborate with DevOps and engineering teams.",
+      "Collaborate with DevOps and engineering teams."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SRE or DevOps experience.",
       "Strong knowledge of monitoring tools.",
       "Experience with automation and scripting.",
       "Familiarity with cloud platforms.",
-      "Strong troubleshooting skills.",
+      "Strong troubleshooting skills."
     ],
-    perks: [
+    "perks": [
       "Enterprise reliability engineering programs.",
       "Stable full-time engagement.",
       "High-ownership operational role.",
       "Exposure to cloud-native architectures.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 78,
-    slug: "sap-ewm-consultant",
-    title: "SAP EWM Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP EWM Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 78,
+    "slug": "sap-ewm-consultant",
+    "title": "SAP EWM Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP EWM Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP EWM processes.",
       "Configure warehouse management workflows.",
       "Conduct requirement analysis and solution design.",
       "Support integration with other SAP modules.",
-      "Provide post-go-live support and enhancements.",
+      "Provide post-go-live support and enhancements."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP EWM experience.",
       "Strong knowledge of warehouse processes.",
       "Experience in SAP implementation projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise supply chain transformation projects.",
       "Long-term Contract engagement.",
       "Exposure to integrated SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 79,
-    slug: "sap-technical-lead",
-    title: "SAP Technical Lead",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "8 to 12 Years",
-    aboutRole:
-      "We are looking for an experienced SAP Technical Lead to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 79,
+    "slug": "sap-technical-lead",
+    "title": "SAP Technical Lead",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "8 to 12 Years",
+    "aboutRole": "We are looking for an experienced SAP Technical Lead to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Lead SAP technical development initiatives.",
       "Review ABAP and integration designs.",
       "Guide teams on technical best practices.",
       "Support complex enhancements and upgrades.",
-      "Collaborate with functional consultants for solution delivery.",
+      "Collaborate with functional consultants for solution delivery."
     ],
-    requirements: [
+    "requirements": [
       "8+ years of SAP technical experience.",
       "Strong expertise in ABAP and integrations.",
       "Experience leading technical teams.",
       "Good stakeholder coordination skills.",
-      "Ability to manage complex SAP landscapes.",
+      "Ability to manage complex SAP landscapes."
     ],
-    perks: [
+    "perks": [
       "Leadership role in SAP transformation programs.",
       "Stable full-time engagement.",
       "Exposure to enterprise S/4HANA initiatives.",
       "High-impact technical ownership.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 80,
-    slug: "salesforce-integration-developer",
-    title: "Salesforce Integration Developer",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "5 to 8 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Integration Developer to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 80,
+    "slug": "salesforce-integration-developer",
+    "title": "Salesforce Integration Developer",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "5 to 8 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Integration Developer to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop Salesforce integrations with external systems.",
       "Build APIs and middleware solutions.",
       "Support real-time and batch data exchanges.",
       "Troubleshoot integration issues and optimize performance.",
-      "Ensure security and data integrity across systems.",
+      "Ensure security and data integrity across systems."
     ],
-    requirements: [
+    "requirements": [
       "5+ years of Salesforce integration experience.",
       "Strong knowledge of REST/SOAP APIs.",
       "Experience with middleware platforms.",
       "Good debugging and analytical skills.",
-      "Strong communication abilities.",
+      "Strong communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise CRM integration projects.",
       "Long-term Contract engagement.",
       "Exposure to complex multi-system environments.",
       "High-ownership technical role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 81,
-    slug: "sap-co-consultant",
-    title: "SAP CO Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP CO Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 81,
+    "slug": "sap-co-consultant",
+    "title": "SAP CO Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP CO Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and support SAP Controlling processes.",
       "Conduct requirement workshops and documentation.",
       "Support integration with FICO and other modules.",
       "Perform testing and deployment activities.",
-      "Provide ongoing optimization and support.",
+      "Provide ongoing optimization and support."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP CO experience.",
       "Strong knowledge of cost accounting processes.",
       "Experience in SAP implementation projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise financial transformation programs.",
       "Stable full-time engagement.",
       "Exposure to integrated SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 82,
-    slug: "cloud-solutions-architect",
-    title: "Cloud Solutions Architect",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "10+ Years",
-    aboutRole:
-      "We are looking for an experienced Cloud Solutions Architect to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 82,
+    "slug": "cloud-solutions-architect",
+    "title": "Cloud Solutions Architect",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "10+ Years",
+    "aboutRole": "We are looking for an experienced Cloud Solutions Architect to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define end-to-end cloud architecture strategies.",
       "Lead migration and modernization programs.",
       "Ensure scalability, security and compliance.",
       "Guide engineering teams on best practices.",
-      "Collaborate with stakeholders on digital transformation roadmaps.",
+      "Collaborate with stakeholders on digital transformation roadmaps."
     ],
-    requirements: [
+    "requirements": [
       "10+ years of cloud architecture experience.",
       "Strong expertise in AWS, Azure or GCP.",
       "Experience leading enterprise cloud programs.",
       "Excellent stakeholder management skills.",
-      "Ability to define long-term technology strategy.",
+      "Ability to define long-term technology strategy."
     ],
-    perks: [
+    "perks": [
       "Leadership role in cloud transformation programs.",
       "Long-term Contract engagement.",
       "High-impact strategic responsibility.",
       "Exposure to global clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 83,
-    slug: "it-operations-manager",
-    title: "IT Operations Manager",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Operations",
-    experience: "8 to 12 Years",
-    aboutRole:
-      "We are looking for an experienced IT Operations Manager to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 83,
+    "slug": "it-operations-manager",
+    "title": "IT Operations Manager",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "8 to 12 Years",
+    "aboutRole": "We are looking for an experienced IT Operations Manager to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Manage IT operations and infrastructure services.",
       "Ensure system availability and performance.",
       "Lead support and operations teams.",
       "Implement operational best practices and governance.",
-      "Coordinate with stakeholders for service delivery.",
+      "Coordinate with stakeholders for service delivery."
     ],
-    requirements: [
+    "requirements": [
       "8+ years of IT operations experience.",
       "Strong leadership and coordination skills.",
       "Experience managing enterprise IT environments.",
       "Good stakeholder communication abilities.",
-      "Ability to drive operational efficiency.",
+      "Ability to drive operational efficiency."
     ],
-    perks: [
+    "perks": [
       "Leadership role in enterprise IT operations.",
       "Stable full-time engagement.",
       "High-visibility operational responsibility.",
       "Exposure to global programs.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 84,
-    slug: "sap-s-4hana-consultant",
-    title: "SAP S/4HANA Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "7 to 10 Years",
-    aboutRole:
-      "We are looking for an experienced SAP S/4HANA Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 84,
+    "slug": "sap-s-4hana-consultant",
+    "title": "SAP S/4HANA Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "7 to 10 Years",
+    "aboutRole": "We are looking for an experienced SAP S/4HANA Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP S/4HANA solutions.",
       "Conduct business requirement workshops.",
       "Perform system configuration and testing.",
       "Support migration from ECC to S/4HANA.",
-      "Provide post-go-live enhancements and optimization.",
+      "Provide post-go-live enhancements and optimization."
     ],
-    requirements: [
+    "requirements": [
       "7+ years of SAP experience with S/4HANA exposure.",
       "Strong knowledge of end-to-end business processes.",
       "Experience in SAP migration projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical and documentation abilities.",
+      "Strong analytical and documentation abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise S/4HANA transformation initiatives.",
       "Long-term Contract engagement.",
       "Exposure to large-scale SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 85,
-    slug: "salesforce-cpq-consultant",
-    title: "Salesforce CPQ Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce CPQ Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 85,
+    "slug": "salesforce-cpq-consultant",
+    "title": "Salesforce CPQ Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced Salesforce CPQ Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and implement Salesforce CPQ solutions.",
       "Design pricing and quoting workflows.",
       "Support integrations with Sales Cloud.",
       "Conduct requirement analysis and solution mapping.",
-      "Provide post-implementation support.",
+      "Provide post-implementation support."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of Salesforce experience with CPQ expertise.",
       "Strong understanding of pricing models and quoting processes.",
       "Experience in enterprise CRM projects.",
       "Good documentation and stakeholder skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise CPQ transformation programs.",
       "Stable full-time engagement.",
       "High-visibility consulting role.",
       "Exposure to global CRM implementations.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 86,
-    slug: "sap-fi-consultant",
-    title: "SAP FI Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP FI Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 86,
+    "slug": "sap-fi-consultant",
+    "title": "SAP FI Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP FI Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Configure and support SAP FI processes.",
       "Conduct requirement gathering and documentation.",
       "Support system testing and deployment.",
       "Integrate FI module with other SAP modules.",
-      "Provide post-go-live support and enhancements.",
+      "Provide post-go-live support and enhancements."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP FI experience.",
       "Strong knowledge of financial accounting processes.",
       "Experience in SAP implementation projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise finance transformation initiatives.",
       "Long-term Contract engagement.",
       "Exposure to integrated SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 87,
-    slug: "salesforce-marketing-cloud-consultant",
-    title: "Salesforce Marketing Cloud Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Marketing Cloud Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 87,
+    "slug": "salesforce-marketing-cloud-consultant",
+    "title": "Salesforce Marketing Cloud Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Marketing Cloud Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and configure Marketing Cloud journeys.",
       "Design campaign automation workflows.",
       "Manage data segmentation and audience targeting.",
       "Integrate Marketing Cloud with other CRM systems.",
-      "Provide post-implementation support and optimization.",
+      "Provide post-implementation support and optimization."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of Salesforce experience with Marketing Cloud expertise.",
       "Strong knowledge of campaign management processes.",
       "Experience in enterprise CRM projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise digital marketing transformation programs.",
       "Stable full-time engagement.",
       "High-visibility consulting role.",
       "Exposure to global implementations.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 88,
-    slug: "it-infrastructure-architect",
-    title: "IT Infrastructure Architect",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Operations",
-    experience: "10+ Years",
-    aboutRole:
-      "We are looking for an experienced IT Infrastructure Architect to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 88,
+    "slug": "it-infrastructure-architect",
+    "title": "IT Infrastructure Architect",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "10+ Years",
+    "aboutRole": "We are looking for an experienced IT Infrastructure Architect to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design enterprise IT infrastructure architecture.",
       "Define network, server and cloud strategies.",
       "Ensure scalability, performance and security standards.",
       "Guide infrastructure modernization initiatives.",
-      "Collaborate with stakeholders on technology roadmaps.",
+      "Collaborate with stakeholders on technology roadmaps."
     ],
-    requirements: [
+    "requirements": [
       "10+ years of infrastructure architecture experience.",
       "Strong knowledge of enterprise IT systems.",
       "Experience leading large-scale transformation programs.",
       "Excellent stakeholder management skills.",
-      "Ability to define long-term infrastructure strategy.",
+      "Ability to define long-term infrastructure strategy."
     ],
-    perks: [
+    "perks": [
       "Leadership role in enterprise infrastructure programs.",
       "Long-term Contract engagement.",
       "High-impact strategic responsibility.",
       "Exposure to global clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 89,
-    slug: "sap-grc-consultant",
-    title: "SAP GRC Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP GRC Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 89,
+    "slug": "sap-grc-consultant",
+    "title": "SAP GRC Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP GRC Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP GRC solutions.",
       "Manage access control and risk analysis processes.",
       "Conduct compliance assessments and audits.",
       "Integrate GRC with other SAP modules.",
-      "Provide post-go-live enhancements and support.",
+      "Provide post-go-live enhancements and support."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP GRC experience.",
       "Strong understanding of compliance and governance frameworks.",
       "Experience in SAP security and risk management.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise governance transformation programs.",
       "Stable full-time engagement.",
       "Exposure to global compliance environments.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 90,
-    slug: "salesforce-technical-lead",
-    title: "Salesforce Technical Lead",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "8 to 12 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Technical Lead to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 90,
+    "slug": "salesforce-technical-lead",
+    "title": "Salesforce Technical Lead",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "8 to 12 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Technical Lead to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Lead Salesforce development and architecture initiatives.",
       "Review code and enforce technical standards.",
       "Design scalable CRM solutions.",
       "Guide integration and deployment strategies.",
-      "Collaborate with stakeholders on solution roadmap.",
+      "Collaborate with stakeholders on solution roadmap."
     ],
-    requirements: [
+    "requirements": [
       "8+ years of Salesforce development experience.",
       "Strong expertise in Apex, Lightning and integrations.",
       "Experience leading enterprise CRM programs.",
       "Excellent stakeholder coordination skills.",
-      "Ability to drive technical excellence.",
+      "Ability to drive technical excellence."
     ],
-    perks: [
+    "perks": [
       "Leadership role in CRM transformation projects.",
       "Long-term Contract engagement.",
       "High-impact technical ownership.",
       "Exposure to global implementations.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 91,
-    slug: "sap-bw-consultant",
-    title: "SAP BW Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP BW Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 91,
+    "slug": "sap-bw-consultant",
+    "title": "SAP BW Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP BW Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Develop and maintain SAP BW reports and data models.",
       "Design data extraction and transformation processes.",
       "Support performance tuning and enhancements.",
       "Integrate BW with SAP and non-SAP systems.",
-      "Provide post-go-live support and optimization.",
+      "Provide post-go-live support and optimization."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP BW experience.",
       "Strong knowledge of data warehousing concepts.",
       "Experience in SAP BI implementations.",
       "Good analytical and troubleshooting skills.",
-      "Strong stakeholder communication abilities.",
+      "Strong stakeholder communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise analytics transformation programs.",
       "Stable full-time engagement.",
       "Exposure to integrated SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 92,
-    slug: "cloud-migration-specialist",
-    title: "Cloud Migration Specialist",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "7 to 10 Years",
-    aboutRole:
-      "We are looking for an experienced Cloud Migration Specialist to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 92,
+    "slug": "cloud-migration-specialist",
+    "title": "Cloud Migration Specialist",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "7 to 10 Years",
+    "aboutRole": "We are looking for an experienced Cloud Migration Specialist to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Lead end-to-end cloud migration programs.",
       "Assess existing infrastructure and define migration strategy.",
       "Ensure minimal downtime and data integrity.",
       "Optimize cloud performance post-migration.",
-      "Collaborate with stakeholders for transition planning.",
+      "Collaborate with stakeholders for transition planning."
     ],
-    requirements: [
+    "requirements": [
       "7+ years of cloud and infrastructure experience.",
       "Strong expertise in AWS, Azure or GCP migrations.",
       "Experience in enterprise modernization programs.",
       "Good stakeholder communication skills.",
-      "Strong analytical and planning abilities.",
+      "Strong analytical and planning abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise cloud modernization initiatives.",
       "Long-term Contract engagement.",
       "High-impact strategic role.",
       "Exposure to global clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 93,
-    slug: "it-compliance-manager",
-    title: "IT Compliance Manager",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Operations",
-    experience: "8 to 12 Years",
-    aboutRole:
-      "We are looking for an experienced IT Compliance Manager to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 93,
+    "slug": "it-compliance-manager",
+    "title": "IT Compliance Manager",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "8 to 12 Years",
+    "aboutRole": "We are looking for an experienced IT Compliance Manager to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define and manage IT compliance frameworks.",
       "Conduct audits and risk assessments.",
       "Ensure adherence to regulatory standards.",
       "Develop compliance policies and procedures.",
-      "Collaborate with security and operations teams.",
+      "Collaborate with security and operations teams."
     ],
-    requirements: [
+    "requirements": [
       "8+ years of IT compliance experience.",
       "Strong knowledge of regulatory frameworks.",
       "Experience in enterprise governance programs.",
       "Good stakeholder communication skills.",
-      "Strong analytical and documentation abilities.",
+      "Strong analytical and documentation abilities."
     ],
-    perks: [
+    "perks": [
       "Leadership role in governance initiatives.",
       "Stable full-time engagement.",
       "High-visibility strategic responsibility.",
       "Exposure to global compliance programs.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 94,
-    slug: "sap-crm-consultant",
-    title: "SAP CRM Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP CRM Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 94,
+    "slug": "sap-crm-consultant",
+    "title": "SAP CRM Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP CRM Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Implement and support SAP CRM solutions.",
       "Configure sales and service processes.",
       "Conduct business requirement workshops.",
       "Integrate CRM with SAP ERP systems.",
-      "Provide post-go-live support and enhancements.",
+      "Provide post-go-live support and enhancements."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP CRM experience.",
       "Strong knowledge of customer lifecycle processes.",
       "Experience in SAP implementation projects.",
       "Good stakeholder communication skills.",
-      "Strong analytical abilities.",
+      "Strong analytical abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise CRM transformation initiatives.",
       "Stable full-time engagement.",
       "Exposure to integrated SAP landscapes.",
       "High-ownership consulting role.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 95,
-    slug: "salesforce-release-manager",
-    title: "Salesforce Release Manager",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "7 to 10 Years",
-    aboutRole:
-      "We are looking for an experienced Salesforce Release Manager to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 95,
+    "slug": "salesforce-release-manager",
+    "title": "Salesforce Release Manager",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "7 to 10 Years",
+    "aboutRole": "We are looking for an experienced Salesforce Release Manager to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Plan and manage Salesforce release cycles.",
       "Coordinate deployments across environments.",
       "Ensure compliance with release governance standards.",
       "Manage rollback and risk mitigation strategies.",
-      "Collaborate with development and QA teams.",
+      "Collaborate with development and QA teams."
     ],
-    requirements: [
+    "requirements": [
       "7+ years of Salesforce experience with release management exposure.",
       "Strong knowledge of CI/CD and deployment tools.",
       "Experience managing enterprise CRM environments.",
       "Good coordination and communication skills.",
-      "Ability to manage risks effectively.",
+      "Ability to manage risks effectively."
     ],
-    perks: [
+    "perks": [
       "High-visibility CRM governance role.",
       "Long-term Contract engagement.",
       "Exposure to enterprise release frameworks.",
       "Strategic coordination responsibility.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 96,
-    slug: "sap-analytics-consultant",
-    title: "SAP Analytics Consultant",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Development",
-    experience: "6 to 9 Years",
-    aboutRole:
-      "We are looking for an experienced SAP Analytics Consultant to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 96,
+    "slug": "sap-analytics-consultant",
+    "title": "SAP Analytics Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "6 to 9 Years",
+    "aboutRole": "We are looking for an experienced SAP Analytics Consultant to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Design and implement SAP analytics solutions.",
       "Build reports and dashboards for business users.",
       "Integrate analytics tools with SAP systems.",
       "Optimize data models for performance.",
-      "Support data-driven transformation initiatives.",
+      "Support data-driven transformation initiatives."
     ],
-    requirements: [
+    "requirements": [
       "6+ years of SAP analytics experience.",
       "Strong knowledge of reporting and BI tools.",
       "Experience in SAP BW or SAC environments.",
       "Good analytical and troubleshooting skills.",
-      "Strong stakeholder communication abilities.",
+      "Strong stakeholder communication abilities."
     ],
-    perks: [
+    "perks": [
       "Enterprise analytics transformation programs.",
       "Stable full-time engagement.",
       "High-impact data insights role.",
       "Exposure to global SAP landscapes.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 97,
-    slug: "multi-cloud-architect",
-    title: "Multi-Cloud Architect",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Development",
-    experience: "10+ Years",
-    aboutRole:
-      "We are looking for an experienced Multi-Cloud Architect to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 97,
+    "slug": "multi-cloud-architect",
+    "title": "Multi-Cloud Architect",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Development",
+    "experience": "10+ Years",
+    "aboutRole": "We are looking for an experienced Multi-Cloud Architect to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define multi-cloud architecture strategy.",
       "Design secure and scalable cross-cloud solutions.",
       "Ensure interoperability between cloud platforms.",
       "Guide modernization and migration programs.",
-      "Collaborate with stakeholders on technology roadmap.",
+      "Collaborate with stakeholders on technology roadmap."
     ],
-    requirements: [
+    "requirements": [
       "10+ years of cloud architecture experience.",
       "Strong expertise in AWS, Azure and GCP.",
       "Experience leading enterprise cloud programs.",
       "Excellent stakeholder management skills.",
-      "Ability to define long-term cloud strategy.",
+      "Ability to define long-term cloud strategy."
     ],
-    perks: [
+    "perks": [
       "Leadership role in multi-cloud transformation initiatives.",
       "Long-term Contract engagement.",
       "High-impact strategic responsibility.",
       "Exposure to global clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 98,
-    slug: "it-risk-manager",
-    title: "IT Risk Manager",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Full Time",
-    location: "PAN India",
-    category: "Operations",
-    experience: "8 to 12 Years",
-    aboutRole:
-      "We are looking for an experienced IT Risk Manager to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 98,
+    "slug": "it-risk-manager",
+    "title": "IT Risk Manager",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "8 to 12 Years",
+    "aboutRole": "We are looking for an experienced IT Risk Manager to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Identify and assess IT risks across programs.",
       "Develop risk mitigation strategies.",
       "Conduct compliance reviews and audits.",
       "Monitor governance frameworks and controls.",
-      "Collaborate with leadership on risk reporting.",
+      "Collaborate with leadership on risk reporting."
     ],
-    requirements: [
+    "requirements": [
       "8+ years of IT risk management experience.",
       "Strong knowledge of governance frameworks.",
       "Experience in enterprise risk programs.",
       "Excellent analytical and documentation skills.",
-      "Strong stakeholder communication abilities.",
+      "Strong stakeholder communication abilities."
     ],
-    perks: [
+    "perks": [
       "Strategic leadership role in governance initiatives.",
       "Stable full-time engagement.",
       "High-visibility risk management responsibility.",
       "Exposure to global compliance standards.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   },
   {
-    id: 99,
-    slug: "enterprise-solutions-director",
-    title: "Enterprise Solutions Director",
-    description:
-      "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
-    type: "Contract",
-    location: "PAN India",
-    category: "Operations",
-    experience: "12+ Years",
-    aboutRole:
-      "We are looking for an experienced Enterprise Solutions Director to join our growing team at Sanjivani Edge.",
-    lifeAt:
-      "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
-    responsibilities: [
+    "id": 99,
+    "slug": "enterprise-solutions-director",
+    "title": "Enterprise Solutions Director",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Contract",
+    "location": "PAN India",
+    "category": "Operations",
+    "experience": "12+ Years",
+    "aboutRole": "We are looking for an experienced Enterprise Solutions Director to join our growing team at Sanjivani Edge.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
       "Define enterprise-wide technology strategy.",
       "Lead large-scale digital transformation programs.",
       "Drive solution architecture and governance standards.",
       "Engage executive stakeholders for business alignment.",
-      "Oversee delivery excellence across portfolios.",
+      "Oversee delivery excellence across portfolios."
     ],
-    requirements: [
+    "requirements": [
       "12+ years of enterprise IT leadership experience.",
       "Strong background in architecture and digital transformation.",
       "Experience managing large cross-functional teams.",
       "Excellent executive communication skills.",
-      "Ability to drive long-term strategic initiatives.",
+      "Ability to drive long-term strategic initiatives."
     ],
-    perks: [
+    "perks": [
       "Executive leadership role in transformation programs.",
       "Long-term Contract engagement.",
       "High-impact strategic responsibility.",
       "Exposure to global enterprise clients.",
-      "Collaborative culture.",
-    ],
+      "Collaborative culture."
+    ]
   }
 ];
