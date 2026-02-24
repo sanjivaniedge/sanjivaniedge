@@ -1,8 +1,18 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowRight, ArrowLeft, MapPin, Clock, Briefcase, CheckCircle2, Star, AlertCircle } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowLeft,
+  MapPin,
+  Clock,
+  Briefcase,
+  CheckCircle2,
+  Star,
+  AlertCircle,
+} from "lucide-react";
 import { JOBS } from "@/data/careers";
+import { getJobBySlug, getAllJobs } from "@/lib/jobs";
 
 interface JobPageProps {
   params: Promise<{
@@ -16,9 +26,11 @@ export function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: JobPageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: JobPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const job = JOBS.find((j) => j.slug === slug);
+  const job = await getJobBySlug(slug);
 
   if (!job) {
     return {
@@ -85,14 +97,17 @@ function JobPostingSchema({ job }: { job: (typeof JOBS)[number] }) {
 
 export default async function JobPage({ params }: JobPageProps) {
   const { slug } = await params;
-  const job = JOBS.find((j) => j.slug === slug);
+  const job = await getJobBySlug(slug);
 
   if (!job) {
     notFound();
   }
 
   // Get other active (non-hidden) jobs for the "Other Openings" section
-  const otherJobs = JOBS.filter((j) => j.id !== job.id && !j.hidden).slice(0, 4);
+  const allJobs = await getAllJobs();
+  const otherJobs = allJobs
+    .filter((j) => j.id !== job.id && !j.hidden)
+    .slice(0, 4);
 
   // If the job is hidden (filled), show a "position filled" page
   if (job.hidden) {
@@ -124,8 +139,9 @@ export default async function JobPage({ params }: JobPageProps) {
               This position has been filled
             </h2>
             <p className="text-lg text-[#4A5568] max-w-2xl mx-auto mb-6">
-              Thank you for your interest in this role. This position is no longer accepting applications.
-              However, we have other exciting opportunities available!
+              Thank you for your interest in this role. This position is no
+              longer accepting applications. However, we have other exciting
+              opportunities available!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
@@ -144,7 +160,9 @@ export default async function JobPage({ params }: JobPageProps) {
           </div>
 
           {/* Suggest Similar Open Roles */}
-          <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">Explore Open Positions</h3>
+          <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">
+            Explore Open Positions
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {activeJobs.map((activeJob) => (
               <Link
@@ -230,7 +248,9 @@ export default async function JobPage({ params }: JobPageProps) {
           {/* About Role */}
           {job.aboutRole && (
             <section>
-              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-4">About the Role</h3>
+              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-4">
+                About the Role
+              </h3>
               <p className="leading-relaxed text-lg">{job.aboutRole}</p>
             </section>
           )}
@@ -238,7 +258,9 @@ export default async function JobPage({ params }: JobPageProps) {
           {/* Life at Sanjivani Edge */}
           {job.lifeAt && (
             <section>
-              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-4">Life at Sanjivani Edge</h3>
+              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-4">
+                Life at Sanjivani Edge
+              </h3>
               <p className="leading-relaxed text-lg">{job.lifeAt}</p>
             </section>
           )}
@@ -246,7 +268,9 @@ export default async function JobPage({ params }: JobPageProps) {
           {/* Responsibilities */}
           {job.responsibilities && job.responsibilities.length > 0 && (
             <section>
-              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">What You&apos;ll Be Doing</h3>
+              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">
+                What You&apos;ll Be Doing
+              </h3>
               <ul className="space-y-4">
                 {job.responsibilities.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -261,7 +285,9 @@ export default async function JobPage({ params }: JobPageProps) {
           {/* Requirements */}
           {job.requirements && job.requirements.length > 0 && (
             <section>
-              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">What We&apos;re Looking For</h3>
+              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">
+                What We&apos;re Looking For
+              </h3>
               <ul className="space-y-4">
                 {job.requirements.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -276,7 +302,9 @@ export default async function JobPage({ params }: JobPageProps) {
           {/* Perks */}
           {job.perks && job.perks.length > 0 && (
             <section className="bg-[#F9F7FC] p-8 rounded-2xl border border-gray-100">
-              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">Why You&apos;ll Love Working Here</h3>
+              <h3 className="text-2xl font-bold text-[#1A1F3D] mb-6">
+                Why You&apos;ll Love Working Here
+              </h3>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {job.perks.map((item, index) => (
                   <li key={index} className="flex items-center gap-3">
@@ -291,7 +319,9 @@ export default async function JobPage({ params }: JobPageProps) {
           {/* Fallback for jobs with no extra data */}
           {!job.aboutRole && !job.responsibilities && (
             <div className="p-8 bg-gray-50 rounded-xl text-center">
-              <p className="text-xl mb-4">Detailed description for this role is coming soon.</p>
+              <p className="text-xl mb-4">
+                Detailed description for this role is coming soon.
+              </p>
               <p>{job.description}</p>
             </div>
           )}
@@ -301,20 +331,32 @@ export default async function JobPage({ params }: JobPageProps) {
         <div className="lg:col-span-1">
           <div className="sticky top-32 space-y-6">
             <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-              <h4 className="text-xl font-bold text-[#1A1F3D] mb-6">Job Overview</h4>
+              <h4 className="text-xl font-bold text-[#1A1F3D] mb-6">
+                Job Overview
+              </h4>
               <div className="space-y-4">
                 <div className="flex flex-col">
-                  <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Location</span>
-                  <span className="font-medium text-[#1A1F3D]">{job.location}</span>
+                  <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">
+                    Location
+                  </span>
+                  <span className="font-medium text-[#1A1F3D]">
+                    {job.location}
+                  </span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Job Type</span>
+                  <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">
+                    Job Type
+                  </span>
                   <span className="font-medium text-[#1A1F3D]">{job.type}</span>
                 </div>
                 {job.experience && (
                   <div className="flex flex-col">
-                    <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Experience</span>
-                    <span className="font-medium text-[#1A1F3D]">{job.experience}</span>
+                    <span className="text-sm text-gray-500 font-semibold uppercase tracking-wider">
+                      Experience
+                    </span>
+                    <span className="font-medium text-[#1A1F3D]">
+                      {job.experience}
+                    </span>
                   </div>
                 )}
               </div>
@@ -336,7 +378,9 @@ export default async function JobPage({ params }: JobPageProps) {
       {otherJobs.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16 pb-16">
           <div className="border-t border-gray-200 pt-12">
-            <h3 className="text-2xl font-bold text-[#1A1F3D] mb-8">Other Open Positions</h3>
+            <h3 className="text-2xl font-bold text-[#1A1F3D] mb-8">
+              Other Open Positions
+            </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {otherJobs.map((otherJob) => (
                 <Link
@@ -347,7 +391,9 @@ export default async function JobPage({ params }: JobPageProps) {
                   <h4 className="text-lg font-bold text-[#1A1F3D] group-hover:text-[#FF6B5A] transition-colors mb-2">
                     {otherJob.title}
                   </h4>
-                  <p className="text-sm text-[#4A5568] mb-3 line-clamp-2">{otherJob.description}</p>
+                  <p className="text-sm text-[#4A5568] mb-3 line-clamp-2">
+                    {otherJob.description}
+                  </p>
                   <div className="flex flex-wrap gap-3 text-xs text-[#4A5568]">
                     <span className="flex items-center gap-1">
                       <MapPin className="w-3 h-3" /> {otherJob.location}

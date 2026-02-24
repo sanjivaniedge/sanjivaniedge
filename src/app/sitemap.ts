@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
-import { JOBS } from "@/data/careers";
+import { getAllJobs } from "@/lib/jobs";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://www.sanjivaniedge.com";
 
   const staticRoutes = [
@@ -28,8 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === "" ? 1 : 0.8,
   }));
 
-  // Dynamic job pages
-  const jobEntries: MetadataRoute.Sitemap = JOBS.filter(
+  const jobs = await getAllJobs();
+  const jobEntries: MetadataRoute.Sitemap = jobs.filter(
     (job) => !job.hidden,
   ).map((job) => ({
     url: `${baseUrl}/careers/${job.slug}`,

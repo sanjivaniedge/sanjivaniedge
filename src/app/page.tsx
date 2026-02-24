@@ -59,10 +59,12 @@ export default function Home() {
                 title="The Legacy Ahead"
                 paragraphs={[
                     "From cooperative fields to global networks, the journey continues. What began as an enterprise of farmers and visionaries now empowers enterprises of coders and creators.",
-                    (<>
+                    (
+                      <span key="legacy-2">
                         <span className="font-semibold text-[#1A1F3D]">Sanjivani Edge</span>{" "}
                         carries forward that same promise, to build systems that sustain growth and ideas that outlast change.
-                    </>),
+                      </span>
+                    ),
                 ]}
                 ctaHref="/contact"
                 ctaLabel="Start Your Project"

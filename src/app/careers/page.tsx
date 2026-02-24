@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Metadata } from "next";
-import { JOBS } from "@/data/careers";
+import { getAllJobs } from "@/lib/jobs";
 import { JobSection } from "@/components/careers/job-section";
 import { WhoWeAre } from "@/components/careers/who-we-are";
 
@@ -22,9 +22,10 @@ export const metadata: Metadata = {
 };
 
 
-export default function CareersPage() {
-  const developmentJobs = JOBS.filter(job => job.category === "Development" && !job.hidden);
-  const operationsJobs = JOBS.filter(job => job.category === "Operations" && !job.hidden);
+export default async function CareersPage() {
+  const jobs = await getAllJobs();
+  const developmentJobs = jobs.filter(job => job.category === "Development" && !job.hidden);
+  const operationsJobs = jobs.filter(job => job.category === "Operations" && !job.hidden);
 
   return (
     <main className="min-h-screen bg-white">
