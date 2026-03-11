@@ -68,6 +68,7 @@ export const JOBS: Job[] = [
     location: "Noida (Work From Office)",
     category: "Operations",
     experience: "2 to 3 Years",
+    hidden: true,
     aboutRole:
       "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
     lifeAt:
@@ -565,6 +566,7 @@ export const JOBS: Job[] = [
     location: "Mumbai – Airoli (Client Location)",
     category: "Development",
     experience: "9–16 Years (Immediate Joiners)",
+    hidden: true,
     aboutRole:
       "We are seeking an experienced SAP PPQM Senior Consultant with strong expertise in SAP ECC and S/4 HANA (PP & QM). The role demands complete ownership of implementation, rollout, and support projects across Production Planning and Quality Management modules. Pharma domain experience is mandatory.",
     lifeAt:
@@ -610,6 +612,7 @@ export const JOBS: Job[] = [
     location: "PAN India | Hybrid",
     category: "Development",
     experience: "7+ Years (March Joiners Preferred)",
+    hidden: true,
     aboutRole:
       "We are hiring experienced SAP ABAP + Fiori (Full Stack – UI5 & Core ABAP) professionals who can design, develop, and deliver enterprise-grade SAP solutions. The role involves working across backend ABAP development and frontend SAP Fiori/UI5 applications to build scalable and high-performance business applications.",
     lifeAt:
@@ -652,6 +655,7 @@ export const JOBS: Job[] = [
     location: "Bengaluru (Hybrid – Occasional Client Office Visit Required)",
     category: "Development",
     experience: "10–20 Years (Immediate Joiners Preferred)",
+    hidden: true,
     aboutRole:
       "We are looking for an experienced Enterprise Architect with strong expertise in Oracle Commerce and Salesforce Experience Cloud. The role involves defining enterprise architecture strategy, leading digital commerce transformations, and ensuring scalable, secure, and high-performance solutions across platforms.",
     lifeAt:
@@ -695,6 +699,7 @@ export const JOBS: Job[] = [
     location: "Pune (Hybrid/Remote)",
     category: "Development",
     experience: "4 to 6 Years",
+    hidden: true,
     aboutRole:
       "We are looking for an experienced Oracle Hyperion Planning Consultant to design, implement, and support enterprise planning and budgeting solutions. The role involves working closely with finance and business stakeholders to deliver scalable and efficient financial planning systems.",
     lifeAt:
@@ -735,6 +740,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Java Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -768,6 +774,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -801,6 +808,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Oracle Technical Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -834,6 +842,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Workday Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -867,6 +876,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced .NET Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -900,6 +910,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Java Microservices Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -933,6 +944,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP Functional Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -966,6 +978,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Angular Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -999,6 +1012,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced DevOps Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1032,6 +1046,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Business Analyst to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1065,6 +1080,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced QA Automation Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1098,6 +1114,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced React Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1131,6 +1148,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Data Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1164,6 +1182,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "8+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Project Manager to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1197,6 +1216,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced UI/UX Designer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1230,6 +1250,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Python Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1263,6 +1284,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Cloud Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1296,6 +1318,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP ABAP Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1329,6 +1352,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Full Stack Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1362,6 +1386,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "3 to 6 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced IT Support Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1395,6 +1420,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Power BI Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1428,6 +1454,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Azure Data Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1461,6 +1488,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Network Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1494,6 +1522,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Security Analyst to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1527,6 +1556,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Database Administrator to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1560,6 +1590,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Android Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1593,6 +1624,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced iOS Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1626,6 +1658,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced ETL Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1659,6 +1692,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Scrum Master to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1692,6 +1726,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "10+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Technical Architect to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1725,6 +1760,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP FICO Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1758,6 +1794,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Administrator to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1791,6 +1828,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Oracle DBA to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1824,6 +1862,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Automation Test Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1857,6 +1896,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "7 to 10 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Product Owner to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1890,6 +1930,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP MM Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1923,6 +1964,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP SD Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1956,6 +1998,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce QA Analyst to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -1989,6 +2032,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "10+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced AWS Cloud Architect to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2022,6 +2066,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced HR Business Partner to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2055,6 +2100,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced DevOps Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2088,6 +2134,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP Basis Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2121,6 +2168,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Data Analyst to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2154,6 +2202,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced IT Security Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2187,6 +2236,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Technical Business Analyst to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2220,6 +2270,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP HANA Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2253,6 +2304,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2286,6 +2338,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Azure DevOps Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2319,6 +2372,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced ServiceNow Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2352,6 +2406,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "7 to 10 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced QA Lead to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2385,6 +2440,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP PP Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2418,6 +2474,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Business Analyst to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2451,6 +2508,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "4 to 7 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Cloud Support Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2484,6 +2542,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP QM Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2517,6 +2576,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "3 to 6 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Technical Support Engineer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2550,6 +2610,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP Ariba Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2583,6 +2644,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "10+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Solution Architect to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2616,6 +2678,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP SuccessFactors Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2649,6 +2712,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Site Reliability Engineer (SRE) to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2682,6 +2746,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP EWM Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2715,6 +2780,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "8 to 12 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP Technical Lead to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2748,6 +2814,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "5 to 8 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Integration Developer to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2781,6 +2848,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP CO Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2814,6 +2882,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "10+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Cloud Solutions Architect to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2847,6 +2916,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "8 to 12 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced IT Operations Manager to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2880,6 +2950,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "7 to 10 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP S/4HANA Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2913,6 +2984,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce CPQ Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2946,6 +3018,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP FI Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -2979,6 +3052,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Marketing Cloud Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3012,6 +3086,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "10+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced IT Infrastructure Architect to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3045,6 +3120,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP GRC Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3078,6 +3154,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "8 to 12 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Technical Lead to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3111,6 +3188,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP BW Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3144,6 +3222,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "7 to 10 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Cloud Migration Specialist to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3177,6 +3256,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "8 to 12 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced IT Compliance Manager to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3210,6 +3290,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP CRM Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3243,6 +3324,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "7 to 10 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Salesforce Release Manager to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3276,6 +3358,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "6 to 9 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced SAP Analytics Consultant to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3309,6 +3392,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Development",
     "experience": "10+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Multi-Cloud Architect to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3342,6 +3426,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "8 to 12 Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced IT Risk Manager to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3375,6 +3460,7 @@ export const JOBS: Job[] = [
     "location": "PAN India",
     "category": "Operations",
     "experience": "12+ Years",
+    "hidden": true,
     "aboutRole": "We are looking for an experienced Enterprise Solutions Director to join our growing team at Sanjivani Edge.",
     "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
     "responsibilities": [
@@ -3398,5 +3484,534 @@ export const JOBS: Job[] = [
       "Exposure to global enterprise clients.",
       "Collaborative culture."
     ]
-  }
+  },
+  {
+    "id": 100,
+    "slug": "solution-architect-oracle-commerce-salesforce-experience-cloud",
+    "title": "Solution Architect – Oracle Commerce & Salesforce Experience Cloud",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Bengaluru",
+    "category": "Development",
+    "experience": "10–20 Years",
+    "hidden": true,
+    "aboutRole": "We are seeking a seasoned Solution Architect with deep expertise in Oracle Commerce and Salesforce Experience Cloud to define long-term architecture strategy and drive end-to-end digital transformation.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Define long-term architecture strategy and target state design across commerce and CRM ecosystems.",
+      "Design integration patterns using API-led connectivity and end-to-end data architecture.",
+      "Drive architectural governance and manage technical debt across large-scale digital platforms.",
+      "Design scalable integrations with ERP/PIM systems and unified customer data strategy.",
+      "Lead security architecture including IAM, GDPR/CCPA compliance and high-volume performance optimization.",
+      "Mentor technical teams and provide hands-on architectural leadership across delivery cycles.",
+      "Collaborate with stakeholders to align architecture with business goals and non-functional requirements."
+    ],
+    "requirements": [
+      "10–20 years of experience in solution architecture roles (strictly no Project Manager profiles).",
+      "Deep expertise in Oracle Commerce and Salesforce Experience Cloud.",
+      "Strong hands-on experience in Salesforce CRM, CI/CD, DevOps, and SQL.",
+      "Proven experience with large-scale digital platforms and unified customer data strategy.",
+      "Strong knowledge of security architecture including IAM, GDPR/CCPA.",
+      "Experience with Oracle Fusion ERP Cloud and CPQ is highly desirable.",
+      "Immediate joiners preferred.",
+      "Location: Bengaluru (Hybrid – Occasional Client Office Visit Required)."
+    ],
+    "perks": [
+      "Leadership role in enterprise-scale digital transformation.",
+      "Exposure to Oracle and Salesforce ecosystem at an architectural level.",
+      "Hybrid work model with flexibility.",
+      "High-impact, client-facing architectural ownership.",
+      "Collaborative and growth-driven work culture."
+    ]
+  },
+  {
+    "id": 101,
+    "slug": "sap-solution-architect-esaas",
+    "title": "SAP Solution Architect – ESaaS",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Pune",
+    "category": "Development",
+    "experience": "10–15 Years",
+    "hidden": true,
+    "aboutRole": "We are looking for a strong SAP Solution Architect with hands-on architectural experience and solid SAP ABAP functional expertise to lead end-to-end SAP solution design and delivery.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Lead end-to-end SAP solution design and align architecture with business and non-functional requirements.",
+      "Drive successful project delivery across SAP Finance and ABAP domains.",
+      "Own solution architecture, SAP configuration, customization, and integration with non-SAP systems.",
+      "Lead SAP S/4HANA rollouts, upgrades, and conversions.",
+      "Define migration strategy, governance frameworks, and architectural guardrails.",
+      "Leverage Automation, Cloud, IoT, and AI capabilities within SAP landscapes.",
+      "Engage stakeholders, conduct workshops, and provide architectural leadership throughout the project lifecycle."
+    ],
+    "requirements": [
+      "10–15 years of SAP experience with strong solution architecture background.",
+      "Deep expertise in SAP Finance (FI/CO) and SAP ABAP functional knowledge.",
+      "Minimum six full-cycle SAP implementations.",
+      "Strong exposure to SAP S/4HANA rollouts, upgrades, or conversions.",
+      "Experience with integration of SAP with non-SAP systems and migration strategy.",
+      "Familiarity with Automation, Cloud, IoT, and AI in SAP landscapes preferred.",
+      "Excellent communication, stakeholder engagement, and architectural leadership skills.",
+      "Notice Period: Up to 30 Days. Location: Pune (Hybrid)."
+    ],
+    "perks": [
+      "Enterprise SAP transformation programs at architectural level.",
+      "Exposure to S/4HANA and emerging SAP technologies.",
+      "Hybrid work model with stable engagement.",
+      "High-ownership architectural leadership role.",
+      "Collaborative and innovation-driven culture."
+    ]
+  },
+  {
+    "id": 102,
+    "slug": "ms-dynamics-tester-field-service",
+    "title": "MS Dynamics Tester – Field Service",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Pune",
+    "category": "Development",
+    "experience": "10+ Years",
+    "hidden": true,
+    "aboutRole": "We are seeking an experienced MS Dynamics Tester with strong expertise in Microsoft Dynamics 365 Field Service to lead functional, integration, regression, performance, and end-to-end testing.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Lead functional, integration, regression, performance, and end-to-end testing across Field Service modules.",
+      "Validate work order lifecycle, resource scheduling, dispatching, IoT integrations, and mobile Field Service app scenarios.",
+      "Develop detailed test strategies, test cases, and automation scripts for customizations, plugins, flows, and configurations.",
+      "Collaborate with architects, functional consultants, and development teams to ensure high-quality releases.",
+      "Ensure testing aligns with Field Service best practices and release standards.",
+      "Communicate testing progress and defect status to stakeholders.",
+      "Identify gaps in Field Service configurations and provide quality-driven recommendations."
+    ],
+    "requirements": [
+      "10+ years of experience in testing with strong expertise in Microsoft Dynamics 365 Field Service.",
+      "Hands-on experience in work order lifecycle, resource scheduling, dispatching, and IoT integrations.",
+      "Proficiency in developing test strategies, test cases, and automation scripts.",
+      "Experience testing customizations, plugins, flows, and configurations in Dynamics 365.",
+      "Strong analytical mindset and stakeholder interaction experience.",
+      "Knowledge of Customer Service module is an added advantage.",
+      "Immediate joiners preferred. Location: Pune (Hybrid)."
+    ],
+    "perks": [
+      "Enterprise-grade Dynamics 365 testing projects.",
+      "Exposure to IoT and Field Service digital transformation.",
+      "Hybrid work model with flexibility.",
+      "High-ownership QA leadership role.",
+      "Collaborative and quality-focused work environment."
+    ]
+  },
+  {
+    "id": 103,
+    "slug": "sap-fico-treasury-cash-management",
+    "title": "SAP FICO – Treasury & Cash Management",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Hyderabad",
+    "category": "Development",
+    "experience": "7+ Years",
+    "hidden": true,
+    "aboutRole": "We are seeking an SAP FICO Consultant with strong expertise in SAP S/4HANA Cloud Treasury & Cash Management to drive finance transformation and banking integration projects.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Implement and configure SAP S/4HANA Cloud Treasury & Cash Management modules.",
+      "Handle Cash Positioning, Liquidity Forecasting, BAM, BCM, and Cash Application.",
+      "Manage Bank Integration using SWIFT, APIs, and EBICS protocols.",
+      "Support global rollouts, workshops, and go-live activities.",
+      "Work across AP, AR, GL, and Fixed Assets modules.",
+      "Engage stakeholders and lead finance solution discussions.",
+      "Provide ongoing support and enhancements post implementation."
+    ],
+    "requirements": [
+      "7+ years of SAP FICO experience with strong focus on Treasury & Cash Management.",
+      "Hands-on experience in Cash Positioning, Liquidity Forecasting, BAM, BCM.",
+      "Mandatory experience in Bank Integration (SWIFT/APIs/EBICS) and Cash Application.",
+      "Strong exposure to AP, AR, GL, FA, and global rollout projects.",
+      "Excellent stakeholder communication and leadership skills.",
+      "Notice Period: Immediate to 30 Days. Location: Hyderabad."
+    ],
+    "perks": [
+      "Enterprise SAP Finance transformation projects.",
+      "Exposure to S/4HANA Cloud and Treasury domain.",
+      "High-visibility finance consulting role.",
+      "Growth-focused and collaborative environment.",
+      "Stable long-term engagement."
+    ]
+  },
+  {
+    "id": 104,
+    "slug": "sap-s4hana-cloud-fico-consultant",
+    "title": "SAP S/4 HANA Cloud FICO Consultant",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Hyderabad",
+    "category": "Development",
+    "experience": "7–13 Years",
+    "hidden": true,
+    "aboutRole": "We are seeking an experienced SAP S/4HANA Cloud FICO Consultant with strong expertise in Treasury and Cash Management to lead end-to-end FICO deliverables and finance transformation.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Own end-to-end FICO deliverables including business requirement gathering and functional specifications.",
+      "Implement Cash Positioning, Liquidity Forecasting, BAM, BCM, and Cash Application solutions.",
+      "Manage Bank Connectivity using SWIFT, APIs, and EBICS protocols.",
+      "Handle Bank Reconciliation processes and Treasury workflow configurations.",
+      "Support rollouts, SLA management, and RCA resolution.",
+      "Work across AP/AR and integration of finance modules.",
+      "Lead client-facing discussions, stakeholder communication, and delivery governance."
+    ],
+    "requirements": [
+      "7–13 years of SAP FICO experience with strong S/4HANA Cloud expertise.",
+      "Mandatory hands-on experience in Treasury and Cash Management.",
+      "Experience in Cash Positioning, Liquidity Forecasting, BAM, BCM, Bank Connectivity.",
+      "Strong exposure to AP/AR and Treasury workflow integrations.",
+      "SAP FI/CO certification and finance domain expertise preferred.",
+      "Excellent communication, stakeholder management, and client-facing experience.",
+      "Notice Period: Immediate to 30 Days. Location: Hyderabad."
+    ],
+    "perks": [
+      "SAP S/4HANA Cloud transformation projects.",
+      "Exposure to Treasury and Finance domain at enterprise scale.",
+      "High-ownership FICO consulting role.",
+      "Stable and growth-driven engagement.",
+      "Collaborative finance team culture."
+    ]
+  },
+  {
+    "id": 105,
+    "slug": "cpp-developer-bfsi",
+    "title": "C++ Developer – BFSI",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Pune & Bangalore",
+    "category": "Development",
+    "experience": "4–10+ Years",
+    "hidden": true,
+    "aboutRole": "We are hiring experienced C++ Developers for BFSI domain projects requiring strong expertise in high-performance systems, multithreading, and core banking or payments environments.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Design and develop high-performance C++ applications for BFSI domain projects.",
+      "Work with C++ (11/14/17), OOP concepts, multithreading, memory management, STL, and Boost.",
+      "Develop and optimize applications in Linux/Unix environments with shell scripting.",
+      "Implement network/socket programming for high-volume transaction systems.",
+      "Work on core banking, payments, or risk systems and ensure performance tuning.",
+      "Collaborate in Agile delivery cycles using CI/CD pipelines and Git.",
+      "Participate in Glider Assessment, Level-1, and Level-2 technical interview rounds."
+    ],
+    "requirements": [
+      "4–10+ years of C++ development experience.",
+      "Strong expertise in C++ (11/14/17), OOP, multithreading, memory management, STL, and Boost.",
+      "Hands-on experience in Linux/Unix environments and shell scripting.",
+      "Experience in network/socket programming.",
+      "Exposure to high-volume transaction systems, core banking, payments, or risk systems preferred.",
+      "Knowledge of SQL/Oracle, CI/CD, Git, and Agile methodologies expected.",
+      "Work Mode: Work from Office (5 Days). Location: Pune & Bangalore.",
+      "Notice Period: Immediate to 30 Days."
+    ],
+    "perks": [
+      "High-performance BFSI domain development projects.",
+      "Exposure to core banking and payments technology.",
+      "Work from office with strong team collaboration.",
+      "Growth-focused engineering culture.",
+      "Stable full-time engagement with enterprise clients."
+    ]
+  },
+  {
+    "id": 106,
+    "slug": "business-analyst-treasury-risk-management",
+    "title": "Business Analyst – Treasury & Risk Management",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Pune / Bangalore",
+    "category": "Development",
+    "experience": "8–15 Years",
+    "hidden": true,
+    "aboutRole": "We are seeking a Senior Business Consultant with strong expertise in Treasury & Risk Management and Capital Markets to lead product implementations and drive successful platform transitions.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Lead business consulting teams and manage Treasury/Risk vendor product implementations.",
+      "Conduct requirement gathering, data mapping, workflow design, system testing, and client training.",
+      "Drive client discussions, readiness assessments, and successful platform transitions.",
+      "Manage end-to-end SDLC processes and Agile delivery.",
+      "Handle system conversions and ensure smooth transitions across Treasury/Risk platforms.",
+      "Collaborate with technical and functional teams for requirement alignment and delivery.",
+      "Provide strong stakeholder management and analytical leadership throughout the engagement."
+    ],
+    "requirements": [
+      "8–15 years of experience in Business Analysis with focus on Treasury & Risk Management and Capital Markets.",
+      "Mandatory prior experience implementing at least one Treasury/Risk vendor product (Murex, Calypso, Kyriba, Quantum, Finastra, or similar).",
+      "MBA (Finance) is mandatory.",
+      "Strong exposure to Agile methodologies and end-to-end SDLC.",
+      "Experience in system conversions, data mapping, and workflow design.",
+      "Capability to drive client discussions and readiness assessments.",
+      "Excellent stakeholder management, analytical, and communication skills.",
+      "Location: Pune / Bangalore."
+    ],
+    "perks": [
+      "Enterprise Treasury and Capital Markets transformation projects.",
+      "Exposure to leading vendor platforms like Murex, Calypso, Kyriba.",
+      "Senior leadership role in business consulting.",
+      "Growth-focused and high-impact engagement.",
+      "Collaborative finance domain work culture."
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "business-analyst-trading-asset-servicing",
+    "title": "Business Analyst – Trading & Asset Servicing",
+    "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+    "type": "Full Time",
+    "location": "Pune / Bangalore",
+    "category": "Development",
+    "experience": "8–15 Years",
+    "hidden": true,
+    "aboutRole": "We are looking for a Senior Business Consultant with strong expertise in Trading & Asset Servicing domains to lead vendor product implementations and drive Agile delivery across capital markets platforms.",
+    "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+    "responsibilities": [
+      "Lead requirement gathering, workflow optimization, data mapping, and system testing.",
+      "Manage vendor product implementation across trading or asset servicing platforms.",
+      "Drive Agile delivery and end-to-end system conversion experience.",
+      "Handle Investment & Fund Accounting, Trade Order Management, Post-Trade Processing, and related domains.",
+      "Lead a team of consultants and provide strong stakeholder and client interaction.",
+      "Support Fund Administration, Reconciliation, and Capital Markets workflows.",
+      "Ensure successful platform transitions and quality delivery outcomes."
+    ],
+    "requirements": [
+      "8–15 years of experience with strong expertise in Trading & Asset Servicing domains.",
+      "Hands-on experience in at least one area: Investment & Fund Accounting, Trade Order Management, Post-Trade Processing, Trade Surveillance, Reconciliation, Private Debt/Credit Middle Office, Fund Administration, or Capital Markets.",
+      "Mandatory experience implementing at least one vendor product within trading or asset servicing platforms.",
+      "MBA (Finance) is mandatory.",
+      "Prior experience leading a team of consultants is mandatory.",
+      "Strong Agile delivery, stakeholder management, and client interaction skills.",
+      "End-to-end system conversion experience is critical.",
+      "Location: Pune / Bangalore."
+    ],
+    "perks": [
+      "Enterprise Trading and Asset Servicing transformation projects.",
+      "Exposure to capital markets and fund administration platforms.",
+      "Senior consulting leadership role.",
+      "High-impact Agile delivery environment.",
+      "Collaborative and finance-focused work culture."
+    ]
+  },
+  {
+  "id": 108,
+  "slug": "java-angular-full-stack-engineer",
+  "title": "Java Angular Full Stack Engineer",
+  "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+  "type": "Full Time",
+  "location": "Pune / Bangalore",
+  "category": "Development",
+  "experience": "4–8 Years",
+  
+  "aboutRole": "We are looking for a Java Angular Full Stack Engineer to work as an individual contributor responsible for building and managing scalable web services and portals. The role involves designing and developing enterprise-grade applications, improving system architecture, mentoring junior developers, and ensuring high standards of code quality, performance, and security in a modern Agile development environment.",
+  "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+  "responsibilities": [
+    "Participate in key technology migration initiatives and contribute to architectural approaches for software design and implementation.",
+    "Provide high-level solution design for web APIs, website redesigns, and new feature development in collaboration with senior developers.",
+    "Adopt modern frameworks and technologies to enhance product architecture aligned with cloud strategy.",
+    "Implement industry best practices across web services to support scalable and future-ready solutions.",
+    "Support development teams to meet delivery milestones during demanding project deliveries.",
+    "Provide technical leadership by guiding team members and conducting code reviews for junior developers.",
+    "Identify design issues and guide the team toward sustainable and best-practice coding standards.",
+    "Ensure developed software meets quality, security, performance, and scalability requirements.",
+    "Create training materials and mentor new team members to accelerate onboarding and technical growth.",
+    "Optimize application performance through techniques such as refactoring, caching, database indexing, and asynchronous processing.",
+    "Gather feedback from stakeholders and incorporate improvements as part of continuous development cycles.",
+    "Work in Agile sprints covering design, development, unit testing, and defect resolution."
+  ],
+  "requirements": [
+    "4–8 years of experience in software development, preferably within banking or financial domains.",
+    "Bachelor’s degree or equivalent combination of education, training, or work experience.",
+    "Strong knowledge of Core Java including Object-Oriented Programming (OOP), Java APIs, and libraries.",
+    "Experience with Spring Framework including Spring Core and Spring Security.",
+    "Hands-on experience building RESTful web services and front-end applications using Angular or AngularJS.",
+    "Database knowledge including SQL (Sybase, MySQL) and NoSQL technologies such as MongoDB.",
+    "Experience with build tools such as Ant and Maven along with CI/CD pipelines.",
+    "Proficiency in version control systems including SVN, BitBucket, or GitHub.",
+    "Familiarity with cloud and DevOps tools such as AWS, Azure, or AI-assisted development tools is beneficial.",
+    "Strong understanding of software design patterns and scalable architecture principles.",
+    "Excellent problem-solving, communication, and collaboration skills.",
+    "Ability to work effectively in Agile development environments.",
+    "Immediate joiners preferred."
+  ],
+  "perks": [
+    "Opportunity to work on enterprise-level technology platforms.",
+    "Exposure to cloud-based architecture and modern development frameworks.",
+    "Structured career growth and development opportunities.",
+    "Access to professional learning resources and training programs.",
+    "Collaborative and innovation-driven work environment."
+  ]
+},
+{
+  "id": 109,
+  "slug": "senior-aws-architect-devops",
+  "title": "Senior AWS Architect – DevOps",
+  "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+  "type": "Full Time",
+  "location": "India",
+  "category": "Cloud & DevOps",
+  "experience": "10–15+ Years",
+  
+  "aboutRole": "The Senior AWS Architect – DevOps leads the design, governance, and implementation of enterprise-grade cloud solutions on AWS. This role is responsible for defining cloud architecture strategy, driving modernization initiatives, enabling DevOps transformation, and implementing automation at scale. The position requires deep AWS expertise combined with strong DevOps leadership and enterprise architecture thinking to deliver secure, resilient, and highly scalable cloud platforms.",
+  "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+  "responsibilities": [
+    "Define and evolve enterprise cloud architecture blueprints, standards, and best practices.",
+    "Lead large-scale AWS modernization and migration programs.",
+    "Architect highly available, scalable, and secure AWS-based solutions.",
+    "Provide strategic oversight for CI/CD pipelines, DevSecOps frameworks, and automation initiatives.",
+    "Implement enterprise Infrastructure as Code (IaC) using Terraform and CloudFormation.",
+    "Drive observability and monitoring strategies using tools such as CloudWatch, Prometheus, Grafana, and ELK.",
+    "Define SLOs, SLIs, resiliency patterns, and platform guardrails.",
+    "Mentor and guide cloud architects, DevOps engineers, and platform teams."
+  ],
+  "requirements": [
+    "10–15+ years of IT experience with at least 6 years focused on AWS architecture and 5+ years in DevOps environments.",
+    "Strong expertise across AWS compute, storage, networking, and security services.",
+    "Deep experience designing enterprise cloud architectures across microservices, distributed systems, and serverless environments.",
+    "Hands-on expertise with Infrastructure as Code using Terraform or CloudFormation.",
+    "Strong Kubernetes and Amazon EKS architecture experience including networking and governance.",
+    "Experience with cloud security frameworks, IAM governance, and threat modeling.",
+    "Strong scripting and automation skills using Python, Shell, or PowerShell.",
+    "Experience presenting architecture strategies to leadership teams or architecture review boards.",
+    "Strong understanding of cloud cost optimization and FinOps practices."
+  ],
+  "perks": [
+    "Opportunity to lead enterprise-scale AWS cloud architecture and modernization programs.",
+    "Work on advanced cloud, DevOps, and automation initiatives.",
+    "Exposure to global enterprise technology environments.",
+    "Leadership role influencing platform strategy and cloud transformation.",
+    "Collaborative and innovation-focused engineering culture."
+  ]
+},
+{
+  "id": 110,
+  "slug": "ai-ml-architect-generative-ai",
+  "title": "AI/ML Architect – Generative AI",
+  "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+  "type": "Full Time",
+  "location": "India",
+  "category": "Artificial Intelligence",
+  "experience": "13–18 Years",
+  
+  "aboutRole": "We are seeking an experienced AI/ML Architect with a strong background in leading AI-driven transformation initiatives and deploying machine learning systems at scale. The role requires deep expertise in Generative AI frameworks, advanced AI architectures, and modern cloud technologies. The ideal candidate will design scalable AI platforms, align technology strategies with business goals, and lead cross-functional teams in delivering high-impact AI solutions.",
+  "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+  "responsibilities": [
+    "Lead end-to-end digital transformation initiatives by integrating AI-driven technologies to optimize processes and enhance business outcomes.",
+    "Design and architect scalable AI/ML and Generative AI solutions aligned with enterprise technology strategies.",
+    "Act as a bridge between technical teams and business stakeholders, translating complex technical concepts into actionable insights.",
+    "Oversee the development and deployment of AI-enabled platforms ensuring quality, scalability, and performance.",
+    "Collaborate with legal experts, business teams, and engineering teams to define requirements and deliver AI-driven solutions.",
+    "Architect systems that support real-time data processing and intelligent decision-making use cases.",
+    "Drive adoption of modern AI architectures including advanced RAG pipelines, agentic AI systems, and fine-tuned foundation models.",
+    "Ensure security, governance, and compliance standards are embedded into AI platforms."
+  ],
+  "requirements": [
+    "13–18 years of experience in software development with strong architectural expertise.",
+    "Minimum 5+ years of experience in AI/ML roles with at least 3 years in an architectural or leadership capacity.",
+    "Hands-on experience deploying machine learning and AI models at enterprise scale.",
+    "Strong experience with Generative AI frameworks, prompt engineering, prompt design patterns, advanced RAG architectures, and agentic AI ecosystems.",
+    "Deep understanding of vector databases, embedding models, and foundation/base models.",
+    "Strong knowledge of cloud platforms such as AWS, Microsoft Azure, or Google Cloud with AI/ML service integration.",
+    "Experience working with SQL and NoSQL databases for large-scale AI platforms.",
+    "Strong knowledge of AI security, compliance frameworks, and responsible AI practices including fairness and explainability.",
+    "Proven ability to design scalable AI-driven platforms aligned with business strategy.",
+    "Excellent communication, leadership, and stakeholder management capabilities."
+  ],
+  "perks": [
+    "Opportunity to lead enterprise-level AI and Generative AI transformation initiatives.",
+    "Work with advanced AI architectures including RAG systems, LLMs, and agentic AI platforms.",
+    "Exposure to cutting-edge cloud AI ecosystems and large-scale digital platforms.",
+    "Leadership role influencing technology strategy and AI innovation.",
+    "Collaborative environment focused on research, experimentation, and innovation."
+  ]
+},
+{
+  "id": 111,
+  "slug": "senior-dynamics-365-field-service-engineer",
+  "title": "Senior Dynamics 365 Field Service Engineer",
+  "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+  "type": "Full Time",
+  "location": "India",
+  "category": "Enterprise Applications",
+  "experience": "10–14 Years",
+  
+  "aboutRole": "We are looking for a hands-on Senior Engineer with deep expertise in Microsoft Dynamics 365 Field Service and Contact Center/Telephony integrations. This role focuses on designing, building, and optimizing enterprise-grade solutions using Dynamics 365 (CE/Field Service), Power Platform, Azure services, and modern voice/CTI platforms. The ideal candidate will lead complex integrations, deliver scalable and secure solutions, and guide teams in building high-performance digital service platforms.",
+  "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+  "responsibilities": [
+    "Lead end-to-end design and development of Microsoft Dynamics 365 Field Service solutions including Work Orders, Bookable Resources, Resource Scheduling Optimization, Inspections, Customer Assets, and mobile capabilities.",
+    "Develop and customize Dynamics 365 CE and Field Service using plugins (C#), custom workflow activities, PCF controls, JavaScript, and business rules.",
+    "Configure and extend Omnichannel for Customer Service including voice, chat, messaging, queues, workstreams, and agent routing experiences.",
+    "Design and develop Power Platform solutions including model-driven apps, canvas apps, Power Automate flows, Dataverse tables, and custom connectors.",
+    "Build scalable integration solutions using Azure services such as Azure Functions, Service Bus, Event Hub, API Management, Key Vault, and Azure Communication Services.",
+    "Configure and optimize Field Service Mobile applications including offline profiles, inspection templates, incident types, bookable resources, inventory, and asset management.",
+    "Implement Connected Field Service solutions including IoT device integration, predictive maintenance workflows, and automated work order generation.",
+    "Establish CI/CD pipelines and ALM practices using Azure DevOps including solution packaging, release pipelines, and environment configuration.",
+    "Ensure platform security, performance optimization, data governance, and compliance with enterprise standards.",
+    "Provide technical troubleshooting, performance diagnostics, and production support.",
+    "Translate business requirements into technical architecture, delivery plans, and sprint execution strategies.",
+    "Collaborate with architects, product owners, and operational stakeholders while mentoring development teams."
+  ],
+  "requirements": [
+    "10–14 years of total experience in software engineering and enterprise platform development.",
+    "Minimum 5+ years of experience working with Microsoft Dynamics 365.",
+    "At least 3+ years of hands-on experience with Dynamics 365 Field Service implementations.",
+    "Strong development experience with C#, .NET, JavaScript or TypeScript.",
+    "Deep knowledge of Dynamics 365 CE, Dataverse, and Power Platform architecture.",
+    "Hands-on experience with Omnichannel for Customer Service and voice/contact center integrations.",
+    "Experience implementing Azure-based integration services including Functions, Service Bus, Event Hub, and API Management.",
+    "Strong experience building Power Platform applications including Power Apps and Power Automate.",
+    "Experience with Azure DevOps CI/CD pipelines and Dynamics 365 ALM best practices.",
+    "Strong understanding of enterprise security, performance optimization, and scalable architecture.",
+    "Ability to translate complex business requirements into scalable technical solutions.",
+    "Excellent communication, collaboration, and mentoring skills."
+  ],
+  "perks": [
+    "Opportunity to build enterprise-scale Dynamics 365 and Power Platform solutions.",
+    "Work with modern Azure cloud services and advanced integration architectures.",
+    "Exposure to large-scale digital transformation and customer service platforms.",
+    "Leadership role influencing enterprise solution architecture.",
+    "Collaborative environment focused on innovation and technical excellence."
+  ]
+},
+{
+  "id": 112,
+  "slug": "oracle-ebs-technical-developer",
+  "title": "Oracle EBS Technical Developer",
+  "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+  "type": "Full Time",
+  "location": "India",
+  "category": "ERP & Enterprise Systems",
+  "experience": "7+ Years",
+  
+  "aboutRole": "We are looking for an experienced Oracle EBS Technical Developer with strong expertise in Oracle E-Business Suite, Oracle APEX, and Workflow development. The role involves building and maintaining enterprise-scale solutions, resolving complex technical issues, and implementing enhancements within financial modules. The ideal candidate will contribute to system improvements, technical documentation, and continuous support for enterprise applications.",
+  "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+  "responsibilities": [
+    "Develop and enhance solutions for enterprise systems using established development standards.",
+    "Resolve issues reported in enterprise applications by designing and implementing technical fixes.",
+    "Perform unit testing and validation of developed solutions to ensure quality and stability.",
+    "Prepare detailed technical design documents for assigned change requests and enhancements.",
+    "Develop approved technical designs to address system problems and functional improvements.",
+    "Provide support for enterprise systems including troubleshooting complex technical issues.",
+    "Contribute to system documentation, training materials, and user support manuals.",
+    "Collaborate with functional teams to improve system workflows and financial module integrations."
+  ],
+  "requirements": [
+    "Minimum 7+ years of experience in enterprise application development and support.",
+    "Strong experience with Oracle E-Business Suite technical development.",
+    "Hands-on expertise in Oracle APEX development.",
+    "Experience working with Oracle Workflow and financial modules within Oracle EBS.",
+    "Strong understanding of enterprise system troubleshooting, patch testing, and regression testing.",
+    "Experience developing custom solutions using Oracle technologies.",
+    "Bachelor’s degree in Information Technology or a related technical field.",
+    "Strong analytical, problem-solving, and communication skills."
+  ],
+  "perks": [
+    "Opportunity to work on enterprise-scale Oracle ERP systems.",
+    "Exposure to complex financial systems and enterprise workflows.",
+    "Collaborative engineering and consulting environment.",
+    "Professional growth through challenging enterprise projects.",
+    "Access to modern development tools and enterprise platforms."
+  ]
+}
 ];
+
