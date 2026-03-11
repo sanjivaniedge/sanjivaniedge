@@ -3849,7 +3849,7 @@ export const JOBS: Job[] = [
   "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
   "type": "Full Time",
   "location": "India",
-  "category": "Cloud & DevOps",
+  "category": "Operations",
   "experience": "10–15+ Years",
   
   "aboutRole": "The Senior AWS Architect – DevOps leads the design, governance, and implementation of enterprise-grade cloud solutions on AWS. This role is responsible for defining cloud architecture strategy, driving modernization initiatives, enabling DevOps transformation, and implementing automation at scale. The position requires deep AWS expertise combined with strong DevOps leadership and enterprise architecture thinking to deliver secure, resilient, and highly scalable cloud platforms.",
