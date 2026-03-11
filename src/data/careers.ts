@@ -3890,7 +3890,7 @@ export const JOBS: Job[] = [
   "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
   "type": "Full Time",
   "location": "India",
-  "category": "Artificial Intelligence",
+  "category": "Operations",
   "experience": "13–18 Years",
   
   "aboutRole": "We are seeking an experienced AI/ML Architect with a strong background in leading AI-driven transformation initiatives and deploying machine learning systems at scale. The role requires deep expertise in Generative AI frameworks, advanced AI architectures, and modern cloud technologies. The ideal candidate will design scalable AI platforms, align technology strategies with business goals, and lead cross-functional teams in delivering high-impact AI solutions.",
@@ -3932,7 +3932,7 @@ export const JOBS: Job[] = [
   "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
   "type": "Full Time",
   "location": "India",
-  "category": "Enterprise Applications",
+  "category": "Operations",
   "experience": "10–14 Years",
   
   "aboutRole": "We are looking for a hands-on Senior Engineer with deep expertise in Microsoft Dynamics 365 Field Service and Contact Center/Telephony integrations. This role focuses on designing, building, and optimizing enterprise-grade solutions using Dynamics 365 (CE/Field Service), Power Platform, Azure services, and modern voice/CTI platforms. The ideal candidate will lead complex integrations, deliver scalable and secure solutions, and guide teams in building high-performance digital service platforms.",
@@ -3980,7 +3980,7 @@ export const JOBS: Job[] = [
   "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
   "type": "Full Time",
   "location": "India",
-  "category": "ERP & Enterprise Systems",
+  "category": "Development",
   "experience": "7+ Years",
   
   "aboutRole": "We are looking for an experienced Oracle EBS Technical Developer with strong expertise in Oracle E-Business Suite, Oracle APEX, and Workflow development. The role involves building and maintaining enterprise-scale solutions, resolving complex technical issues, and implementing enhancements within financial modules. The ideal candidate will contribute to system improvements, technical documentation, and continuous support for enterprise applications.",
