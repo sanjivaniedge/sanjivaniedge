@@ -4012,6 +4012,47 @@ export const JOBS: Job[] = [
     "Professional growth through challenging enterprise projects.",
     "Access to modern development tools and enterprise platforms."
   ]
+},
+  {
+  "id": 113,
+  "slug": "business-analyst-oracle-ebs-accounts-receivable",
+  "title": "Business Analyst – Accounts Receivable (Oracle EBS / Fusion Cloud)",
+  "description": "Sanjivani Edge is a global IT and digital transformation partner delivering technology-driven solutions across software development, cloud services, cybersecurity, IT infrastructure, ERP, emerging technologies, consulting and BPO services. We help businesses build smarter systems, secure operations and future-ready digital platforms, while creating long-term value for both clients and teams.",
+  "type": "Full Time",
+  "location": "Bangalore",
+  "category": "Operations",
+  "experience": "9+ Years",
+  "aboutRole": "We are seeking an experienced Business Analyst specializing in Oracle Accounts Receivable processes within Oracle EBS and Oracle Fusion Cloud environments. The role focuses on supporting finance transformation initiatives, enhancing financial systems, and optimizing Quote-to-Cash workflows. The candidate will work closely with business stakeholders and IT teams to translate requirements into scalable and future-ready solutions aligned with enterprise finance operations.",
+  "lifeAt": "At Sanjivani Edge, people don't just work on projects, they build products, relationships and careers. Choosing Sanjivani Edge means choosing a place where your work actually matters. Here, you are trusted with real responsibility, encouraged to grow faster, and supported by teams that believe in building solutions. You will work with modern technologies, global clients and people who value clarity, ownership and smart execution. If you are someone who wants to build, learn and see real impact from your work – JOIN US!",
+  "responsibilities": [
+    "Own and manage Oracle Accounts Receivable processes including Billing, Revenue, and Collections activities.",
+    "Act as the Finance IT lead in transformation programs to ensure financial system requirements align with business objectives.",
+    "Translate business requirements into detailed functional specifications for Oracle EBS and Oracle Fusion Cloud implementations.",
+    "Collaborate with internal IT teams and external partners to implement best practices and improve system usability.",
+    "Troubleshoot system behavior, analyze issues, and conduct fit-gap analysis to guide business users toward standardized Oracle solutions.",
+    "Present issue summaries, root cause analysis, and solution recommendations in clear business-oriented language.",
+    "Work in an Agile environment while managing responsibilities across multiple concurrent projects.",
+    "Research and evaluate new technologies to improve finance workflows and enhance user experiences.",
+    "Collaborate with cross-regional stakeholders across multiple time zones including global teams."
+  ],
+  "requirements": [
+    "Minimum 9+ years of experience as a Business Analyst or Functional Consultant in Oracle finance systems.",
+    "Strong expertise in Oracle Accounts Receivable processes including Billing, Collections, and Revenue management.",
+    "Hands-on experience with Oracle R12 EBS or Oracle Fusion Cloud Applications.",
+    "Strong knowledge of Quote-to-Cash workflows including integration with Order Management, Services, and Subscription systems.",
+    "Experience supporting finance transformation and system enhancement initiatives.",
+    "Ability to conduct fit-gap analysis and drive adoption of standardized Oracle processes with minimal customization.",
+    "Bachelor’s or Master’s degree in Computer Science, Information Technology, or a related discipline.",
+    "Strong communication, stakeholder management, and analytical skills.",
+    "Ability to work effectively in fast-paced Agile environments and cross-functional teams."
+  ],
+  "perks": [
+    "Opportunity to work on enterprise-scale finance transformation initiatives.",
+    "Exposure to Oracle EBS and Oracle Fusion Cloud finance platforms.",
+    "Work with global finance and IT teams across large enterprise environments.",
+    "Collaborative consulting-driven work culture.",
+    "Opportunities for professional growth in enterprise finance technology solutions."
+  ]
 }
 ];
 
