@@ -41,6 +41,27 @@ export default function ClientSection() {
           height={50}
           className="lg:w-[300px] w-[150px] lg:h-30"
         />
+        <Image
+          src="/clients/c3.webp"
+          alt="Our Clients"
+          width={1200}
+          height={50}
+          className="lg:w-[300px] w-[150px] lg:h-26"
+        />
+        <Image
+          src="/clients/c4.webp"
+          alt="Our Clients"
+          width={1200}
+          height={50}
+          className="lg:w-[300px] w-[150px] lg:h-26"
+        />
+        <Image
+          src="/clients/c5.webp"
+          alt="Our Clients"
+          width={1200}
+          height={50}
+          className="lg:w-[300px] w-[150px] lg:h-26"
+        />
       </div>
       
     </section>
