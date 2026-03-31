@@ -43,26 +43,25 @@ export default function ClientSection() {
         />
         <Image
           src="/clients/c3.webp"
-          alt="Our Clients"
-          width={1200}
-          height={50}
-          className="lg:w-[300px] w-[150px] lg:h-26"
+          alt="Client 3"
+          width={300}
+          height={80}
+          className="h-10 md:h-14 lg:h-16 w-auto object-contain"
         />
         <Image
           src="/clients/c4.webp"
-          alt="Our Clients"
-          width={1200}
-          height={50}
-          className="lg:w-[300px] w-[150px] lg:h-26"
+          alt="Client 4"
+          width={300}
+          height={80}
+          className="h-10 md:h-14 lg:h-16 w-auto object-contain"
         />
         <Image
           src="/clients/c5.webp"
-          alt="Our Clients"
-          width={1200}
-          height={50}
-          className="lg:w-[300px] w-[150px] lg:h-26"
+          alt="Client 5"
+          width={300}
+          height={80}
+          className="h-10 md:h-14 lg:h-16 w-auto object-contain"
         />
-      </div>
       
     </section>
   );
