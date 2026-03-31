@@ -62,6 +62,7 @@ export default function ClientSection() {
           height={80}
           className="h-10 md:h-14 lg:h-16 w-auto object-contain"
         />
+      </div>
       
     </section>
   );
