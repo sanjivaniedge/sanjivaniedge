@@ -105,6 +105,11 @@ export default function ContactPage() {
               <Link href="mailto:careers@sanjivaniedge.com" className="mt-3 text-[#0175B2] text-lg">careers@sanjivaniedge.com</Link>
               <p className="mt-1 text-[#606060]">For opportunities within Sanjivani Edge or staffing engagements.</p>
             </div>
+            <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-white p-6 md:col-start-2">
+              <h3 className="text-2xl font-medium pb-14 text-[#1A1F3D]">Compliance</h3>
+              <Link href="mailto:careers@sanjivaniedge.com" className="mt-3 text-[#0175B2] text-lg">compliance@sanjivaniedge.com</Link>
+              <p className="mt-1 text-[#606060]">For compliance, policy, and data privacy concerns.</p>
+            </div>
           </div>
         </div>
       </section>
