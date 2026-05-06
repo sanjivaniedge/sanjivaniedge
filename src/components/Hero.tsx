@@ -1,0 +1,542 @@
+"use client"
+
+import gsap from "gsap";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+
+import { useCallback, useEffect, useRef, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import CanvasFractalGrid from "@/components/ui/canvas-fractal-grid";
+import { EdgeLinkButton } from "@/components/ui/edge-link-button";
+// import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+import { Timeline } from "@/components/ui/timeline";
+import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
+import { PixelImage } from "@/components/ui/pixel-image";
+// import HomeBlogs from "./HomeBlogs";
+
+
+function Stat({ label, value, desc }: { label: string; value: string; desc: string }) {
+    const ref = useRef<HTMLDivElement>(null);
+    const tlRef = useRef<gsap.core.Tween | null>(null);
+    const objRef = useRef<{ n: number }>({ n: 0 });
+    useEffect(() => {
+        const el = ref.current;
+        if (!el) return;
+        const numeric = parseInt(value.replace(/[^0-9]/g, ""));
+        const suffix = value.replace(/[0-9]/g, "");
+        const obj = objRef.current;
+        const start = () => {
+            obj.n = 0;
+            tlRef.current = gsap.to(obj, {
+                n: numeric,
+                duration: 1.2,
+                ease: "power2.out",
+                onUpdate: () => {
+                    el.textContent = `${Math.round(obj.n)}${suffix}`;
+                },
+            });
+        };
+        el.textContent = `${numeric}${suffix}`;
+        const io = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
+                        start();
+                    }
+                });
+            },
+            { threshold: [0.25, 0.5, 0.75] },
+        );
+        io.observe(el);
+        return () => {
+            io.disconnect();
+            if (tlRef.current) tlRef.current.kill();
+        };
+    }, [value]);
+    return (
+        <div className="bg-[color:var(--tile-fill)] p-6 md:p-10">
+            <div ref={ref} className="text-5xl md:text-7xl font-semibold text-brand">{value}</div>
+            <div className="mt-6 md:mt-8 text-lg md:text-xl font-semibold text-foreground">{label}</div>
+            <div className="mt-2 text-xs md:text-sm text-muted">{desc}</div>
+        </div>
+    );
+}
+
+function SpeedoCounter({ value, suffix = "", className = "" }: { value: number; suffix?: string; className?: string }) {
+    const ref = useRef<HTMLDivElement>(null);
+    const tlRef = useRef<gsap.core.Timeline | null>(null);
+    const objRef = useRef<{ n: number }>({ n: 0 });
+    useEffect(() => {
+        const el = ref.current;
+        if (!el) return;
+        const obj = objRef.current;
+        const update = () => {
+            el.textContent = `${Math.round(obj.n)}${suffix}`;
+        };
+        const tl = gsap.timeline({ paused: true });
+        tl.to(obj, { n: value * 0.7, duration: 0.5, ease: "power3.in", onUpdate: update }, 0)
+            .to(el, { scale: 1.06, duration: 0.5, ease: "power3.in" }, 0)
+            .to(obj, { n: value + 4, duration: 0.4, ease: "power3.out", onUpdate: update }, ">")
+            .to(el, { scale: 1.02, duration: 0.4, ease: "power3.out" }, "<")
+            .to(obj, { n: value, duration: 0.3, ease: "power1.out", onUpdate: update }, ">")
+            .to(el, { scale: 1, duration: 0.3, ease: "power1.out" }, "<");
+        tlRef.current = tl;
+        update();
+        const io = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
+                        obj.n = 0;
+                        tl.restart();
+                    }
+                });
+            },
+            { threshold: [0.25, 0.5, 0.75] },
+        );
+        io.observe(el);
+        return () => {
+            io.disconnect();
+            tl.kill();
+        };
+    }, [value, suffix]);
+    return <div ref={ref} className={className}>{`${value}${suffix}`}</div>;
+}
+function CapabilityCard({ title, points, href, imageSrc }: { title: string; points: readonly string[]; href: string; imageSrc: string }) {
+    return (
+        <div className="cap-card relative h-[420px] md:h-[336px] rounded-[10px] bg-[color:var(--tile-fill)] px-6 py-6 sm:px-8 sm:py-8 md:px-11 md:py-9 flex flex-col md:flex-row items-start md:items-center justify-between">
+            <div className="max-w-xl">
+                <div className="text-[22px] sm:text-[26px] md:text-[32px] font-bold text-[#1A1F3D]">{title}</div>
+                <ul className="mt-3 md:mt-4 list-disc pl-5 space-y-1 text-[#606060] text-[16px] md:text-[18px]">
+                    {points.map((p) => (
+                        <li key={p}>{p}</li>
+                    ))}
+                </ul>
+                <Link href={href} className="mt-5 md:mt-6 inline-block font-semibold underline underline-offset-4 text-[#1A1F3D] text-[14px] md:text-[16px]">
+                    {`Explore ${title} ›`}
+                </Link>
+            </div>
+            <div className="mt-6 md:mt-0 md:ml-6 opacity-80 w-full md:w-[200px] h-[140px] md:h-full flex items-end justify-end">
+                <CardContainer containerClassName="py-0 w-full h-full" className="w-full h-full">
+                    <CardBody className="w-full h-full">
+                        <CardItem translateZ={50} className="w-full h-full cursor-pointer">
+                            <PixelImage src={imageSrc} className="w-full h-full" />
+                        </CardItem>
+                    </CardBody>
+                </CardContainer>
+            </div>
+        </div>
+    );
+}
+function CapabilitiesCarousel() {
+    const capabilities = [
+        { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", imageSrc: "/Images/capabilities/software.webp" },
+        { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", imageSrc: "/Images/capabilities/cloud.webp" },
+        { title: "Cybersecurity", points: ["Network security", "Data protection", "Vulnerability assessment"], href: "/services/cybersecurity", imageSrc: "/Images/capabilities/shield.webp" },
+        { title: "IT Infrastructure", points: ["Servers & networks", "Data centers", "Hardware & software support"], href: "/services/it-infrastructure", imageSrc: "/Images/capabilities/infra.webp" },
+        { title: "Emerging Technologies", points: ["AI & Machine Learning", "Blockchain", "Internet of Things"], href: "/services/emerging", imageSrc: "/Images/capabilities/emerge.webp" },
+        { title: "Consulting & Support", points: ["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"], href: "/services/consulting", imageSrc: "/Images/capabilities/consulting.webp" },
+        { title: "BPO Services", points: ["Customer support", "Finance & HR operations", "Back-office support"], href: "/services/bpo", imageSrc: "/Images/capabilities/bpo.webp" },
+        { title: "ERP Services (SAP & Oracle)", points: ["ERP planning", "Implementation", "Support & maintenance"], href: "/services/erp", imageSrc: "/Images/capabilities/erp.webp" },
+    ] as const;
+
+    const containerRef = useRef<HTMLDivElement | null>(null);
+    const itemRefs = useRef<Array<HTMLDivElement | null>>([]);
+    const intervalRef = useRef<number | null>(null);
+    const resumeTimeoutRef = useRef<number | null>(null);
+    const hoverRef = useRef(false);
+    const rafRef = useRef<number | null>(null);
+
+    const activeIndexRef = useRef(0);
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [isPaused, setIsPaused] = useState(false);
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(false);
+
+    const updateFromScroll = useCallback(() => {
+        const el = containerRef.current;
+        if (!el) return;
+
+        const sl = el.scrollLeft;
+        const max = el.scrollWidth - el.clientWidth;
+        setCanScrollLeft(sl > 4);
+        setCanScrollRight(sl < max - 4);
+
+        let closestIndex = 0;
+        let closestDistance = Number.POSITIVE_INFINITY;
+        for (let i = 0; i < itemRefs.current.length; i++) {
+            const node = itemRefs.current[i];
+            if (!node) continue;
+            const d = Math.abs(node.offsetLeft - sl);
+            if (d < closestDistance) {
+                closestDistance = d;
+                closestIndex = i;
+            }
+        }
+
+        if (closestIndex !== activeIndexRef.current) {
+            activeIndexRef.current = closestIndex;
+            setActiveIndex(closestIndex);
+        }
+    }, []);
+
+    const scrollToIndex = useCallback((index: number, behavior: ScrollBehavior = "smooth") => {
+        const el = containerRef.current;
+        const node = itemRefs.current[index];
+        if (!el || !node) return;
+        el.scrollTo({ left: node.offsetLeft, behavior });
+    }, []);
+
+    const pauseTemporarily = useCallback(() => {
+        setIsPaused(true);
+        if (resumeTimeoutRef.current) {
+            window.clearTimeout(resumeTimeoutRef.current);
+        }
+        resumeTimeoutRef.current = window.setTimeout(() => {
+            if (!hoverRef.current) {
+                setIsPaused(false);
+            }
+        }, 2500);
+    }, []);
+
+    useEffect(() => {
+        const el = containerRef.current;
+        if (!el) return;
+
+        updateFromScroll();
+        const onScroll = () => {
+            if (rafRef.current) cancelAnimationFrame(rafRef.current);
+            rafRef.current = requestAnimationFrame(updateFromScroll);
+        };
+        el.addEventListener("scroll", onScroll, { passive: true });
+        return () => {
+            el.removeEventListener("scroll", onScroll);
+            if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        };
+    }, [updateFromScroll]);
+
+    useEffect(() => {
+        if (intervalRef.current) {
+            window.clearInterval(intervalRef.current);
+            intervalRef.current = null;
+        }
+        if (isPaused) return;
+
+        intervalRef.current = window.setInterval(() => {
+            const nextIndex = (activeIndexRef.current + 1) % capabilities.length;
+            activeIndexRef.current = nextIndex;
+            setActiveIndex(nextIndex);
+            scrollToIndex(nextIndex);
+        }, 3000);
+
+        return () => {
+            if (intervalRef.current) {
+                window.clearInterval(intervalRef.current);
+                intervalRef.current = null;
+            }
+        };
+    }, [capabilities.length, isPaused, scrollToIndex]);
+
+    useEffect(() => {
+        return () => {
+            if (intervalRef.current) window.clearInterval(intervalRef.current);
+            if (resumeTimeoutRef.current) window.clearTimeout(resumeTimeoutRef.current);
+        };
+    }, []);
+
+    const goPrev = () => {
+        pauseTemporarily();
+        const nextIndex = (activeIndexRef.current - 1 + capabilities.length) % capabilities.length;
+        activeIndexRef.current = nextIndex;
+        setActiveIndex(nextIndex);
+        scrollToIndex(nextIndex);
+    };
+
+    const goNext = () => {
+        pauseTemporarily();
+        const nextIndex = (activeIndexRef.current + 1) % capabilities.length;
+        activeIndexRef.current = nextIndex;
+        setActiveIndex(nextIndex);
+        scrollToIndex(nextIndex);
+    };
+
+    return (
+        <div className="mt-6 md:mt-[56px]">
+            <div className="flex items-center justify-center md:justify-end">
+                <div className="inline-flex items-center justify-center gap-[10px] p-[14px] md:p-[20px] rounded-[18px] bg-white ">
+                    <button
+                        aria-label="Previous capability"
+                        className="h-[44px] w-[44px] md:h-[88px] md:w-[88px] flex items-center justify-center cursor-pointer rounded-[12px] border border-[#C9C4D6]"
+                        onClick={goPrev}
+                    >
+                        <ChevronLeft className="h-6 w-6 md:h-10 md:w-10" />
+                    </button>
+                    <button
+                        aria-label="Next capability"
+                        className="h-[44px] w-[44px] md:h-[88px] md:w-[88px] flex items-center justify-center cursor-pointer rounded-[12px] border border-[#C9C4D6]"
+                        onClick={goNext}
+                    >
+                        <ChevronRight className="h-6 w-6 md:h-10 md:w-10" />
+                    </button>
+                </div>
+            </div>
+
+            <div className="relative mt-6 md:mt-8">
+                <div className={`pointer-events-none absolute inset-y-0 left-0 w-10 md:w-16 bg-gradient-to-r from-white to-transparent transition-opacity ${canScrollLeft ? "opacity-100" : "opacity-0"}`} />
+                <div className={`pointer-events-none absolute inset-y-0 right-0 w-10 md:w-16 bg-gradient-to-l from-white to-transparent transition-opacity ${canScrollRight ? "opacity-100" : "opacity-0"}`} />
+
+                <div
+                    ref={containerRef}
+                    className="flex gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth -mx-4 px-4"
+                    style={{ WebkitOverflowScrolling: "touch" }}
+                    onMouseEnter={() => {
+                        hoverRef.current = true;
+                        setIsPaused(true);
+                    }}
+                    onMouseLeave={() => {
+                        hoverRef.current = false;
+                        setIsPaused(false);
+                    }}
+                    onPointerDown={pauseTemporarily}
+                    onTouchStart={pauseTemporarily}
+                    onWheel={pauseTemporarily}
+                >
+                    {capabilities.map((c, i) => (
+                        <div
+                            key={c.title}
+                            ref={(el) => {
+                                itemRefs.current[i] = el;
+                            }}
+                            className="snap-start shrink-0 w-[320px] sm:w-[420px] md:w-[560px] lg:w-[650px]"
+                            aria-current={i === activeIndex ? "true" : undefined}
+                        >
+                            <CapabilityCard title={c.title} points={c.points} href={c.href} imageSrc={c.imageSrc} />
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+function IndustryGraphic({ index }: { index: number }) {
+    if (index === 0) {
+        return (
+            <PixelImage src="/Images/Manufacturing.webp" className="w-[70%] h-[220px]" grid="6x4" />
+        );
+    }
+    if (index === 1) {
+        return (
+            <PixelImage src="/Images/BFSI.webp" className="w-[70%] h-[220px]" grid="6x4" />
+        );
+    }
+    if (index === 2) {
+        return (
+            <PixelImage src="/Images/Healthcare.webp" className="w-[70%] h-[220px]" grid="6x4" />
+        );
+    }
+    if (index === 3) {
+        return (
+            <PixelImage src="/Images/Education.webp" className="w-[70%] h-[220px]" grid="6x4" />
+        );
+    }
+    if (index === 4) {
+        return (
+            <PixelImage src="/Images/PublicSector.webp" className="w-[70%] h-[220px]" grid="6x4" />
+        );
+    }
+
+}
+export default function Hero() {
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const [useUpdatedBg, setUseUpdatedBg] = useState(false);
+    useEffect(() => {
+        const t = setTimeout(() => setUseUpdatedBg(true), 1000);
+        return () => clearTimeout(t);
+    }, []);
+    const industriesItems = [
+        {
+            title: "01. Manufacture",
+            description: "Technology is only as strong as the values behind it. Sanjivani Edge operates on the same foundation that shaped its legacy, integrity, collaboration, and purposeful growth.",
+            content: <IndustryGraphic index={0} />,
+        },
+        {
+            title: "02. BFSI",
+            description: "Trusted systems and compliant operations that scale. Sanjivani Edge enables resilient platforms with strong governance and security.",
+            content: <IndustryGraphic index={1} />,
+        },
+        {
+            title: "03. Healthcare",
+            description: "Digital care with secure, reliable data pipelines. Sanjivani Edge builds interoperable systems for outcomes that matter.",
+            content: <IndustryGraphic index={2} />,
+        },
+        {
+            title: "04. Education",
+            description: "Empowering learners with secure, reliable data pipelines. Sanjivani Edge builds interoperable systems for outcomes that matter.",
+            content: <IndustryGraphic index={3} />,
+        },
+        {
+            title: "05. Retail",
+            description: "Experience-led platforms that convert and retain. Sanjivani Edge delivers scalable commerce technology and analytics.",
+            content: <IndustryGraphic index={4} />,
+        },
+    ];
+    const industriesTimeline = industriesItems.map((item) => ({
+        title: item.title,
+        content: (
+            <div className="grid md:grid-cols-2 items-start gap-8">
+                <p className="text-muted text-sm md:text-base">{item.description}</p>
+                <div className="rounded-2xl border border-[color:var(--tile-stroke)] bg-white/80 flex items-center justify-center p-6">
+                    {item.content}
+                </div>
+            </div>
+        ),
+    }));
+
+    return (
+        <div ref={scrollRef} className="overflow-hidden ">
+            <div className="absolute inset-0 -z-10">
+                <CanvasFractalGrid
+                    dotSize={useUpdatedBg ? 2 : 2}
+                    dotSpacing={useUpdatedBg ? 10 : 10}
+                    dotOpacity={useUpdatedBg ? 0.8 : 0.8}
+                    waveIntensity={useUpdatedBg ? 24 : 30}
+                    waveRadius={useUpdatedBg ? 220 : 200}
+                    dotColors={["#0075B1", "#18ACD9"]}
+                    glowColor=""
+                    enableNoise={true}
+                    noiseOpacity={0.03}
+                    enableMouseGlow={false}
+                    enableGradient={false}
+                    enableSpacingPulse={false}
+                    pulseIntervalMs={1000}
+                    pulseDurationMs={250}
+                    pulseAmount={0.35}
+                />
+            </div>
+            {/* Hero Section  */}
+            <section className="relative h-[95vh] max-w-6xl grid gap-6 pt-20  px-4 text-center ">
+                <div className="bg-white/50 max-w-4xl mx-auto p-4 rounded-full space-y-4 flex justify-center items-center flex-col md:mt-[-10vw] mt-[-20vh]">
+                    <motion.h1
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
+                        className="mx-auto max-w-6xl text-4xl font-medium leading-tight tracking-tight md:text-6xl text-[#1A1F3D]"
+                    >
+                        Rooted in Values<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span>
+                        <br />
+                        <span className="font-bold">Engineered for the <span className="text-brand">Future</span><span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></span>
+                    </motion.h1>
+                    <p className="mx-auto max-w-3xl pb-10 font-bold text-[#1A1F3D]">
+                        Delivering IT, ERP, and Digital Transformation Solutions  that power enterprise evolution
+                    </p>
+                    <div className="mx-auto">
+                        <EdgeLinkButton href="/services">EXPLORE THE EDGE</EdgeLinkButton>
+                    </div>
+                </div>
+            </section>
+
+            {/* Stats Section  */}
+            <section className="max-w-6xl grid grid-cols-1 md:grid-cols-3 justify-between gap-6 md:gap-10 divide-y md:divide-y-0 md:divide-x-10 divide-white rounded-xl overflow-hidden px-4 md:px-4">
+
+                <Stat label="Integrated Domains" value="8" desc="Full-Stack Technology & Workforce Solutions" />
+                <Stat label="Delivery Governance" value="100%" desc="Structured, Reliable & Outcome-Driven Execution" />
+                <Stat label="Engineering & Process Capabilities" value="200+" desc="Across ERP, Cloud, Cyber & BPO" />
+
+            </section>
+
+            {/* Evolution Section  */}
+            <section className="relative max-w-6xl py-14 md:pt-20 px-4">
+                <div className="absolute -z-10 right-0 -top-12">
+                    <Image src="/deco/bg-waves.webp" alt="bg-waves" width={545} height={522} className="" />
+                </div>
+                <div className="flex items-center gap-6 md:gap-14">
+                    <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
+                    <h2 className="text-4xl md:text-6xl font-medium text-[#1A1F3D]">The Evolution<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
+                </div>
+                <div className="mt-8 md:mt-10 grid md:grid-cols-2 items-center gap-10 md:gap-[176px] py-4">
+                    <div className="space-y-[54px] max-w-[540px]">
+                        <div className="space-y-6">
+                            <p className="text-foreground/80">
+                                Sanjivani Edge represents the Group&apos;s transition into the technology era, where domain expertise, engineering precision, and human capability converge to support modern enterprise transformation.
+                            </p>
+                            <p className="text-foreground/80">
+
+                            </p>
+                            <ul className="space-y-4">
+                                {[
+                                    "Delivering responsible modernization across ERP, digital engineering, cybersecurity, and workforce transformation",
+                                    "Extending Sanjivani&apos;s legacy of governance and reliability into the digital age.",
+                                    "Building technology ecosystems that enable organizations to scale with clarity, confidence, and continuity.",
+                                ].map((t) => (
+                                    <li key={t} className="flex   gap-3">
+                                        <span className="inline-flex h-6 w-10   ">
+                                            <Image src="/figma/evolution-checkbox.svg" alt="check" width={14} height={14} className="" />
+                                        </span>
+                                        <span className="text-muted">{t}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                        <EdgeLinkButton className="bg-[#FF6B5A] text-white" href="/about">Know More</EdgeLinkButton>
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-6 md:gap-[31px]">
+                        <SpeedoCounter value={60} suffix="+" className="text-[160px] md:text-[257px] font-extrabold tracking-[-0.04em] leading-none text-brand" />
+                        <div className="text-[18px] md:text-[26px] text-black">Years in Business</div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Capabilities Section  */}
+            <section id="capabilities" className="max-w-6xl mx-auto py-6 md:pt-10 px-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16 xl:gap-[140px] 2xl:gap-[206px]">
+                    <h2 className=" text-3xl md:text-6xl  leading-tight font-medium text-[#1A1F3D]">Our Capabilities<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
+                    <p className="md:text-right text-[#606060] max-w-[526px]">Eight domains. One integrated vision, to build digital systems that are stable today and ready for tomorrow.</p>
+                </div>
+                <CapabilitiesCarousel />
+            </section>
+
+            {/* Philosophy Section  */}
+            <section id="philosophy" className="relative max-w-6xl py-4 md:pt-20 px-4">
+                <div className="absolute -z-10 left-[-268px] -top-9 hidden md:block">
+                    <Image src="/figma/philosophy-waves.png" alt="bg-waves" width={745} height={722} />
+                </div>
+                <div className="flex items-center gap-6 md:gap-14">
+                    <div className="hidden md:flex h-px flex-1 bg-[color:var(--tile-stroke)]" />
+                    <h2 className="text-4xl md:text-[64px] font-medium text-[#1A1F3D]">The Philosophy<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></h2>
+                </div>
+                <div className="mt-6 grid md:grid-cols-2 items-center gap-8 md:gap-[99px] py-4">
+                    <CardContainer containerClassName="py-0" className="w-full rounded-lg overflow-hidden border border-[color:var(--tile-stroke)] bg-white">
+                        <CardBody className="w-full">
+                            <CardItem translateZ={20} className="w-full">
+                                <Image src="/figma/philosophy-image-281190.png" alt="philosophy" width={604} height={469} className="w-full h-[469px] object-cover" />
+                            </CardItem>
+                        </CardBody>
+                    </CardContainer>
+                    <div className="space-y-10 md:space-y-[54px]">
+                        <div className="space-y-4 md:space-y-6">
+                            <p className="text-sm md:text-base text-foreground/80">Technology is only as strong as the values behind it.</p>
+                            <p className="text-sm md:text-base text-foreground/80"><span className="font-semibold">Sanjivani Edge</span> operates on the same foundation that shaped its legacy, integrity, collaboration, and purposeful growth.</p>
+                            <p className="text-sm md:text-base text-foreground/80">In a world driven by speed, <span className="font-semibold">Sanjivani Edge</span> emphasizes direction.</p>
+                            <p className="text-sm md:text-base text-foreground/80">Innovation here is not about disruption, it’s about designing systems that last.</p>
+                        </div>
+                        <EdgeLinkButton className="bg-[#FF6B5A] text-white max-w-[225px]" href="/about">KNOW MORE</EdgeLinkButton>
+                    </div>
+                </div>
+            </section>
+
+            {/* Industries Served Section  */}
+            <section id="industries" className="w-full py-0 md:pt-10 max-w-6xl mx-auto relative ">
+                <Timeline
+                    data={industriesTimeline}
+                    title={<span>Industries Served<span className="text-[#FF6B5A]">.</span><span className="text-[#17ABD6]">.<span className="text-[#0075B1]">.</span></span></span>}
+                    description="Across sectors, Sanjivani Edge delivers technology that scales intelligently, combining domain depth with operational precision."
+                />
+            </section>
+
+    {/* <HomeBlogs /> */}
+
+
+        </div>
+    )
+}
