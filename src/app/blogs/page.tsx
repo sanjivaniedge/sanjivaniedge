@@ -19,10 +19,7 @@ interface Post {
 }
 
 async function getPosts() {
-<<<<<<< HEAD
   if (!client) return [];
-=======
->>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
   const query = `*[_type == "post"] | order(publishedAt desc) {
     _id,
     title,
