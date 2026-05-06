@@ -5,14 +5,25 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
+<<<<<<< HEAD
 import { useCallback, useEffect, useRef, useState } from "react";
+=======
+import { useEffect, useRef, useState } from "react";
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import CanvasFractalGrid from "@/components/ui/canvas-fractal-grid";
 import { EdgeLinkButton } from "@/components/ui/edge-link-button";
 // import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { Timeline } from "@/components/ui/timeline";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
+<<<<<<< HEAD
 import { PixelImage } from "@/components/ui/pixel-image";
+=======
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { ChevronDown } from "lucide-react";
+import { PixelImage } from "@/components/ui/pixel-image";
+import LegacySection from "@/components/ui/legacy-section";
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
 // import HomeBlogs from "./HomeBlogs";
 
 
@@ -102,7 +113,28 @@ function SpeedoCounter({ value, suffix = "", className = "" }: { value: number; 
     }, [value, suffix]);
     return <div ref={ref} className={className}>{`${value}${suffix}`}</div>;
 }
+<<<<<<< HEAD
 function CapabilityCard({ title, points, href, imageSrc }: { title: string; points: readonly string[]; href: string; imageSrc: string }) {
+=======
+function CapabilityCard({ title, points, href, illus, imageSrc, imageAlt }: { title: string; points: string[]; href: string; illus?: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp"; imageSrc?: string; imageAlt?: string }) {
+
+    const getSrc = () => {
+        if (imageSrc) return imageSrc;
+        switch (illus) {
+            case "screen": return "/figma/capabilities-software.png";
+            case "cloud": return "/figma/capabilities-cloud.png";
+            case "shield": return "/figma/capabilities-shield.png";
+            case "infra": return "/figma/capabilities-infra.png";
+            case "emerge": return "/figma/Emerge.png";
+            case "consulting": return "/figma/capabilities-consulting-725558.png";
+            case "bpo": return "/figma/capabilities-bpo-c73d5a.png";
+            case "erp": return "/figma/capabilities-erp-2f97a5.png";
+            default: return "";
+        }
+    };
+    const finalSrc = getSrc();
+
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
     return (
         <div className="cap-card relative h-[420px] md:h-[336px] rounded-[10px] bg-[color:var(--tile-fill)] px-6 py-6 sm:px-8 sm:py-8 md:px-11 md:py-9 flex flex-col md:flex-row items-start md:items-center justify-between">
             <div className="max-w-xl">
@@ -120,7 +152,11 @@ function CapabilityCard({ title, points, href, imageSrc }: { title: string; poin
                 <CardContainer containerClassName="py-0 w-full h-full" className="w-full h-full">
                     <CardBody className="w-full h-full">
                         <CardItem translateZ={50} className="w-full h-full cursor-pointer">
+<<<<<<< HEAD
                             <PixelImage src={imageSrc} className="w-full h-full" />
+=======
+                            {finalSrc && <PixelImage src={finalSrc} className="w-full h-full" />}
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
                         </CardItem>
                     </CardBody>
                 </CardContainer>
@@ -129,6 +165,7 @@ function CapabilityCard({ title, points, href, imageSrc }: { title: string; poin
     );
 }
 function CapabilitiesCarousel() {
+<<<<<<< HEAD
     const capabilities = [
         { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", imageSrc: "/Images/capabilities/software.webp" },
         { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", imageSrc: "/Images/capabilities/cloud.webp" },
@@ -313,6 +350,93 @@ function CapabilitiesCarousel() {
                             <CapabilityCard title={c.title} points={c.points} href={c.href} imageSrc={c.imageSrc} />
                         </div>
                     ))}
+=======
+    const pages: Array<
+        Array<{
+            title: string;
+            points: string[];
+            href: string;
+            illus?: "screen" | "cloud" | "shield" | "infra" | "emerge" | "consulting" | "bpo" | "erp";
+            imageSrc?: string;
+            imageAlt?: string;
+            width: number;
+        }>
+    > = [
+            [
+                { title: "Software Development", points: ["Custom applications", "Web platforms", "Enterprise integration"], href: "/services/software", illus: "screen", width: 538, imageSrc: "/Images/capabilities/software.webp" },
+                { title: "Cloud Services", points: ["Cloud consulting", "Migration", "Infrastructure management"], href: "/services/cloud", illus: "cloud", width: 676, imageSrc: "/Images/capabilities/cloud.webp" },
+                { title: "Cybersecurity", points: ["Network security", "Data protection", "Vulnerability assessment"], href: "/services/cybersecurity", illus: "shield", width: 606, imageSrc: "/Images/capabilities/shield.webp" },
+                { title: "IT Infrastructure", points: ["Servers & networks", "Data centers", "Hardware & software support"], href: "/services/it-infrastructure", illus: "infra", width: 606, imageSrc: "/Images/capabilities/infra.webp" },
+            ],
+            [
+                { title: "Emerging Technologies", points: ["AI & Machine Learning", "Blockchain", "Internet of Things"], href: "/services/emerging", illus: "emerge", width: 538, imageSrc: "/Images/capabilities/emerge.webp" },
+                { title: "Consulting & Support", points: ["IT strategy", "Helpdesk", "AMC", "Knowledge transfer"], href: "/services/consulting", illus: "consulting", width: 676, imageSrc: "/Images/capabilities/consulting.webp" },
+                { title: "BPO Services", points: ["Customer support", "Finance & HR operations", "Back-office support"], href: "/services/bpo", illus: "bpo", width: 606, imageSrc: "/Images/capabilities/bpo.webp" },
+                { title: "ERP Services (SAP & Oracle)", points: ["ERP planning", "Implementation", "Support & maintenance"], href: "/services/erp", illus: "erp", width: 606, imageSrc: "/Images/capabilities/erp.webp" },
+            ],
+        ];
+    const [page, setPage] = useState(0);
+    const flatItems = pages.flat();
+    const [mIndex, setMIndex] = useState(0);
+    const [winW, setWinW] = useState<number>(typeof window !== "undefined" ? window.innerWidth : 0);
+    useEffect(() => {
+        const onResize = () => setWinW(window.innerWidth);
+        window.addEventListener("resize", onResize);
+        return () => window.removeEventListener("resize", onResize);
+    }, []);
+    return (
+        <div>
+            {/* Desktop (lg+) — keep 4-card pages without animation */}
+            <div className="hidden lg:block">
+                <div className="mt-[56px]">
+                    <div className="flex flex-wrap justify-center gap-4">
+                        {pages[page].map((c, i) => (
+                            <div
+                                key={`${c.title}-${c.width}-${i}`}
+                                className="w-full md:flex-none"
+                                style={{ width: winW >= 1020 && winW < 1540 ? 606 : c.width }}
+                            >
+                                <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} imageSrc={c.imageSrc} imageAlt={c.imageAlt} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                <div className="mt-10 flex items-center justify-center">
+                    <div className="inline-flex items-center justify-center gap-[10px] p-[20px] rounded-[18px] bg-white ">
+                        <button aria-label="Previous" className="h-[88px] w-[88px] flex items-center justify-center cursor-pointer rounded-[12px] border border-[#C9C4D6]" onClick={() => setPage((p) => (p - 1 + pages.length) % pages.length)}>
+                            <ChevronLeft className="h-10 w-10" />
+                        </button>
+                        <button aria-label="Next" className="h-[88px] w-[88px] flex items-center justify-center cursor-pointer rounded-[12px] border border-[#C9C4D6]" onClick={() => setPage((p) => (p + 1) % pages.length)}>
+                            <ChevronRight className="h-10 w-10" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Mobile/Tablet (<lg) — single card with arrows, no animation */}
+            <div className="md:hidden">
+                <div className="mt-6 px-4 overflow-hidden">
+                    {(() => {
+                        const c = flatItems[mIndex];
+                        return (
+                            <div className="flex justify-center">
+                                <div className="w-full ">
+                                    <CapabilityCard title={c.title} points={c.points} href={c.href} illus={c.illus} imageSrc={c.imageSrc} imageAlt={c.imageAlt} />
+                                </div>
+                            </div>
+                        );
+                    })()}
+                </div>
+                <div className="mt-6 flex items-center justify-center">
+                    <div className="inline-flex items-center justify-center gap-[10px] p-[14px] rounded-[18px] bg-white ">
+                        <button aria-label="Previous" className="h-[44px] w-[44px] flex items-center justify-center cursor-pointer rounded-[12px] border border-[#C9C4D6]" onClick={() => { setMIndex((i) => (i - 1 + flatItems.length) % flatItems.length); }}>
+                            <ChevronLeft className="h-6 w-6" />
+                        </button>
+                        <button aria-label="Next" className="h-[44px] w-[44px] flex items-center justify-center cursor-pointer rounded-[12px] border border-[#C9C4D6]" onClick={() => { setMIndex((i) => (i + 1) % flatItems.length); }}>
+                            <ChevronRight className="h-6 w-6" />
+                        </button>
+                    </div>
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
                 </div>
             </div>
         </div>
@@ -540,3 +664,7 @@ export default function Hero() {
         </div>
     )
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd

@@ -9,14 +9,21 @@ interface Post {
   _id: string;
   title: string;
   slug: { current: string };
+<<<<<<< HEAD
   mainImage?: { asset?: unknown } | null;
+=======
+  mainImage: any;
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
   publishedAt: string;
   excerpt: string;
   categories: { title: string }[];
 }
 
 async function getRecentPosts() {
+<<<<<<< HEAD
   if (!client) return [];
+=======
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
   const query = `*[_type == "post"] | order(publishedAt desc)[0...3] {
     _id,
     title,
@@ -33,7 +40,10 @@ async function getRecentPosts() {
 }
 
 export default async function HomeBlogs() {
+<<<<<<< HEAD
   if (!client) return null;
+=======
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
   const posts: Post[] = await getRecentPosts();
 
   if (!posts || posts.length === 0) return null;

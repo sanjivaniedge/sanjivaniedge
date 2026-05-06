@@ -34,7 +34,10 @@ interface PostProps {
 }
 
 async function getPost(slug: string) {
+<<<<<<< HEAD
   if (!client) return null;
+=======
+>>>>>>> 84c420f8400a653b0b8515906394088b90968dfd
   const query = `*[_type == "post" && slug.current == $slug][0]{
     _id,
     title,
