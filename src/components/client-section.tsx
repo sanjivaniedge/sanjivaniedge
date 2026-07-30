@@ -62,6 +62,20 @@ export default function ClientSection() {
           height={80}
           className="h-10 md:h-14 lg:h-16 w-auto object-contain"
         />
+        <Image
+          src="/clients/c6.webp"
+          alt="Client 6"
+          width={300}
+          height={80}
+          className="h-10 md:h-14 lg:h-16 w-auto object-contain"
+        />
+        <Image
+          src="/clients/c7.webp"
+          alt="Client 7"
+          width={300}
+          height={80}
+          className="h-10 md:h-14 lg:h-16 w-auto object-contain"
+        />
       </div>
       
     </section>
