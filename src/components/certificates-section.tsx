@@ -1,29 +1,30 @@
+
 import Image from "next/image";
 
 const certificates = [
   {
     title: "CMMI L3",
-    src: encodeURI("/certificates/smmi l3.webp"),
+    src: "/certificates/smmi%20l3.webp",
   },
   {
     title: "ISMS Report",
-    src: encodeURI("/certificates/isms report.webp"),
+    src: "/certificates/isms%20report.webp",
   },
   {
     title: "ISO 200000",
-    src: encodeURI("/certificates/iso 200000.webp"),
+    src: "/certificates/iso%20200000.webp",
   },
   {
     title: "ISO ISMS",
-    src: encodeURI("/certificates/iso isms.webp"),
+    src: "/certificates/iso%20isms.webp",
   },
   {
     title: "ISO IT SMS",
-    src: encodeURI("/certificates/iso it sms.webp"),
+    src: "/certificates/iso%20it%20sms.webp",
   },
   {
     title: "ISO QMS",
-    src: encodeURI("/certificates/iso qms.webp"),
+    src: "/certificates/iso%20qms.webp",
   },
 ];
 
