@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import CertificatesSection from "@/components/certificates-section";
 import ClientSection from "@/components/client-section";
 import HomeBlogs from "@/components/HomeBlogs";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -21,6 +22,7 @@ export default function Home() {
     <div className="">
       <Hero />
       <ClientSection />
+      <CertificatesSection />
       <HomeBlogs />
                 {/* Frequently Asked Questions(FAQ's) */}
             <section className="max-w-6xl px-4 py-12">
