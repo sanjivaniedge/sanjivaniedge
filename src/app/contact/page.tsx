@@ -11,6 +11,8 @@ export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const corporateOfficeAddress = "Trapezoid IT Park, C-27, 3rd Floor, Sec-62, Noida-201309";
+  const registeredOfficeAddress = "Khirdi Ganesh, S. No. 88/2, Kopergaon, Ahmed Nagar - 423601, Maharashtra";
 
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -115,47 +117,48 @@ export default function ContactPage() {
       </section>
 
       <section className="py-12 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="rounded-[10px] h-fullflex flex-col justify-center items-center  border border-[color:var(--tile-stroke)] bg-[#E8E4F333] p-6">
-            <h3 className="text-4xl font-medium text-[#1A1F3D] ">Office Address</h3>
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-[#E8E4F333] p-6">
+            <h3 className="text-4xl font-medium text-[#1A1F3D]">Corporate Office</h3>
             <div className="mt-4 text-[#606060] whitespace-pre-line">
               <p className="text-[#0175B2] font-semibold mb-4">
                 SANJIVANI EDGE PRIVATE LIMITED
               </p>
-              <p className="mb-2 text-2xl font-semibold">
-                Corporate Office
-              </p>
-
               <p className="mb-6">
                 Trapezoid IT Park, C-27,<br />3rd Floor, Sec-62, Noida-201309
               </p>
-
-              <p className="font-semibold mb-2 text-2xl">Registered Office Address</p>
-
-
-              <p className="">
-                Khirdi Ganesh, S. No. 88/2,
-                Kopergaon, Kopergaon,
-                Ahmed Nagar – 423601,
-                Maharashtra</p>
-
             </div>
-
+            <div className="relative mt-6 h-[320px] rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden bg-white">
+              <iframe
+                title="Corporate Office Map"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(corporateOfficeAddress)}&output=embed`}
+                className="w-full h-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
-          <div className="relative h-full rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden">
-            {(() => {
-              const officeAddress = "Trapezoid IT Park, C-27, 3rd Floor, Sec-62, Noida-201309";
-              const src = `https://www.google.com/maps?q=${encodeURIComponent(officeAddress)}&output=embed`;
-              return (
-                <iframe
-                  title="Office Map"
-                  src={src}
-                  className="w-full h-full"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              );
-            })()}
+          <div className="rounded-[10px] border border-[color:var(--tile-stroke)] bg-[#E8E4F333] p-6">
+            <h3 className="text-4xl font-medium text-[#1A1F3D]">Registered Office</h3>
+            <div className="mt-4 text-[#606060] whitespace-pre-line">
+              <p className="text-[#0175B2] font-semibold mb-4">
+                SANJIVANI EDGE PRIVATE LIMITED
+              </p>
+              <p className="mb-6">
+                Khirdi Ganesh, S. No. 88/2,<br />
+                Kopergaon, Ahmed Nagar - 423601,<br />
+                Maharashtra
+              </p>
+            </div>
+            <div className="relative mt-6 h-[320px] rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden bg-white">
+              <iframe
+                title="Registered Office Map"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(registeredOfficeAddress)}&output=embed`}
+                className="w-full h-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -294,3 +297,4 @@ export default function ContactPage() {
     </main>
   );
 }
+
