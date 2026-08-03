@@ -11,8 +11,8 @@ export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const corporateOfficeAddress = "Trapezoid IT Park, C-27, 3rd Floor, Sec-62, Noida-201309";
-  const registeredOfficeAddress = "Khirdi Ganesh, S. No. 88/2, Kopergaon, Ahmed Nagar - 423601, Maharashtra";
+  const corporateOfficeAddress = "3rd Floor, Akasa Co-Working, Office No. 10, Trapezoid IT Park, C-27, Sec-62, Noida-201309";
+  const registeredOfficeAddress = "Sanjivani Edge Pvt Ltd. C/O Sanjivani Milk Pvt. Ltd., Khirdi Ganesh, Post Shingnapur, Kopargaon, Ahilyanagar, Maharashtra - 423603";
 
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -125,7 +125,9 @@ export default function ContactPage() {
                 SANJIVANI EDGE PRIVATE LIMITED
               </p>
               <p className="mb-6">
-                Trapezoid IT Park, C-27,<br />3rd Floor, Sec-62, Noida-201309
+                3rd Floor, Akasa Co-Working, Office No. 10,<br />
+                Trapezoid IT Park, C-27,<br />
+                Sec-62, Noida-201309
               </p>
             </div>
             <div className="relative mt-6 h-[320px] rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden bg-white">
@@ -145,9 +147,10 @@ export default function ContactPage() {
                 SANJIVANI EDGE PRIVATE LIMITED
               </p>
               <p className="mb-6">
-                Khirdi Ganesh, S. No. 88/2,<br />
-                Kopergaon, Ahmed Nagar - 423601,<br />
-                Maharashtra
+                Sanjivani Edge Pvt Ltd. C/O Sanjivani Milk Pvt. Ltd.<br />
+                Khirdi Ganesh, Post Shingnapur,<br />
+                Kopargaon, Ahilyanagar,<br />
+                Maharashtra - 423603
               </p>
             </div>
             <div className="relative mt-6 h-[320px] rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden bg-white">
@@ -260,7 +263,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="text-lg font-medium text-[#1A1F3D]">Address</div>
-                      <div className="text-[#606060] text-sm whitespace-pre-line break-words">{`Trapezoid IT Park, C-27,\n3rd Floor, Sec-62, Noida-201309`}</div>
+                      <div className="text-[#606060] text-sm whitespace-pre-line break-words">{`3rd Floor, Akasa Co-Working, Office No. 10,\nTrapezoid IT Park, C-27,\nSec-62, Noida-201309`}</div>
                     </div>
                   </div>
                 </div>
