@@ -12,7 +12,8 @@ export default function ContactPage() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const corporateOfficeAddress = "3rd Floor, Akasa Co-Working, Office No. 10, Trapezoid IT Park, C-27, Sec-62, Noida-201309";
-  const registeredOfficeAddress = "Sanjivani Edge Pvt Ltd. C/O Sanjivani Milk Pvt. Ltd., Khirdi Ganesh, Post Shingnapur, Kopargaon, Ahilyanagar, Maharashtra - 423603";
+  const registeredOfficeAddress = "Sanjivani Edge Pvt Ltd. C/O Sanjivani Milk Pvt. Ltd.\nKhirdi Ganesh, Post Shingnapur,\nKopargaon, Ahilyanagar,\nMaharashtra - 423603";
+  const registeredOfficeMapQuery = "Khirdi Ganesh, Post Shingnapur, Kopargaon, Ahilyanagar, Maharashtra 423603";
 
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -146,17 +147,12 @@ export default function ContactPage() {
               <p className="text-[#0175B2] font-semibold mb-4">
                 SANJIVANI EDGE PRIVATE LIMITED
               </p>
-              <p className="mb-6">
-                Sanjivani Edge Pvt Ltd. C/O Sanjivani Milk Pvt. Ltd.<br />
-                Khirdi Ganesh, Post Shingnapur,<br />
-                Kopargaon, Ahilyanagar,<br />
-                Maharashtra - 423603
-              </p>
+              <p className="mb-6 whitespace-pre-line">{registeredOfficeAddress}</p>
             </div>
             <div className="relative mt-6 h-[320px] rounded-[10px] border border-[color:var(--tile-stroke)] overflow-hidden bg-white">
               <iframe
                 title="Registered Office Map"
-                src={`https://www.google.com/maps?q=${encodeURIComponent(registeredOfficeAddress)}&output=embed`}
+                src={`https://www.google.com/maps?q=${encodeURIComponent(registeredOfficeMapQuery)}&output=embed`}
                 className="w-full h-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -300,4 +296,3 @@ export default function ContactPage() {
     </main>
   );
 }
-
